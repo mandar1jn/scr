@@ -29,7 +29,7 @@ from tools.project import (
 # Game versions
 DEFAULT_VERSION = 0
 VERSIONS = [
-    "GAMEID",  # 0
+    "SKNE52",  # 0
 ]
 
 parser = argparse.ArgumentParser()
@@ -158,7 +158,7 @@ if not config.non_matching:
 # Tool versions
 config.binutils_tag = "2.42-2"
 config.compilers_tag = "20251118"
-config.dtk_tag = "v1.9.0"
+config.dtk_tag = "v1.9.1"
 config.objdiff_tag = "v3.8.3"
 config.sjiswrap_tag = "v1.2.2"
 config.wibo_tag = "1.0.3"
@@ -272,9 +272,21 @@ def Rel(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
     }
 
 
-Matching = True                   # Object matches and should be linked
-NonMatching = False               # Object does not match and should not be linked
-Equivalent = config.non_matching  # Object should be linked when configured with --non-matching
+def Gamelogic(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
+    return {
+        "lib": lib_name,
+        "mw_version": "GC/1.3.2",
+        "cflags": cflags_base,
+        "progress_category": "gamelogic",
+        "objects": objects,
+    }
+
+
+Matching = True  # Object matches and should be linked
+NonMatching = False  # Object does not match and should not be linked
+Equivalent = (
+    config.non_matching
+)  # Object should be linked when configured with --non-matching
 
 
 # Object is only matching for specific versions
@@ -285,14 +297,23 @@ def MatchingFor(*versions):
 config.warn_missing_config = True
 config.warn_missing_source = False
 config.libs = [
+    Gamelogic("GameLogic", [Object(NonMatching, "GameLogic/WaveSpawner.cpp")]),
     {
-        "lib": "Runtime.PPCEABI.H",
+        "lib": "Game",
+        "mw_version": config.linker_version,
+        "cflags": [*cflags_base, "-Iinclude/Game"],
+        "progress_category": "game",  # str | List[str]
+        "objects": [Object(NonMatching, "Game/tfbPortalDriver.cpp")],
+    },
+    {
+        "lib": "Runtime",
         "mw_version": config.linker_version,
         "cflags": cflags_runtime,
         "progress_category": "sdk",  # str | List[str]
         "objects": [
-            Object(NonMatching, "Runtime.PPCEABI.H/global_destructor_chain.c"),
-            Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
+            Object(NonMatching, "Runtime/__mem.c"),
+            Object(NonMatching, "Runtime/global_destructor_chain.c"),
+            Object(NonMatching, "Runtime/__init_cpp_exceptions.cpp"),
         ],
     },
 ]
@@ -320,6 +341,7 @@ def link_order_callback(module_id: int, objects: List[str]) -> List[str]:
 # Adjust as desired for your project
 config.progress_categories = [
     ProgressCategory("game", "Game Code"),
+    ProgressCategory("gamelogic", "Gamelogic Code"),
     ProgressCategory("sdk", "SDK Code"),
 ]
 config.progress_each_module = args.verbose

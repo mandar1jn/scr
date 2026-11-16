@@ -121,9 +121,7 @@ class Object:
             source = source.removeprefix(obj.options["strip_prefix"])
         obj.src_path = Path(obj.options["src_dir"]) / source
         if obj.options["asm_dir"] is not None:
-            obj.asm_path = (
-                Path(obj.options["asm_dir"]) / source
-            ).with_suffix(".s")
+            obj.asm_path = (Path(obj.options["asm_dir"]) / source).with_suffix(".s")
         base_name = Path(self.name).with_suffix("")
         obj.src_obj_path = build_dir / "src" / f"{base_name}.o"
         obj.asm_obj_path = build_dir / "mod" / f"{base_name}.o"
@@ -204,12 +202,12 @@ class ProjectConfig:
         self.link_order_callback: Optional[Callable[[int, List[str]], List[str]]] = (
             None  # Callback to add/remove/reorder units within a module
         )
-        self.context_exclude_globs: List[
-            str
-        ] = []  # Globs to exclude from context files
-        self.context_defines: List[
-            str
-        ] = []  # Macros to define at the top of context files
+        self.context_exclude_globs: List[str] = (
+            []
+        )  # Globs to exclude from context files
+        self.context_defines: List[str] = (
+            []
+        )  # Macros to define at the top of context files
 
         # Progress output and report.json config
         self.progress = True  # Enable report.json generation and CLI progress output
@@ -543,16 +541,18 @@ def generate_build_ninja(
             },
         )
     elif config.dtk_tag:
-        dtk = build_tools_path / f"dtk{EXE}"
-        n.build(
-            outputs=dtk,
-            rule="download_tool",
-            implicit=download_tool,
-            variables={
-                "tool": "dtk",
-                "tag": config.dtk_tag,
-            },
-        )
+        dtk = (
+            build_tools_path / f"dtk{EXE}"
+        )  # NOTE: disabled until https://github.com/encounter/decomp-toolkit/pull/161 is merged
+        # n.build(
+        #     outputs=dtk,
+        #     rule="download_tool",
+        #     implicit=download_tool,
+        #     variables={
+        #         "tool": "dtk",
+        #         "tag": config.dtk_tag,
+        #     },
+        # )
     else:
         sys.exit("ProjectConfig.dtk_tag missing")
 

@@ -1,0 +1,25 @@
+Sections:
+	.init       type:code align:32
+	extab       type:rodata align:32
+	extabindex  type:rodata align:32
+	.text       type:code align:32
+	.ctors      type:rodata align:32
+	.dtors      type:rodata align:32
+	.rodata     type:rodata align:64
+	.data       type:data align:32
+	wii_embedded type:rodata align:32
+	.bss        type:bss align:64
+	.sdata      type:data align:32
+	.sbss       type:bss align:32
+	.sdata2     type:rodata align:32
+	.sbss2      type:bss align:32
+
+Runtime/__init_cpp_exceptions.cpp:
+	.text       start:0x8028897C end:0x802889EC
+	.ctors      start:0x80585500 end:0x80585504 rename:.ctors$10
+	.dtors      start:0x805857A0 end:0x805857A4 rename:.dtors$10
+	.dtors      start:0x805857A4 end:0x805857A8 rename:.dtors$15
+	.sdata      start:0x80896910 end:0x80896918
+
+Game/tfbPortalDriver.cpp:
+	.text       start:0x8057605C end:0x8057B528
