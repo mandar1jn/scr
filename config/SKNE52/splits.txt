@@ -14,6 +14,1591 @@ Sections:
 	.sdata2     type:rodata align:32
 	.sbss2      type:bss align:32
 
+Unclassified/errno.c:
+	.sbss       start:0x808988F8 end:0x80898900
+
+Unclassified/crypt_cipher_descriptor.c:
+	.bss        start:0x8077B4B0 end:0x8077BF30
+
+Unclassified/crypt_hash_descriptor.c:
+	.bss        start:0x8077BF30 end:0x8077CC30
+
+Unclassified/crypt_ltc_mp_descriptor.c:
+	.bss        start:0x8077CC30 end:0x8077CCE8
+
+Unclassified/crypt_prng_descriptor.c:
+	.bss        start:0x8077CCE8 end:0x8077D1E8
+
+Unclassified/GEEmbeddedPak_wii.cpp:
+	wii_embedded start:0x80610F80 end:0x806D1788
+
+Unclassified/PFProfileCounters.cpp:
+	.data       start:0x805CD7F8 end:0x805D39A8
+	.sdata      start:0x80896758 end:0x80896788
+
+Unclassified/PFProfileTimers.cpp:
+	.data       start:0x805D3E20 end:0x805D8C90
+	.sdata      start:0x808967C0 end:0x808967E0
+
+Unclassified/xfontdata.c:
+	.data       start:0x805D9FA0 end:0x805DABA0
+
+Unclassified/AXComp.c:
+	.data       start:0x805DE8E0 end:0x805DF8A0
+
+Unclassified/wctype.c:
+	.rodata     start:0x80591868 end:0x80591E68
+
+Unclassified/APIBaseObject.cpp:
+	.text       start:0x8001ADE0 end:0x8001B800
+
+Unclassified/GEEngineMgr.cpp:
+	.text       start:0x8001B800 end:0x80020850
+	.ctors      start:0x80585504 end:0x80585508
+
+Unclassified/ANMaterialAnim.cpp:
+	.text       start:0x80020850 end:0x800221D0
+	.ctors      start:0x80585508 end:0x8058550C
+
+Unclassified/ANAnimationKFAdd.cpp:
+	.text       start:0x800221D0 end:0x80022B40
+	.ctors      start:0x8058550C end:0x80585510
+
+Unclassified/ANAnimationTransition.cpp:
+	.text       start:0x80022B40 end:0x80024130
+	.ctors      start:0x80585510 end:0x80585514
+
+Unclassified/ANAnimationMgr.cpp:
+	.text       start:0x80024130 end:0x80026730
+	.ctors      start:0x80585514 end:0x80585518
+
+Unclassified/ANAnimationKF.cpp:
+	.text       start:0x80026730 end:0x80028E20
+	.ctors      start:0x80585518 end:0x8058551C
+
+Unclassified/ANAnimationTree.cpp:
+	.text       start:0x80028E20 end:0x80029AC0
+	.ctors      start:0x8058551C end:0x80585520
+
+Unclassified/ANAnimSlot.cpp:
+	.text       start:0x80029AC0 end:0x80029EE0
+
+Unclassified/ANAnimStatic.cpp:
+	.text       start:0x80029EE0 end:0x8002A190
+
+Unclassified/ANProcedural.cpp:
+	.text       start:0x8002A190 end:0x8002BB70
+
+Unclassified/ANProceduralAutoAdd.cpp:
+	.text       start:0x8002BB70 end:0x8002CAB0
+
+Unclassified/ANProceduralBanking.cpp:
+	.text       start:0x8002CAB0 end:0x8002D8B0
+
+Unclassified/ANCamera.cpp:
+	.text       start:0x8002D8B0 end:0x8002DF20
+	.ctors      start:0x80585520 end:0x80585524
+
+Unclassified/ANConstraint.cpp:
+	.text       start:0x8002DF20 end:0x8002FFA0
+
+Unclassified/ANProceduralIK.cpp:
+	.text       start:0x8002FFA0 end:0x800308B0
+
+Unclassified/ANProceduralAutoAddInertia.cpp:
+	.text       start:0x800308B0 end:0x800313C0
+
+Unclassified/ANProceduralBoneTrack.cpp:
+	.text       start:0x800313C0 end:0x80031A00
+
+Unclassified/ANProceduralTransitionAdd.cpp:
+	.text       start:0x80031A00 end:0x80032810
+	.ctors      start:0x80585524 end:0x80585528
+
+Unclassified/ANProceduralInertia.cpp:
+	.text       start:0x80032810 end:0x80033AF0
+
+Unclassified/ANProceduralMultiBoneTrack.cpp:
+	.text       start:0x80033AF0 end:0x80034260
+
+Unclassified/ANProceduralTransitionBone.cpp:
+	.text       start:0x80034260 end:0x80034AE0
+
+Unclassified/ANProceduralRBToAnim.cpp:
+	.text       start:0x80034AE0 end:0x80034B00
+
+Unclassified/ANCutScene.cpp:
+	.text       start:0x80034B00 end:0x80036F20
+	.ctors      start:0x80585528 end:0x8058552C
+
+Unclassified/ANProceduralTransitionAuto.cpp:
+	.text       start:0x80036F20 end:0x80037FE0
+
+Unclassified/ANProceduralUser.cpp:
+	.text       start:0x80037FE0 end:0x800390B0
+
+Unclassified/ANCutsceneMgr.cpp:
+	.text       start:0x800390B0 end:0x8003A9F0
+	.ctors      start:0x8058552C end:0x80585530
+
+Unclassified/ANCutSceneObject.cpp:
+	.text       start:0x8003A9F0 end:0x8003CDD0
+	.ctors      start:0x80585530 end:0x80585534
+
+Unclassified/ANProceduralPhoneme.cpp:
+	.text       start:0x8003CDD0 end:0x8003D6E0
+
+Unclassified/ANProceduralTransition.cpp:
+	.text       start:0x8003D6E0 end:0x8003DC80
+
+Unclassified/ANDebugStack.cpp:
+	.text       start:0x8003DC80 end:0x8003DD40
+
+Unclassified/ANJobs.cpp:
+	.text       start:0x8003DD40 end:0x8003DEE0
+
+Unclassified/ANCutSceneSoundtrack2.cpp:
+	.text       start:0x8003DEE0 end:0x8003F430
+
+Unclassified/ANJobsBlend.cpp:
+	.text       start:0x8003F430 end:0x800412A0
+
+Unclassified/ANAPIStack.cpp:
+	.text       start:0x800412A0 end:0x80041690
+
+Unclassified/ANJobsKF.cpp:
+	.text       start:0x80041690 end:0x80043780
+	.ctors      start:0x80585534 end:0x80585538
+
+Unclassified/ANNode.cpp:
+	.text       start:0x80043780 end:0x80043C10
+
+Unclassified/ANAnimationCue.cpp:
+	.text       start:0x80043C10 end:0x80046BD0
+	.ctors      start:0x80585538 end:0x8058553C
+
+Unclassified/ADAudio2Mgr.cpp:
+	.text       start:0x80046BD0 end:0x8004C120
+	.ctors      start:0x8058553C end:0x80585540
+
+Unclassified/ANContext.cpp:
+	.text       start:0x8004C120 end:0x8004C570
+
+Unclassified/ANBlender.cpp:
+	.text       start:0x8004C570 end:0x8004E660
+	.ctors      start:0x80585540 end:0x80585544
+
+Unclassified/ANUtils.cpp:
+	.text       start:0x8004E660 end:0x8004F230
+
+Unclassified/ANTree.cpp:
+	.text       start:0x8004F230 end:0x80050210
+	.ctors      start:0x80585544 end:0x80585548
+
+Unclassified/ADAudioObject.cpp:
+	.text       start:0x80050210 end:0x80053C30
+	.ctors      start:0x80585548 end:0x8058554C
+
+Unclassified/ADAudioOcclusionMgr.cpp:
+	.text       start:0x80053C30 end:0x80055610
+
+Unclassified/ANValidation.cpp:
+	.text       start:0x80055610 end:0x800565F0
+
+Unclassified/ANBuffer.cpp:
+	.text       start:0x800565F0 end:0x80057150
+
+Unclassified/ADWwiseFileReader.cpp:
+	.text       start:0x80057150 end:0x8005C740
+	.ctors      start:0x8058554C end:0x80585550
+
+Unclassified/ADAudioWwise.cpp:
+	.text       start:0x8005C740 end:0x8005D1E0
+	.ctors      start:0x80585550 end:0x80585554
+
+Unclassified/ADAudioWwise_wii.cpp:
+	.text       start:0x8005D1E0 end:0x8005D280
+
+Unclassified/ADOcclusionMap.cpp:
+	.text       start:0x8005D280 end:0x8005FD80
+	.ctors      start:0x80585554 end:0x80585558
+
+Unclassified/DBHUD.cpp:
+	.text       start:0x8005FD80 end:0x80060220
+
+Unclassified/DBMesh.cpp:
+	.text       start:0x80060220 end:0x800603D0
+
+Unclassified/DBLink.cpp:
+	.text       start:0x800603D0 end:0x80062060
+
+Unclassified/ADAudioBankMgr.cpp:
+	.text       start:0x80062060 end:0x800672C0
+	.ctors      start:0x80585558 end:0x8058555C
+
+Unclassified/ANJobsMgr.cpp:
+	.text       start:0x800672C0 end:0x800678D0
+
+Unclassified/DBToggles.cpp:
+	.text       start:0x800678D0 end:0x80068160
+
+Unclassified/DBVideoCapture.cpp:
+	.text       start:0x80068160 end:0x800689F0
+
+Unclassified/ADAudioHandle.cpp:
+	.text       start:0x800689F0 end:0x800691D0
+	.ctors      start:0x8058555C end:0x80585560
+
+Unclassified/GLAPI3dObj.cpp:
+	.text       start:0x800691D0 end:0x80075F70
+
+Unclassified/GLAPIAudio2.cpp:
+	.text       start:0x80075F70 end:0x80078CF0
+	.ctors      start:0x80585560 end:0x80585564
+
+Unclassified/GLAPICamera.cpp:
+	.text       start:0x80078CF0 end:0x8007E060
+
+Unclassified/GLAPIBSpline.cpp:
+	.text       start:0x8007E060 end:0x8007F6A0
+
+Unclassified/ADAudioInput.cpp:
+	.text       start:0x8007F6A0 end:0x8007FC00
+	.ctors      start:0x80585564 end:0x80585568
+
+Unclassified/GLAPIDecal.cpp:
+	.text       start:0x8007FC00 end:0x80080250
+
+Unclassified/GLAPICity.cpp:
+	.text       start:0x80080250 end:0x80080DE0
+
+Unclassified/GLAPI3DS.cpp:
+	.text       start:0x80080DE0 end:0x80081390
+
+Unclassified/GLAPIEnvironment.cpp:
+	.text       start:0x80081390 end:0x80082BA0
+
+Unclassified/GLAPIComScore.cpp:
+	.text       start:0x80082BA0 end:0x80083100
+
+Unclassified/GLAPIGameObj.cpp:
+	.text       start:0x80083100 end:0x8008BC80
+
+Unclassified/GLAPIGraph.cpp:
+	.text       start:0x8008BC80 end:0x8008C390
+
+Unclassified/GLAPIDurango.cpp:
+	.text       start:0x8008C390 end:0x8008C620
+
+Unclassified/GLAPIContent.cpp:
+	.text       start:0x8008C620 end:0x8008CA40
+
+Unclassified/GLAPIAnimation.cpp:
+	.text       start:0x8008CA40 end:0x80090D50
+
+Unclassified/GLAPIInstall.cpp:
+	.text       start:0x80090D50 end:0x80090EC0
+
+Unclassified/GLAPICurve.cpp:
+	.text       start:0x80090EC0 end:0x80091420
+
+Unclassified/GLAPILight.cpp:
+	.text       start:0x80091420 end:0x80092C40
+
+Unclassified/GLAPIGraphics.cpp:
+	.text       start:0x80092C40 end:0x80094FE0
+
+Unclassified/GLAPIEmitter.cpp:
+	.text       start:0x80094FE0 end:0x80098180
+
+Unclassified/GLAPIAudio.cpp:
+	.text       start:0x80098180 end:0x80098D50
+
+Unclassified/ANAnimationHandler.cpp:
+	.text       start:0x80098D50 end:0x8009CB20
+	.ctors      start:0x80585568 end:0x8058556C
+
+Unclassified/GLAPICutscene.cpp:
+	.text       start:0x8009CB20 end:0x8009D8D0
+	.ctors      start:0x8058556C end:0x80585570
+
+Unclassified/GLAPILogic.cpp:
+	.text       start:0x8009D8D0 end:0x800A09D0
+
+Unclassified/GLAPIDataMining.cpp:
+	.text       start:0x800A09D0 end:0x800A0BD0
+
+Unclassified/GLAPIHUD.cpp:
+	.text       start:0x800A0BD0 end:0x800A9070
+
+Unclassified/GLAPIMoodbox.cpp:
+	.text       start:0x800A9070 end:0x800A91E0
+
+Unclassified/GLAPIEngine.cpp:
+	.text       start:0x800A91E0 end:0x800A9CE0
+
+Unclassified/GLAPIMoveRecognition.cpp:
+	.text       start:0x800A9CE0 end:0x800AA210
+
+Unclassified/GLAPIOnline.cpp:
+	.text       start:0x800AA210 end:0x800AA620
+
+Unclassified/GLAPIDebug.cpp:
+	.text       start:0x800AA620 end:0x800AD090
+	.ctors      start:0x80585570 end:0x80585574
+
+Unclassified/GLAPIOrbis.cpp:
+	.text       start:0x800AD090 end:0x800AD2F0
+
+Unclassified/GLAPISoftBody.cpp:
+	.text       start:0x800AD2F0 end:0x800AE8A0
+
+Unclassified/GLAPIInput.cpp:
+	.text       start:0x800AE8A0 end:0x800B0AE0
+	.ctors      start:0x80585574 end:0x80585578
+
+Unclassified/GLAPIPS3.cpp:
+	.text       start:0x800B0AE0 end:0x800B0CB0
+
+Unclassified/GLAPIMovie.cpp:
+	.text       start:0x800B0CB0 end:0x800B1550
+
+Unclassified/GLAPIString.cpp:
+	.text       start:0x800B1550 end:0x800B2F80
+
+Unclassified/GLAPIUtil.cpp:
+	.text       start:0x800B2F80 end:0x800B3920
+
+Unclassified/GLVariable.cpp:
+	.text       start:0x800B3920 end:0x800B3B60
+	.ctors      start:0x80585578 end:0x8058557C
+
+Unclassified/GLAPIReplica.cpp:
+	.text       start:0x800B3B60 end:0x800B44E0
+
+Unclassified/GLAPINavMesh.cpp:
+	.text       start:0x800B44E0 end:0x800B51B0
+
+Unclassified/GLAPIWeb.cpp:
+	.text       start:0x800B51B0 end:0x800B5FC0
+
+Unclassified/GLLogicInstance_common.cpp:
+	.text       start:0x800B5FC0 end:0x800B60E0
+
+Unclassified/GLAPIWii.cpp:
+	.text       start:0x800B60E0 end:0x800B64D0
+
+Unclassified/GO3dObj.cpp:
+	.text       start:0x800B64D0 end:0x800C3CA0
+	.ctors      start:0x8058557C end:0x80585580
+
+Unclassified/GLAPIResource.cpp:
+	.text       start:0x800C3CA0 end:0x800C4FB0
+
+Unclassified/GLAPINetwork.cpp:
+	.text       start:0x800C4FB0 end:0x800C6D20
+
+Unclassified/GLAPIWiiU.cpp:
+	.text       start:0x800C6D20 end:0x800C6F00
+
+Unclassified/GOGameObj.cpp:
+	.text       start:0x800C6F00 end:0x800CE730
+	.ctors      start:0x80585580 end:0x80585584
+
+Unclassified/GLLogicMgr_common.cpp:
+	.text       start:0x800CE730 end:0x800D0160
+	.ctors      start:0x80585584 end:0x80585588
+
+Unclassified/GO3dObjShadow.cpp:
+	.text       start:0x800D0160 end:0x800D0C10
+	.ctors      start:0x80585588 end:0x8058558C
+
+Unclassified/GLAPIWindows.cpp:
+	.text       start:0x800D0C10 end:0x800D10C0
+
+Unclassified/GOGameObjMgr.cpp:
+	.text       start:0x800D10C0 end:0x800D9E60
+	.ctors      start:0x8058558C end:0x80585590
+
+Unclassified/GLAPISaveGame.cpp:
+	.text       start:0x800D9E60 end:0x800DA4E0
+
+Unclassified/GLAPIXBOX360.cpp:
+	.text       start:0x800DA4E0 end:0x800DA7B0
+
+Unclassified/GOGraph.cpp:
+	.text       start:0x800DA7B0 end:0x800DB9B0
+	.ctors      start:0x80585590 end:0x80585594
+
+Unclassified/GO3dObjSourceInfo.cpp:
+	.text       start:0x800DB9B0 end:0x800DC230
+	.ctors      start:0x80585594 end:0x80585598
+
+Unclassified/GOLight.cpp:
+	.text       start:0x800DC230 end:0x800DE0D0
+	.ctors      start:0x80585598 end:0x8058559C
+
+Unclassified/GLAPIZone.cpp:
+	.text       start:0x800DE0D0 end:0x800DEAE0
+
+Unclassified/GOProcMesh.cpp:
+	.text       start:0x800DEAE0 end:0x800E1820
+	.ctors      start:0x8058559C end:0x805855A0
+
+Unclassified/GLBaseAPI.cpp:
+	.text       start:0x800E1820 end:0x800E19A0
+
+Unclassified/GOAutoDeactivationMgr.cpp:
+	.text       start:0x800E19A0 end:0x800E2A10
+
+Unclassified/GEUpdateFrequencyData.cpp:
+	.text       start:0x800E2A10 end:0x800E2D30
+
+Unclassified/GOSpline.cpp:
+	.text       start:0x800E2D30 end:0x800E6320
+	.ctors      start:0x805855A0 end:0x805855A4
+
+Unclassified/GOGameObjMgr_ms.cpp:
+	.text       start:0x800E6320 end:0x800E6C10
+
+Unclassified/GLAPIScript.cpp:
+	.text       start:0x800E6C10 end:0x800E7B90
+
+Unclassified/GOTimer.cpp:
+	.text       start:0x800E7B90 end:0x800E81C0
+	.ctors      start:0x805855A4 end:0x805855A8
+
+Unclassified/GLAPIPackage.cpp:
+	.text       start:0x800E81C0 end:0x800E9200
+	.ctors      start:0x805855A8 end:0x805855AC
+
+Unclassified/GOZone.cpp:
+	.text       start:0x800E9200 end:0x800EB700
+	.ctors      start:0x805855AC end:0x805855B0
+
+Unclassified/GLAPISkylanderPortal.cpp:
+	.text       start:0x800EB700 end:0x800EBE50
+
+Unclassified/GO3dObjRLESkinning_wii.cpp:
+	.text       start:0x800EBE50 end:0x800EC350
+
+Unclassified/GRLightGrid.cpp:
+	.text       start:0x800EC350 end:0x800ECEE0
+
+Unclassified/GLAPIPhysic.cpp:
+	.text       start:0x800ECEE0 end:0x800F7C30
+
+Unclassified/GO3dObj_wii.cpp:
+	.text       start:0x800F7C30 end:0x80103310
+
+Unclassified/GRDelayedDeletion.cpp:
+	.text       start:0x80103310 end:0x801033E0
+
+Unclassified/GRLightGridsMgr.cpp:
+	.text       start:0x801033E0 end:0x801036F0
+
+Unclassified/GOCamera_wii.cpp:
+	.text       start:0x801036F0 end:0x80103D80
+
+Unclassified/GRLightsMgr.cpp:
+	.text       start:0x80103D80 end:0x80105E00
+
+Unclassified/GOEmitter_wii.cpp:
+	.text       start:0x80105E00 end:0x80109C10
+
+Unclassified/GLAPIProcMesh.cpp:
+	.text       start:0x80109C10 end:0x8010A330
+
+Unclassified/GRMaterialAnimation.cpp:
+	.text       start:0x8010A330 end:0x8010ADE0
+	.ctors      start:0x805855B0 end:0x805855B4
+
+Unclassified/GRDynMesh.cpp:
+	.text       start:0x8010ADE0 end:0x8010B520
+	.ctors      start:0x805855B4 end:0x805855B8
+
+Unclassified/GOProcMesh_wii.cpp:
+	.text       start:0x8010B520 end:0x8010C5E0
+
+Unclassified/GRMaterial.cpp:
+	.text       start:0x8010C5E0 end:0x8010E550
+	.ctors      start:0x805855B8 end:0x805855BC
+
+Unclassified/GRTexture.cpp:
+	.text       start:0x8010E550 end:0x8010EA50
+	.ctors      start:0x805855BC end:0x805855C0
+
+Unclassified/GROctree.cpp:
+	.text       start:0x8010EA50 end:0x80110FF0
+	.ctors      start:0x805855C0 end:0x805855C4
+
+Unclassified/GOEmitterBaseField.cpp:
+	.text       start:0x80110FF0 end:0x80111550
+
+Unclassified/GOCamera.cpp:
+	.text       start:0x80111550 end:0x80111FD0
+	.ctors      start:0x805855C4 end:0x805855C8
+
+Unclassified/GOEmitterField_Drag.cpp:
+	.text       start:0x80111FD0 end:0x80112470
+
+Unclassified/GOComponent.cpp:
+	.text       start:0x80112470 end:0x80112740
+
+Unclassified/GOEmitterField_Fan.cpp:
+	.text       start:0x80112740 end:0x80112BE0
+
+Unclassified/GOCopier.cpp:
+	.text       start:0x80112BE0 end:0x80114410
+
+Unclassified/GOEmitterField_Gravity.cpp:
+	.text       start:0x80114410 end:0x80114860
+
+Unclassified/GOEmitter.cpp:
+	.text       start:0x80114860 end:0x8011C7E0
+	.ctors      start:0x805855C8 end:0x805855CC
+
+Unclassified/GOEmitterField_Radial.cpp:
+	.text       start:0x8011C7E0 end:0x8011CC30
+
+Unclassified/GOEmitterUpdate.cpp:
+	.text       start:0x8011CC30 end:0x8011F560
+
+Unclassified/GLCriticalSection.cpp:
+	.text       start:0x8011F560 end:0x8011FA00
+	.ctors      start:0x805855CC end:0x805855D0
+
+Unclassified/GLLogicInstance.cpp:
+	.text       start:0x8011FA00 end:0x80123080
+	.ctors      start:0x805855D0 end:0x805855D4
+
+Unclassified/GRCamera_wii.cpp:
+	.text       start:0x80123080 end:0x80123280
+
+Unclassified/GRCamera.cpp:
+	.text       start:0x80123280 end:0x801245C0
+
+Unclassified/GLLogicMgr.cpp:
+	.text       start:0x801245C0 end:0x80127FE0
+	.ctors      start:0x805855D4 end:0x805855D8
+
+Unclassified/GRMainCamera_wii.cpp:
+	.text       start:0x80127FE0 end:0x80128310
+
+Unclassified/GRCameraFactory.cpp:
+	.text       start:0x80128310 end:0x80128390
+
+Unclassified/GLParamBlock.cpp:
+	.text       start:0x80128390 end:0x80129510
+	.ctors      start:0x805855D8 end:0x805855DC
+
+Unclassified/GRTextureCamera_wii.cpp:
+	.text       start:0x80129510 end:0x80129D70
+
+Unclassified/GRCameraMgr.cpp:
+	.text       start:0x80129D70 end:0x8012B4B0
+
+Unclassified/GLParamBlockMgr.cpp:
+	.text       start:0x8012B4B0 end:0x8012BD20
+
+Unclassified/GRHudCamera.cpp:
+	.text       start:0x8012BD20 end:0x8012BDE0
+
+Unclassified/GLPostedMessage.cpp:
+	.text       start:0x8012BDE0 end:0x8012CDB0
+	.ctors      start:0x805855DC end:0x805855E0
+
+Unclassified/GRClipCam.cpp:
+	.text       start:0x8012CDB0 end:0x8012EB20
+
+Unclassified/GRGraphicsMgr.cpp:
+	.text       start:0x8012EB20 end:0x80132480
+	.ctors      start:0x805855E0 end:0x805855E4
+
+Unclassified/GRClippingMgr_gen.cpp:
+	.text       start:0x80132480 end:0x801327E0
+
+Unclassified/GRClipCamWorkData.cpp:
+	.text       start:0x801327E0 end:0x80132BD0
+
+Unclassified/GRClipTree_gen.cpp:
+	.text       start:0x80132BD0 end:0x80134420
+
+Unclassified/GOEmitterField_Vortex.cpp:
+	.text       start:0x80134420 end:0x801348B0
+
+Unclassified/GRClipEntry.cpp:
+	.text       start:0x801348B0 end:0x80135C00
+	.ctors      start:0x805855E4 end:0x805855E8
+
+Unclassified/GRClipOccluder.cpp:
+	.text       start:0x80135C00 end:0x80136700
+	.ctors      start:0x805855E8 end:0x805855EC
+
+Unclassified/GRClippingMgr.cpp:
+	.text       start:0x80136700 end:0x80139BE0
+
+Unclassified/GRClipTree.cpp:
+	.text       start:0x80139BE0 end:0x8013C6A0
+	.ctors      start:0x805855EC end:0x805855F0
+
+Unclassified/GRClipTreeNode.cpp:
+	.text       start:0x8013C6A0 end:0x801439F0
+	.ctors      start:0x805855F0 end:0x805855F4
+
+Unclassified/GRDecalsMgr_wii.cpp:
+	.text       start:0x801439F0 end:0x80144740
+
+Unclassified/GRDecal.cpp:
+	.text       start:0x80144740 end:0x801448C0
+
+Unclassified/GRReflectionMgr.cpp:
+	.text       start:0x801448C0 end:0x80144D10
+
+Unclassified/GRFoliageMgr_wii.cpp:
+	.text       start:0x80144D10 end:0x80145390
+
+Unclassified/GRDecalsMgr.cpp:
+	.text       start:0x80145390 end:0x80145EC0
+
+Unclassified/GRFoliage_wii.cpp:
+	.text       start:0x80145EC0 end:0x801469D0
+
+Unclassified/GRMotionTrailMgr_wii.cpp:
+	.text       start:0x801469D0 end:0x80146A90
+
+Unclassified/GRFoliage.cpp:
+	.text       start:0x80146A90 end:0x80147120
+
+Unclassified/GRMotionTrail_wii.cpp:
+	.text       start:0x80147120 end:0x80149220
+
+Unclassified/GRWeb.cpp:
+	.text       start:0x80149220 end:0x8014A2A0
+
+Unclassified/GRReflectionMgr_wii.cpp:
+	.text       start:0x8014A2A0 end:0x8014A570
+
+Unclassified/GRProbeSet.cpp:
+	.text       start:0x8014A570 end:0x8014AC70
+
+Unclassified/GRWebMgr.cpp:
+	.text       start:0x8014AC70 end:0x8014B230
+
+Unclassified/GRWebMgr_wii.cpp:
+	.text       start:0x8014B230 end:0x8014B3C0
+
+Unclassified/GRImageCodecJpeg_wii.cpp:
+	.text       start:0x8014B3C0 end:0x8014B3C0
+
+Unclassified/GRProbeSetMgr.cpp:
+	.text       start:0x8014B3C0 end:0x8014B480
+
+Unclassified/GRFoliageMgr.cpp:
+	.text       start:0x8014B480 end:0x8014C770
+
+Unclassified/GRWeb_wii.cpp:
+	.text       start:0x8014C770 end:0x8014D4E0
+
+Unclassified/GRProbeSetRequest.cpp:
+	.text       start:0x8014D4E0 end:0x8014D7F0
+	.ctors      start:0x805855F4 end:0x805855F8
+
+Unclassified/GRWebUtils.cpp:
+	.text       start:0x8014D7F0 end:0x8014F0A0
+
+Unclassified/GRMotionTrail.cpp:
+	.text       start:0x8014F0A0 end:0x801504F0
+
+Unclassified/GR3dObjCachedShadowsMgr.cpp:
+	.text       start:0x801504F0 end:0x80150C50
+
+Unclassified/GRMotionTrailMgr.cpp:
+	.text       start:0x80150C50 end:0x80151CF0
+
+Unclassified/GR3dObjShadowCasterInfos.cpp:
+	.text       start:0x80151CF0 end:0x80152000
+	.ctors      start:0x805855F8 end:0x805855FC
+
+Unclassified/GRMotionTrailUpdate.cpp:
+	.text       start:0x80152000 end:0x801546B0
+
+Unclassified/GR3dObjShadowsMgr.cpp:
+	.text       start:0x801546B0 end:0x80155B60
+
+Unclassified/GR3dObjShadowsMgr_wii.cpp:
+	.text       start:0x80155B60 end:0x80156CF0
+
+Unclassified/GRProjectedDecal.cpp:
+	.text       start:0x80156CF0 end:0x80157270
+
+Unclassified/GRTexture_wii.cpp:
+	.text       start:0x80157270 end:0x80157F60
+
+Unclassified/GRTransparencyList_wii.cpp:
+	.text       start:0x80157F60 end:0x80158830
+
+Unclassified/GRDynBufferMgr_wii.cpp:
+	.text       start:0x80158830 end:0x80158BD0
+
+Unclassified/GRLightShadowsMgr.cpp:
+	.text       start:0x80158BD0 end:0x80159210
+
+Unclassified/GRDynMesh_wii.cpp:
+	.text       start:0x80159210 end:0x80159350
+
+Unclassified/GRProjCachedShadowsMgr.cpp:
+	.text       start:0x80159350 end:0x80159D50
+
+Unclassified/GRGraphicsMgr_wii.cpp:
+	.text       start:0x80159D50 end:0x80161190
+
+Unclassified/GRLightGridsMgr_wii.cpp:
+	.text       start:0x80161190 end:0x80161C40
+
+Unclassified/GRProjShadowCache.cpp:
+	.text       start:0x80161C40 end:0x80161F40
+
+Unclassified/GRLightGrid_wii.cpp:
+	.text       start:0x80161F40 end:0x80161FD0
+
+Unclassified/GRLightsMgr_wii.cpp:
+	.text       start:0x80161FD0 end:0x80163C80
+
+Unclassified/GRMaterial_wii.cpp:
+	.text       start:0x80163C80 end:0x8016DC50
+
+Unclassified/GROctree_wii.cpp:
+	.text       start:0x8016DC50 end:0x80173F80
+
+Unclassified/GRProjShadowsMgr.cpp:
+	.text       start:0x80173F80 end:0x80173FD0
+
+Unclassified/GRRenderStateMgr_wii.cpp:
+	.text       start:0x80173FD0 end:0x801759A0
+
+Unclassified/GRLightShadowsMgr_wii.cpp:
+	.text       start:0x801759A0 end:0x801763F0
+
+Unclassified/GRRenderPostEffects_wii.cpp:
+	.text       start:0x801763F0 end:0x80177120
+
+Unclassified/HUD2DWindow.cpp:
+	.text       start:0x80177120 end:0x80178030
+
+Unclassified/GRPostEffectBloomDoF_wii.cpp:
+	.text       start:0x80178030 end:0x80179890
+
+Unclassified/HUD3DObj.cpp:
+	.text       start:0x80179890 end:0x8017A0E0
+
+Unclassified/GRProjShadowsMgr_wii.cpp:
+	.text       start:0x8017A0E0 end:0x8017CD30
+
+Unclassified/INInputMgr.cpp:
+	.text       start:0x8017CD30 end:0x8017D0E0
+
+Unclassified/GRPostEffectColorization_wii.cpp:
+	.text       start:0x8017D0E0 end:0x8017E160
+
+Unclassified/GRPostEffectDistortion_wii.cpp:
+	.text       start:0x8017E160 end:0x8017E510
+
+Unclassified/HUD3DWindow.cpp:
+	.text       start:0x8017E510 end:0x8017F070
+
+Unclassified/GRPostEffectEdgeDetect_wii.cpp:
+	.text       start:0x8017F070 end:0x8017FFA0
+
+Unclassified/MMAllocDataDebug.cpp:
+	.text       start:0x8017FFA0 end:0x80180770
+
+Unclassified/HUDMgr.cpp:
+	.text       start:0x80180770 end:0x80185100
+	.ctors      start:0x805855FC end:0x80585600
+
+Unclassified/MVMovieSoundOutput_wii.cpp:
+	.text       start:0x80185100 end:0x801852C0
+
+Unclassified/GRPostEffectGrain_wii.cpp:
+	.text       start:0x801852C0 end:0x801860D0
+
+Unclassified/INInputMgr_wii.cpp:
+	.text       start:0x801860D0 end:0x801875C0
+
+Unclassified/MMCrashDump.cpp:
+	.text       start:0x801875C0 end:0x8018BD40
+	.ctors      start:0x80585600 end:0x80585604
+
+Unclassified/MVMovieSound_wii.cpp:
+	.text       start:0x8018BD40 end:0x8018BE30
+
+Unclassified/HUD2DWindow_wii.cpp:
+	.text       start:0x8018BE30 end:0x8018DB90
+
+Unclassified/GRPostEffectHalo_wii.cpp:
+	.text       start:0x8018DB90 end:0x8018EDC0
+
+Unclassified/HUDRootWindow.cpp:
+	.text       start:0x8018EDC0 end:0x8018F120
+
+Unclassified/MVMovie_wii.cpp:
+	.text       start:0x8018F120 end:0x801902D0
+
+Unclassified/HUD3DObj_wii.cpp:
+	.text       start:0x801902D0 end:0x80190620
+
+Unclassified/GRPostEffectHeatHaze_wii.cpp:
+	.text       start:0x80190620 end:0x80191040
+
+Unclassified/MTJobGameObjUpdate.cpp:
+	.text       start:0x80191040 end:0x80191E70
+	.ctors      start:0x80585604 end:0x80585608
+
+Unclassified/HUDTextWindow.cpp:
+	.text       start:0x80191E70 end:0x80193A00
+
+Unclassified/HUD3DWindow_wii.cpp:
+	.text       start:0x80193A00 end:0x80193FB0
+
+Unclassified/GRPostEffectMirror_wii.cpp:
+	.text       start:0x80193FB0 end:0x801942D0
+
+Unclassified/MTJob.cpp:
+	.text       start:0x801942D0 end:0x80194390
+
+Unclassified/HUDMgr_wii.cpp:
+	.text       start:0x80194390 end:0x801948E0
+
+Unclassified/GRPostEffectMotionBlur_wii.cpp:
+	.text       start:0x801948E0 end:0x801954B0
+
+Unclassified/HudTxtMgr.cpp:
+	.text       start:0x801954B0 end:0x801991D0
+
+Unclassified/HUDRootWindow_wii.cpp:
+	.text       start:0x801991D0 end:0x801993F0
+
+Unclassified/GRPostEffectRadialBlur_wii.cpp:
+	.text       start:0x801993F0 end:0x8019A310
+
+Unclassified/MTJobCue.cpp:
+	.text       start:0x8019A310 end:0x8019A6A0
+
+Unclassified/MMMemoryMgrDebug.cpp:
+	.text       start:0x8019A6A0 end:0x8019B770
+
+Unclassified/HUDTextWindow_wii.cpp:
+	.text       start:0x8019B770 end:0x8019E460
+
+Unclassified/HUDWindow.cpp:
+	.text       start:0x8019E460 end:0x801A1930
+
+Unclassified/LDChunk.cpp:
+	.text       start:0x801A1930 end:0x801A2100
+
+Unclassified/HudTxtMgr_wii.cpp:
+	.text       start:0x801A2100 end:0x801A43F0
+
+Unclassified/MMNodeDebug.cpp:
+	.text       start:0x801A43F0 end:0x801A6F10
+
+Unclassified/HUDWindow_wii.cpp:
+	.text       start:0x801A6F10 end:0x801A77A0
+
+Unclassified/LDLoader.cpp:
+	.text       start:0x801A77A0 end:0x801A78E0
+
+Unclassified/MMAlloc.cpp:
+	.text       start:0x801A78E0 end:0x801A7950
+
+Unclassified/PKPackage.cpp:
+	.text       start:0x801A7950 end:0x801AEEC0
+	.ctors      start:0x80585608 end:0x8058560C
+
+Unclassified/MMAllocType.cpp:
+	.text       start:0x801AEEC0 end:0x801AEED0
+
+Unclassified/PSManifoldMgr.cpp:
+	.text       start:0x801AEED0 end:0x801B1C10
+	.ctors      start:0x8058560C end:0x80585610
+
+Unclassified/MMMemoryMgr_st.cpp:
+	.text       start:0x801B1C10 end:0x801B1DB0
+
+Unclassified/PKPackageMgr.cpp:
+	.text       start:0x801B1DB0 end:0x801B3D60
+	.ctors      start:0x80585610 end:0x80585614
+
+Unclassified/MMAlloc_wii.cpp:
+	.text       start:0x801B3D60 end:0x801B3FF0
+
+Unclassified/PSNarrowPhaseMgr.cpp:
+	.text       start:0x801B3FF0 end:0x801B4FF0
+
+Unclassified/MMMemoryMgr_wii.cpp:
+	.text       start:0x801B4FF0 end:0x801B8920
+
+Unclassified/MMBuffer.cpp:
+	.text       start:0x801B8920 end:0x801B8E20
+
+Unclassified/bdDeliveryManager.cpp:
+	.text       start:0x801B8E20 end:0x801B9D50
+
+Unclassified/PFProfileMgr_wii.cpp:
+	.text       start:0x801B9D50 end:0x801B9EC0
+	.ctors      start:0x80585614 end:0x80585618
+
+Unclassified/PSCollidable.cpp:
+	.text       start:0x801B9EC0 end:0x801BA750
+
+Unclassified/MMDefragHeap.cpp:
+	.text       start:0x801BA750 end:0x801BCF50
+
+Unclassified/MTThreadMgr.cpp:
+	.text       start:0x801BCF50 end:0x801BE2A0
+	.ctors      start:0x80585618 end:0x8058561C
+
+Unclassified/MVCriToWwise.cpp:
+	.text       start:0x801BE2A0 end:0x801BF0D0
+	.ctors      start:0x8058561C end:0x80585620
+
+Unclassified/SBCloth.cpp:
+	.text       start:0x801BF0D0 end:0x801BFEE0
+
+Unclassified/PSCollisionWorld.cpp:
+	.text       start:0x801BFEE0 end:0x801C5920
+	.ctors      start:0x80585620 end:0x80585624
+
+Unclassified/MMDefragNode.cpp:
+	.text       start:0x801C5920 end:0x801C6000
+	.ctors      start:0x80585624 end:0x80585628
+
+Unclassified/PKPackage_st.cpp:
+	.text       start:0x801C6000 end:0x801C6150
+
+Unclassified/SBMesh.cpp:
+	.text       start:0x801C6150 end:0x801CA230
+
+Unclassified/NMNavMeshMap.cpp:
+	.text       start:0x801CA230 end:0x801CC620
+
+Unclassified/PSColModel.cpp:
+	.text       start:0x801CC620 end:0x801CEC80
+
+Unclassified/SBRope.cpp:
+	.text       start:0x801CEC80 end:0x801CEF80
+
+Unclassified/PKPackageMgr_wii.cpp:
+	.text       start:0x801CEF80 end:0x801CF020
+
+Unclassified/NMNavMeshMgr.cpp:
+	.text       start:0x801CF020 end:0x801CFB70
+
+Unclassified/MVMovieBuffers.cpp:
+	.text       start:0x801CFB70 end:0x801CFD60
+
+Unclassified/PSConstraintSolver.cpp:
+	.text       start:0x801CFD60 end:0x801D2CC0
+
+Unclassified/PKPackage_wii.cpp:
+	.text       start:0x801D2CC0 end:0x801D2D50
+
+Unclassified/SBSoftBodyMgr.cpp:
+	.text       start:0x801D2D50 end:0x801D35E0
+	.ctors      start:0x80585628 end:0x8058562C
+
+Unclassified/RZAnimationCue.cpp:
+	.text       start:0x801D35E0 end:0x801D4220
+	.ctors      start:0x8058562C end:0x80585630
+
+Unclassified/MVMovieCri.cpp:
+	.text       start:0x801D4220 end:0x801D68F0
+
+Unclassified/PSIslandMgr.cpp:
+	.text       start:0x801D68F0 end:0x801D8A10
+
+Unclassified/RZParamTree.cpp:
+	.text       start:0x801D8A10 end:0x801D9470
+	.ctors      start:0x80585630 end:0x80585634
+
+Unclassified/SBSpringConstraints.cpp:
+	.text       start:0x801D9470 end:0x801D9670
+	.ctors      start:0x80585634 end:0x80585638
+
+Unclassified/RZAnimationTree.cpp:
+	.text       start:0x801D9670 end:0x801DA7A0
+	.ctors      start:0x80585638 end:0x8058563C
+
+Unclassified/MVMovieCriInterfaces.cpp:
+	.text       start:0x801DA7A0 end:0x801DB390
+
+Unclassified/NWCompressMgr.cpp:
+	.text       start:0x801DB390 end:0x801DE3A0
+
+Unclassified/PSPhysicMgr.cpp:
+	.text       start:0x801DE3A0 end:0x801E1F20
+
+Unclassified/RZGeometry_wii.cpp:
+	.text       start:0x801E1F20 end:0x801E3DE0
+	.ctors      start:0x8058563C end:0x80585640
+
+Unclassified/PSWindMgr.cpp:
+	.text       start:0x801E3DE0 end:0x801E4820
+
+Unclassified/RZLogicCode_wii.cpp:
+	.text       start:0x801E4820 end:0x801E4960
+
+Unclassified/RZAnimMap.cpp:
+	.text       start:0x801E4960 end:0x801E4F50
+
+Unclassified/MVMovieMgr.cpp:
+	.text       start:0x801E4F50 end:0x801E5730
+
+Unclassified/NWConnectionStateMachine.cpp:
+	.text       start:0x801E5730 end:0x801E7840
+
+Unclassified/PSPhysicResources.cpp:
+	.text       start:0x801E7840 end:0x801E7920
+
+Unclassified/RZParticleType_wii.cpp:
+	.text       start:0x801E7920 end:0x801E7C20
+
+Unclassified/PPPortalDriver.cpp:
+	.text       start:0x801E7C20 end:0x801E9160
+	.ctors      start:0x80585640 end:0x80585644
+
+Unclassified/RZAnimProc.cpp:
+	.text       start:0x801E9160 end:0x801E9610
+	.ctors      start:0x80585644 end:0x80585648
+
+Unclassified/bdPlayer.cpp:
+	.text       start:0x801E9610 end:0x801E9700
+
+Unclassified/MVMovieSound.cpp:
+	.text       start:0x801E9700 end:0x801EA370
+
+Unclassified/NWDiscoveryMgr.cpp:
+	.text       start:0x801EA370 end:0x801EA690
+
+Unclassified/PSPrimGroup.cpp:
+	.text       start:0x801EA690 end:0x801EBB40
+
+Unclassified/RZResourceMgr_wii.cpp:
+	.text       start:0x801EBB40 end:0x801EBBB0
+
+Unclassified/PPPortalTag.cpp:
+	.text       start:0x801EBBB0 end:0x801EC930
+
+Unclassified/RZAudioBank.cpp:
+	.text       start:0x801EC930 end:0x801ECE80
+	.ctors      start:0x80585648 end:0x8058564C
+
+Unclassified/bdPlayerFactory.cpp:
+	.text       start:0x801ECE80 end:0x801ECF40
+
+Unclassified/NWGameInfo.cpp:
+	.text       start:0x801ECF40 end:0x801ED4E0
+
+Unclassified/MVMovieToWwise.cpp:
+	.text       start:0x801ED4E0 end:0x801ED880
+
+Unclassified/PSRaycastMgr.cpp:
+	.text       start:0x801ED880 end:0x801EEF90
+
+Unclassified/MMMemoryMgr.cpp:
+	.text       start:0x801EEF90 end:0x801F0120
+
+Unclassified/PPPortalDriver_wii.cpp:
+	.text       start:0x801F0120 end:0x801F0D00
+	.ctors      start:0x8058564C end:0x80585650
+
+Unclassified/RZAudioBankBase.cpp:
+	.text       start:0x801F0D00 end:0x801F22A0
+	.ctors      start:0x80585650 end:0x80585654
+
+Unclassified/bdPlayerManager.cpp:
+	.text       start:0x801F22A0 end:0x801F2300
+
+Unclassified/PSRequestUtils.cpp:
+	.text       start:0x801F2300 end:0x801F5360
+
+Unclassified/NWMatchMakingInfo.cpp:
+	.text       start:0x801F5360 end:0x801F5D50
+
+Unclassified/MMNode.cpp:
+	.text       start:0x801F5D50 end:0x801F6260
+
+Unclassified/PSBody.cpp:
+	.text       start:0x801F6260 end:0x801F63D0
+
+Unclassified/MMUser.cpp:
+	.text       start:0x801F63D0 end:0x801F66D0
+
+Unclassified/RZParticleType.cpp:
+	.text       start:0x801F66D0 end:0x801F7D90
+	.ctors      start:0x80585654 end:0x80585658
+
+Unclassified/PSRigidBody.cpp:
+	.text       start:0x801F7D90 end:0x801FB290
+
+Unclassified/bdSession.cpp:
+	.text       start:0x801FB290 end:0x80201220
+
+Unclassified/SGSaveGameMgr.cpp:
+	.text       start:0x80201220 end:0x80201660
+
+Unclassified/MMWorkBuffer.cpp:
+	.text       start:0x80201660 end:0x802017F0
+
+Unclassified/RZProjectedDecal.cpp:
+	.text       start:0x802017F0 end:0x80202050
+	.ctors      start:0x80585658 end:0x8058565C
+
+Unclassified/PSRigidBodyGO.cpp:
+	.text       start:0x80202050 end:0x80204000
+	.ctors      start:0x8058565C end:0x80585660
+
+Unclassified/bdSessionData.cpp:
+	.text       start:0x80204000 end:0x802043C0
+
+Unclassified/STIOTask.cpp:
+	.text       start:0x802043C0 end:0x80206230
+	.ctors      start:0x80585660 end:0x80585664
+
+Unclassified/RZResChunkHeader.cpp:
+	.text       start:0x80206230 end:0x80206370
+
+Unclassified/PSRigidBodyPrim.cpp:
+	.text       start:0x80206370 end:0x802067F0
+	.ctors      start:0x80585664 end:0x80585668
+
+Unclassified/bdSessionDataFactory.cpp:
+	.text       start:0x802067F0 end:0x802068D0
+
+Unclassified/RZAudioBankCutscene.cpp:
+	.text       start:0x802068D0 end:0x80206E20
+	.ctors      start:0x80585668 end:0x8058566C
+
+Unclassified/STStreamMgr.cpp:
+	.text       start:0x80206E20 end:0x80208720
+
+Unclassified/SGSaveGameMgr_wii.cpp:
+	.text       start:0x80208720 end:0x8020B220
+
+Unclassified/RZResource.cpp:
+	.text       start:0x8020B220 end:0x8020EC60
+	.ctors      start:0x8058566C end:0x80585670
+
+Unclassified/PSSoftBody.cpp:
+	.text       start:0x8020EC60 end:0x80214750
+	.ctors      start:0x80585670 end:0x80585674
+
+Unclassified/bdSessionHandler.cpp:
+	.text       start:0x80214750 end:0x802147B0
+
+Unclassified/PFProfileMgr.cpp:
+	.text       start:0x802147B0 end:0x80218050
+	.ctors      start:0x80585674 end:0x80585678
+
+Unclassified/RZAudioEvent.cpp:
+	.text       start:0x80218050 end:0x80218BA0
+	.ctors      start:0x80585678 end:0x8058567C
+
+Unclassified/STStreamRingBuffer.cpp:
+	.text       start:0x80218BA0 end:0x80219B40
+
+Unclassified/RZResourceDiscardable.cpp:
+	.text       start:0x80219B40 end:0x80219BF0
+
+Unclassified/PSBroadPhase.cpp:
+	.text       start:0x80219BF0 end:0x80219CE0
+
+Unclassified/NWMatchMakingQuery.cpp:
+	.text       start:0x80219CE0 end:0x80219E30
+
+Unclassified/bdSessionInfo.cpp:
+	.text       start:0x80219E30 end:0x80219E40
+
+Unclassified/RZAudioSample.cpp:
+	.text       start:0x80219E40 end:0x8021B350
+	.ctors      start:0x8058567C end:0x80585680
+
+Unclassified/RZResourceMgr.cpp:
+	.text       start:0x8021B350 end:0x80220690
+	.ctors      start:0x80585680 end:0x80585684
+
+Unclassified/PSBroadPhaseMgr.cpp:
+	.text       start:0x80220690 end:0x80223560
+
+Unclassified/NWMatchMakingStateMachine.cpp:
+	.text       start:0x80223560 end:0x80229770
+
+Unclassified/STWorkerThread.cpp:
+	.text       start:0x80229770 end:0x8022A620
+
+Unclassified/PFStatsToFileMgr.cpp:
+	.text       start:0x8022A620 end:0x8022BC10
+
+Unclassified/RZBinaryData.cpp:
+	.text       start:0x8022BC10 end:0x8022C390
+	.ctors      start:0x80585684 end:0x80585688
+
+Unclassified/RZResourcesList.cpp:
+	.text       start:0x8022C390 end:0x8022C8E0
+	.ctors      start:0x80585688 end:0x8058568C
+
+Unclassified/SCLuaHooks.cpp:
+	.text       start:0x8022C8E0 end:0x8022CA40
+
+Unclassified/PSOverlappingPairCache.cpp:
+	.text       start:0x8022CA40 end:0x8022D990
+
+Unclassified/NWNetworkMgr.cpp:
+	.text       start:0x8022D990 end:0x8022EC20
+
+Unclassified/bdSessionListener.cpp:
+	.text       start:0x8022EC20 end:0x8022ED00
+
+Unclassified/RZSequence.cpp:
+	.text       start:0x8022ED00 end:0x8022F6C0
+	.ctors      start:0x8058568C end:0x80585690
+
+Unclassified/PSColBox.cpp:
+	.text       start:0x8022F6C0 end:0x80233E70
+	.ctors      start:0x80585690 end:0x80585694
+
+Unclassified/NWPeerToPeer.cpp:
+	.text       start:0x80233E70 end:0x80234380
+
+Unclassified/RZCurve.cpp:
+	.text       start:0x80234380 end:0x80235010
+	.ctors      start:0x80585694 end:0x80585698
+
+Unclassified/NWComScoreEventSystem.cpp:
+	.text       start:0x80235010 end:0x80235540
+
+Unclassified/RZTextStyle.cpp:
+	.text       start:0x80235540 end:0x80235DA0
+	.ctors      start:0x80585698 end:0x8058569C
+
+Unclassified/SCScriptMgr.cpp:
+	.text       start:0x80235DA0 end:0x80237510
+
+Unclassified/PSColConvexHull.cpp:
+	.text       start:0x80237510 end:0x80239610
+	.ctors      start:0x8058569C end:0x805856A0
+
+Unclassified/NWPlayer.cpp:
+	.text       start:0x80239610 end:0x80239900
+
+Unclassified/RZCutScene.cpp:
+	.text       start:0x80239900 end:0x8023BD90
+	.ctors      start:0x805856A0 end:0x805856A4
+
+Unclassified/STCachedFile.cpp:
+	.text       start:0x8023BD90 end:0x8023C170
+	.ctors      start:0x805856A4 end:0x805856A8
+
+Unclassified/STFile_wii.cpp:
+	.text       start:0x8023C170 end:0x8023C6F0
+
+Unclassified/NWJSONSerializer.cpp:
+	.text       start:0x8023C6F0 end:0x8023E1C0
+
+Unclassified/RZTexture.cpp:
+	.text       start:0x8023E1C0 end:0x8023EA20
+	.ctors      start:0x805856A8 end:0x805856AC
+
+Unclassified/STFile.cpp:
+	.text       start:0x8023EA20 end:0x802403A0
+	.ctors      start:0x805856AC end:0x805856B0
+
+Unclassified/PSCollisionMap.cpp:
+	.text       start:0x802403A0 end:0x80245B80
+	.ctors      start:0x805856B0 end:0x805856B4
+
+Unclassified/STStreamMgr_wii.cpp:
+	.text       start:0x80245B80 end:0x80245CC0
+
+Unclassified/NWSession.cpp:
+	.text       start:0x80245CC0 end:0x8024D4B0
+
+Unclassified/RZDiscardableDataLoading.cpp:
+	.text       start:0x8024D4B0 end:0x80250730
+	.ctors      start:0x805856B4 end:0x805856B8
+
+Unclassified/PSCollisionSolver.cpp:
+	.text       start:0x80250730 end:0x80250B60
+
+Unclassified/STIOStream.cpp:
+	.text       start:0x80250B60 end:0x80253BE0
+
+Unclassified/PSColPlane.cpp:
+	.text       start:0x80253BE0 end:0x802542F0
+	.ctors      start:0x805856B8 end:0x805856BC
+
+Unclassified/NWStorageFile.cpp:
+	.text       start:0x802542F0 end:0x802548B0
+
+Unclassified/NWReplica.cpp:
+	.text       start:0x802548B0 end:0x80254C70
+
+Unclassified/RZFont.cpp:
+	.text       start:0x80254C70 end:0x80255FA0
+	.ctors      start:0x805856BC end:0x805856C0
+
+Unclassified/PSColPrimCache.cpp:
+	.text       start:0x80255FA0 end:0x80257560
+
+Unclassified/RZGeometry.cpp:
+	.text       start:0x80257560 end:0x80258FC0
+	.ctors      start:0x805856C0 end:0x805856C4
+
+Unclassified/NWReplicaClass.cpp:
+	.text       start:0x80258FC0 end:0x80259350
+	.ctors      start:0x805856C4 end:0x805856C8
+
+Unclassified/PSColSphere.cpp:
+	.text       start:0x80259350 end:0x8025B680
+	.ctors      start:0x805856C8 end:0x805856CC
+
+Unclassified/RZHAnim.cpp:
+	.text       start:0x8025B680 end:0x8025CCF0
+	.ctors      start:0x805856CC end:0x805856D0
+
+Unclassified/GEEngineMgr_wii.cpp:
+	.text       start:0x8025CCF0 end:0x8025EEB0
+	.ctors      start:0x805856D0 end:0x805856D4
+
+Unclassified/PSColSweptSphere.cpp:
+	.text       start:0x8025EEB0 end:0x80261B60
+	.ctors      start:0x805856D4 end:0x805856D8
+
+Unclassified/RZHeightMap.cpp:
+	.text       start:0x80261B60 end:0x802622F0
+	.ctors      start:0x805856D8 end:0x805856DC
+
+Unclassified/GEErrorHandler_wii.cpp:
+	.text       start:0x802622F0 end:0x80263C60
+
+Unclassified/NWReplicaCollection.cpp:
+	.text       start:0x80263C60 end:0x802650E0
+
+Unclassified/RZHierarchy.cpp:
+	.text       start:0x802650E0 end:0x80266FF0
+	.ctors      start:0x805856DC end:0x805856E0
+
+Unclassified/GEHomeMenu_wii.cpp:
+	.text       start:0x80266FF0 end:0x802680C0
+
+Unclassified/RZLogicCode.cpp:
+	.text       start:0x802680C0 end:0x80268C50
+	.ctors      start:0x805856E0 end:0x805856E4
+
+Unclassified/PSEnvColPrim.cpp:
+	.text       start:0x80268C50 end:0x80268CF0
+
+Unclassified/GELCMemcpy.cpp:
+	.text       start:0x80268CF0 end:0x80269070
+
+Unclassified/NWReplicaSerializer.cpp:
+	.text       start:0x80269070 end:0x802695F0
+
+Unclassified/RZMotionTrail.cpp:
+	.text       start:0x802695F0 end:0x80269F30
+	.ctors      start:0x805856E4 end:0x805856E8
+
+Unclassified/PSEnvColTests.cpp:
+	.text       start:0x80269F30 end:0x80272FE0
+
+Unclassified/GELockedCache_wii.cpp:
+	.text       start:0x80272FE0 end:0x802732E0
+
+Unclassified/GEWriteGatherPipe_wii.cpp:
+	.text       start:0x802732E0 end:0x80273340
+
+Unclassified/NWNetworkMgr_wii.cpp:
+	.text       start:0x80273340 end:0x802735C0
+
+Unclassified/PSGJK.cpp:
+	.text       start:0x802735C0 end:0x80276EA0
+
+Unclassified/RZParamBlock.cpp:
+	.text       start:0x80276EA0 end:0x802774C0
+	.ctors      start:0x805856E8 end:0x805856EC
+
+Unclassified/GENANDFileMgr_wii.cpp:
+	.text       start:0x802774C0 end:0x80277C30
+
+Unclassified/NWPlatformInit_wii.cpp:
+	.text       start:0x80277C30 end:0x80277F80
+
+Unclassified/PSObjColPrim.cpp:
+	.text       start:0x80277F80 end:0x80278C50
+	.ctors      start:0x805856EC end:0x805856F0
+
+Unclassified/RZParamGraph.cpp:
+	.text       start:0x80278C50 end:0x80279890
+	.ctors      start:0x805856F0 end:0x805856F4
+
+Unclassified/xfont.c:
+	.text       start:0x80279890 end:0x80279C20
+
+Unclassified/PSShape.cpp:
+	.text       start:0x80279C20 end:0x8027B2A0
+
+Unclassified/PSSparseSDF.cpp:
+	.text       start:0x8027B2A0 end:0x8027B4A0
+	.ctors      start:0x805856F4 end:0x805856F8
+
+Unclassified/PSVoronoiSimplexSolver.cpp:
+	.text       start:0x8027B4A0 end:0x8027CAC0
+
+Unclassified/PSConstraint.cpp:
+	.text       start:0x8027CAC0 end:0x8027CC90
+
+Unclassified/PSConstraintCone.cpp:
+	.text       start:0x8027CC90 end:0x8027DC70
+
+Unclassified/PSConstraintHinge.cpp:
+	.text       start:0x8027DC70 end:0x8027E750
+
+Unclassified/PSConstraintPointToPoint.cpp:
+	.text       start:0x8027E750 end:0x8027EBA0
+
+Unclassified/PSAirGrip.cpp:
+	.text       start:0x8027EBA0 end:0x8027EC40
+
+Unclassified/PSBSplineMove.cpp:
+	.text       start:0x8027EC40 end:0x8027EEA0
+
+Unclassified/PSCamera.cpp:
+	.text       start:0x8027EEA0 end:0x8027EFD0
+
+Unclassified/PSCollisionDamper.cpp:
+	.text       start:0x8027EFD0 end:0x8027F550
+
+Unclassified/PSFollowPosition.cpp:
+	.text       start:0x8027F550 end:0x8027F990
+
+Unclassified/PSGroundGrip.cpp:
+	.text       start:0x8027F990 end:0x8027FD70
+
+Unclassified/PSModule.cpp:
+	.text       start:0x8027FD70 end:0x8027FF30
+	.ctors      start:0x805856F8 end:0x805856FC
+
+Unclassified/PSMoveByAnimation.cpp:
+	.text       start:0x8027FF30 end:0x80280850
+
+Unclassified/PSRagdollToBasePosition.cpp:
+	.text       start:0x80280850 end:0x80280930
+
+Unclassified/PSRedirector.cpp:
+	.text       start:0x80280930 end:0x80280DA0
+
+Unclassified/PSVehicleSuspension.cpp:
+	.text       start:0x80280DA0 end:0x80281FD0
+
+Unclassified/PSWave.cpp:
+	.text       start:0x80281FD0 end:0x802822C4
+
+Unclassified/targsupp.s:
+	.text       start:0x802822C4 end:0x802822E4
+
+Unclassified/cc_gdev.c:
+	.text       start:0x802822E4 end:0x8028255C
+
+Unclassified/MWCriticalSection_gc.cpp:
+	.text       start:0x8028255C end:0x80282598
+
+Unclassified/CircleBuffer.c:
+	.text       start:0x80282598 end:0x802827D4
+
+Unclassified/flush_cache.c:
+	.text       start:0x802827D4 end:0x8028280C
+
+Unclassified/main_TRK.c:
+	.text       start:0x8028280C end:0x80282848
+
+Unclassified/mainloop.c:
+	.text       start:0x80282848 end:0x80282934
+
+Unclassified/mem_TRK.c:
+	.text       start:0x80282934 end:0x80282B98
+
+Unclassified/dispatch.c:
+	.text       start:0x80282B98 end:0x80282CB8
+
+Unclassified/dolphin_trk.c:
+	.text       start:0x80282CB8 end:0x80282FDC
+
+Unclassified/dolphin_trk_glue.c:
+	.text       start:0x80282FDC end:0x80283378
+
+Unclassified/notify.c:
+	.text       start:0x80283378 end:0x80283408
+
+Unclassified/nubevent.c:
+	.text       start:0x80283408 end:0x802835A4
+
+Unclassified/nubinit.c:
+	.text       start:0x802835A4 end:0x802836F4
+
+Unclassified/serpoll.c:
+	.text       start:0x802836F4 end:0x8028383C
+
+Unclassified/string_TRK.c:
+	.text       start:0x8028383C end:0x80283858
+
+Unclassified/support.c:
+	.text       start:0x80283858 end:0x80283E7C
+
+Unclassified/targcont.c:
+	.text       start:0x80283E7C end:0x80283EB0
+
+Unclassified/mpc_7xx_603e.c:
+	.text       start:0x80283EB0 end:0x802841D8
+
+Unclassified/msg.c:
+	.text       start:0x802841D8 end:0x8028423C
+
+Unclassified/msgbuf.c:
+	.text       start:0x8028423C end:0x80284A48
+
+Unclassified/msghndlr.c:
+	.text       start:0x80284A48 end:0x802859CC
+
+Unclassified/mslsupp.c:
+	.text       start:0x802859CC end:0x80285DE8
+
+Unclassified/targimpl.c:
+	.text       start:0x80285DE8 end:0x8028760C
+
+Unclassified/target_options.c:
+	.text       start:0x8028760C end:0x8028761C
+
+Runtime/__mem.c:
+	.text       start:0x8028761C end:0x80287638
+
+Unclassified/__va_arg.c:
+	.text       start:0x80287638 end:0x80287700
+
+Runtime/global_destructor_chain.c:
+	.text       start:0x80287700 end:0x80287760
+
+Unclassified/NMWException.cp:
+	extab       start:0x80006740 end:0x80006790
+	extabindex  start:0x80013280 end:0x800132C8
+	.text       start:0x80287760 end:0x80287E10
+
+Unclassified/ptmf.c:
+	.text       start:0x80287E10 end:0x80287F58
+
+Unclassified/runtime.c:
+	.text       start:0x80287F58 end:0x8028897C
+
 Runtime/__init_cpp_exceptions.cpp:
 	.text       start:0x8028897C end:0x802889EC
 	.ctors      start:0x80585500 end:0x80585504 rename:.ctors$10
@@ -21,5 +1606,3963 @@ Runtime/__init_cpp_exceptions.cpp:
 	.dtors      start:0x805857A4 end:0x805857A8 rename:.dtors$15
 	.sdata      start:0x80896910 end:0x80896918
 
+Unclassified/float.c:
+	.sdata      start:0x80896930 end:0x80896940
+
+Unclassified/DSPCode.c:
+	.data       start:0x805DF8A0 end:0x805E18A0
+	.sdata      start:0x80896A20 end:0x80896A28
+
+Unclassified/bta_dm_cfg.c:
+	.rodata     start:0x805923A8 end:0x80592438
+	.sdata      start:0x80896B80 end:0x80896B98
+	.sbss2      start:0x8089D490 end:0x8089D498
+
+Unclassified/bta_hh_cfg.c:
+	.rodata     start:0x80592438 end:0x80592448
+	.sdata      start:0x80896B98 end:0x80896BA8
+
+Unclassified/bta_sys_cfg.c:
+	.sdata      start:0x80896BA8 end:0x80896BB0
+	.sdata2     start:0x8089BEF8 end:0x8089BF00
+
+Unclassified/lctype.c:
+	.rodata     start:0x8059A8B8 end:0x8059A9C0
+
+Unclassified/lopcodes.c:
+	.rodata     start:0x8059AB58 end:0x8059AB80
+
+Unclassified/AkDefault3DParams.cpp:
+	.data       start:0x806045C0 end:0x80604608
+
+Unclassified/BULWii.cpp:
+	.rodata     start:0x8059ADB0 end:0x8059AF78
+	.data       start:0x8060EB40 end:0x8060EB78
+
+Unclassified/bdDummySocket.cpp:
+	.rodata     start:0x805A0E68 end:0x805A0E88
+	.data       start:0x8060F368 end:0x8060F378
+	.sdata      start:0x80898068 end:0x80898078
+
+Unclassified/bdAntiCheatResponses.cpp:
+	.rodata     start:0x805A6A68 end:0x805A6A78
+	.data       start:0x8060F7F8 end:0x8060F808
+	.sdata      start:0x80898110 end:0x80898118
+
+Unclassified/bdConsoleID.cpp:
+	.rodata     start:0x805A6A78 end:0x805A6A88
+	.data       start:0x8060F808 end:0x8060F818
+	.sdata      start:0x80898118 end:0x80898120
+
+Unclassified/ecc.c:
+	.rodata     start:0x805BD1E0 end:0x805BD288
+	.data       start:0x80610748 end:0x80610CB0
+	.sdata      start:0x80898380 end:0x808983A8
+
+Unclassified/bncore.c:
+	.sdata      start:0x808983B0 end:0x808983C0
+
+Unclassified/bn_mp_radix_smap.c:
+	.data       start:0x80610CB0 end:0x80610CF8
+	.sdata      start:0x808983C0 end:0x808983C8
+
+Unclassified/bn_prime_tab.c:
+	.rodata     start:0x805BD2B0 end:0x805BD6B0
+
+Unclassified/Gecko_setjmp.c:
+	.text       start:0x802889EC end:0x80288C00
+
+Unclassified/Gecko_ExceptionPPC.cp:
+	extab       start:0x80006790 end:0x800067CE
+	extabindex  start:0x800132C8 end:0x80013304
+	.text       start:0x80288C00 end:0x8028A11C
+
+Unclassified/alloc.c:
+	.text       start:0x8028A11C end:0x8028AF1C
+
+Unclassified/ansi_files.c:
+	.text       start:0x8028AF1C end:0x8028B214
+
+Unclassified/ansi_fp.c:
+	.text       start:0x8028B214 end:0x8028CA94
+
+Unclassified/arith.c:
+	.text       start:0x8028CA94 end:0x8028CAB4
+
+Unclassified/buffer_io.c:
+	.text       start:0x8028CAB4 end:0x8028CDC0
+
+Unclassified/char_io.c:
+	.text       start:0x8028CDC0 end:0x8028CEF0
+
+Unclassified/ctype.c:
+	.text       start:0x8028CEF0 end:0x8028CFA0
+
+Unclassified/direct_io.c:
+	.text       start:0x8028CFA0 end:0x8028D5F0
+
+Unclassified/file_io.c:
+	.text       start:0x8028D5F0 end:0x8028DB98
+
+Unclassified/FILE_POS.C:
+	.text       start:0x8028DB98 end:0x8028DE0C
+
+Unclassified/locale.c:
+	.text       start:0x8028DE0C end:0x8028DEE8
+
+Unclassified/mbstring.c:
+	.text       start:0x8028DEE8 end:0x8028E788
+
+Unclassified/mem.c:
+	.text       start:0x8028E788 end:0x8028E8F8
+
+Unclassified/mem_funcs.c:
+	.text       start:0x8028E8F8 end:0x8028EBC8
+
+Unclassified/math_api.c:
+	.text       start:0x8028EBC8 end:0x8028ECBC
+
+Unclassified/misc_io.c:
+	.text       start:0x8028ECBC end:0x8028ECDC
+
+Unclassified/printf.c:
+	.text       start:0x8028ECDC end:0x80291214
+
+Unclassified/qsort.c:
+	.text       start:0x80291214 end:0x80291384
+
+Unclassified/rand.c:
+	.text       start:0x80291384 end:0x802913AC
+
+Unclassified/scanf.c:
+	.text       start:0x802913AC end:0x80292890
+
+Unclassified/signal.c:
+	.text       start:0x80292890 end:0x80292938
+
+Unclassified/string.c:
+	.text       start:0x80292938 end:0x80293968
+
+Unclassified/strtold.c:
+	.text       start:0x80293968 end:0x80294D70
+
+Unclassified/strtoul.c:
+	.text       start:0x80294D70 end:0x80295974
+
+Unclassified/time.c:
+	.text       start:0x80295974 end:0x802959AC
+
+Unclassified/wmem.c:
+	.text       start:0x802959AC end:0x802959DC
+
+Unclassified/wprintf.c:
+	.text       start:0x802959DC end:0x80297BFC
+
+Unclassified/wstring.c:
+	.text       start:0x80297BFC end:0x80297CD8
+
+Unclassified/wchar_io.c:
+	.text       start:0x80297CD8 end:0x80297D54
+
+Unclassified/time.dolphin.c:
+	.text       start:0x80297D54 end:0x80297D90
+
+Unclassified/uart_console_io_gcn.c:
+	.text       start:0x80297D90 end:0x80297E60
+
+Unclassified/abort_exit_ppc_eabi.c:
+	.text       start:0x80297E60 end:0x80297E94
+
+Unclassified/secure_error.c:
+	.text       start:0x80297E94 end:0x80297EAC
+
+Unclassified/math_sun.c:
+	.text       start:0x80297EAC end:0x80297EEC
+
+Unclassified/e_acos.c:
+	.text       start:0x80297EEC end:0x802981B8
+
+Unclassified/e_asin.c:
+	.text       start:0x802981B8 end:0x80298450
+
+Unclassified/e_atan2.c:
+	.text       start:0x80298450 end:0x802986A8
+
+Unclassified/e_exp.c:
+	.text       start:0x802986A8 end:0x802988D8
+
+Unclassified/e_fmod.c:
+	.text       start:0x802988D8 end:0x80298C58
+
+Unclassified/e_log.c:
+	.text       start:0x80298C58 end:0x80298F0C
+
+Unclassified/e_log10.c:
+	.text       start:0x80298F0C end:0x80299020
+
+Unclassified/e_pow.c:
+	.text       start:0x80299020 end:0x80299834
+
+Unclassified/e_rem_pio2.c:
+	.text       start:0x80299834 end:0x80299BB8
+
+Unclassified/fminmaxdim.c:
+	.text       start:0x80299BB8 end:0x80299C24
+
+Unclassified/k_cos.c:
+	.text       start:0x80299C24 end:0x80299D34
+
+Unclassified/k_rem_pio2.c:
+	.text       start:0x80299D34 end:0x8029B3EC
+
+Unclassified/k_sin.c:
+	.text       start:0x8029B3EC end:0x8029B4AC
+
+Unclassified/k_tan.c:
+	.text       start:0x8029B4AC end:0x8029B6FC
+
+Unclassified/s_atan.c:
+	.text       start:0x8029B6FC end:0x8029B92C
+
+Unclassified/s_ceil.c:
+	.text       start:0x8029B92C end:0x8029BA78
+
+Unclassified/s_copysign.c:
+	.text       start:0x8029BA78 end:0x8029BAA4
+
+Unclassified/s_cos.c:
+	.text       start:0x8029BAA4 end:0x8029BB6C
+
+Unclassified/s_floor.c:
+	.text       start:0x8029BB6C end:0x8029BCBC
+
+Unclassified/s_frexp.c:
+	.text       start:0x8029BCBC end:0x8029BD44
+
+Unclassified/s_ldexp.c:
+	.text       start:0x8029BD44 end:0x8029BEB0
+
+Unclassified/s_modf.c:
+	.text       start:0x8029BEB0 end:0x8029BFAC
+
+Unclassified/s_sin.c:
+	.text       start:0x8029BFAC end:0x8029C078
+
+Unclassified/s_tan.c:
+	.text       start:0x8029C078 end:0x8029C0F0
+
+Unclassified/w_acos.c:
+	.text       start:0x8029C0F0 end:0x8029C0F4
+
+Unclassified/w_asin.c:
+	.text       start:0x8029C0F4 end:0x8029C0F8
+
+Unclassified/w_atan2.c:
+	.text       start:0x8029C0F8 end:0x8029C0FC
+
+Unclassified/w_exp.c:
+	.text       start:0x8029C0FC end:0x8029C100
+
+Unclassified/w_fmod.c:
+	.text       start:0x8029C100 end:0x8029C104
+
+Unclassified/w_log.c:
+	.text       start:0x8029C104 end:0x8029C108
+
+Unclassified/w_log10.c:
+	.text       start:0x8029C108 end:0x8029C10C
+
+Unclassified/w_pow.c:
+	.text       start:0x8029C10C end:0x8029C110
+
+Unclassified/e_sqrt.c:
+	.text       start:0x8029C110 end:0x8029C358
+
+Unclassified/math_ppc.c:
+	.text       start:0x8029C358 end:0x8029C384
+
+Unclassified/w_sqrt.c:
+	.text       start:0x8029C384 end:0x8029C388
+
+Unclassified/extras.c:
+	.text       start:0x8029C388 end:0x8029C560
+
+Unclassified/euart.c:
+	.text       start:0x8029C560 end:0x8029C8E0
+
+Unclassified/ipcMain.c:
+	.text       start:0x8029C8E0 end:0x8029C9D0
+
+Unclassified/ipcclt.c:
+	.text       start:0x8029C9D0 end:0x8029E430
+
+Unclassified/memory.c:
+	.text       start:0x8029E430 end:0x8029E960
+
+Unclassified/ipcProfile.c:
+	.text       start:0x8029E960 end:0x8029ED6C
+
+Unclassified/DebuggerDriver.c:
+	.text       start:0x8029ED6C end:0x8029F0A0
+
+Unclassified/exi2.c:
+	.text       start:0x8029F0A0 end:0x8029F830
+
+Unclassified/fs.c:
+	.text       start:0x8029F830 end:0x802A0FD0
+
+Unclassified/hid_api.c:
+	.text       start:0x802A0FD0 end:0x802A1050
+
+Unclassified/hid_ios.c:
+	.text       start:0x802A1050 end:0x802A1830
+
+Unclassified/hid_client.c:
+	.text       start:0x802A1830 end:0x802A1B60
+
+Unclassified/hid_device.c:
+	.text       start:0x802A1B60 end:0x802A2010
+
+Unclassified/hid_interface.c:
+	.text       start:0x802A2010 end:0x802A2130
+
+Unclassified/hid_open_close.c:
+	.text       start:0x802A2130 end:0x802A2610
+
+Unclassified/hid_task.c:
+	.text       start:0x802A2610 end:0x802A2720
+
+Unclassified/hio2.c:
+	.text       start:0x802A2720 end:0x802A3250
+
+Unclassified/dvdfs.c:
+	.text       start:0x802A3250 end:0x802A3AA0
+
+Unclassified/dvd.c:
+	.text       start:0x802A3AA0 end:0x802A8680
+
+Unclassified/dvdqueue.c:
+	.text       start:0x802A8680 end:0x802A8900
+
+Unclassified/dvderror.c:
+	.text       start:0x802A8900 end:0x802A9320
+
+Unclassified/dvdidutils.c:
+	.text       start:0x802A9320 end:0x802A9410
+
+Unclassified/dvdFatal.c:
+	.text       start:0x802A9410 end:0x802A9580
+
+Unclassified/dvdDeviceError.c:
+	.text       start:0x802A9580 end:0x802A9810
+
+Unclassified/dvd_broadway.c:
+	.text       start:0x802A9810 end:0x802ABEC0
+
+Unclassified/PPCArch.c:
+	.text       start:0x802ABEC0 end:0x802AC0E0
+
+Unclassified/GXInit.c:
+	.text       start:0x802AC0E0 end:0x802AD270
+
+Unclassified/GXFifo.c:
+	.text       start:0x802AD270 end:0x802AE110
+
+Unclassified/GXAttr.c:
+	.text       start:0x802AE110 end:0x802AEC60
+
+Unclassified/GXMisc.c:
+	.text       start:0x802AEC60 end:0x802AF690
+
+Unclassified/GXGeometry.c:
+	.text       start:0x802AF690 end:0x802AFCA0
+
+Unclassified/GXFrameBuf.c:
+	.text       start:0x802AFCA0 end:0x802B0720
+
+Unclassified/GXLight.c:
+	.text       start:0x802B0720 end:0x802B0CF0
+
+Unclassified/GXTexture.c:
+	.text       start:0x802B0CF0 end:0x802B1E10
+
+Unclassified/GXBump.c:
+	.text       start:0x802B1E10 end:0x802B2270
+
+Unclassified/GXTev.c:
+	.text       start:0x802B2270 end:0x802B2940
+
+Unclassified/GXPixel.c:
+	.text       start:0x802B2940 end:0x802B2F60
+
+Unclassified/GXDisplayList.c:
+	.text       start:0x802B2F60 end:0x802B2FE0
+
+Unclassified/GXTransform.c:
+	.text       start:0x802B2FE0 end:0x802B34E0
+
+Unclassified/GXPerf.c:
+	.text       start:0x802B34E0 end:0x802B4350
+
+Unclassified/mtx.c:
+	.text       start:0x802B4350 end:0x802B4780
+
+Unclassified/mtxvec.c:
+	.text       start:0x802B4780 end:0x802B47E0
+
+Unclassified/mtx44.c:
+	.text       start:0x802B47E0 end:0x802B4E60
+
+Unclassified/mtx44vec.c:
+	.text       start:0x802B4E60 end:0x802B4F40
+
+Unclassified/vec.c:
+	.text       start:0x802B4F40 end:0x802B50E0
+
+Unclassified/AX.c:
+	.text       start:0x802B50E0 end:0x802B51A0
+
+Unclassified/AXAlloc.c:
+	.text       start:0x802B51A0 end:0x802B5740
+
+Unclassified/AXAux.c:
+	.text       start:0x802B5740 end:0x802B5FC0
+
+Unclassified/AXCL.c:
+	.text       start:0x802B5FC0 end:0x802B6AB0
+
+Unclassified/AXOut.c:
+	.text       start:0x802B6AB0 end:0x802B7330
+
+Unclassified/AXSPB.c:
+	.text       start:0x802B7330 end:0x802B7770
+
+Unclassified/AXVPB.c:
+	.text       start:0x802B7770 end:0x802B8D20
+
+Unclassified/AXProf.c:
+	.text       start:0x802B8D20 end:0x802B8D60
+
+Unclassified/AXFXReverbHi.c:
+	.text       start:0x802B8D60 end:0x802B8E10
+
+Unclassified/AXFXReverbHiDpl2.c:
+	.text       start:0x802B8E10 end:0x802B8F00
+
+Unclassified/AXFXReverbHiExp.c:
+	.text       start:0x802B8F00 end:0x802B9D30
+
+Unclassified/AXFXReverbHiExpDpl2.c:
+	.text       start:0x802B9D30 end:0x802BAC20
+
+Unclassified/AXFXReverbStd.c:
+	.text       start:0x802BAC20 end:0x802BACC0
+
+Unclassified/AXFXReverbStdDpl2.c:
+	.text       start:0x802BACC0 end:0x802BADA0
+
+Unclassified/AXFXReverbStdExp.c:
+	.text       start:0x802BADA0 end:0x802BB8E0
+
+Unclassified/AXFXReverbStdExpDpl2.c:
+	.text       start:0x802BB8E0 end:0x802BC460
+
+Unclassified/AXFXHooks.c:
+	.text       start:0x802BC460 end:0x802BC4B0
+
+Unclassified/OS.c:
+	.text       start:0x802BC4B0 end:0x802BD990
+
+Unclassified/OSAlarm.c:
+	.text       start:0x802BD990 end:0x802BE310
+
+Unclassified/OSAlloc.c:
+	.text       start:0x802BE310 end:0x802BE540
+
+Unclassified/OSArena.c:
+	.text       start:0x802BE540 end:0x802BE640
+
+Unclassified/OSAudioSystem.c:
+	.text       start:0x802BE640 end:0x802BEB00
+
+Unclassified/OSCache.c:
+	.text       start:0x802BEB00 end:0x802BF200
+
+Unclassified/OSContext.c:
+	.text       start:0x802BF200 end:0x802BFAD0
+
+Unclassified/OSError.c:
+	.text       start:0x802BFAD0 end:0x802C0220
+
+Unclassified/OSExec.c:
+	.text       start:0x802C0220 end:0x802C1B90
+
+Unclassified/OSFatal.c:
+	.text       start:0x802C1B90 end:0x802C27C0
+
+Unclassified/OSFont.c:
+	.text       start:0x802C27C0 end:0x802C34B0
+
+Unclassified/OSInterrupt.c:
+	.text       start:0x802C34B0 end:0x802C3C80
+
+Unclassified/OSLink.c:
+	.text       start:0x802C3C80 end:0x802C3CA0
+
+Unclassified/OSMessage.c:
+	.text       start:0x802C3CA0 end:0x802C3F80
+
+Unclassified/OSMemory.c:
+	.text       start:0x802C3F80 end:0x802C4720
+
+Unclassified/OSMutex.c:
+	.text       start:0x802C4720 end:0x802C4D00
+
+Unclassified/OSReboot.c:
+	.text       start:0x802C4D00 end:0x802C4D90
+
+Unclassified/OSReset.c:
+	.text       start:0x802C4D90 end:0x802C5700
+
+Unclassified/OSRtc.c:
+	.text       start:0x802C5700 end:0x802C61B0
+
+Unclassified/OSSemaphore.c:
+	.text       start:0x802C61B0 end:0x802C6340
+
+Unclassified/OSSync.c:
+	.text       start:0x802C6340 end:0x802C63C0
+
+Unclassified/OSThread.c:
+	.text       start:0x802C63C0 end:0x802C83C0
+
+Unclassified/OSTime.c:
+	.text       start:0x802C83C0 end:0x802C8A90
+
+Unclassified/OSUtf.c:
+	.text       start:0x802C8A90 end:0x802C8CE0
+
+Unclassified/OSIpc.c:
+	.text       start:0x802C8CE0 end:0x802C8D20
+
+Unclassified/OSStateTM.c:
+	.text       start:0x802C8D20 end:0x802C9470
+
+Unclassified/OSPlayRecord.c:
+	.text       start:0x802C9470 end:0x802C9B90
+
+Unclassified/OSStateFlags.c:
+	.text       start:0x802C9B90 end:0x802C9DB0
+
+Unclassified/OSNet.c:
+	.text       start:0x802C9DB0 end:0x802C9E70
+
+Unclassified/OSNandbootInfo.c:
+	.text       start:0x802C9E70 end:0x802CA080
+
+Unclassified/OSPlayTime.c:
+	.text       start:0x802CA080 end:0x802CA860
+
+Unclassified/OSCrc.c:
+	.text       start:0x802CA860 end:0x802CA9A0
+
+Unclassified/OSLaunch.c:
+	.text       start:0x802CA9A0 end:0x802CABB0
+
+Unclassified/__ppc_eabi_init.cpp:
+	.text       start:0x802CABB0 end:0x802CAC70
+
+Unclassified/Pad.c:
+	.text       start:0x802CAC70 end:0x802CAD90
+
+Unclassified/KPAD.c:
+	.text       start:0x802CAD90 end:0x802CFF20
+
+Unclassified/KMPLS.c:
+	.text       start:0x802CFF20 end:0x802D29E0
+
+Unclassified/KZMplsTestSub.c:
+	.text       start:0x802D29E0 end:0x802D33E4
+
+Unclassified/wenc.c:
+	.text       start:0x802D33E4 end:0x802D36C0
+
+Unclassified/WPAD.c:
+	.text       start:0x802D36C0 end:0x802DE5B0
+
+Unclassified/WPADHIDParser.c:
+	.text       start:0x802DE5B0 end:0x802E3820
+
+Unclassified/WPADEncrypt.c:
+	.text       start:0x802E3820 end:0x802E46E0
+
+Unclassified/WPADMem.c:
+	.text       start:0x802E46E0 end:0x802E47F0
+
+Unclassified/lint.c:
+	.text       start:0x802E47F0 end:0x802E5060
+
+Unclassified/WUD.c:
+	.text       start:0x802E5060 end:0x802EA760
+
+Unclassified/WUDHidHost.c:
+	.text       start:0x802EA760 end:0x802EABD0
+
+Unclassified/gki_buffer.c:
+	.text       start:0x802EABD0 end:0x802EC070
+
+Unclassified/gki_time.c:
+	.text       start:0x802EC070 end:0x802EC600
+
+Unclassified/gki_ppc.c:
+	.text       start:0x802EC600 end:0x802EC910
+
+Unclassified/hcisu_h2.c:
+	.text       start:0x802EC910 end:0x802ECFD0
+
+Unclassified/uusb_ppc.c:
+	.text       start:0x802ECFD0 end:0x802EDC50
+
+Unclassified/bte_hcisu.c:
+	.text       start:0x802EDC50 end:0x802EDD20
+
+Unclassified/bte_init.c:
+	.text       start:0x802EDD20 end:0x802EDD50
+
+Unclassified/bte_logmsg.c:
+	.text       start:0x802EDD50 end:0x802EDEF0
+
+Unclassified/bte_main.c:
+	.text       start:0x802EDEF0 end:0x802EE060
+
+Unclassified/btu_task1.c:
+	.text       start:0x802EE060 end:0x802EE4A4
+
+Unclassified/bd.c:
+	.text       start:0x802EE4A4 end:0x802EE578
+
+Unclassified/bta_sys_conn.c:
+	.text       start:0x802EE578 end:0x802EE7CC
+
+Unclassified/bta_sys_main.c:
+	.text       start:0x802EE7CC end:0x802EEA10
+
+Unclassified/ptim.c:
+	.text       start:0x802EEA10 end:0x802EEBF0
+
+Unclassified/utl.c:
+	.text       start:0x802EEBF0 end:0x802EEC34
+
+Unclassified/bta_dm_act.c:
+	.text       start:0x802EEC34 end:0x802F0F70
+
+Unclassified/bta_dm_api.c:
+	.text       start:0x802F0F70 end:0x802F13DC
+
+Unclassified/bta_dm_main.c:
+	.text       start:0x802F13DC end:0x802F153C
+
+Unclassified/bta_dm_pm.c:
+	.text       start:0x802F153C end:0x802F1F58
+
+Unclassified/bta_hh_act.c:
+	.text       start:0x802F1F58 end:0x802F36A0
+
+Unclassified/bta_hh_api.c:
+	.text       start:0x802F36A0 end:0x802F3A70
+
+Unclassified/bta_hh_main.c:
+	.text       start:0x802F3A70 end:0x802F3FC4
+
+Unclassified/bta_hh_utils.c:
+	.text       start:0x802F3FC4 end:0x802F4370
+
+Unclassified/btm_acl.c:
+	.text       start:0x802F4370 end:0x802F60B4
+
+Unclassified/btm_dev.c:
+	.text       start:0x802F60B4 end:0x802F6780
+
+Unclassified/btm_devctl.c:
+	.text       start:0x802F6780 end:0x802F8108
+
+Unclassified/btm_discovery.c:
+	.text       start:0x802F8108 end:0x802F823C
+
+Unclassified/btm_inq.c:
+	.text       start:0x802F823C end:0x802F9CD4
+
+Unclassified/btm_main.c:
+	.text       start:0x802F9CD4 end:0x802F9D30
+
+Unclassified/btm_pm.c:
+	.text       start:0x802F9D30 end:0x802FA9C4
+
+Unclassified/btm_sco.c:
+	.text       start:0x802FA9C4 end:0x802FB7FC
+
+Unclassified/btm_sec.c:
+	.text       start:0x802FB7FC end:0x802FE7C0
+
+Unclassified/btu_hcif.c:
+	.text       start:0x802FE7C0 end:0x802FFA1C
+
+Unclassified/btu_init.c:
+	.text       start:0x802FFA1C end:0x802FFA94
+
+Unclassified/wbt_ext.c:
+	.text       start:0x802FFA94 end:0x802FFB74
+
+Unclassified/gap_api.c:
+	.text       start:0x802FFB74 end:0x802FFBD4
+
+Unclassified/gap_conn.c:
+	.text       start:0x802FFBD4 end:0x80300710
+
+Unclassified/gap_utils.c:
+	.text       start:0x80300710 end:0x80300D2C
+
+Unclassified/hcicmds.c:
+	.text       start:0x80300D2C end:0x80303448
+
+Unclassified/hidd_api.c:
+	.text       start:0x80303448 end:0x803034B0
+
+Unclassified/hidd_conn.c:
+	.text       start:0x803034B0 end:0x80303570
+
+Unclassified/hidd_mgmt.c:
+	.text       start:0x80303570 end:0x80303638
+
+Unclassified/hidd_pm.c:
+	.text       start:0x80303638 end:0x803039B4
+
+Unclassified/hidh_api.c:
+	.text       start:0x803039B4 end:0x80304734
+
+Unclassified/hidh_conn.c:
+	.text       start:0x80304734 end:0x80306774
+
+Unclassified/l2c_api.c:
+	.text       start:0x80306774 end:0x80307340
+
+Unclassified/l2c_csm.c:
+	.text       start:0x80307340 end:0x8030881C
+
+Unclassified/l2c_link.c:
+	.text       start:0x8030881C end:0x803099A8
+
+Unclassified/l2c_main.c:
+	.text       start:0x803099A8 end:0x8030A9D8
+
+Unclassified/l2c_utils.c:
+	.text       start:0x8030A9D8 end:0x8030C89C
+
+Unclassified/port_api.c:
+	.text       start:0x8030C89C end:0x8030C8EC
+
+Unclassified/port_rfc.c:
+	.text       start:0x8030C8EC end:0x8030DCE8
+
+Unclassified/port_utils.c:
+	.text       start:0x8030DCE8 end:0x8030E2C0
+
+Unclassified/rfc_l2cap_if.c:
+	.text       start:0x8030E2C0 end:0x8030EBF4
+
+Unclassified/rfc_mx_fsm.c:
+	.text       start:0x8030EBF4 end:0x8030F838
+
+Unclassified/rfc_port_fsm.c:
+	.text       start:0x8030F838 end:0x803109D8
+
+Unclassified/rfc_port_if.c:
+	.text       start:0x803109D8 end:0x80310F04
+
+Unclassified/rfc_ts_frames.c:
+	.text       start:0x80310F04 end:0x8031254C
+
+Unclassified/rfc_utils.c:
+	.text       start:0x8031254C end:0x80312D2C
+
+Unclassified/sdp_api.c:
+	.text       start:0x80312D2C end:0x80313B94
+
+Unclassified/sdp_db.c:
+	.text       start:0x80313B94 end:0x80314860
+
+Unclassified/sdp_discovery.c:
+	.text       start:0x80314860 end:0x80315AD8
+
+Unclassified/sdp_main.c:
+	.text       start:0x80315AD8 end:0x80316644
+
+Unclassified/sdp_server.c:
+	.text       start:0x80316644 end:0x80317354
+
+Unclassified/sdp_utils.c:
+	.text       start:0x80317354 end:0x803183A0
+
+Unclassified/usb.c:
+	.text       start:0x803183A0 end:0x803198F0
+
+Unclassified/scsystem.c:
+	.text       start:0x803198F0 end:0x8031B280
+
+Unclassified/scapi.c:
+	.text       start:0x8031B280 end:0x8031B790
+
+Unclassified/scapi_prdinfo.c:
+	.text       start:0x8031B790 end:0x8031BAD0
+
+Unclassified/nand.c:
+	.text       start:0x8031BAD0 end:0x8031D2A0
+
+Unclassified/NANDOpenClose.c:
+	.text       start:0x8031D2A0 end:0x8031DD60
+
+Unclassified/NANDCore.c:
+	.text       start:0x8031DD60 end:0x8031EC00
+
+Unclassified/NANDCheck.c:
+	.text       start:0x8031EC00 end:0x8031EEF0
+
+Unclassified/NANDLogging.c:
+	.text       start:0x8031EEF0 end:0x8031F540
+
+Unclassified/NANDErrorMessage.c:
+	.text       start:0x8031F540 end:0x8031F840
+
+Unclassified/esp.c:
+	.text       start:0x8031F840 end:0x8031FE60
+
+Unclassified/vi.c:
+	.text       start:0x8031FE60 end:0x80322800
+
+Unclassified/i2c.c:
+	.text       start:0x80322800 end:0x80323120
+
+Unclassified/vi3in1.c:
+	.text       start:0x80323120 end:0x80324890
+
+Unclassified/ai.c:
+	.text       start:0x80324890 end:0x80324E70
+
+Unclassified/dsp.c:
+	.text       start:0x80324E70 end:0x80325110
+
+Unclassified/dsp_debug.c:
+	.text       start:0x80325110 end:0x80325170
+
+Unclassified/dsp_task.c:
+	.text       start:0x80325170 end:0x80325A10
+
+Unclassified/SIBios.c:
+	.text       start:0x80325A10 end:0x80326A80
+
+Unclassified/SISamplingRate.c:
+	.text       start:0x80326A80 end:0x80326B70
+
+Unclassified/EXIBios.c:
+	.text       start:0x80326B70 end:0x80328510
+
+Unclassified/EXIUart.c:
+	.text       start:0x80328510 end:0x80328850
+
+Unclassified/EXICommon.c:
+	.text       start:0x80328850 end:0x80328E10
+
+Unclassified/mem_heapCommon.c:
+	.text       start:0x80328E10 end:0x80329280
+
+Unclassified/mem_expHeap.c:
+	.text       start:0x80329280 end:0x80329A30
+
+Unclassified/mem_allocator.c:
+	.text       start:0x80329A30 end:0x80329A90
+
+Unclassified/mem_list.c:
+	.text       start:0x80329A90 end:0x80329BB0
+
+Unclassified/pf_clib.c:
+	.text       start:0x80329BB0 end:0x80329CB0
+
+Unclassified/pf_code.c:
+	.text       start:0x80329CB0 end:0x80329CD0
+
+Unclassified/pdm_dskmng.c:
+	.text       start:0x80329CD0 end:0x80329E00
+
+Unclassified/pf_fatfs.c:
+	.text       start:0x80329E00 end:0x80329E10
+
+Unclassified/pf_volume.c:
+	.text       start:0x80329E10 end:0x80329FA0
+
+Unclassified/pf_cp932.c:
+	.text       start:0x80329FA0 end:0x8032A4A0
+
+Unclassified/pf_api_util.c:
+	.text       start:0x8032A4A0 end:0x8032A4B0
+
+Unclassified/pf_init_prfile2.c:
+	.text       start:0x8032A4B0 end:0x8032A4F0
+
+Unclassified/pf_filelock.c:
+	.text       start:0x8032A4F0 end:0x8032A500
+
+Unclassified/pf_system.c:
+	.text       start:0x8032A500 end:0x8032A510
+
+Unclassified/d_vf.c:
+	.text       start:0x8032A510 end:0x8032A670
+
+Unclassified/d_vf_sys.c:
+	.text       start:0x8032A670 end:0x8032A9A0
+
+Unclassified/d_hash.c:
+	.text       start:0x8032A9A0 end:0x8032AAB0
+
+Unclassified/d_common.c:
+	.text       start:0x8032AAB0 end:0x8032ABA0
+
+Unclassified/sd_drv.c:
+	.text       start:0x8032ABA0 end:0x8032ABA4
+
+Unclassified/NHTTP_bgnend.c:
+	.text       start:0x8032ABA4 end:0x8032AF0C
+
+Unclassified/NHTTP_control.c:
+	.text       start:0x8032AF0C end:0x8032B23C
+
+Unclassified/NHTTP_list.c:
+	.text       start:0x8032B23C end:0x8032B48C
+
+Unclassified/NHTTP_os_RVL.c:
+	.text       start:0x8032B48C end:0x8032B6B0
+
+Unclassified/NHTTP_recvbuf.c:
+	.text       start:0x8032B6B0 end:0x8032BD4C
+
+Unclassified/NHTTP_request.c:
+	.text       start:0x8032BD4C end:0x8032C788
+
+Unclassified/NHTTP_response.c:
+	.text       start:0x8032C788 end:0x8032C988
+
+Unclassified/NHTTP_socket_RVL.c:
+	.text       start:0x8032C988 end:0x8032D284
+
+Unclassified/NHTTP_stdlib_RVL.c:
+	.text       start:0x8032D284 end:0x8032DBF8
+
+Unclassified/NHTTP_thread.c:
+	.text       start:0x8032DBF8 end:0x8033079C
+
+Unclassified/d_nhttp_private.c:
+	.text       start:0x8033079C end:0x80330ACC
+
+Unclassified/d_nhttp.c:
+	.text       start:0x80330ACC end:0x8033161C
+
+Unclassified/d_nhttp_common.c:
+	.text       start:0x8033161C end:0x80331DBC
+
+Unclassified/ssl_api.c:
+	.text       start:0x80331DBC end:0x80332B08
+
+Unclassified/ssl_mutex.c:
+	.text       start:0x80332B08 end:0x80332B20
+
+Unclassified/arc.c:
+	.text       start:0x80332B20 end:0x803334F8
+
+Unclassified/ncdsystem.c:
+	.text       start:0x803334F8 end:0x80333BF8
+
+Unclassified/NETVersion.c:
+	.text       start:0x80333BF8 end:0x80333C00
+
+Unclassified/wireless_macaddr.c:
+	.text       start:0x80333C00 end:0x80333C04
+
+Unclassified/netmemcpy.c:
+	.text       start:0x80333C04 end:0x80333FC4
+
+Unclassified/netmemset.c:
+	.text       start:0x80333FC4 end:0x803340C8
+
+Unclassified/NWC24Config.c:
+	.text       start:0x803340C8 end:0x80334230
+
+Unclassified/NWC24Manage.c:
+	.text       start:0x80334230 end:0x80334344
+
+Unclassified/NWC24Schedule.c:
+	.text       start:0x80334344 end:0x80334A20
+
+Unclassified/NWC24UserId.c:
+	.text       start:0x80334A20 end:0x80334D3C
+
+Unclassified/NWC24Time.c:
+	.text       start:0x80334D3C end:0x80334F18
+
+Unclassified/NWC24Ipc.c:
+	.text       start:0x80334F18 end:0x8033508C
+
+Unclassified/NWC24System.c:
+	.text       start:0x8033508C end:0x8033521C
+
+Unclassified/SOCommon.c:
+	.text       start:0x8033521C end:0x80336274
+
+Unclassified/SOBasic.c:
+	.text       start:0x80336274 end:0x80337418
+
+Unclassified/SOInformation.c:
+	.text       start:0x80337418 end:0x803377D8
+
+Unclassified/SOOption.c:
+	.text       start:0x803377D8 end:0x80337BC0
+
+Unclassified/HBMFrameController.cpp:
+	.text       start:0x80337BC0 end:0x80337D70
+
+Unclassified/HBMAnmController.cpp:
+	.text       start:0x80337D70 end:0x80337E80
+
+Unclassified/HBMGUIManager.cpp:
+	.text       start:0x80337E80 end:0x803396A0
+
+Unclassified/HBMController.cpp:
+	.text       start:0x803396A0 end:0x8033A2E0
+
+Unclassified/HBMRemoteSpk.cpp:
+	.text       start:0x8033A2E0 end:0x8033AC00
+
+Unclassified/HBMAxSound.cpp:
+	.text       start:0x8033AC00 end:0x8033B730
+
+Unclassified/HBMCommon.cpp:
+	.text       start:0x8033B730 end:0x8033BAC0
+
+Unclassified/HBMBase.cpp:
+	.text       start:0x8033BAC0 end:0x803443C0
+
+Unclassified/lyt_animation.cpp:
+	.text       start:0x803443C0 end:0x80344F70
+
+Unclassified/lyt_arcResourceAccessor.cpp:
+	.text       start:0x80344F70 end:0x80345310
+
+Unclassified/lyt_bounding.cpp:
+	.text       start:0x80345310 end:0x80345490
+	.ctors      start:0x805856FC end:0x80585700
+
+Unclassified/lyt_common.cpp:
+	.text       start:0x80345490 end:0x80346310
+
+Unclassified/lyt_drawInfo.cpp:
+	.text       start:0x80346310 end:0x803463D0
+
+Unclassified/lyt_group.cpp:
+	.text       start:0x803463D0 end:0x80346720
+
+Unclassified/lyt_layout.cpp:
+	.text       start:0x80346720 end:0x803473C0
+
+Unclassified/lyt_material.cpp:
+	.text       start:0x803473C0 end:0x8034A630
+
+Unclassified/lyt_pane.cpp:
+	.text       start:0x8034A630 end:0x8034B780
+	.ctors      start:0x80585700 end:0x80585704
+
+Unclassified/lyt_picture.cpp:
+	.text       start:0x8034B780 end:0x8034BCE0
+	.ctors      start:0x80585704 end:0x80585708
+
+Unclassified/lyt_resourceAccessor.cpp:
+	.text       start:0x8034BCE0 end:0x8034BD40
+
+Unclassified/lyt_textBox.cpp:
+	.text       start:0x8034BD40 end:0x8034D190
+	.ctors      start:0x80585708 end:0x8058570C
+
+Unclassified/lyt_window.cpp:
+	.text       start:0x8034D190 end:0x8034F7C0
+	.ctors      start:0x8058570C end:0x80585710
+
+Unclassified/math_triangular.cpp:
+	.text       start:0x8034F7C0 end:0x8034FA70
+
+Unclassified/ut_binaryFileFormat.cpp:
+	.text       start:0x8034FA70 end:0x8034FAF0
+
+Unclassified/ut_CharStrmReader.cpp:
+	.text       start:0x8034FAF0 end:0x8034FC10
+
+Unclassified/ut_CharWriter.cpp:
+	.text       start:0x8034FC10 end:0x80351610
+
+Unclassified/ut_Font.cpp:
+	.text       start:0x80351610 end:0x803516C0
+
+Unclassified/ut_LinkList.cpp:
+	.text       start:0x803516C0 end:0x803517D0
+
+Unclassified/ut_list.cpp:
+	.text       start:0x803517D0 end:0x80351940
+
+Unclassified/ut_ResFont.cpp:
+	.text       start:0x80351940 end:0x80351C40
+
+Unclassified/ut_ResFontBase.cpp:
+	.text       start:0x80351C40 end:0x80352290
+
+Unclassified/ut_TagProcessorBase.cpp:
+	.text       start:0x80352290 end:0x80352D50
+
+Unclassified/ut_TextWriterBase.cpp:
+	.text       start:0x80352D50 end:0x803581C0
+	.ctors      start:0x80585710 end:0x80585714
+
+Unclassified/mix.cpp:
+	.text       start:0x803581C0 end:0x80359B30
+
+Unclassified/syn.cpp:
+	.text       start:0x80359B30 end:0x80359FD0
+
+Unclassified/synctrl.cpp:
+	.text       start:0x80359FD0 end:0x8035A470
+
+Unclassified/synenv.cpp:
+	.text       start:0x8035A470 end:0x8035A850
+
+Unclassified/synmix.cpp:
+	.text       start:0x8035A850 end:0x8035A990
+
+Unclassified/synpitch.cpp:
+	.text       start:0x8035A990 end:0x8035AC10
+
+Unclassified/synsample.cpp:
+	.text       start:0x8035AC10 end:0x8035B090
+
+Unclassified/synvoice.cpp:
+	.text       start:0x8035B090 end:0x8035B240
+
+Unclassified/seq.cpp:
+	.text       start:0x8035B240 end:0x8035BB70
+
+Unclassified/RSOLink.c:
+	.text       start:0x8035BB70 end:0x8035CB70
+
+Unclassified/TPL.c:
+	.text       start:0x8035CB70 end:0x8035CCB0
+
+Unclassified/dwc_base64.c:
+	.text       start:0x8035CCB0 end:0x8035D020
+
+Unclassified/dwc_error.c:
+	.text       start:0x8035D020 end:0x8035D040
+
+Unclassified/dwc_init.c:
+	.text       start:0x8035D040 end:0x8035D0F0
+
+Unclassified/dwc_memfunc.c:
+	.text       start:0x8035D0F0 end:0x8035D240
+
+Unclassified/dwc_report.c:
+	.text       start:0x8035D240 end:0x8035D590
+
+Unclassified/dwc_nonport.c:
+	.text       start:0x8035D590 end:0x8035E0A0
+
+Unclassified/dwc_auth_interface.c:
+	.text       start:0x8035E0A0 end:0x803601A0
+
+Unclassified/dwc_naslogin.c:
+	.text       start:0x803601A0 end:0x80360290
+
+Unclassified/dwc_svl.c:
+	.text       start:0x80360290 end:0x803603EC
+
+Unclassified/cri_base_version.c:
+	.text       start:0x803603EC end:0x803603FC
+
+Unclassified/cri_crw_wii.c:
+	.text       start:0x803603FC end:0x80360464
+
+Unclassified/cri_cs.c:
+	.text       start:0x80360464 end:0x80360478
+
+Unclassified/cri_cs_wii.c:
+	.text       start:0x80360478 end:0x80360500
+
+Unclassified/cri_error.c:
+	.text       start:0x80360500 end:0x8036077C
+
+Unclassified/cri_atomic_wii.c:
+	.text       start:0x8036077C end:0x803607D4
+
+Unclassified/cri_utfcmn.c:
+	.text       start:0x803607D4 end:0x80360940
+
+Unclassified/cri_utfrtv.c:
+	.text       start:0x80360940 end:0x80361224
+
+Unclassified/cri_utfrtv_index.c:
+	.text       start:0x80361224 end:0x803612CC
+
+Unclassified/cri_utfrtv_obj.c:
+	.text       start:0x803612CC end:0x803614F4
+
+Unclassified/cri_utfrtv_obj_heap.c:
+	.text       start:0x803614F4 end:0x80361864
+
+Unclassified/cri_allocator.cpp:
+	.text       start:0x80361864 end:0x803618F4
+
+Unclassified/cri_heap.c:
+	.text       start:0x803618F4 end:0x80362920
+
+Unclassified/cri_adxdec.c:
+	.text       start:0x80362920 end:0x803633CC
+
+Unclassified/cri_sj.c:
+	.text       start:0x803633CC end:0x80363564
+
+Unclassified/cri_sjrbf.c:
+	.text       start:0x80363564 end:0x80363C08
+
+Unclassified/cri_sjuni.c:
+	.text       start:0x80363C08 end:0x803642D0
+
+Unclassified/cri_usfcmn.c:
+	.text       start:0x803642D0 end:0x803644EC
+
+Unclassified/cri_usfdmx.c:
+	.text       start:0x803644EC end:0x80364F30
+
+Unclassified/cri_utfrtv_obj_criheap.c:
+	.text       start:0x80364F30 end:0x80365040
+
+Unclassified/cri_sjrbf_criheap.c:
+	.text       start:0x80365040 end:0x803651F0
+
+Unclassified/cri_sjuni_criheap.c:
+	.text       start:0x803651F0 end:0x80365380
+
+Unclassified/cri_fixed_allocator.c:
+	.text       start:0x80365380 end:0x803653B8
+
+Unclassified/crimv_common.cpp:
+	extab       start:0x800067D0 end:0x800067D8
+	extabindex  start:0x80013304 end:0x80013310
+	.text       start:0x803653B8 end:0x80365478
+
+Unclassified/crimveasy_frame.cpp:
+	extab       start:0x800067D8 end:0x800067F8
+	extabindex  start:0x80013310 end:0x80013340
+	.text       start:0x80365478 end:0x80365D00
+
+Unclassified/crimveasy_memreader.cpp:
+	extab       start:0x800067F8 end:0x80006820
+	extabindex  start:0x80013340 end:0x8001337C
+	.text       start:0x80365D00 end:0x803661BC
+
+Unclassified/crimveasy_player.cpp:
+	extab       start:0x80006820 end:0x80006960
+	extabindex  start:0x8001337C end:0x8001355C
+	.text       start:0x803661BC end:0x8036AB1C
+
+Unclassified/crialphadec_lib.c:
+	extab       start:0x80006960 end:0x800069B0
+	extabindex  start:0x8001355C end:0x800135D4
+	.text       start:0x8036AB1C end:0x8036AF3C
+
+Unclassified/crimvply_amng.c:
+	extab       start:0x800069B0 end:0x80006A48
+	extabindex  start:0x800135D4 end:0x800136B8
+	.text       start:0x8036AF3C end:0x8036C480
+
+Unclassified/crimvply_lib.c:
+	extab       start:0x80006A48 end:0x80006C18
+	extabindex  start:0x800136B8 end:0x80013970
+	.text       start:0x8036C480 end:0x80371378
+
+Unclassified/crivdec_vmpv.c:
+	extab       start:0x80006C18 end:0x80006C20
+	extabindex  start:0x80013970 end:0x8001397C
+	.text       start:0x80371378 end:0x8037139C
+
+Unclassified/crivdec_lib.c:
+	extab       start:0x80006C20 end:0x80006C68
+	extabindex  start:0x8001397C end:0x800139E8
+	.text       start:0x8037139C end:0x803717F8
+
+Unclassified/crivmpv_lib.c:
+	extab       start:0x80006C68 end:0x80006D38
+	extabindex  start:0x800139E8 end:0x80013B20
+	.text       start:0x803717F8 end:0x80374980
+
+Unclassified/cri_adec.c:
+	extab       start:0x80006D38 end:0x80006D68
+	extabindex  start:0x80013B20 end:0x80013B68
+	.text       start:0x80374980 end:0x803750D8
+
+Unclassified/crivmpv_initialize.c:
+	.text       start:0x803750D8 end:0x803750EC
+
+Unclassified/crimv_initialize.cpp:
+	extab       start:0x80006D68 end:0x80006D70
+	extabindex  start:0x80013B68 end:0x80013B74
+	.text       start:0x803750EC end:0x8037515C
+
+Unclassified/crimvply_frame_ARGB8888.c:
+	extab       start:0x80006D70 end:0x80006D88
+	extabindex  start:0x80013B74 end:0x80013B98
+	.text       start:0x8037515C end:0x8037551C
+
+Unclassified/crimveasy_frame_ARGB8888.cpp:
+	extab       start:0x80006D88 end:0x80006D90
+	extabindex  start:0x80013B98 end:0x80013BA4
+	.text       start:0x8037551C end:0x80375594
+
+Unclassified/sj_crs.c:
+	.text       start:0x80375594 end:0x8037563C
+
+Unclassified/sj_err.c:
+	.text       start:0x8037563C end:0x80375640
+
+Unclassified/sj_mem.c:
+	.text       start:0x80375640 end:0x80376390
+
+Unclassified/sj_rbf.c:
+	.text       start:0x80376390 end:0x803773F8
+
+Unclassified/sj_utl.c:
+	.text       start:0x803773F8 end:0x80377450
+
+Unclassified/svm.c:
+	.text       start:0x80377450 end:0x803774D0
+
+Unclassified/cri_crw_std.c:
+	.text       start:0x803774D0 end:0x803774EC
+
+Unclassified/memsetd.c:
+	.text       start:0x803774EC end:0x80377564
+
+Unclassified/memcpyd.c:
+	.text       start:0x80377564 end:0x80377628
+
+Unclassified/mcp_not.c:
+	.text       start:0x80377628 end:0x8037762C
+
+Unclassified/dct_isr.c:
+	.text       start:0x8037762C end:0x80377FD4
+
+Unclassified/dct_ver.c:
+	.text       start:0x80377FD4 end:0x80377FF0
+
+Unclassified/dct_ac.c:
+	.text       start:0x80377FF0 end:0x80378304
+
+Unclassified/mpv_m2v.c:
+	.text       start:0x80378304 end:0x80378330
+
+Unclassified/mpv_mcy.c:
+	.text       start:0x80378330 end:0x803794BC
+
+Unclassified/mpv_umc.c:
+	.text       start:0x803794BC end:0x8037AD98
+
+Unclassified/mpvabdec.c:
+	.text       start:0x8037AD98 end:0x8038543C
+
+Unclassified/mpv_slice.c:
+	.text       start:0x8038543C end:0x80385828
+
+Unclassified/mpv_vlc.c:
+	.text       start:0x80385828 end:0x8038856C
+
+Unclassified/mpv_bdec.c:
+	.text       start:0x8038856C end:0x80388924
+
+Unclassified/mpv_cdec.c:
+	.text       start:0x80388924 end:0x80388FB0
+
+Unclassified/mpv_cmc.c:
+	.text       start:0x80388FB0 end:0x803890A8
+
+Unclassified/mpv_dec.c:
+	.text       start:0x803890A8 end:0x8038A27C
+
+Unclassified/mpv_deli.c:
+	.text       start:0x8038A27C end:0x8038A400
+
+Unclassified/mpv_err.c:
+	.text       start:0x8038A400 end:0x8038A550
+
+Unclassified/mpv_frm.c:
+	.text       start:0x8038A550 end:0x8038A7DC
+
+Unclassified/mpv_get.c:
+	.text       start:0x8038A7DC end:0x8038A858
+
+Unclassified/mpv_hdec.c:
+	.text       start:0x8038A858 end:0x8038C090
+
+Unclassified/mpv_lib.c:
+	.text       start:0x8038C090 end:0x8038CACC
+
+Unclassified/mpv_mc.c:
+	.text       start:0x8038CACC end:0x8038D7C0
+
+Unclassified/cftfx.c:
+	.text       start:0x8038D7C0 end:0x8038DC04
+
+Unclassified/cftyp422_ppc.c:
+	.text       start:0x8038DC04 end:0x8038E6F0
+
+Unclassified/AkAttenuationMgr.cpp:
+	.text       start:0x8038E6F0 end:0x8038FEA0
+
+Unclassified/AkActorMixer.cpp:
+	.text       start:0x8038FEA0 end:0x803918D0
+
+Unclassified/AkAuxBus.cpp:
+	.text       start:0x803918D0 end:0x80391F30
+
+Unclassified/AkBus.cpp:
+	.text       start:0x80391F30 end:0x8039A0E0
+	.ctors      start:0x80585714 end:0x80585718
+
+Unclassified/AkDuckItem.cpp:
+	.text       start:0x8039A0E0 end:0x8039A250
+
+Unclassified/AkContainerBase.cpp:
+	.text       start:0x8039A250 end:0x8039A4F0
+
+Unclassified/AkContinuationList.cpp:
+	.text       start:0x8039A4F0 end:0x8039A900
+
+Unclassified/AkDecisionTree.cpp:
+	.text       start:0x8039A900 end:0x8039C260
+
+Unclassified/AkDialogueEvent.cpp:
+	.text       start:0x8039C260 end:0x8039C5F0
+
+Unclassified/AkDynamicSequence.cpp:
+	.text       start:0x8039C5F0 end:0x8039D4B0
+
+Unclassified/AkFxBase.cpp:
+	.text       start:0x8039D4B0 end:0x8039EE00
+
+Unclassified/AkLayer.cpp:
+	.text       start:0x8039EE00 end:0x803A30D0
+
+Unclassified/AkLayerCntr.cpp:
+	.text       start:0x803A30D0 end:0x803A4270
+
+Unclassified/AkPlaylist.cpp:
+	.text       start:0x803A4270 end:0x803A4E00
+
+Unclassified/AkPreparationAware.cpp:
+	.text       start:0x803A4E00 end:0x803A4F90
+
+Unclassified/AkRanSeqBaseInfo.cpp:
+	.text       start:0x803A4F90 end:0x803A5870
+
+Unclassified/AkRanSeqCntr.cpp:
+	.text       start:0x803A5870 end:0x803AA6A0
+
+Unclassified/AkSwitchAware.cpp:
+	.text       start:0x803AA6A0 end:0x803AA820
+
+Unclassified/AkSwitchCntr.cpp:
+	.text       start:0x803AA820 end:0x803AF0C0
+
+Unclassified/AkMultiPlayNode.cpp:
+	.text       start:0x803AF0C0 end:0x803B0440
+
+Unclassified/AkSound.cpp:
+	.text       start:0x803B0440 end:0x803B0F80
+
+Unclassified/AkSoundBase.cpp:
+	.text       start:0x803B0F80 end:0x803B1900
+
+Unclassified/AkSource.cpp:
+	.text       start:0x803B1900 end:0x803B1F20
+
+Unclassified/AkParameterNode.cpp:
+	.text       start:0x803B1F20 end:0x803B91C0
+
+Unclassified/AkParameterNodeBase.cpp:
+	.text       start:0x803B91C0 end:0x803CAA20
+	.ctors      start:0x80585718 end:0x8058571C
+
+Unclassified/AkPBIAware.cpp:
+	.text       start:0x803CAA20 end:0x803CAB30
+
+Unclassified/AkFeedbackBus.cpp:
+	.text       start:0x803CAB30 end:0x803CBFA0
+
+Unclassified/AkFeedbackNode.cpp:
+	.text       start:0x803CBFA0 end:0x803CD140
+
+Unclassified/AkFeedbackStructs.cpp:
+	.text       start:0x803CD140 end:0x803CD460
+
+Unclassified/AkThreadedBankMgr.cpp:
+	.text       start:0x803CD460 end:0x803CDFB0
+
+Unclassified/AkBankMgr.cpp:
+	.text       start:0x803CDFB0 end:0x803D8560
+
+Unclassified/AkBankList.cpp:
+	.text       start:0x803D8560 end:0x803D89B0
+	.ctors      start:0x8058571C end:0x80585720
+
+Unclassified/AkBankCallbackMgr.cpp:
+	.text       start:0x803D89B0 end:0x803D9370
+
+Unclassified/AkBankReader.cpp:
+	.text       start:0x803D9370 end:0x803D9F90
+
+Unclassified/AkBusCallbackMgr.cpp:
+	.text       start:0x803D9F90 end:0x803DA530
+
+Unclassified/AkIndexable.cpp:
+	.text       start:0x803DA530 end:0x803DA5A0
+
+Unclassified/AkEnvironmentsMgr.cpp:
+	.text       start:0x803DA5A0 end:0x803DA7C0
+
+Unclassified/AkActionActive.cpp:
+	.text       start:0x803DA7C0 end:0x803DACB0
+
+Unclassified/AkActionPause.cpp:
+	.text       start:0x803DACB0 end:0x803DAF00
+
+Unclassified/AkActionResume.cpp:
+	.text       start:0x803DAF00 end:0x803DB150
+
+Unclassified/AkActionRelease.cpp:
+	.text       start:0x803DB150 end:0x803DB2E0
+
+Unclassified/AkActionStop.cpp:
+	.text       start:0x803DB2E0 end:0x803DB4F0
+
+Unclassified/AkActionBreak.cpp:
+	.text       start:0x803DB4F0 end:0x803DB6E0
+
+Unclassified/AkActionSeek.cpp:
+	.text       start:0x803DB6E0 end:0x803DBF30
+
+Unclassified/AkActionDuck.cpp:
+	.text       start:0x803DBF30 end:0x803DC020
+
+Unclassified/AkActionBypassFX.cpp:
+	.text       start:0x803DC020 end:0x803DC7B0
+
+Unclassified/AkActionPlay.cpp:
+	.text       start:0x803DC7B0 end:0x803DCD10
+
+Unclassified/AkActionPlayAndContinue.cpp:
+	.text       start:0x803DCD10 end:0x803DDD30
+
+Unclassified/AkActionSetGameParameter.cpp:
+	.text       start:0x803DDD30 end:0x803DE290
+
+Unclassified/AkActionMute.cpp:
+	.text       start:0x803DE290 end:0x803DE710
+
+Unclassified/AkActionSetValue.cpp:
+	.text       start:0x803DE710 end:0x803DF060
+
+Unclassified/AkActionSetAkProp.cpp:
+	.text       start:0x803DF060 end:0x803DF640
+
+Unclassified/AkActionSetState.cpp:
+	.text       start:0x803DF640 end:0x803DF7C0
+
+Unclassified/AkActionSetSwitch.cpp:
+	.text       start:0x803DF7C0 end:0x803DF9B0
+
+Unclassified/AkActionTrigger.cpp:
+	.text       start:0x803DF9B0 end:0x803DFAD0
+
+Unclassified/AkActionUseState.cpp:
+	.text       start:0x803DFAD0 end:0x803DFC50
+
+Unclassified/AkAction.cpp:
+	.text       start:0x803DFC50 end:0x803E0F30
+
+Unclassified/AkActionEvent.cpp:
+	.text       start:0x803E0F30 end:0x803E1270
+
+Unclassified/AkActionExcept.cpp:
+	.text       start:0x803E1270 end:0x803E1AB0
+
+Unclassified/AkEvent.cpp:
+	.text       start:0x803E1AB0 end:0x803E2400
+
+Unclassified/AkStreamCacheMgmt.cpp:
+	.text       start:0x803E2400 end:0x803E4E00
+	.ctors      start:0x80585720 end:0x80585724
+
+Unclassified/AkGen3DParams.cpp:
+	.text       start:0x803E4E00 end:0x803E5510
+
+Unclassified/AkState.cpp:
+	.text       start:0x803E5510 end:0x803E5A90
+
+Unclassified/AkMonitor.cpp:
+	.text       start:0x803E5A90 end:0x803F0620
+	.ctors      start:0x80585724 end:0x80585728
+
+Unclassified/AkPath.cpp:
+	.text       start:0x803F0620 end:0x803F2480
+
+Unclassified/AkPathManager.cpp:
+	.text       start:0x803F2480 end:0x803F30F0
+
+Unclassified/AkBusCtx.cpp:
+	.text       start:0x803F30F0 end:0x803F3210
+
+Unclassified/AkContinuousPBI.cpp:
+	.text       start:0x803F3210 end:0x803F4DA0
+
+Unclassified/AkPBI.cpp:
+	.text       start:0x803F4DA0 end:0x803FCE70
+
+Unclassified/AkModulatorPBIData.cpp:
+	.text       start:0x803FCE70 end:0x803FD560
+
+Unclassified/AkPlayingMgr.cpp:
+	.text       start:0x803FD560 end:0x803FFEB0
+
+Unclassified/AkPositionRepository.cpp:
+	.text       start:0x803FFEB0 end:0x804019D0
+
+Unclassified/AkProfile.cpp:
+	.text       start:0x804019D0 end:0x804028D0
+	.ctors      start:0x80585728 end:0x8058572C
+
+Unclassified/AkRegisteredObj.cpp:
+	.text       start:0x804028D0 end:0x80403970
+
+Unclassified/AkRegistryMgr.cpp:
+	.text       start:0x80403970 end:0x80406BE0
+
+Unclassified/AkURenderer.cpp:
+	.text       start:0x80406BE0 end:0x80409600
+	.ctors      start:0x8058572C end:0x80585730
+
+Unclassified/AkRTPCMgr.cpp:
+	.text       start:0x80409600 end:0x8041B190
+
+Unclassified/AkScopedRtpcObj.cpp:
+	.text       start:0x8041B190 end:0x8041C3C0
+
+Unclassified/AkSIS.cpp:
+	.text       start:0x8041C3C0 end:0x8041C6E0
+
+Unclassified/AkModulatorMgr.cpp:
+	.text       start:0x8041C6E0 end:0x8041DDC0
+
+Unclassified/AkModulatorEngine.cpp:
+	.text       start:0x8041DDC0 end:0x80423380
+
+Unclassified/AkModulatorCtx.cpp:
+	.text       start:0x80423380 end:0x804252C0
+
+Unclassified/AkModulator.cpp:
+	.text       start:0x804252C0 end:0x80433F20
+	.ctors      start:0x80585730 end:0x80585734
+
+Unclassified/AkAudioLib.cpp:
+	.text       start:0x80433F20 end:0x80437620
+	.ctors      start:0x80585734 end:0x80585738
+
+Unclassified/AkAudioLibIndex.cpp:
+	.text       start:0x80437620 end:0x80438B30
+
+Unclassified/AkAudioMgr.cpp:
+	.text       start:0x80438B30 end:0x804434D0
+
+Unclassified/AkAudioMix.cpp:
+	.text       start:0x804434D0 end:0x80443590
+
+Unclassified/AkAudioThread.cpp:
+	.text       start:0x80443590 end:0x804438F0
+
+Unclassified/AkCommon.cpp:
+	.text       start:0x804438F0 end:0x80443960
+
+Unclassified/AkQueryParameters.cpp:
+	.text       start:0x80443960 end:0x804439C0
+
+Unclassified/AkSwitchMgr.cpp:
+	.text       start:0x804439C0 end:0x80449060
+
+Unclassified/AkVoiceConnection.cpp:
+	.text       start:0x80449060 end:0x80449D20
+
+Unclassified/AkStateMgr.cpp:
+	.text       start:0x80449D20 end:0x8044CD20
+
+Unclassified/AkTransition.cpp:
+	.text       start:0x8044CD20 end:0x8044D790
+
+Unclassified/AkTransitionManager.cpp:
+	.text       start:0x8044D790 end:0x8044E590
+
+Unclassified/AkChunkRing.cpp:
+	.text       start:0x8044E590 end:0x8044E7C0
+
+Unclassified/AkIDStringMap.cpp:
+	.text       start:0x8044E7C0 end:0x8044EAA0
+
+Unclassified/AkAudiolibTimer.cpp:
+	.text       start:0x8044EAA0 end:0x8044EB50
+	.ctors      start:0x80585738 end:0x8058573C
+
+Unclassified/AkMath.cpp:
+	.text       start:0x8044EB50 end:0x8044EE10
+
+Unclassified/AkBytesMem.cpp:
+	.text       start:0x8044EE10 end:0x8044F0A0
+
+Unclassified/ALBytesMem.cpp:
+	.text       start:0x8044F0A0 end:0x8044F150
+
+Unclassified/AkWiimoteMgr.cpp:
+	.text       start:0x8044F150 end:0x8044F780
+
+Unclassified/AkFeedbackMgr.cpp:
+	.text       start:0x8044F780 end:0x80450540
+
+Unclassified/AkOutputMgr.cpp:
+	.text       start:0x80450540 end:0x80451B80
+	.ctors      start:0x8058573C end:0x80585740
+
+Unclassified/AkFXMemAlloc.cpp:
+	.text       start:0x80451B80 end:0x80451C10
+	.ctors      start:0x80585740 end:0x80585744
+
+Unclassified/Ak3DListener.cpp:
+	.text       start:0x80451C10 end:0x80455DD0
+	.ctors      start:0x80585744 end:0x80585748
+
+Unclassified/AkEffectsMgr.cpp:
+	.text       start:0x80455DD0 end:0x80456790
+	.ctors      start:0x80585748 end:0x8058574C
+
+Unclassified/AkFXContext.cpp:
+	.text       start:0x80456790 end:0x80457210
+
+Unclassified/AkLEngine.cpp:
+	.text       start:0x80457210 end:0x8045A100
+	.ctors      start:0x8058574C end:0x80585750
+
+Unclassified/AkLEngine_Common.cpp:
+	.text       start:0x8045A100 end:0x8045A940
+
+Unclassified/AkLEngineCmds.cpp:
+	.text       start:0x8045A940 end:0x8045B990
+	.ctors      start:0x80585750 end:0x80585754
+
+Unclassified/AkCaptureMgr.cpp:
+	.text       start:0x8045B990 end:0x8045C4C0
+
+Unclassified/FileCaptureWriter.cpp:
+	.text       start:0x8045C4C0 end:0x8045C800
+
+Unclassified/AkSinkBase.cpp:
+	.text       start:0x8045C800 end:0x8045CAC0
+
+Unclassified/AkSink.cpp:
+	.text       start:0x8045CAC0 end:0x8045D2D0
+
+Unclassified/AkSpeakerPan.cpp:
+	.text       start:0x8045D2D0 end:0x8045EF30
+
+Unclassified/AkMarkers.cpp:
+	.text       start:0x8045EF30 end:0x8045F270
+
+Unclassified/AkFileParserBase.cpp:
+	.text       start:0x8045F270 end:0x8045F640
+
+Unclassified/AkSrcBase.cpp:
+	.text       start:0x8045F640 end:0x8045FBF0
+
+Unclassified/AkSrcBank.cpp:
+	.text       start:0x8045FBF0 end:0x804614C0
+
+Unclassified/AkSrcFile.cpp:
+	.text       start:0x804614C0 end:0x80466BC0
+
+Unclassified/AkSrcPhysModel.cpp:
+	.text       start:0x80466BC0 end:0x80468390
+
+Unclassified/AkSrcSoftware.cpp:
+	.text       start:0x80468390 end:0x80468F70
+
+Unclassified/AkVPLMixBusNode.cpp:
+	.text       start:0x80468F70 end:0x80469700
+
+Unclassified/AkVPLSrcCbxNode.cpp:
+	.text       start:0x80469700 end:0x8046A800
+
+Unclassified/AkVPLSrcNode.cpp:
+	.text       start:0x8046A800 end:0x8046EA50
+
+Unclassified/AkSettings.cpp:
+	.text       start:0x8046EA50 end:0x8046EA50
+
+Unclassified/AkVoicePlaybackCtrl.cpp:
+	.text       start:0x8046EA50 end:0x8046F7D0
+
+Unclassified/AkDoubleBuffer.cpp:
+	.text       start:0x8046F7D0 end:0x8046FBA0
+
+Unclassified/AkFeedbackSrcGen.cpp:
+	.text       start:0x8046FBA0 end:0x8046FFD0
+
+Unclassified/CommandData.cpp:
+	.text       start:0x8046FFD0 end:0x80477E50
+
+Unclassified/CommandDataSerializer.cpp:
+	.text       start:0x80477E50 end:0x8047F060
+
+Unclassified/RendererProxyLocal.cpp:
+	.text       start:0x8047F060 end:0x804800C0
+
+Unclassified/StateMgrProxyLocal.cpp:
+	.text       start:0x804800C0 end:0x80480460
+
+Unclassified/ActionProxyConnected.cpp:
+	.text       start:0x80480460 end:0x804815F0
+
+Unclassified/ActorMixerProxyConnected.cpp:
+	.text       start:0x804815F0 end:0x804816C0
+
+Unclassified/ALMonitorProxyConnected.cpp:
+	.text       start:0x804816C0 end:0x80481AB0
+
+Unclassified/AttenuationProxyConnected.cpp:
+	.text       start:0x80481AB0 end:0x80481BF0
+
+Unclassified/AuxBusProxyConnected.cpp:
+	.text       start:0x80481BF0 end:0x80481CC0
+
+Unclassified/BusProxyConnected.cpp:
+	.text       start:0x80481CC0 end:0x80481D90
+
+Unclassified/DialogueEventProxyConnected.cpp:
+	.text       start:0x80481D90 end:0x804820D0
+
+Unclassified/EventProxyConnected.cpp:
+	.text       start:0x804820D0 end:0x80482320
+
+Unclassified/FxBaseProxyConnected.cpp:
+	.text       start:0x80482320 end:0x80482680
+
+Unclassified/LayerContainerProxyConnected.cpp:
+	.text       start:0x80482680 end:0x80482800
+
+Unclassified/LayerProxyConnected.cpp:
+	.text       start:0x80482800 end:0x80482A80
+
+Unclassified/ObjectProxyConnected.cpp:
+	.text       start:0x80482A80 end:0x80482B00
+
+Unclassified/ParameterableProxyConnected.cpp:
+	.text       start:0x80482B00 end:0x80483740
+
+Unclassified/ParameterNodeProxyConnected.cpp:
+	.text       start:0x80483740 end:0x80484430
+
+Unclassified/ProxyFrameworkConnected.cpp:
+	.text       start:0x80484430 end:0x80485630
+
+Unclassified/ProxyFrameworkFactory.cpp:
+	.text       start:0x80485630 end:0x80485680
+
+Unclassified/RanSeqContainerProxyConnected.cpp:
+	.text       start:0x80485680 end:0x80485E90
+
+Unclassified/RendererProxyConnected.cpp:
+	.text       start:0x80485E90 end:0x80486870
+
+Unclassified/SoundProxyConnected.cpp:
+	.text       start:0x80486870 end:0x80486AD0
+
+Unclassified/StateMgrProxyConnected.cpp:
+	.text       start:0x80486AD0 end:0x80486D50
+
+Unclassified/StateProxyConnected.cpp:
+	.text       start:0x80486D50 end:0x80486EE0
+
+Unclassified/SwitchContainerProxyConnected.cpp:
+	.text       start:0x80486EE0 end:0x80487270
+
+Unclassified/BaseBusConnected.cpp:
+	.text       start:0x80487270 end:0x804879A0
+
+Unclassified/FeedbackBusProxyConnected.cpp:
+	.text       start:0x804879A0 end:0x80487A70
+
+Unclassified/FeedbackNodeProxyConnected.cpp:
+	.text       start:0x80487A70 end:0x80487C90
+
+Unclassified/ModulatorProxyConnected.cpp:
+	.text       start:0x80487C90 end:0x804880E0
+
+Unclassified/AkFXSrcAudioInput.cpp:
+	.text       start:0x804880E0 end:0x80488D50
+
+Unclassified/AkFXSrcAudioInputParams.cpp:
+	.text       start:0x80488D50 end:0x80488F60
+
+Unclassified/AkMemoryMgrBase.cpp:
+	.text       start:0x80488F60 end:0x80489AB0
+
+Unclassified/AkMemoryMgr.cpp:
+	.text       start:0x80489AB0 end:0x80489EA0
+
+Unclassified/tlsf.cpp:
+	.text       start:0x80489EA0 end:0x8048B1B0
+
+Unclassified/AkChildCtx.cpp:
+	.text       start:0x8048B1B0 end:0x8048B230
+
+Unclassified/AkMusicPBI.cpp:
+	.text       start:0x8048B230 end:0x8048B9C0
+
+Unclassified/AkMusicCtx.cpp:
+	.text       start:0x8048B9C0 end:0x8048D2F0
+
+Unclassified/AkSegmentCtx.cpp:
+	.text       start:0x8048D2F0 end:0x8048EC80
+
+Unclassified/AkMatrixAwareCtx.cpp:
+	.text       start:0x8048EC80 end:0x8048F370
+
+Unclassified/AkSegmentChain.cpp:
+	.text       start:0x8048F370 end:0x80490440
+
+Unclassified/AkSequencableSegmentCtx.cpp:
+	.text       start:0x80490440 end:0x80490C80
+
+Unclassified/AkSequenceCtx.cpp:
+	.text       start:0x80490C80 end:0x80491AF0
+
+Unclassified/AkMusicSwitchCtx.cpp:
+	.text       start:0x80491AF0 end:0x80496370
+
+Unclassified/AkSubTrackCtx.cpp:
+	.text       start:0x80496370 end:0x80498760
+
+Unclassified/AkSwitchTrackInfo.cpp:
+	.text       start:0x80498760 end:0x80498EF0
+
+Unclassified/AkMidiBaseCtx.cpp:
+	.text       start:0x80498EF0 end:0x804993C0
+
+Unclassified/AkMidiClipCtx.cpp:
+	.text       start:0x804993C0 end:0x8049AA90
+
+Unclassified/AkMidiNoteCtx.cpp:
+	.text       start:0x8049AA90 end:0x8049BC80
+
+Unclassified/AkMusicNode.cpp:
+	.text       start:0x8049BC80 end:0x8049D950
+
+Unclassified/AkMusicRanSeqCntr.cpp:
+	.text       start:0x8049D950 end:0x8049EC00
+
+Unclassified/AkMusicSegment.cpp:
+	.text       start:0x8049EC00 end:0x804A0380
+
+Unclassified/AkMusicSwitchCntr.cpp:
+	.text       start:0x804A0380 end:0x804A1200
+
+Unclassified/AkMusicTrack.cpp:
+	.text       start:0x804A1200 end:0x804A4220
+
+Unclassified/AkMusicTransAware.cpp:
+	.text       start:0x804A4220 end:0x804A5F50
+	.ctors      start:0x80585754 end:0x80585758
+
+Unclassified/AkRSIterator.cpp:
+	.text       start:0x804A5F50 end:0x804A99D0
+
+Unclassified/AkContextualMusicSequencer.cpp:
+	.text       start:0x804A99D0 end:0x804A9E80
+
+Unclassified/AkMatrixSequencer.cpp:
+	.text       start:0x804A9E80 end:0x804ACBD0
+
+Unclassified/AkScheduleWindow.cpp:
+	.text       start:0x804ACBD0 end:0x804ADFA0
+
+Unclassified/AkMidiBaseMgr.cpp:
+	.text       start:0x804ADFA0 end:0x804AF4B0
+
+Unclassified/AkMidiClipMgr.cpp:
+	.text       start:0x804AF4B0 end:0x804AFA90
+
+Unclassified/AkMidiParseSe.cpp:
+	.text       start:0x804AFA90 end:0x804B1400
+
+Unclassified/AkMusicBank.cpp:
+	.text       start:0x804B1400 end:0x804B1980
+
+Unclassified/AkMusicRenderer.cpp:
+	.text       start:0x804B1980 end:0x804B38F0
+	.ctors      start:0x80585758 end:0x8058575C
+
+Unclassified/AkSegmentInfoRepository.cpp:
+	.text       start:0x804B38F0 end:0x804B4380
+
+Unclassified/MusicNodeProxyConnected.cpp:
+	.text       start:0x804B4380 end:0x804B4570
+
+Unclassified/MusicRanSeqProxyConnected.cpp:
+	.text       start:0x804B4570 end:0x804B46C0
+
+Unclassified/MusicSwitchProxyConnected.cpp:
+	.text       start:0x804B46C0 end:0x804B4CB0
+
+Unclassified/MusicTransAwareProxyConnected.cpp:
+	.text       start:0x804B4CB0 end:0x804B4DD0
+
+Unclassified/ProxyMusic.cpp:
+	.text       start:0x804B4DD0 end:0x804B4EF0
+
+Unclassified/SegmentProxyConnected.cpp:
+	.text       start:0x804B4EF0 end:0x804B5130
+
+Unclassified/TrackProxyConnected.cpp:
+	.text       start:0x804B5130 end:0x804B55F0
+
+Unclassified/MidiDeviceMgrProxyConnected.cpp:
+	.text       start:0x804B55F0 end:0x804B56B0
+
+Unclassified/AkFXSrcSilence.cpp:
+	.text       start:0x804B56B0 end:0x804B5E00
+
+Unclassified/AkIOThread.cpp:
+	.text       start:0x804B5E00 end:0x804B64E0
+
+Unclassified/AkIOMemMgr.cpp:
+	.text       start:0x804B64E0 end:0x804B77D0
+
+Unclassified/AkDeviceBase.cpp:
+	.text       start:0x804B77D0 end:0x804BD2F0
+
+Unclassified/AkDeviceBlocking.cpp:
+	.text       start:0x804BD2F0 end:0x804BED60
+
+Unclassified/AkTransferDeferred.cpp:
+	.text       start:0x804BED60 end:0x804BF120
+
+Unclassified/AkDeviceDeferredLinedUp.cpp:
+	.text       start:0x804BF120 end:0x804C1C50
+
+Unclassified/AkStreamMgr.cpp:
+	.text       start:0x804C1C50 end:0x804C4750
+	.ctors      start:0x8058575C end:0x80585760
+
+Unclassified/ConsoleDiscoveryMessage.cpp:
+	.text       start:0x804C4750 end:0x804C4EE0
+
+Unclassified/Serializer.cpp:
+	.text       start:0x804C4EE0 end:0x804C5760
+
+Unclassified/NetworkCaptureWriter.cpp:
+	.text       start:0x804C5760 end:0x804C5760
+
+Unclassified/IPConnectorPorts.cpp:
+	.text       start:0x804C5760 end:0x804C5780
+	.ctors      start:0x80585760 end:0x80585764
+
+Unclassified/Communication.cpp:
+	.text       start:0x804C5780 end:0x804C5AE0
+	.ctors      start:0x80585764 end:0x80585768
+
+Unclassified/CommandChannel.cpp:
+	.text       start:0x804C5AE0 end:0x804C5C90
+
+Unclassified/CommunicationCentral.cpp:
+	.text       start:0x804C5C90 end:0x804C61B0
+
+Unclassified/DiscoveryChannel.cpp:
+	.text       start:0x804C61B0 end:0x804C67A0
+
+Unclassified/GameSocket.cpp:
+	.text       start:0x804C67A0 end:0x804C6CA0
+
+Unclassified/GameSocketAddr.cpp:
+	.text       start:0x804C6CA0 end:0x804C6DC0
+
+Unclassified/IncomingChannel.cpp:
+	.text       start:0x804C6DC0 end:0x804C7630
+
+Unclassified/Network.cpp:
+	.text       start:0x804C7630 end:0x804C77E0
+
+Unclassified/NotificationChannel.cpp:
+	.text       start:0x804C77E0 end:0x804C7D60
+
+Unclassified/AkWiiChorus.cpp:
+	.text       start:0x804C7D60 end:0x804C7D60
+
+Unclassified/AkWiiReverbHiParams.cpp:
+	.text       start:0x804C7D60 end:0x804C8050
+
+Unclassified/AkWiiReverbHi.cpp:
+	.text       start:0x804C8050 end:0x804C8340
+
+Unclassified/AkWiiReverbStdParams.cpp:
+	.text       start:0x804C8340 end:0x804C8600
+
+Unclassified/AkWiiReverbStd.cpp:
+	.text       start:0x804C8600 end:0x804C88D8
+
+Unclassified/lcorolib.c:
+	.text       start:0x804C88D8 end:0x804C88D8
+
+Unclassified/lstate.c:
+	.text       start:0x804C88D8 end:0x804C9038
+
+Unclassified/lstring.c:
+	.text       start:0x804C9038 end:0x804C9478
+
+Unclassified/ltable.c:
+	.text       start:0x804C9478 end:0x804CAA00
+
+Unclassified/ltm.c:
+	.text       start:0x804CAA00 end:0x804CABE0
+
+Unclassified/lundump.c:
+	.text       start:0x804CABE0 end:0x804CB748
+
+Unclassified/lvm.c:
+	.text       start:0x804CB748 end:0x804CEE20
+
+Unclassified/lzio.c:
+	.text       start:0x804CEE20 end:0x804CF050
+
+Unclassified/lapi.c:
+	.text       start:0x804CF050 end:0x804D1540
+
+Unclassified/lcode.c:
+	.text       start:0x804D1540 end:0x804D3BF8
+
+Unclassified/ldebug.c:
+	.text       start:0x804D3BF8 end:0x804D50A0
+
+Unclassified/ldo.c:
+	.text       start:0x804D50A0 end:0x804D633C
+
+Unclassified/ldump.c:
+	.text       start:0x804D633C end:0x804D698C
+
+Unclassified/lfunc.c:
+	.text       start:0x804D698C end:0x804D7000
+
+Unclassified/lgc.c:
+	.text       start:0x804D7000 end:0x804D9504
+
+Unclassified/llex.c:
+	.text       start:0x804D9504 end:0x804DB380
+
+Unclassified/lmem.c:
+	.text       start:0x804DB380 end:0x804DB58C
+
+Unclassified/lobject.c:
+	.text       start:0x804DB58C end:0x804DC188
+
+Unclassified/lparser.c:
+	.text       start:0x804DC188 end:0x804E01A4
+
+Unclassified/lbaselib.c:
+	.text       start:0x804E01A4 end:0x804E15F0
+
+Unclassified/lauxlib.c:
+	.text       start:0x804E15F0 end:0x804E2860
+
+Unclassified/BUCrc.cpp:
+	.text       start:0x804E2860 end:0x804E2D90
+
+Unclassified/BULPacket.cpp:
+	.text       start:0x804E2D90 end:0x804E3A94
+
+Unclassified/BULServer_wii.cpp:
+	.text       start:0x804E3A94 end:0x804E5590
+
+Unclassified/BULServer.cpp:
+	.text       start:0x804E5590 end:0x804E5C6C
+
+Unclassified/BUCompress.cpp:
+	.text       start:0x804E5C6C end:0x804E5DC8
+
+Unclassified/BUDecompress.cpp:
+	.text       start:0x804E5DC8 end:0x804E6264
+
+Unclassified/BUDynBoundingVolumeTree.cpp:
+	.text       start:0x804E6264 end:0x804E6830
+	.ctors      start:0x80585768 end:0x8058576C
+
+Unclassified/BUThread.cpp:
+	.text       start:0x804E6830 end:0x804E68F0
+
+Unclassified/BUHostFile_wii.cpp:
+	.text       start:0x804E68F0 end:0x804E6D0C
+
+Unclassified/BUBezier.cpp:
+	.text       start:0x804E6D0C end:0x804E70B0
+
+Unclassified/BUMatrix_wii.cpp:
+	.text       start:0x804E70B0 end:0x804E717C
+
+Unclassified/BUQuaternion.cpp:
+	.text       start:0x804E717C end:0x804E7358
+
+Unclassified/BUThreadDataMgr.cpp:
+	.text       start:0x804E7358 end:0x804E739C
+
+Unclassified/BUMath.cpp:
+	.text       start:0x804E739C end:0x804E73FC
+
+Unclassified/BUShapes.cpp:
+	.text       start:0x804E73FC end:0x804E8834
+
+Unclassified/BUMatrix.cpp:
+	.text       start:0x804E8834 end:0x804EB1B0
+
+Unclassified/BUStream.cpp:
+	.text       start:0x804EB1B0 end:0x804EBF50
+
+Unclassified/BUFileStream_wii.cpp:
+	.text       start:0x804EBF50 end:0x804ED0AC
+
+Unclassified/BUThread_wii.cpp:
+	.text       start:0x804ED0AC end:0x804ED200
+
+Unclassified/BUPerlinNoise.cpp:
+	.text       start:0x804ED200 end:0x804ED378
+
+Unclassified/inffast.c:
+	.text       start:0x804ED378 end:0x804EDC1C
+
+Unclassified/crc32.c:
+	.text       start:0x804EDC1C end:0x804EE718
+
+Unclassified/BUMemStream.cpp:
+	.text       start:0x804EE718 end:0x804EEC24
+
+Unclassified/inflate.c:
+	.text       start:0x804EEC24 end:0x804F1278
+
+Unclassified/deflate.c:
+	.text       start:0x804F1278 end:0x804F4728
+
+Unclassified/adler32.c:
+	.text       start:0x804F4728 end:0x804F4A78
+
+Unclassified/inftrees.c:
+	.text       start:0x804F4A78 end:0x804F5330
+
+Unclassified/BUTimer.cpp:
+	.text       start:0x804F5330 end:0x804F53A4
+	.ctors      start:0x8058576C end:0x80585770
+
+Unclassified/trees.c:
+	.text       start:0x804F53A4 end:0x804F7BB4
+
+Unclassified/uncompr.c:
+	.text       start:0x804F7BB4 end:0x804F7CDC
+
+Unclassified/zutil.c:
+	.text       start:0x804F7CDC end:0x804F7D68
+
+Unclassified/bdConnection.cpp:
+	extab       start:0x80006D90 end:0x80006F7C
+	extabindex  start:0x80013BA4 end:0x80013D18
+	.text       start:0x804F7D68 end:0x804F88F4
+
+Unclassified/bdConnectionListener.cpp:
+	extab       start:0x80006F7C end:0x80006FBC
+	extabindex  start:0x80013D18 end:0x80013D48
+	.text       start:0x804F88F4 end:0x804F8A70
+
+Unclassified/bdConnectionStatistics.cpp:
+	extab       start:0x80006FBC end:0x80006FDC
+	extabindex  start:0x80013D48 end:0x80013D78
+	.text       start:0x804F8A70 end:0x804F8D00
+
+Unclassified/bdConnectionStore.cpp:
+	extab       start:0x80006FDC end:0x800076F4
+	extabindex  start:0x80013D78 end:0x800140CC
+	.text       start:0x804F8D00 end:0x804FB6E4
+
+Unclassified/bdConnectionStoreConfig.cpp:
+	.text       start:0x804FB6E4 end:0x804FB72C
+
+Unclassified/bdLoopbackConnection.cpp:
+	extab       start:0x800076F4 end:0x80007824
+	extabindex  start:0x800140CC end:0x800141F8
+	.text       start:0x804FB72C end:0x804FC0E4
+
+Unclassified/bdUnicastConnection.cpp:
+	extab       start:0x80007824 end:0x800085E0
+	extabindex  start:0x800141F8 end:0x80014894
+	.text       start:0x804FC0E4 end:0x80500F08
+
+Unclassified/bdDispatcher.cpp:
+	extab       start:0x800085E0 end:0x80008718
+	extabindex  start:0x80014894 end:0x80014954
+	.text       start:0x80500F08 end:0x805016BC
+
+Unclassified/bdDispatchInterceptor.cpp:
+	extab       start:0x80008718 end:0x80008728
+	extabindex  start:0x80014954 end:0x8001496C
+	.text       start:0x805016BC end:0x80501748
+
+Unclassified/bdMessage.cpp:
+	extab       start:0x80008728 end:0x80008804
+	extabindex  start:0x8001496C end:0x800149D8
+	.text       start:0x80501748 end:0x80501A9C
+
+Unclassified/bdReceivedMessage.cpp:
+	extab       start:0x80008804 end:0x80008854
+	extabindex  start:0x800149D8 end:0x80014A14
+	.text       start:0x80501A9C end:0x80501BE0
+
+Unclassified/bdChunk.cpp:
+	extab       start:0x80008854 end:0x800088AC
+	extabindex  start:0x80014A14 end:0x80014A98
+	.text       start:0x80501BE0 end:0x80502014
+
+Unclassified/bdCookie.cpp:
+	extab       start:0x800088AC end:0x80008928
+	extabindex  start:0x80014A98 end:0x80014B04
+	.text       start:0x80502014 end:0x805026E0
+
+Unclassified/bdCookieAckChunk.cpp:
+	extab       start:0x80008928 end:0x80008958
+	extabindex  start:0x80014B04 end:0x80014B4C
+	.text       start:0x805026E0 end:0x80502A34
+
+Unclassified/bdCookieEchoChunk.cpp:
+	extab       start:0x80008958 end:0x800089FC
+	extabindex  start:0x80014B4C end:0x80014BAC
+	.text       start:0x80502A34 end:0x805030F4
+
+Unclassified/bdDataChunk.cpp:
+	extab       start:0x800089FC end:0x80008AEC
+	extabindex  start:0x80014BAC end:0x80014C48
+	.text       start:0x805030F4 end:0x80503C24
+
+Unclassified/bdHeartbeatAckChunk.cpp:
+	extab       start:0x80008AEC end:0x80008B0C
+	extabindex  start:0x80014C48 end:0x80014C78
+	.text       start:0x80503C24 end:0x80503E88
+
+Unclassified/bdHeartbeatChunk.cpp:
+	extab       start:0x80008B0C end:0x80008B2C
+	extabindex  start:0x80014C78 end:0x80014CA8
+	.text       start:0x80503E88 end:0x805040EC
+
+Unclassified/bdInitAckChunk.cpp:
+	extab       start:0x80008B2C end:0x80008BC8
+	extabindex  start:0x80014CA8 end:0x80014CFC
+	.text       start:0x805040EC end:0x805046E0
+
+Unclassified/bdInitChunk.cpp:
+	extab       start:0x80008BC8 end:0x80008C2C
+	extabindex  start:0x80014CFC end:0x80014D38
+	.text       start:0x805046E0 end:0x80504A74
+
+Unclassified/bdPacket.cpp:
+	extab       start:0x80008C2C end:0x80008F10
+	extabindex  start:0x80014D38 end:0x80014E58
+	.text       start:0x80504A74 end:0x80505AB0
+
+Unclassified/bdSAckChunk.cpp:
+	extab       start:0x80008F10 end:0x80008FB4
+	extabindex  start:0x80014E58 end:0x80014F18
+	.text       start:0x80505AB0 end:0x80506560
+
+Unclassified/bdShutdownAckChunk.cpp:
+	extab       start:0x80008FB4 end:0x80008FD4
+	extabindex  start:0x80014F18 end:0x80014F48
+	.text       start:0x80506560 end:0x805067C0
+
+Unclassified/bdShutdownChunk.cpp:
+	extab       start:0x80008FD4 end:0x80008FF4
+	extabindex  start:0x80014F48 end:0x80014F78
+	.text       start:0x805067C0 end:0x80506A20
+
+Unclassified/bdShutdownCompleteChunk.cpp:
+	extab       start:0x80008FF4 end:0x80009014
+	extabindex  start:0x80014F78 end:0x80014FA8
+	.text       start:0x80506A20 end:0x80506C80
+
+Unclassified/bdReliableReceiveWindow.cpp:
+	extab       start:0x80009014 end:0x800090A8
+	extabindex  start:0x80014FA8 end:0x80015020
+	.text       start:0x80506C80 end:0x80507738
+
+Unclassified/bdReliableSendWindow.cpp:
+	extab       start:0x800090A8 end:0x8000921C
+	extabindex  start:0x80015020 end:0x800150E0
+	.text       start:0x80507738 end:0x80508BAC
+
+Unclassified/bdUnreliableReceiveWindow.cpp:
+	extab       start:0x8000921C end:0x8000934C
+	extabindex  start:0x800150E0 end:0x80015224
+	.text       start:0x80508BAC end:0x805094B0
+
+Unclassified/bdUnreliableSendWindow.cpp:
+	extab       start:0x8000934C end:0x800093A4
+	extabindex  start:0x80015224 end:0x8001526C
+	.text       start:0x805094B0 end:0x805096D4
+
+Unclassified/bdCore.cpp:
+	extab       start:0x800093A4 end:0x800093BC
+	extabindex  start:0x8001526C end:0x80015290
+	.text       start:0x805096D4 end:0x80509914
+
+Unclassified/bdCompression.cpp:
+	extab       start:0x800093BC end:0x800093D4
+	extabindex  start:0x80015290 end:0x8001529C
+	.text       start:0x80509914 end:0x805099C8
+
+Unclassified/bdDeflate.cpp:
+	extab       start:0x800093D4 end:0x800094A8
+	extabindex  start:0x8001529C end:0x80015350
+	.text       start:0x805099C8 end:0x80509FB4
+
+Unclassified/bdBitBuffer.cpp:
+	extab       start:0x800094A8 end:0x8000960C
+	extabindex  start:0x80015350 end:0x800154D0
+	.text       start:0x80509FB4 end:0x8050BB10
+
+Unclassified/bdByteBuffer.cpp:
+	extab       start:0x8000960C end:0x800097A8
+	extabindex  start:0x800154D0 end:0x8001571C
+	.text       start:0x8050BB10 end:0x8050D6FC
+
+Unclassified/bdKeyValueStream.cpp:
+	extab       start:0x800097A8 end:0x80009858
+	extabindex  start:0x8001571C end:0x8001580C
+	.text       start:0x8050D6FC end:0x8050DC70
+	.ctors      start:0x80585770 end:0x80585774
+
+Unclassified/bdSequenceNumber.cpp:
+	extab       start:0x80009858 end:0x80009880
+	extabindex  start:0x8001580C end:0x80015848
+	.text       start:0x8050DC70 end:0x8050E0E4
+
+Unclassified/bdSequenceNumberStore.cpp:
+	extab       start:0x80009880 end:0x80009890
+	extabindex  start:0x80015848 end:0x80015860
+	.text       start:0x8050E0E4 end:0x8050E268
+
+Unclassified/bdCryptoDynamic.cpp:
+	extab       start:0x80009890 end:0x80009B98
+	extabindex  start:0x80015860 end:0x800159BC
+	.text       start:0x8050E268 end:0x8050F044
+
+Unclassified/bdCryptoUtils.cpp:
+	extab       start:0x80009B98 end:0x80009BF0
+	extabindex  start:0x800159BC end:0x800159F8
+	.text       start:0x8050F044 end:0x8050F2E4
+
+Unclassified/bdCypher.cpp:
+	extab       start:0x80009BF0 end:0x80009C00
+	extabindex  start:0x800159F8 end:0x80015A10
+	.text       start:0x8050F2E4 end:0x8050F36C
+
+Unclassified/bdCypher3Des.cpp:
+	extab       start:0x80009C00 end:0x80009C3C
+	extabindex  start:0x80015A10 end:0x80015A4C
+	.text       start:0x8050F36C end:0x8050F750
+
+Unclassified/bdCypherAES.cpp:
+	extab       start:0x80009C3C end:0x80009C78
+	extabindex  start:0x80015A4C end:0x80015A88
+	.text       start:0x8050F750 end:0x8050FB58
+
+Unclassified/bdECCKey.cpp:
+	extab       start:0x80009C78 end:0x80009CB8
+	extabindex  start:0x80015A88 end:0x80015AD0
+	.text       start:0x8050FB58 end:0x8051022C
+
+Unclassified/bdHash.cpp:
+	extab       start:0x80009CB8 end:0x80009CC8
+	extabindex  start:0x80015AD0 end:0x80015AE8
+	.text       start:0x8051022C end:0x805102B8
+
+Unclassified/bdHashMD5.cpp:
+	extab       start:0x80009CC8 end:0x80009CF4
+	extabindex  start:0x80015AE8 end:0x80015B0C
+	.text       start:0x805102B8 end:0x80510484
+
+Unclassified/bdHashSHA1.cpp:
+	extab       start:0x80009CF4 end:0x80009D20
+	extabindex  start:0x80015B0C end:0x80015B30
+	.text       start:0x80510484 end:0x80510650
+
+Unclassified/bdHashSHA256.cpp:
+	extab       start:0x80009D20 end:0x80009D4C
+	extabindex  start:0x80015B30 end:0x80015B54
+	.text       start:0x80510650 end:0x80510898
+
+Unclassified/bdHashTiger192.cpp:
+	extab       start:0x80009D4C end:0x80009D78
+	extabindex  start:0x80015B54 end:0x80015B78
+	.text       start:0x80510898 end:0x80510A64
+
+Unclassified/bdHMac.cpp:
+	extab       start:0x80009D78 end:0x80009D88
+	extabindex  start:0x80015B78 end:0x80015B90
+	.text       start:0x80510A64 end:0x80510AD8
+
+Unclassified/bdHMacSHA1.cpp:
+	extab       start:0x80009D88 end:0x80009DBC
+	extabindex  start:0x80015B90 end:0x80015BC0
+	.text       start:0x80510AD8 end:0x80510D78
+
+Unclassified/bdHMacSHA256.cpp:
+	extab       start:0x80009DBC end:0x80009DF0
+	extabindex  start:0x80015BC0 end:0x80015BF0
+	.text       start:0x80510D78 end:0x80511008
+
+Unclassified/bdRSAKey.cpp:
+	extab       start:0x80009DF0 end:0x80009E30
+	extabindex  start:0x80015BF0 end:0x80015C38
+	.text       start:0x80511008 end:0x80511424
+
+Unclassified/bdMallocMemory-heap.cpp:
+	extab       start:0x80009E30 end:0x80009ED0
+	extabindex  start:0x80015C38 end:0x80015D28
+	.text       start:0x80511424 end:0x80511D14
+	.ctors      start:0x80585774 end:0x80585778
+
+Unclassified/bdMallocMemory-wii.cpp:
+	extab       start:0x80009ED0 end:0x80009EF0
+	extabindex  start:0x80015D28 end:0x80015D58
+	.text       start:0x80511D14 end:0x80511E68
+
+Unclassified/bdMemory-heap.cpp:
+	.text       start:0x80511E68 end:0x80511E98
+
+Unclassified/bdMemory.cpp:
+	extab       start:0x80009EF0 end:0x80009F28
+	extabindex  start:0x80015D58 end:0x80015DAC
+	.text       start:0x80511E98 end:0x805120E0
+
+Unclassified/bdReferencable.cpp:
+	extab       start:0x80009F28 end:0x80009F38
+	extabindex  start:0x80015DAC end:0x80015DC4
+	.text       start:0x805120E0 end:0x80512154
+
+Unclassified/bdAddr.cpp:
+	extab       start:0x80009F38 end:0x80009FCC
+	extabindex  start:0x80015DC4 end:0x80015E6C
+	.text       start:0x80512154 end:0x805127DC
+
+Unclassified/bdCommonAddr.cpp:
+	extab       start:0x80009FCC end:0x8000A2B4
+	extabindex  start:0x80015E6C end:0x80015FBC
+	.text       start:0x805127DC end:0x80513868
+
+Unclassified/bdCommonAddrInfo.cpp:
+	extab       start:0x8000A2B4 end:0x8000A2D4
+	extabindex  start:0x80015FBC end:0x80015FEC
+	.text       start:0x80513868 end:0x80513E8C
+
+Unclassified/bdEndpoint.cpp:
+	extab       start:0x8000A2D4 end:0x8000A338
+	extabindex  start:0x80015FEC end:0x8001604C
+	.text       start:0x80513E8C end:0x805141BC
+
+Unclassified/bdInetAddr.cpp:
+	extab       start:0x8000A338 end:0x8000A3E8
+	extabindex  start:0x8001604C end:0x8001613C
+	.text       start:0x805141BC end:0x805147A8
+
+Unclassified/bdMACAddr.cpp:
+	.text       start:0x805147A8 end:0x805147AC
+
+Unclassified/bdReceiveThread.cpp:
+	extab       start:0x8000A3E8 end:0x8000A61C
+	extabindex  start:0x8001613C end:0x8001628C
+	.text       start:0x805147AC end:0x805153C8
+
+Unclassified/bdSecurityID.cpp:
+	extab       start:0x8000A61C end:0x8000A63C
+	extabindex  start:0x8001628C end:0x800162BC
+	.text       start:0x805153C8 end:0x805154C4
+
+Unclassified/bdSecurityInfo.cpp:
+	extab       start:0x8000A63C end:0x8000A654
+	extabindex  start:0x800162BC end:0x800162E0
+	.text       start:0x805154C4 end:0x8051560C
+
+Unclassified/bdSecurityKey.cpp:
+	extab       start:0x8000A654 end:0x8000A664
+	extabindex  start:0x800162E0 end:0x800162F8
+	.text       start:0x8051560C end:0x80515688
+
+Unclassified/bdSendThread.cpp:
+	extab       start:0x8000A664 end:0x8000A8E8
+	extabindex  start:0x800162F8 end:0x80016460
+	.text       start:0x80515688 end:0x8051619C
+
+Unclassified/bdSocket.cpp:
+	extab       start:0x8000A8E8 end:0x8000A968
+	extabindex  start:0x80016460 end:0x800164D8
+	.text       start:0x8051619C end:0x8051667C
+
+Unclassified/bdStreamSocket.cpp:
+	extab       start:0x8000A968 end:0x8000A9B0
+	extabindex  start:0x800164D8 end:0x80016544
+	.text       start:0x8051667C end:0x80516964
+
+Unclassified/bdThreadedSocket.cpp:
+	extab       start:0x8000A9B0 end:0x8000AA84
+	extabindex  start:0x80016544 end:0x80016604
+	.text       start:0x80516964 end:0x805172B8
+
+Unclassified/bdString.cpp:
+	extab       start:0x8000AA84 end:0x8000AB04
+	extabindex  start:0x80016604 end:0x800166C4
+	.text       start:0x805172B8 end:0x8051776C
+	.ctors      start:0x80585778 end:0x8058577C
+
+Unclassified/bdMutex.cpp:
+	extab       start:0x8000AB04 end:0x8000AB2C
+	extabindex  start:0x800166C4 end:0x80016700
+	.text       start:0x8051776C end:0x805178B4
+
+Unclassified/bdRunnable.cpp:
+	extab       start:0x8000AB2C end:0x8000AB3C
+	extabindex  start:0x80016700 end:0x80016718
+	.text       start:0x805178B4 end:0x80517958
+
+Unclassified/bdSignal.cpp:
+	extab       start:0x8000AB3C end:0x8000AB64
+	extabindex  start:0x80016718 end:0x80016754
+	.text       start:0x80517958 end:0x80517A74
+
+Unclassified/bdThread.cpp:
+	extab       start:0x8000AB64 end:0x8000AB9C
+	extabindex  start:0x80016754 end:0x800167A8
+	.text       start:0x80517A74 end:0x80517E0C
+
+Unclassified/bdStopwatch.cpp:
+	extab       start:0x8000AB9C end:0x8000ABB4
+	extabindex  start:0x800167A8 end:0x800167CC
+	.text       start:0x80517E0C end:0x80517F24
+
+Unclassified/bdBase64.cpp:
+	extab       start:0x8000ABB4 end:0x8000ABCC
+	extabindex  start:0x800167CC end:0x800167F0
+	.text       start:0x80517F24 end:0x80518290
+
+Unclassified/bdBitOperations.cpp:
+	extab       start:0x8000ABCC end:0x8000ABDC
+	extabindex  start:0x800167F0 end:0x80016808
+	.text       start:0x80518290 end:0x80518368
+
+Unclassified/bdBytePacker.cpp:
+	extab       start:0x8000ABDC end:0x8000AC0C
+	extabindex  start:0x80016808 end:0x80016850
+	.text       start:0x80518368 end:0x80518808
+
+Unclassified/bdRandom.cpp:
+	extab       start:0x8000AC0C end:0x8000AC3C
+	extabindex  start:0x80016850 end:0x80016898
+	.text       start:0x80518808 end:0x80518A24
+
+Unclassified/bdTokenBucket.cpp:
+	extab       start:0x8000AC3C end:0x8000AC4C
+	extabindex  start:0x80016898 end:0x800168B0
+	.text       start:0x80518A24 end:0x80518C34
+
+Unclassified/bdTrulyRandom.cpp:
+	extab       start:0x8000AC4C end:0x8000AC5C
+	extabindex  start:0x800168B0 end:0x800168C8
+	.text       start:0x80518C34 end:0x80518CB4
+
+Unclassified/bdJSONArray.cpp:
+	.text       start:0x80518CB4 end:0x80518D08
+
+Unclassified/bdJSONDeserializer.cpp:
+	extab       start:0x8000AC5C end:0x8000ADB4
+	extabindex  start:0x800168C8 end:0x800169F4
+	.text       start:0x80518D08 end:0x8051A200
+
+Unclassified/bdJSONUtility.cpp:
+	extab       start:0x8000ADB4 end:0x8000AE0C
+	extabindex  start:0x800169F4 end:0x80016A78
+	.text       start:0x8051A200 end:0x8051B408
+
+Unclassified/bdAuthService-wii.cpp:
+	extab       start:0x8000AE0C end:0x8000AEC4
+	extabindex  start:0x80016A78 end:0x80016AF0
+	.text       start:0x8051B408 end:0x8051BA74
+
+Unclassified/bdAuthService.cpp:
+	extab       start:0x8000AEC4 end:0x8000B430
+	extabindex  start:0x80016AF0 end:0x80016C70
+	.text       start:0x8051BA74 end:0x8051D6E8
+
+Unclassified/bdAuthTicket.cpp:
+	extab       start:0x8000B430 end:0x8000B458
+	extabindex  start:0x80016C70 end:0x80016CAC
+	.text       start:0x8051D6E8 end:0x8051DB74
+
+Unclassified/bdLobbyConnection.cpp:
+	extab       start:0x8000B458 end:0x8000BB64
+	extabindex  start:0x80016CAC end:0x80016FB8
+	.text       start:0x8051DB74 end:0x805222F0
+
+Unclassified/bdLobbyConnectionListener.cpp:
+	extab       start:0x8000BB64 end:0x8000BB74
+	extabindex  start:0x80016FB8 end:0x80016FD0
+	.text       start:0x805222F0 end:0x80522380
+
+Unclassified/bdLobbyEventHandler.cpp:
+	extab       start:0x8000BB74 end:0x8000BB8C
+	extabindex  start:0x80016FD0 end:0x80016FF4
+	.text       start:0x80522380 end:0x80522538
+
+Unclassified/bdLobbyService.cpp:
+	extab       start:0x8000BB8C end:0x8000D894
+	extabindex  start:0x80016FF4 end:0x80017B28
+	.text       start:0x80522538 end:0x8052C694
+
+Unclassified/bdAntiCheat.cpp:
+	extab       start:0x8000D894 end:0x8000D8BC
+	extabindex  start:0x80017B28 end:0x80017B64
+	.text       start:0x8052C694 end:0x8052C910
+
+Unclassified/bdAntiCheatChallenge.cpp:
+	extab       start:0x8000D8BC end:0x8000D9F4
+	extabindex  start:0x80017B64 end:0x80017C54
+	.text       start:0x8052C910 end:0x8052D300
+
+Unclassified/bdAntiCheatChallengeParam.cpp:
+	extab       start:0x8000D9F4 end:0x8000DA1C
+	extabindex  start:0x80017C54 end:0x80017C90
+	.text       start:0x8052D300 end:0x8052D510
+
+Unclassified/bdAntiCheatChallenges.cpp:
+	extab       start:0x8000DA1C end:0x8000DAF8
+	extabindex  start:0x80017C90 end:0x80017D20
+	.text       start:0x8052D510 end:0x8052DA5C
+
+Unclassified/bdCodOnlineTeams.cpp:
+	extab       start:0x8000DAF8 end:0x8000DB08
+	extabindex  start:0x80017D20 end:0x80017D38
+	.text       start:0x8052DA5C end:0x8052DB24
+
+Unclassified/bdCommerce.cpp:
+	extab       start:0x8000DB08 end:0x8000DB10
+	extabindex  start:0x80017D38 end:0x80017D44
+	.text       start:0x8052DB24 end:0x8052DB70
+
+Unclassified/bdContentStreaming.cpp:
+	extab       start:0x8000DB10 end:0x8000DB30
+	extabindex  start:0x80017D44 end:0x80017D74
+	.text       start:0x8052DB70 end:0x8052DC64
+
+Unclassified/bdContentStreamingBase.cpp:
+	extab       start:0x8000DB30 end:0x8000DB38
+	extabindex  start:0x80017D74 end:0x80017D80
+	.text       start:0x8052DC64 end:0x8052DD20
+
+Unclassified/bdContentUnlock.cpp:
+	extab       start:0x8000DB38 end:0x8000DB40
+	extabindex  start:0x80017D80 end:0x80017D8C
+	.text       start:0x8052DD20 end:0x8052DD74
+
+Unclassified/bdCounter.cpp:
+	extab       start:0x8000DB40 end:0x8000DB48
+	extabindex  start:0x80017D8C end:0x80017D98
+	.text       start:0x8052DD74 end:0x8052DDC0
+
+Unclassified/bdEventBuffer.cpp:
+	extab       start:0x8000DB48 end:0x8000DC14
+	extabindex  start:0x80017D98 end:0x80017E40
+	.text       start:0x8052DDC0 end:0x8052E9C8
+
+Unclassified/bdEventInfo.cpp:
+	extab       start:0x8000DC14 end:0x8000DC9C
+	extabindex  start:0x80017E40 end:0x80017E7C
+	.text       start:0x8052E9C8 end:0x8052ED2C
+
+Unclassified/bdEventLog.cpp:
+	extab       start:0x8000DC9C end:0x8000DD0C
+	extabindex  start:0x80017E7C end:0x80017EC4
+	.text       start:0x8052ED2C end:0x8052F10C
+
+Unclassified/bdFacebook.cpp:
+	extab       start:0x8000DD0C end:0x8000DD14
+	extabindex  start:0x80017EC4 end:0x80017ED0
+	.text       start:0x8052F10C end:0x8052F158
+
+Unclassified/bdFeatureBan.cpp:
+	extab       start:0x8000DD14 end:0x8000DD1C
+	extabindex  start:0x80017ED0 end:0x80017EDC
+	.text       start:0x8052F158 end:0x8052F1A4
+
+Unclassified/bdFeatureBanInfo.cpp:
+	extab       start:0x8000DD1C end:0x8000DD68
+	extabindex  start:0x80017EDC end:0x80017F0C
+	.text       start:0x8052F1A4 end:0x8052F3B4
+
+Unclassified/bdFriends.cpp:
+	extab       start:0x8000DD68 end:0x8000DD70
+	extabindex  start:0x80017F0C end:0x80017F18
+	.text       start:0x8052F3B4 end:0x8052F408
+
+Unclassified/bdGroup.cpp:
+	extab       start:0x8000DD70 end:0x8000DD78
+	extabindex  start:0x80017F18 end:0x80017F24
+	.text       start:0x8052F408 end:0x8052F454
+
+Unclassified/bdHTTPClient.cpp:
+	extab       start:0x8000DD78 end:0x8000DD88
+	extabindex  start:0x80017F24 end:0x80017F3C
+	.text       start:0x8052F454 end:0x8052F4B4
+
+Unclassified/bdHTTPWrapperBase.cpp:
+	extab       start:0x8000DD88 end:0x8000DD98
+	extabindex  start:0x80017F3C end:0x80017F54
+	.text       start:0x8052F4B4 end:0x8052F514
+
+Unclassified/bdKeyArchive.cpp:
+	extab       start:0x8000DD98 end:0x8000DDA8
+	extabindex  start:0x80017F54 end:0x80017F6C
+	.text       start:0x8052F514 end:0x8052F610
+
+Unclassified/bdLeague.cpp:
+	extab       start:0x8000DDA8 end:0x8000DDB0
+	extabindex  start:0x80017F6C end:0x80017F78
+	.text       start:0x8052F610 end:0x8052F65C
+
+Unclassified/bdLinkCode.cpp:
+	extab       start:0x8000DDB0 end:0x8000DDB8
+	extabindex  start:0x80017F78 end:0x80017F84
+	.text       start:0x8052F65C end:0x8052F6B0
+
+Unclassified/bdAuthCommon.cpp:
+	extab       start:0x8000DDB8 end:0x8000DE10
+	extabindex  start:0x80017F84 end:0x80017FC0
+	.text       start:0x8052F6B0 end:0x8052FA40
+
+Unclassified/bdBufferParams.cpp:
+	extab       start:0x8000DE10 end:0x8000DE40
+	extabindex  start:0x80017FC0 end:0x80018008
+	.text       start:0x8052FA40 end:0x8052FFC4
+
+Unclassified/bdJSONTaskResult.cpp:
+	extab       start:0x8000DE40 end:0x8000DEB0
+	extabindex  start:0x80018008 end:0x80018038
+	.text       start:0x8052FFC4 end:0x80530328
+
+Unclassified/bdSerializable.cpp:
+	extab       start:0x8000DEB0 end:0x8000DEF4
+	extabindex  start:0x80018038 end:0x80018068
+	.text       start:0x80530328 end:0x8053054C
+
+Unclassified/bdTaskParams.cpp:
+	extab       start:0x8000DEF4 end:0x8000DF94
+	extabindex  start:0x80018068 end:0x800180A4
+	.text       start:0x8053054C end:0x80530878
+
+Unclassified/bdTaskResult.cpp:
+	extab       start:0x8000DF94 end:0x8000DFC0
+	extabindex  start:0x800180A4 end:0x800180C8
+	.text       start:0x80530878 end:0x805309C0
+
+Unclassified/bdUserAccountID.cpp:
+	extab       start:0x8000DFC0 end:0x8000E020
+	extabindex  start:0x800180C8 end:0x80018158
+	.text       start:0x805309C0 end:0x80530F00
+
+Unclassified/bdBandwidthTest.cpp:
+	extab       start:0x8000E020 end:0x8000E1DC
+	extabindex  start:0x80018158 end:0x80018224
+	.text       start:0x80530F00 end:0x805326D0
+
+Unclassified/bdBandwidthTestResults.cpp:
+	extab       start:0x8000E1DC end:0x8000E1F4
+	extabindex  start:0x80018224 end:0x80018248
+	.text       start:0x805326D0 end:0x805329BC
+
+Unclassified/bdMarketingComms.cpp:
+	extab       start:0x8000E1F4 end:0x8000E1FC
+	extabindex  start:0x80018248 end:0x80018254
+	.text       start:0x805329BC end:0x80532A08
+
+Unclassified/bdMarketplace.cpp:
+	extab       start:0x8000E1FC end:0x8000E204
+	extabindex  start:0x80018254 end:0x80018260
+	.text       start:0x80532A08 end:0x80532A54
+
+Unclassified/bdMarketplaceCouponInventory.cpp:
+	extab       start:0x8000E204 end:0x8000E30C
+	extabindex  start:0x80018260 end:0x800182A8
+	.text       start:0x80532A54 end:0x805333F0
+
+Unclassified/bdMarketplaceCurrency.cpp:
+	extab       start:0x8000E30C end:0x8000E36C
+	extabindex  start:0x800182A8 end:0x800182D8
+	.text       start:0x805333F0 end:0x8053372C
+
+Unclassified/bdMarketplaceEntitlement.cpp:
+	.text       start:0x8053372C end:0x80533734
+
+Unclassified/bdMarketplaceInventory.cpp:
+	extab       start:0x8000E36C end:0x8000E48C
+	extabindex  start:0x800182D8 end:0x80018338
+	.text       start:0x80533734 end:0x80534270
+
+Unclassified/bdMatchMaking.cpp:
+	extab       start:0x8000E48C end:0x8000E55C
+	extabindex  start:0x80018338 end:0x80018380
+	.text       start:0x80534270 end:0x8053472C
+
+Unclassified/bdMatchMakingInfo.cpp:
+	extab       start:0x8000E55C end:0x8000E654
+	extabindex  start:0x80018380 end:0x800183D4
+	.text       start:0x8053472C end:0x80534CD0
+
+Unclassified/bdPagingToken.cpp:
+	.text       start:0x80534CD0 end:0x80534CE4
+
+Unclassified/bdSessionID.cpp:
+	extab       start:0x8000E654 end:0x8000E6F4
+	extabindex  start:0x800183D4 end:0x80018404
+	.text       start:0x80534CE4 end:0x80534F44
+
+Unclassified/bdSessionInvite.cpp:
+	extab       start:0x8000E6F4 end:0x8000E774
+	extabindex  start:0x80018404 end:0x80018434
+	.text       start:0x80534F44 end:0x80535210
+
+Unclassified/bdSessionParams.cpp:
+	extab       start:0x8000E774 end:0x8000E7C0
+	extabindex  start:0x80018434 end:0x80018464
+	.text       start:0x80535210 end:0x805353BC
+
+Unclassified/bdChannelInfo.cpp:
+	extab       start:0x8000E7C0 end:0x8000E80C
+	extabindex  start:0x80018464 end:0x80018494
+	.text       start:0x805353BC end:0x805356DC
+
+Unclassified/bdChannelMember.cpp:
+	extab       start:0x8000E80C end:0x8000E858
+	extabindex  start:0x80018494 end:0x800184C4
+	.text       start:0x805356DC end:0x80535928
+
+Unclassified/bdMessaging.cpp:
+	extab       start:0x8000E858 end:0x8000E860
+	extabindex  start:0x800184C4 end:0x800184D0
+	.text       start:0x80535928 end:0x80535974
+
+Unclassified/bdPresenceService.cpp:
+	extab       start:0x8000E860 end:0x8000E868
+	extabindex  start:0x800184D0 end:0x800184DC
+	.text       start:0x80535974 end:0x805359C0
+
+Unclassified/bdProfiles.cpp:
+	extab       start:0x8000E868 end:0x8000E870
+	extabindex  start:0x800184DC end:0x800184E8
+	.text       start:0x805359C0 end:0x80535A14
+
+Unclassified/bdQueuedMatching.cpp:
+	extab       start:0x8000E870 end:0x8000E878
+	extabindex  start:0x800184E8 end:0x800184F4
+	.text       start:0x80535A14 end:0x80535A60
+
+Unclassified/bdFinishedTask.cpp:
+	extab       start:0x8000E878 end:0x8000E888
+	extabindex  start:0x800184F4 end:0x8001850C
+	.text       start:0x80535A60 end:0x80535B04
+
+Unclassified/bdRemoteTask.cpp:
+	extab       start:0x8000E888 end:0x8000E9BC
+	extabindex  start:0x8001850C end:0x80018590
+	.text       start:0x80535B04 end:0x805369E0
+
+Unclassified/bdRemoteTaskManager.cpp:
+	extab       start:0x8000E9BC end:0x8000EE38
+	extabindex  start:0x80018590 end:0x800188A8
+	.text       start:0x805369E0 end:0x80538F58
+
+Unclassified/bdTaskByteBuffer.cpp:
+	extab       start:0x8000EE38 end:0x8000EEA8
+	extabindex  start:0x800188A8 end:0x80018914
+	.text       start:0x80538F58 end:0x8053953C
+
+Unclassified/bdReward.cpp:
+	extab       start:0x8000EEA8 end:0x8000EEB0
+	extabindex  start:0x80018914 end:0x80018920
+	.text       start:0x8053953C end:0x80539590
+
+Unclassified/bdRewardEvent.cpp:
+	extab       start:0x8000EEB0 end:0x8000EF38
+	extabindex  start:0x80018920 end:0x8001895C
+	.text       start:0x80539590 end:0x805397D4
+
+Unclassified/bdRewardEventJSON.cpp:
+	extab       start:0x8000EF38 end:0x8000EF9C
+	extabindex  start:0x8001895C end:0x80018998
+	.text       start:0x805397D4 end:0x80539AA4
+
+Unclassified/bdRichPresenceService.cpp:
+	extab       start:0x8000EF9C end:0x8000EFA4
+	extabindex  start:0x80018998 end:0x800189A4
+	.text       start:0x80539AA4 end:0x80539AF0
+
+Unclassified/bdStats.cpp:
+	extab       start:0x8000EFA4 end:0x8000EFAC
+	extabindex  start:0x800189A4 end:0x800189B0
+	.text       start:0x80539AF0 end:0x80539B44
+
+Unclassified/bdFileData.cpp:
+	extab       start:0x8000EFAC end:0x8000EFF8
+	extabindex  start:0x800189B0 end:0x800189E0
+	.text       start:0x80539B44 end:0x80539D14
+
+Unclassified/bdFileInfo.cpp:
+	extab       start:0x8000EFF8 end:0x8000F044
+	extabindex  start:0x800189E0 end:0x80018A10
+	.text       start:0x80539D14 end:0x8053A0B0
+
+Unclassified/bdStorage.cpp:
+	extab       start:0x8000F044 end:0x8000F0B4
+	extabindex  start:0x80018A10 end:0x80018A40
+	.text       start:0x8053A0B0 end:0x8053A36C
+
+Unclassified/bdSubscription.cpp:
+	extab       start:0x8000F0B4 end:0x8000F0BC
+	extabindex  start:0x80018A40 end:0x80018A4C
+	.text       start:0x8053A36C end:0x8053A3B8
+
+Unclassified/bdTags.cpp:
+	extab       start:0x8000F0BC end:0x8000F0C4
+	extabindex  start:0x80018A4C end:0x80018A58
+	.text       start:0x8053A3B8 end:0x8053A40C
+
+Unclassified/bdTeamMarketplace.cpp:
+	extab       start:0x8000F0C4 end:0x8000F0CC
+	extabindex  start:0x80018A58 end:0x80018A64
+	.text       start:0x8053A40C end:0x8053A458
+
+Unclassified/bdTencent.cpp:
+	extab       start:0x8000F0CC end:0x8000F0DC
+	extabindex  start:0x80018A64 end:0x80018A7C
+	.text       start:0x8053A458 end:0x8053A50C
+
+Unclassified/bdTencentAASRecord.cpp:
+	extab       start:0x8000F0DC end:0x8000F128
+	extabindex  start:0x80018A7C end:0x80018AAC
+	.text       start:0x8053A50C end:0x8053A7F0
+
+Unclassified/bdTitleUtilities.cpp:
+	extab       start:0x8000F128 end:0x8000F130
+	extabindex  start:0x80018AAC end:0x80018AB8
+	.text       start:0x8053A7F0 end:0x8053A83C
+
+Unclassified/bdTwitch.cpp:
+	extab       start:0x8000F130 end:0x8000F138
+	extabindex  start:0x80018AB8 end:0x80018AC4
+	.text       start:0x8053A83C end:0x8053A888
+
+Unclassified/bdTwitter.cpp:
+	extab       start:0x8000F138 end:0x8000F140
+	extabindex  start:0x80018AC4 end:0x80018AD0
+	.text       start:0x8053A888 end:0x8053A8D4
+
+Unclassified/bdUCD.cpp:
+	extab       start:0x8000F140 end:0x8000F15C
+	extabindex  start:0x80018AD0 end:0x80018ADC
+	.text       start:0x8053A8D4 end:0x8053A940
+
+Unclassified/bdUCDPublicKeyInfo.cpp:
+	extab       start:0x8000F15C end:0x8000F180
+	extabindex  start:0x80018ADC end:0x80018AF4
+	.text       start:0x8053A940 end:0x8053AA00
+
+Unclassified/bdUserBlockList.cpp:
+	extab       start:0x8000F180 end:0x8000F188
+	extabindex  start:0x80018AF4 end:0x80018B00
+	.text       start:0x8053AA00 end:0x8053AA54
+
+Unclassified/bdUserGroups.cpp:
+	extab       start:0x8000F188 end:0x8000F190
+	extabindex  start:0x80018B00 end:0x80018B0C
+	.text       start:0x8053AA54 end:0x8053AAA0
+
+Unclassified/bdVoteRank.cpp:
+	extab       start:0x8000F190 end:0x8000F198
+	extabindex  start:0x80018B0C end:0x80018B18
+	.text       start:0x8053AAA0 end:0x8053AAF4
+
+Unclassified/bdVoting.cpp:
+	extab       start:0x8000F198 end:0x8000F1A0
+	extabindex  start:0x80018B18 end:0x80018B24
+	.text       start:0x8053AAF4 end:0x8053AB48
+
+Unclassified/bdYouTube.cpp:
+	extab       start:0x8000F1A0 end:0x8000F1A8
+	extabindex  start:0x80018B24 end:0x80018B30
+	.text       start:0x8053AB48 end:0x8053AB94
+
+Unclassified/bdYouTubeRegistrationResult.cpp:
+	extab       start:0x8000F1A8 end:0x8000F1F4
+	extabindex  start:0x80018B30 end:0x80018B60
+	.text       start:0x8053AB94 end:0x8053AD68
+
+Unclassified/bdNet.cpp:
+	extab       start:0x8000F1F4 end:0x8000F988
+	extabindex  start:0x80018B60 end:0x80018DC4
+	.text       start:0x8053AD68 end:0x8053DC7C
+
+Unclassified/bdNetStartParams.cpp:
+	extab       start:0x8000F988 end:0x8000FA98
+	extabindex  start:0x80018DC4 end:0x80018E0C
+	.text       start:0x8053DC7C end:0x8053E048
+
+Unclassified/bdGetHostByName-wii.cpp:
+	extab       start:0x8000FA98 end:0x8000FAA8
+	extabindex  start:0x80018E0C end:0x80018E24
+	.text       start:0x8053E048 end:0x8053E170
+
+Unclassified/bdGetHostByName.cpp:
+	extab       start:0x8000FAA8 end:0x8000FB10
+	extabindex  start:0x80018E24 end:0x80018E6C
+	.text       start:0x8053E170 end:0x8053E57C
+
+Unclassified/bdGetHostByNameConfig.cpp:
+	extab       start:0x8000FB10 end:0x8000FB18
+	extabindex  start:0x80018E6C end:0x80018E78
+	.text       start:0x8053E57C end:0x8053E5F0
+
+Unclassified/bdGameInfo.cpp:
+	extab       start:0x8000FB18 end:0x8000FBF4
+	extabindex  start:0x80018E78 end:0x80018F14
+	.text       start:0x8053E5F0 end:0x8053EC68
+
+Unclassified/bdGameInfoFactory.cpp:
+	extab       start:0x8000FBF4 end:0x8000FC14
+	extabindex  start:0x80018F14 end:0x80018F44
+	.text       start:0x8053EC68 end:0x8053EDC0
+
+Unclassified/bdLANDiscoveryClient.cpp:
+	extab       start:0x8000FC14 end:0x8000FC44
+	extabindex  start:0x80018F44 end:0x80018F8C
+	.text       start:0x8053EDC0 end:0x8053EF58
+
+Unclassified/bdLANDiscoveryServer.cpp:
+	extab       start:0x8000FC44 end:0x8000FD0C
+	extabindex  start:0x80018F8C end:0x80018FD4
+	.text       start:0x8053EF58 end:0x8053F244
+
+Unclassified/bdUPnP.cpp:
+	extab       start:0x8000FD0C end:0x8000FEE8
+	extabindex  start:0x80018FD4 end:0x80019094
+	.text       start:0x8053F244 end:0x805403C0
+
+Unclassified/bdUPnPConfig.cpp:
+	extab       start:0x8000FEE8 end:0x8000FF00
+	extabindex  start:0x80019094 end:0x800190B8
+	.text       start:0x805403C0 end:0x80540658
+
+Unclassified/bdUPnPDevice.cpp:
+	extab       start:0x8000FF00 end:0x8001011C
+	extabindex  start:0x800190B8 end:0x80019220
+	.text       start:0x80540658 end:0x805424C4
+
+Unclassified/bdPlatformLog.cpp:
+	extab       start:0x8001011C end:0x8001014C
+	extabindex  start:0x80019220 end:0x80019268
+	.text       start:0x805424C4 end:0x805427BC
+
+Unclassified/bdLinkable.cpp:
+	extab       start:0x8001014C end:0x80010154
+	extabindex  start:0x80019268 end:0x80019274
+	.text       start:0x805427BC end:0x805428B8
+
+Unclassified/bdPlatformTrulyRandom-ps2.cpp:
+	extab       start:0x80010154 end:0x80010164
+	extabindex  start:0x80019274 end:0x8001928C
+	.text       start:0x805428B8 end:0x805429DC
+
+Unclassified/bdPlatformSocket-wii.cpp:
+	extab       start:0x80010164 end:0x80010194
+	extabindex  start:0x8001928C end:0x800192D4
+	.text       start:0x805429DC end:0x805432D8
+
+Unclassified/bdPlatformStreamSocket-wii.cpp:
+	extab       start:0x80010194 end:0x800101CC
+	extabindex  start:0x800192D4 end:0x80019328
+	.text       start:0x805432D8 end:0x80543AB0
+
+Unclassified/bdSockAddr-wii.cpp:
+	extab       start:0x800101CC end:0x800101E4
+	extabindex  start:0x80019328 end:0x8001934C
+	.text       start:0x80543AB0 end:0x80543BFC
+
+Unclassified/bdPlatformAtomic-wii.cpp:
+	extab       start:0x800101E4 end:0x80010214
+	extabindex  start:0x8001934C end:0x80019394
+	.text       start:0x80543BFC end:0x80543D84
+
+Unclassified/bdPlatformMutex-wii.cpp:
+	extab       start:0x80010214 end:0x8001022C
+	extabindex  start:0x80019394 end:0x800193B8
+	.text       start:0x80543D84 end:0x80543E44
+
+Unclassified/bdPlatformSignal-wii.cpp:
+	extab       start:0x8001022C end:0x8001024C
+	extabindex  start:0x800193B8 end:0x800193E8
+	.text       start:0x80543E44 end:0x80543F50
+
+Unclassified/bdPlatformThread-wii.cpp:
+	extab       start:0x8001024C end:0x80010274
+	extabindex  start:0x800193E8 end:0x80019424
+	.text       start:0x80543F50 end:0x805440FC
+
+Unclassified/bdPlatformTiming-wii.cpp:
+	extab       start:0x80010274 end:0x8001029C
+	extabindex  start:0x80019424 end:0x80019460
+	.text       start:0x805440FC end:0x80544398
+
+Unclassified/bdAddressMap.cpp:
+	extab       start:0x8001029C end:0x80010484
+	extabindex  start:0x80019460 end:0x80019574
+	.text       start:0x80544398 end:0x805452D8
+
+Unclassified/bdAddrHandle.cpp:
+	extab       start:0x80010484 end:0x800104E8
+	extabindex  start:0x80019574 end:0x800195A4
+	.text       start:0x805452D8 end:0x8054542C
+
+Unclassified/bdAddrHandleRefWrapper.cpp:
+	extab       start:0x800104E8 end:0x80010508
+	extabindex  start:0x800195A4 end:0x800195D4
+	.text       start:0x8054542C end:0x80545590
+
+Unclassified/bdPacketBuffer.cpp:
+	extab       start:0x80010508 end:0x80010540
+	extabindex  start:0x800195D4 end:0x80019628
+	.text       start:0x80545590 end:0x80545A8C
+
+Unclassified/bdPacketInterceptor.cpp:
+	extab       start:0x80010540 end:0x80010550
+	extabindex  start:0x80019628 end:0x80019640
+	.text       start:0x80545A8C end:0x80545B10
+
+Unclassified/bdSecurityKeyMap.cpp:
+	extab       start:0x80010550 end:0x80010638
+	extabindex  start:0x80019640 end:0x80019784
+	.text       start:0x80545B10 end:0x80546850
+
+Unclassified/bdServiceBandwidthArbitrator.cpp:
+	.text       start:0x80546850 end:0x805468E4
+
+Unclassified/bdSocketRouter.cpp:
+	extab       start:0x80010638 end:0x80011518
+	extabindex  start:0x80019784 end:0x80019C94
+	.text       start:0x805468E4 end:0x8054BA34
+
+Unclassified/bdSocketRouterConfig.cpp:
+	extab       start:0x80011518 end:0x80011520
+	extabindex  start:0x80019C94 end:0x80019CA0
+	.text       start:0x8054BA34 end:0x8054BB88
+
+Unclassified/bdDTLSAssociation.cpp:
+	extab       start:0x80011520 end:0x80011958
+	extabindex  start:0x80019CA0 end:0x80019DFC
+	.text       start:0x8054BB88 end:0x8054E0E8
+	.ctors      start:0x8058577C end:0x80585780
+
+Unclassified/bdDTLSCookieAck.cpp:
+	extab       start:0x80011958 end:0x800119B8
+	extabindex  start:0x80019DFC end:0x80019E50
+	.text       start:0x8054E0E8 end:0x8054E450
+
+Unclassified/bdDTLSCookieEcho.cpp:
+	extab       start:0x800119B8 end:0x80011A68
+	extabindex  start:0x80019E50 end:0x80019EA4
+	.text       start:0x8054E450 end:0x8054EA28
+
+Unclassified/bdDTLSData.cpp:
+	extab       start:0x80011A68 end:0x80011AA8
+	extabindex  start:0x80019EA4 end:0x80019F04
+	.text       start:0x8054EA28 end:0x8054F088
+
+Unclassified/bdDTLSError.cpp:
+	extab       start:0x80011AA8 end:0x80011B08
+	extabindex  start:0x80019F04 end:0x80019F58
+	.text       start:0x8054F088 end:0x8054F404
+
+Unclassified/bdDTLSHeader.cpp:
+	extab       start:0x80011B08 end:0x80011B28
+	extabindex  start:0x80019F58 end:0x80019F88
+	.text       start:0x8054F404 end:0x8054F738
+
+Unclassified/bdDTLSInit.cpp:
+	extab       start:0x80011B28 end:0x80011B88
+	extabindex  start:0x80019F88 end:0x80019FDC
+	.text       start:0x8054F738 end:0x8054FA9C
+
+Unclassified/bdDTLSInitAck.cpp:
+	extab       start:0x80011B88 end:0x80011C34
+	extabindex  start:0x80019FDC end:0x8001A048
+	.text       start:0x8054FA9C end:0x80550524
+
+Unclassified/bdIPDiscoveryClient.cpp:
+	extab       start:0x80011C34 end:0x80011CFC
+	extabindex  start:0x8001A048 end:0x8001A0B4
+	.text       start:0x80550524 end:0x80550C48
+
+Unclassified/bdIPDiscoveryConfig.cpp:
+	extab       start:0x80011CFC end:0x80011D04
+	extabindex  start:0x8001A0B4 end:0x8001A0C0
+	.text       start:0x80550C48 end:0x80550D04
+
+Unclassified/bdNATTravClient.cpp:
+	extab       start:0x80011D04 end:0x800125A0
+	extabindex  start:0x8001A0C0 end:0x8001A408
+	.text       start:0x80550D04 end:0x805541F8
+	.ctors      start:0x80585780 end:0x80585784
+
+Unclassified/bdNATTravClientData.cpp:
+	extab       start:0x800125A0 end:0x80012648
+	extabindex  start:0x8001A408 end:0x8001A438
+	.text       start:0x805541F8 end:0x80554458
+
+Unclassified/bdNATTravListener.cpp:
+	extab       start:0x80012648 end:0x80012650
+	extabindex  start:0x8001A438 end:0x8001A444
+	.text       start:0x80554458 end:0x805544BC
+
+Unclassified/bdNATTypeDiscoveryClient.cpp:
+	extab       start:0x80012650 end:0x80012774
+	extabindex  start:0x8001A444 end:0x8001A504
+	.text       start:0x805544BC end:0x805550D0
+
+Unclassified/bdNATTypeDiscoveryConfig.cpp:
+	extab       start:0x80012774 end:0x8001277C
+	extabindex  start:0x8001A504 end:0x8001A510
+	.text       start:0x805550D0 end:0x80555184
+
+Unclassified/bdIPDiscoveryPacket.cpp:
+	extab       start:0x8001277C end:0x80012784
+	extabindex  start:0x8001A510 end:0x8001A51C
+	.text       start:0x80555184 end:0x80555250
+
+Unclassified/bdIPDiscoveryPacketReply.cpp:
+	extab       start:0x80012784 end:0x800127C0
+	extabindex  start:0x8001A51C end:0x8001A540
+	.text       start:0x80555250 end:0x805555E8
+
+Unclassified/bdNATTraversalPacket.cpp:
+	extab       start:0x800127C0 end:0x80012818
+	extabindex  start:0x8001A540 end:0x8001A588
+	.text       start:0x805555E8 end:0x80555A98
+
+Unclassified/bdNATTypeDiscoveryPacket.cpp:
+	extab       start:0x80012818 end:0x80012820
+	extabindex  start:0x8001A588 end:0x8001A594
+	.text       start:0x80555A98 end:0x80555BAC
+
+Unclassified/bdNATTypeDiscoveryPacketReply.cpp:
+	extab       start:0x80012820 end:0x80012844
+	extabindex  start:0x8001A594 end:0x8001A5AC
+	.text       start:0x80555BAC end:0x80555E94
+
+Unclassified/bdQoSProbe.cpp:
+	extab       start:0x80012844 end:0x800131D8
+	extabindex  start:0x8001A5AC end:0x8001ACD8
+	.text       start:0x80555E94 end:0x8055B640
+
+Unclassified/bdQoSProbeListener.cpp:
+	extab       start:0x800131D8 end:0x80013204
+	extabindex  start:0x8001ACD8 end:0x8001ACFC
+	.text       start:0x8055B640 end:0x8055B738
+
+Unclassified/bdQoSReplyPacket.cpp:
+	extab       start:0x80013204 end:0x80013264
+	extabindex  start:0x8001ACFC end:0x8001AD8C
+	.text       start:0x8055B738 end:0x8055C288
+
+Unclassified/bdQoSRequestPacket.cpp:
+	extab       start:0x80013264 end:0x8001327C
+	extabindex  start:0x8001AD8C end:0x8001ADB0
+	.text       start:0x8055C288 end:0x8055C5F0
+
+Unclassified/aes.c:
+	.text       start:0x8055C5F0 end:0x8055D3A8
+
+Unclassified/des.c:
+	.text       start:0x8055D3A8 end:0x8055DFC0
+
+Unclassified/hash_memory.c:
+	.text       start:0x8055DFC0 end:0x8055E0BC
+
+Unclassified/md5.c:
+	.text       start:0x8055E0BC end:0x8055EE7C
+
+Unclassified/sha1.c:
+	.text       start:0x8055EE7C end:0x8055F884
+
+Unclassified/sha256.c:
+	.text       start:0x8055F884 end:0x80561BB8
+
+Unclassified/tiger.c:
+	.text       start:0x80561BB8 end:0x80562658
+
+Unclassified/hmac_done.c:
+	.text       start:0x80562658 end:0x8056293C
+
+Unclassified/hmac_init.c:
+	.text       start:0x8056293C end:0x80562C04
+
+Unclassified/hmac_process.c:
+	.text       start:0x80562C04 end:0x80562C84
+
+Unclassified/ltm_desc.c:
+	.text       start:0x80562C84 end:0x80563354
+
+Unclassified/multi.c:
+	.text       start:0x80563354 end:0x80563538
+
+Unclassified/rand_prime.c:
+	.text       start:0x80563538 end:0x805636D0
+
+Unclassified/crypt_cipher_is_valid.c:
+	.text       start:0x805636D0 end:0x80563708
+
+Unclassified/crypt_find_cipher_id.c:
+	.text       start:0x80563708 end:0x80563760
+
+Unclassified/crypt_find_hash.c:
+	.text       start:0x80563760 end:0x805637DC
+
+Unclassified/crypt_find_prng.c:
+	.text       start:0x805637DC end:0x80563858
+
+Unclassified/crypt_hash_is_valid.c:
+	.text       start:0x80563858 end:0x80563890
+
+Unclassified/crypt_prng_is_valid.c:
+	.text       start:0x80563890 end:0x805638C8
+
+Unclassified/crypt_register_cipher.c:
+	.text       start:0x805638C8 end:0x805639FC
+
+Unclassified/crypt_register_hash.c:
+	.text       start:0x805639FC end:0x80563AC4
+
+Unclassified/crypt_register_prng.c:
+	.text       start:0x80563AC4 end:0x80563B8C
+
+Unclassified/error_to_string.c:
+	.text       start:0x80563B8C end:0x80563BBC
+
+Unclassified/zeromem.c:
+	.text       start:0x80563BBC end:0x80563C18
+
+Unclassified/cbc_decrypt.c:
+	.text       start:0x80563C18 end:0x80563D70
+
+Unclassified/cbc_encrypt.c:
+	.text       start:0x80563D70 end:0x80563EDC
+
+Unclassified/cbc_setiv.c:
+	.text       start:0x80563EDC end:0x80563F28
+
+Unclassified/cbc_start.c:
+	.text       start:0x80563F28 end:0x80563FF0
+
+Unclassified/ctr_done.c:
+	.text       start:0x80563FF0 end:0x80564054
+
+Unclassified/ctr_encrypt.c:
+	.text       start:0x80564054 end:0x8056423C
+
+Unclassified/ctr_start.c:
+	.text       start:0x8056423C end:0x8056433C
+
+Unclassified/der_decode_bit_string.c:
+	.text       start:0x8056433C end:0x805644F4
+
+Unclassified/der_encode_bit_string.c:
+	.text       start:0x805644F4 end:0x80564670
+
+Unclassified/der_length_bit_string.c:
+	.text       start:0x80564670 end:0x805646DC
+
+Unclassified/der_decode_choice.c:
+	.text       start:0x805646DC end:0x80564B44
+
+Unclassified/der_decode_ia5_string.c:
+	.text       start:0x80564B44 end:0x80564CFC
+
+Unclassified/der_encode_ia5_string.c:
+	.text       start:0x80564CFC end:0x80564E34
+
+Unclassified/der_length_ia5_string.c:
+	.text       start:0x80564E34 end:0x80564FA4
+
+Unclassified/der_decode_integer.c:
+	.text       start:0x80564FA4 end:0x80565218
+
+Unclassified/der_encode_integer.c:
+	.text       start:0x80565218 end:0x80565528
+
+Unclassified/der_length_integer.c:
+	.text       start:0x80565528 end:0x80565648
+
+Unclassified/der_decode_object_identifier.c:
+	.text       start:0x80565648 end:0x80565814
+
+Unclassified/der_encode_object_identifier.c:
+	.text       start:0x80565814 end:0x80565A28
+
+Unclassified/der_length_object_identifier.c:
+	.text       start:0x80565A28 end:0x80565B50
+
+Unclassified/der_decode_octet_string.c:
+	.text       start:0x80565B50 end:0x80565D64
+
+Unclassified/der_encode_octet_string.c:
+	.text       start:0x80565D64 end:0x80565F48
+
+Unclassified/der_length_octet_string.c:
+	.text       start:0x80565F48 end:0x80565FB0
+
+Unclassified/der_decode_printable_string.c:
+	.text       start:0x80565FB0 end:0x80566168
+
+Unclassified/der_encode_printable_string.c:
+	.text       start:0x80566168 end:0x805662A0
+
+Unclassified/der_length_printable_string.c:
+	.text       start:0x805662A0 end:0x80566410
+
+Unclassified/der_decode_sequence_ex.c:
+	.text       start:0x80566410 end:0x80566A08
+
+Unclassified/der_decode_sequence_multi.c:
+	.text       start:0x80566A08 end:0x80566BE0
+
+Unclassified/der_encode_sequence_ex.c:
+	.text       start:0x80566BE0 end:0x80567224
+
+Unclassified/der_encode_sequence_multi.c:
+	.text       start:0x80567224 end:0x80567414
+
+Unclassified/der_length_sequence.c:
+	.text       start:0x80567414 end:0x8056760C
+
+Unclassified/der_encode_set.c:
+	.text       start:0x8056760C end:0x80567A74
+
+Unclassified/der_encode_setof.c:
+	.text       start:0x80567A74 end:0x80567DE4
+
+Unclassified/der_decode_short_integer.c:
+	.text       start:0x80567DE4 end:0x80567ED4
+
+Unclassified/der_encode_short_integer.c:
+	.text       start:0x80567ED4 end:0x805680C0
+
+Unclassified/der_length_short_integer.c:
+	.text       start:0x805680C0 end:0x8056811C
+
+Unclassified/der_decode_utctime.c:
+	.text       start:0x8056811C end:0x80568498
+
+Unclassified/der_encode_utctime.c:
+	.text       start:0x80568498 end:0x80568878
+
+Unclassified/der_length_utctime.c:
+	.text       start:0x80568878 end:0x805688AC
+
+Unclassified/ecc_export.c:
+	.text       start:0x805688AC end:0x80568A20
+
+Unclassified/ecc_free.c:
+	.text       start:0x80568A20 end:0x80568A40
+
+Unclassified/ecc_import.c:
+	.text       start:0x80568A40 end:0x80568F84
+
+Unclassified/ecc_make_key.c:
+	.text       start:0x80568F84 end:0x80569218
+
+Unclassified/ecc_shared_secret.c:
+	.text       start:0x80569218 end:0x805693DC
+
+Unclassified/ltc_ecc_is_valid_idx.c:
+	.text       start:0x805693DC end:0x80569420
+
+Unclassified/ltc_ecc_map.c:
+	.text       start:0x80569420 end:0x80569620
+
+Unclassified/ltc_ecc_mulmod.c:
+	.text       start:0x80569620 end:0x80569C60
+
+Unclassified/ltc_ecc_points.c:
+	.text       start:0x80569C60 end:0x80569D20
+
+Unclassified/ltc_ecc_projective_add_point.c:
+	.text       start:0x80569D20 end:0x8056A88C
+
+Unclassified/ltc_ecc_projective_dbl_point.c:
+	.text       start:0x8056A88C end:0x8056B070
+
+Unclassified/pkcs_1_mgf1.c:
+	.text       start:0x8056B070 end:0x8056B228
+
+Unclassified/pkcs_1_oaep_decode.c:
+	.text       start:0x8056B228 end:0x8056B71C
+
+Unclassified/pkcs_1_pss_decode.c:
+	.text       start:0x8056B71C end:0x8056BB64
+
+Unclassified/rsa_decrypt_key.c:
+	.text       start:0x8056BB64 end:0x8056BCA4
+
+Unclassified/rsa_exptmod.c:
+	.text       start:0x8056BCA4 end:0x8056BF70
+
+Unclassified/rsa_free.c:
+	.text       start:0x8056BF70 end:0x8056BFC0
+
+Unclassified/rsa_import.c:
+	.text       start:0x8056BFC0 end:0x8056C398
+
+Unclassified/rsa_make_key.c:
+	.text       start:0x8056C398 end:0x8056C7D8
+
+Unclassified/rsa_verify_hash.c:
+	.text       start:0x8056C7D8 end:0x8056C910
+
+Unclassified/yarrow.c:
+	.text       start:0x8056C910 end:0x8056CCB0
+
+Unclassified/bn_mp_init.c:
+	.text       start:0x8056CCB0 end:0x8056CDE0
+
+Unclassified/bn_mp_clear.c:
+	.text       start:0x8056CDE0 end:0x8056CE5C
+
+Unclassified/bn_mp_exch.c:
+	.text       start:0x8056CE5C end:0x8056CEB8
+
+Unclassified/bn_mp_grow.c:
+	.text       start:0x8056CEB8 end:0x8056CF64
+
+Unclassified/bn_mp_clamp.c:
+	.text       start:0x8056CF64 end:0x8056CFAC
+
+Unclassified/bn_mp_zero.c:
+	.text       start:0x8056CFAC end:0x8056CFE0
+
+Unclassified/bn_mp_set.c:
+	.text       start:0x8056CFE0 end:0x8056D03C
+
+Unclassified/bn_mp_set_int.c:
+	.text       start:0x8056D03C end:0x8056D0D8
+
+Unclassified/bn_mp_init_size.c:
+	.text       start:0x8056D0D8 end:0x8056D23C
+
+Unclassified/bn_mp_copy.c:
+	.text       start:0x8056D23C end:0x8056D30C
+
+Unclassified/bn_mp_init_copy.c:
+	.text       start:0x8056D30C end:0x8056D35C
+
+Unclassified/bn_mp_abs.c:
+	.text       start:0x8056D35C end:0x8056D3A8
+
+Unclassified/bn_mp_neg.c:
+	.text       start:0x8056D3A8 end:0x8056D420
+
+Unclassified/bn_mp_cmp_mag.c:
+	.text       start:0x8056D420 end:0x8056D4A0
+
+Unclassified/bn_mp_cmp.c:
+	.text       start:0x8056D4A0 end:0x8056D4E4
+
+Unclassified/bn_mp_cmp_d.c:
+	.text       start:0x8056D4E4 end:0x8056D530
+
+Unclassified/bn_mp_rshd.c:
+	.text       start:0x8056D530 end:0x8056D5AC
+
+Unclassified/bn_mp_lshd.c:
+	.text       start:0x8056D5AC end:0x8056D884
+
+Unclassified/bn_mp_mod_2d.c:
+	.text       start:0x8056D884 end:0x8056D9B8
+
+Unclassified/bn_mp_div_2d.c:
+	.text       start:0x8056D9B8 end:0x8056DCB0
+
+Unclassified/bn_mp_mul_2d.c:
+	.text       start:0x8056DCB0 end:0x8056DE14
+
+Unclassified/bn_mp_div_2.c:
+	.text       start:0x8056DE14 end:0x8056E15C
+
+Unclassified/bn_mp_mul_2.c:
+	.text       start:0x8056E15C end:0x8056E378
+
+Unclassified/bn_s_mp_add.c:
+	.text       start:0x8056E378 end:0x8056E7B0
+
+Unclassified/bn_s_mp_sub.c:
+	.text       start:0x8056E7B0 end:0x8056EB90
+
+Unclassified/bn_fast_s_mp_mul_digs.c:
+	.text       start:0x8056EB90 end:0x8056EF38
+
+Unclassified/bn_s_mp_mul_digs.c:
+	.text       start:0x8056EF38 end:0x8056F288
+
+Unclassified/bn_fast_s_mp_mul_high_digs.c:
+	.text       start:0x8056F288 end:0x8056F6EC
+
+Unclassified/bn_s_mp_mul_high_digs.c:
+	.text       start:0x8056F6EC end:0x8056FAC0
+
+Unclassified/bn_fast_s_mp_sqr.c:
+	.text       start:0x8056FAC0 end:0x8056FECC
+
+Unclassified/bn_s_mp_sqr.c:
+	.text       start:0x8056FECC end:0x80570380
+
+Unclassified/bn_mp_add.c:
+	.text       start:0x80570380 end:0x8057040C
+
+Unclassified/bn_mp_sub.c:
+	.text       start:0x8057040C end:0x805704B0
+
+Unclassified/bn_mp_karatsuba_mul.c:
+	.text       start:0x805704B0 end:0x80570890
+
+Unclassified/bn_mp_mul.c:
+	.text       start:0x80570890 end:0x80570980
+
+Unclassified/bn_mp_karatsuba_sqr.c:
+	.text       start:0x80570980 end:0x80570C74
+
+Unclassified/bn_mp_sqr.c:
+	.text       start:0x80570C74 end:0x80570CF8
+
+Unclassified/bn_mp_div.c:
+	.text       start:0x80570CF8 end:0x80571290
+
+Unclassified/bn_mp_mod.c:
+	.text       start:0x80571290 end:0x80571358
+
+Unclassified/bn_mp_add_d.c:
+	.text       start:0x80571358 end:0x8057154C
+
+Unclassified/bn_mp_sub_d.c:
+	.text       start:0x8057154C end:0x80571720
+
+Unclassified/bn_mp_mul_d.c:
+	.text       start:0x80571720 end:0x8057186C
+
+Unclassified/bn_mp_div_d.c:
+	.text       start:0x8057186C end:0x80571AA8
+
+Unclassified/bn_mp_mod_d.c:
+	.text       start:0x80571AA8 end:0x80571AB4
+
+Unclassified/bn_mp_mulmod.c:
+	.text       start:0x80571AB4 end:0x80571B60
+
+Unclassified/bn_mp_sqrmod.c:
+	.text       start:0x80571B60 end:0x80571BFC
+
+Unclassified/bn_mp_gcd.c:
+	.text       start:0x80571BFC end:0x80571E44
+
+Unclassified/bn_mp_lcm.c:
+	.text       start:0x80571E44 end:0x80571F68
+
+Unclassified/bn_fast_mp_invmod.c:
+	.text       start:0x80571F68 end:0x80572310
+
+Unclassified/bn_mp_invmod.c:
+	.text       start:0x80572310 end:0x80572364
+
+Unclassified/bn_mp_reduce.c:
+	.text       start:0x80572364 end:0x8057251C
+
+Unclassified/bn_mp_montgomery_setup.c:
+	.text       start:0x8057251C end:0x80572580
+
+Unclassified/bn_fast_mp_montgomery_reduce.c:
+	.text       start:0x80572580 end:0x80572850
+
+Unclassified/bn_mp_montgomery_reduce.c:
+	.text       start:0x80572850 end:0x805729DC
+
+Unclassified/bn_mp_exptmod_fast.c:
+	.text       start:0x805729DC end:0x80572FB4
+
+Unclassified/bn_mp_exptmod.c:
+	.text       start:0x80572FB4 end:0x805731A0
+
+Unclassified/bn_mp_2expt.c:
+	.text       start:0x805731A0 end:0x80573268
+
+Unclassified/bn_reverse.c:
+	.text       start:0x80573268 end:0x805732A4
+
+Unclassified/bn_mp_count_bits.c:
+	.text       start:0x805732A4 end:0x805732E8
+
+Unclassified/bn_mp_read_unsigned_bin.c:
+	.text       start:0x805732E8 end:0x805733AC
+
+Unclassified/bn_mp_to_unsigned_bin.c:
+	.text       start:0x805733AC end:0x8057347C
+
+Unclassified/bn_mp_unsigned_bin_size.c:
+	.text       start:0x8057347C end:0x805734B8
+
+Unclassified/bn_mp_montgomery_calc_normalization.c:
+	.text       start:0x805734B8 end:0x805735C0
+
+Unclassified/bn_mp_prime_is_divisible.c:
+	.text       start:0x805735C0 end:0x80573664
+
+Unclassified/bn_mp_prime_miller_rabin.c:
+	.text       start:0x80573664 end:0x80573828
+
+Unclassified/bn_mp_prime_is_prime.c:
+	.text       start:0x80573828 end:0x8057396C
+
+Unclassified/bn_mp_dr_reduce.c:
+	.text       start:0x8057396C end:0x80573C78
+
+Unclassified/bn_mp_dr_is_modulus.c:
+	.text       start:0x80573C78 end:0x80573CCC
+
+Unclassified/bn_mp_dr_setup.c:
+	.text       start:0x80573CCC end:0x80573CE4
+
+Unclassified/bn_mp_reduce_setup.c:
+	.text       start:0x80573CE4 end:0x80573D44
+
+Unclassified/bn_mp_toom_mul.c:
+	.text       start:0x80573D44 end:0x805744C8
+
+Unclassified/bn_mp_toom_sqr.c:
+	.text       start:0x805744C8 end:0x80574A68
+
+Unclassified/bn_mp_div_3.c:
+	.text       start:0x80574A68 end:0x80574BF0
+
+Unclassified/bn_s_mp_exptmod.c:
+	.text       start:0x80574BF0 end:0x8057512C
+
+Unclassified/bn_mp_reduce_2k.c:
+	.text       start:0x8057512C end:0x80575218
+
+Unclassified/bn_mp_reduce_is_2k.c:
+	.text       start:0x80575218 end:0x805752C0
+
+Unclassified/bn_mp_reduce_2k_setup.c:
+	.text       start:0x805752C0 end:0x80575384
+
+Unclassified/bn_mp_reduce_2k_l.c:
+	.text       start:0x80575384 end:0x80575468
+
+Unclassified/bn_mp_reduce_is_2k_l.c:
+	.text       start:0x80575468 end:0x805754E8
+
+Unclassified/bn_mp_reduce_2k_setup_l.c:
+	.text       start:0x805754E8 end:0x80575578
+
+Unclassified/bn_mp_read_radix.c:
+	.text       start:0x80575578 end:0x8057575C
+
+Unclassified/bn_mp_toradix.c:
+	.text       start:0x8057575C end:0x8057588C
+
+Unclassified/bn_mp_cnt_lsb.c:
+	.text       start:0x8057588C end:0x8057590C
+
+Unclassified/bn_mp_init_multi.c:
+	.text       start:0x8057590C end:0x80575A24
+
+Unclassified/bn_mp_clear_multi.c:
+	.text       start:0x80575A24 end:0x80575ABC
+
+Unclassified/bn_mp_get_int.c:
+	.text       start:0x80575ABC end:0x80575B14
+
+Unclassified/bn_mp_invmod_slow.c:
+	.text       start:0x80575B14 end:0x8057605C
+
 Game/tfbPortalDriver.cpp:
 	.text       start:0x8057605C end:0x8057B528
+
+Unclassified/tfbSpyroTag.cpp:
+	.text       start:0x8057B528 end:0x80583928
+
+Unclassified/tfbSpyroTagCustomize.cpp:
+	.text       start:0x80583928 end:0x80583930
+
+Unclassified/__exception.s:
+	.init       start:0x80004000 end:0x80005F34
+
+Unclassified/__start.c:
+	.init       start:0x800062C0 end:0x80006620
+	.sbss       start:0x80898D58 end:0x80898D60
+
+Unclassified/nand_drv.c:
+	.sbss       start:0x808990E8 end:0x808990F0
+
+Unclassified/BULog.cpp:
+	.sbss       start:0x808995C8 end:0x808995D0
+
+Unclassified/bdSingleton.cpp:
+	.sbss       start:0x80899600 end:0x80899608
+
+Unclassified/bdPlatformError.cpp:
+	.sbss       start:0x80899670 end:0x80899678
+
+Unclassified/bdPlatformSocket.cpp:
+	.sbss       start:0x80899680 end:0x80899698
+
+Unclassified/bdPlatformStreamSocket.cpp:
+	.sbss       start:0x80899698 end:0x808996A8
+
+Unclassified/tfbPortalAlgorithms.c:
+	.init       start:0x80006684 end:0x80006684
