@@ -7,15 +7,12 @@ Sections:
 	.dtors      type:rodata align:32
 	.rodata     type:rodata align:64
 	.data       type:data align:32
-	wii_embedded type:data align:32
+	wii_embedded type:rodata align:32
 	.bss        type:bss align:64
 	.sdata      type:data align:32
 	.sbss       type:bss align:32
 	.sdata2     type:rodata align:32
 	.sbss2      type:bss align:32
-
-Unclassified/errno.c:
-	.sbss       start:0x808988F8 end:0x80898900
 
 Unclassified/crypt_cipher_descriptor.c:
 	.bss        start:0x8077B4B0 end:0x8077BF30
@@ -45,9 +42,6 @@ Unclassified/xfontdata.c:
 
 Unclassified/AXComp.c:
 	.data       start:0x805DE8E0 end:0x805DF8A0
-
-Unclassified/wctype.c:
-	.rodata     start:0x80591868 end:0x80591E68
 
 Unclassified/APIBaseObject.cpp:
 	.text       start:0x8001ADE0 end:0x8001B800
@@ -1579,7 +1573,11 @@ Unclassified/targimpl.c:
 Unclassified/target_options.c:
 	.text       start:0x8028760C end:0x8028761C
 
+Unclassified/__exception.s:
+	.init       start:0x80004000 end:0x80005F34
+
 Runtime/__mem.c:
+	.init       start:0x80005F34 end:0x800062C0
 	.text       start:0x8028761C end:0x80287638
 
 Unclassified/__va_arg.c:
@@ -1587,6 +1585,10 @@ Unclassified/__va_arg.c:
 
 Runtime/global_destructor_chain.c:
 	.text       start:0x80287700 end:0x80287760
+	.sbss       start:0x808988E8 end:0x808988F0
+
+Unclassified/errno.c:
+	.sbss       start:0x808988F8 end:0x80898900
 
 Unclassified/NMWException.cp:
 	extab       start:0x80006740 end:0x80006790
@@ -1596,8 +1598,12 @@ Unclassified/NMWException.cp:
 Unclassified/ptmf.c:
 	.text       start:0x80287E10 end:0x80287F58
 
-Unclassified/runtime.c:
+Runtime/runtime.c:
 	.text       start:0x80287F58 end:0x8028897C
+	.rodata     start:0x80590E80 end:0x80590E98
+
+Unclassified/wctype.c:
+	.rodata     start:0x80591868 end:0x80591E68
 
 Runtime/__init_cpp_exceptions.cpp:
 	.text       start:0x8028897C end:0x802889EC
@@ -5538,9 +5544,6 @@ Unclassified/tfbSpyroTag.cpp:
 
 Unclassified/tfbSpyroTagCustomize.cpp:
 	.text       start:0x80583928 end:0x80583930
-
-Unclassified/__exception.s:
-	.init       start:0x80004000 end:0x80005F34
 
 Unclassified/__start.c:
 	.init       start:0x800062C0 end:0x80006620

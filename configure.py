@@ -177,6 +177,10 @@ config.ldflags = [
     "-fp hardware",
     "-nodefaults",
 ]
+
+if version_num == 0:
+    args.debug = True
+
 if args.debug:
     config.ldflags.append("-g")  # Or -gdwarf-2 for Wii linkers
 if args.map:
@@ -208,7 +212,7 @@ cflags_base = [
     "-RTTI off",
     "-fp_contract on",
     "-str reuse",
-    "-multibyte",  # For Wii compilers, replace with `-enc SJIS`
+    "-enc SJIS",  # For Wii compilers, replace with `-enc SJIS`. Was `-multibyte``
     "-i include",
     f"-i build/{config.version}/include",
     f"-DBUILD_VERSION={version_num}",
@@ -218,7 +222,7 @@ cflags_base = [
 # Debug flags
 if args.debug:
     # Or -sym dwarf-2 for Wii compilers
-    cflags_base.extend(["-sym on", "-DDEBUG=1"])
+    cflags_base.extend(["-sym dwarf-2", "-DDEBUG=1"])
 else:
     cflags_base.append("-DNDEBUG=1")
 
@@ -238,6 +242,7 @@ cflags_runtime = [
     "-gccinc",
     "-common off",
     "-inline auto",
+    "-Ilibs/Runtime/include",
 ]
 
 # REL flags
@@ -247,7 +252,7 @@ cflags_rel = [
     "-sdata2 0",
 ]
 
-config.linker_version = "GC/1.3.2"
+config.linker_version = "GC/3.0a5"
 
 
 # Helper function for Dolphin libraries
@@ -1607,7 +1612,6 @@ config.libs = [
             Object(NonMatching, "Unclassified/__va_arg.c"),
             Object(NonMatching, "Unclassified/NMWException.cp"),
             Object(NonMatching, "Unclassified/ptmf.c"),
-            Object(NonMatching, "Unclassified/runtime.c"),
             Object(NonMatching, "Unclassified/Gecko_setjmp.c"),
             Object(NonMatching, "Unclassified/Gecko_ExceptionPPC.cp"),
             Object(NonMatching, "Unclassified/alloc.c"),
@@ -2763,14 +2767,15 @@ config.libs = [
         ],
     },
     {
-        "lib": "Runtime",
+        "lib": "Runtime.PPCEABI.H",
         "mw_version": config.linker_version,
         "cflags": cflags_runtime,
         "progress_category": "sdk",  # str | List[str]
         "objects": [
-            Object(NonMatching, "Runtime/__mem.c"),
-            Object(NonMatching, "Runtime/global_destructor_chain.c"),
             Object(NonMatching, "Runtime/__init_cpp_exceptions.cpp"),
+            Object(NonMatching, "Runtime/__mem.c"),
+            Object(NonMatching, "Runtime/runtime.c"),
+            Object(NonMatching, "Runtime/global_destructor_chain.c"),
         ],
     },
 ]
