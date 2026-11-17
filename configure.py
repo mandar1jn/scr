@@ -287,6 +287,16 @@ def Gamelogic(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
     }
 
 
+def MSLib(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
+    return {
+        "lib": lib_name,
+        "mw_version": "Wii/1.7",
+        "cflags": [*cflags_base, "-Ilibs/MSL_C/include"],
+        "progress_category": "msl",
+        "objects": objects,
+    }
+
+
 Matching = True  # Object matches and should be linked
 NonMatching = False  # Object does not match and should not be linked
 Equivalent = config.non_matching  # Object should be linked when configured with --non-matching
@@ -1612,7 +1622,6 @@ config.libs = [
             Object(NonMatching, "Unclassified/char_io.c"),
             Object(NonMatching, "Unclassified/ctype.c"),
             Object(NonMatching, "Unclassified/direct_io.c"),
-            Object(NonMatching, "Unclassified/errno.c"),
             Object(NonMatching, "Unclassified/file_io.c"),
             Object(NonMatching, "Unclassified/FILE_POS.C"),
             Object(NonMatching, "Unclassified/locale.c"),
@@ -2768,6 +2777,12 @@ config.libs = [
             Object(NonMatching, "Runtime/global_destructor_chain.c"),
         ],
     },
+    MSLib(
+        "MSL_C",
+        [
+            Object(NonMatching, "MSL_C/errno.c"),
+        ],
+    ),
 ]
 
 
@@ -2795,6 +2810,7 @@ config.progress_categories = [
     ProgressCategory("game", "Game Code"),
     ProgressCategory("gamelogic", "Gamelogic Code"),
     ProgressCategory("sdk", "SDK Code"),
+    ProgressCategory("msl", "MSL_C Code"),
     ProgressCategory("unclassified", "Object hasn't been classified"),
 ]
 config.progress_each_module = args.verbose

@@ -1587,7 +1587,7 @@ Runtime/global_destructor_chain.c:
 	.text       start:0x80287700 end:0x80287760
 	.sbss       start:0x808988E8 end:0x808988F0
 
-Unclassified/errno.c:
+MSL_C/errno.c:
 	.sbss       start:0x808988F8 end:0x80898900
 
 Unclassified/NMWException.cp:
