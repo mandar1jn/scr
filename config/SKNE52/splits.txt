@@ -14,18 +14,6 @@ Sections:
 	.sdata2     type:rodata align:32
 	.sbss2      type:bss align:32
 
-Unclassified/crypt_cipher_descriptor.c:
-	.bss        start:0x8077B4B0 end:0x8077BF30
-
-Unclassified/crypt_hash_descriptor.c:
-	.bss        start:0x8077BF30 end:0x8077CC30
-
-Unclassified/crypt_ltc_mp_descriptor.c:
-	.bss        start:0x8077CC30 end:0x8077CCE8
-
-Unclassified/crypt_prng_descriptor.c:
-	.bss        start:0x8077CCE8 end:0x8077D1E8
-
 Unclassified/GEEmbeddedPak_wii.cpp:
 	wii_embedded start:0x80610F80 end:0x806D1788
 
@@ -39,9 +27,6 @@ Unclassified/PFProfileTimers.cpp:
 
 Unclassified/xfontdata.c:
 	.data       start:0x805D9FA0 end:0x805DABA0
-
-Unclassified/AXComp.c:
-	.data       start:0x805DE8E0 end:0x805DF8A0
 
 Unclassified/APIBaseObject.cpp:
 	.text       start:0x8001ADE0 end:0x8001B800
@@ -1587,9 +1572,6 @@ Runtime/global_destructor_chain.c:
 	.text       start:0x80287700 end:0x80287760
 	.sbss       start:0x808988E8 end:0x808988F0
 
-MSL_C/errno.c:
-	.sbss       start:0x808988F8 end:0x80898900
-
 Unclassified/NMWException.cp:
 	extab       start:0x80006740 end:0x80006790
 	extabindex  start:0x80013280 end:0x800132C8
@@ -1602,9 +1584,6 @@ Runtime/runtime.c:
 	.text       start:0x80287F58 end:0x8028897C
 	.rodata     start:0x80590E80 end:0x80590E98
 
-Unclassified/wctype.c:
-	.rodata     start:0x80591868 end:0x80591E68
-
 Runtime/__init_cpp_exceptions.cpp:
 	.text       start:0x8028897C end:0x802889EC
 	.ctors      start:0x80585500 end:0x80585504 rename:.ctors$10
@@ -1612,12 +1591,156 @@ Runtime/__init_cpp_exceptions.cpp:
 	.dtors      start:0x805857A4 end:0x805857A8 rename:.dtors$15
 	.sdata      start:0x80896910 end:0x80896918
 
-Unclassified/float.c:
+Unclassified/Gecko_setjmp.c:
+	.text       start:0x802889EC end:0x80288C00
+
+Unclassified/Gecko_ExceptionPPC.cp:
+	extab       start:0x80006790 end:0x800067CE
+	extabindex  start:0x800132C8 end:0x80013304
+	.text       start:0x80288C00 end:0x8028A11C
+
+MSL_C/alloc.c:
+	.text       start:0x8028A11C end:0x8028AF1C
+	.rodata     start:0x80590E98 end:0x80590EB0
+	.bss        start:0x806D6F50 end:0x806D6F88
+	.sbss       start:0x808988F0 end:0x808988F8
+
+MSL_C/errno.c:
+	.sbss       start:0x808988F8 end:0x80898900
+
+MSL_C/ansi_files.c:
+	.text       start:0x8028AF1C end:0x8028B214
+	.data       start:0x805DB1C8 end:0x805DB308
+	.bss        start:0x806D6F88 end:0x806D7288
+
+MSL_C/ansi_fp.c:
+	.text       start:0x8028B214 end:0x8028CA94
+	.rodata     start:0x80590EB0 end:0x80590F90
+	.data       start:0x805DB308 end:0x805DB470
+	.sdata2     start:0x8089B448 end:0x8089B480
+
+MSL_C/arith.c:
+	.text       start:0x8028CA94 end:0x8028CAB4
+
+MSL_C/buffer_io.c:
+	.text       start:0x8028CAB4 end:0x8028CDC0
+
+MSL_C/char_io.c:
+	.text       start:0x8028CDC0 end:0x8028CEF0
+
+MSL_C/ctype.c:
+	.text       start:0x8028CEF0 end:0x8028CFA0
+	.rodata     start:0x80590F90 end:0x80591390
+
+MSL_C/direct_io.c:
+	.text       start:0x8028CFA0 end:0x8028D5F0
+
+MSL_C/file_io.c:
+	.text       start:0x8028D5F0 end:0x8028DB98
+
+MSL_C/FILE_POS.C:
+	.text       start:0x8028DB98 end:0x8028DE0C
+
+MSL_C/locale.c:
+	.text       start:0x8028DE0C end:0x8028DEE8
+	.rodata     start:0x80591390 end:0x80591498
+	.data       start:0x805DB470 end:0x805DB668
+	.sdata2     start:0x8089B480 end:0x8089B498
+
+MSL_C/mbstring.c:
+	.text       start:0x8028DEE8 end:0x8028E788
+	.sdata2     start:0x8089B498 end:0x8089B4A0
+
+MSL_C/mem.c:
+	.text       start:0x8028E788 end:0x8028E8F8
+
+MSL_C/mem_funcs.c:
+	.text       start:0x8028E8F8 end:0x8028EBC8
+
+MSL_C/math_api.c:
+	.text       start:0x8028EBC8 end:0x8028ECBC
+
+MSL_C/misc_io.c:
+	.text       start:0x8028ECBC end:0x8028ECDC
+
+MSL_C/printf.c:
+	.text       start:0x8028ECDC end:0x80291214
+	.rodata     start:0x80591498 end:0x805914C0
+	.data       start:0x805DB668 end:0x805DB898
+	.sdata      start:0x80896918 end:0x80896920
+	.sdata2     start:0x8089B4A0 end:0x8089B4A8
+
+MSL_C/qsort.c:
+	.text       start:0x80291214 end:0x80291384
+
+MSL_C/rand.c:
+	.text       start:0x80291384 end:0x802913AC
+	.sdata      start:0x80896920 end:0x80896928
+
+MSL_C/scanf.c:
+	.text       start:0x802913AC end:0x80292890
+	.rodata     start:0x805914C0 end:0x805914E8
+	.data       start:0x805DB898 end:0x805DBB08
+
+MSL_C/signal.c:
+	.text       start:0x80292890 end:0x80292938
+	.bss        start:0x806D7288 end:0x806D72A8
+
+MSL_C/string.c:
+	.text       start:0x80292938 end:0x80293968
+	.rodata     start:0x805914E8 end:0x80591858
+	.data       start:0x805DBB08 end:0x805DBC98
+	.bss        start:0x806D72A8 end:0x806D72E0
+	.sdata      start:0x80896928 end:0x80896930
+	.sdata2     start:0x8089B4A8 end:0x8089B4B0
+
+MSL_C/float.c:
 	.sdata      start:0x80896930 end:0x80896940
+
+Unclassified/crypt_cipher_descriptor.c:
+	.bss        start:0x8077B4B0 end:0x8077BF30
+
+Unclassified/crypt_hash_descriptor.c:
+	.bss        start:0x8077BF30 end:0x8077CC30
+
+Unclassified/crypt_ltc_mp_descriptor.c:
+	.bss        start:0x8077CC30 end:0x8077CCE8
+
+Unclassified/crypt_prng_descriptor.c:
+	.bss        start:0x8077CCE8 end:0x8077D1E8
+
+MSL_C/strtold.c:
+	.text       start:0x80293968 end:0x80294D70
+	.rodata     start:0x80591858 end:0x80591868
+	.sdata2     start:0x8089B4B0 end:0x8089B4D0
+
+MSL_C/wctype.c:
+	.rodata     start:0x80591868 end:0x80591E68
+
+MSL_C/strtoul.c:
+	.text       start:0x80294D70 end:0x80295974
+
+MSL_C/time.c:
+	.text       start:0x80295974 end:0x802959AC
+
+MSL_C/wmem.c:
+	.text       start:0x802959AC end:0x802959DC
+
+MSL_C/wprintf.c:
+	.text       start:0x802959DC end:0x80297BFC
+	.rodata     start:0x80591E68 end:0x80591E70
+	.data       start:0x805DBC98 end:0x805DBF38
+	.sdata2     start:0x8089B4D0 end:0x8089B4D8
+
+Unclassified/AXComp.c:
+	.data       start:0x805DE8E0 end:0x805DF8A0
 
 Unclassified/DSPCode.c:
 	.data       start:0x805DF8A0 end:0x805E18A0
 	.sdata      start:0x80896A20 end:0x80896A28
+
+Unclassified/AkDefault3DParams.cpp:
+	.data       start:0x806045C0 end:0x80604608
 
 Unclassified/bta_dm_cfg.c:
 	.rodata     start:0x805923A8 end:0x80592438
@@ -1628,161 +1751,37 @@ Unclassified/bta_hh_cfg.c:
 	.rodata     start:0x80592438 end:0x80592448
 	.sdata      start:0x80896B98 end:0x80896BA8
 
-Unclassified/bta_sys_cfg.c:
-	.sdata      start:0x80896BA8 end:0x80896BB0
-	.sdata2     start:0x8089BEF8 end:0x8089BF00
-
 Unclassified/lctype.c:
 	.rodata     start:0x8059A8B8 end:0x8059A9C0
 
 Unclassified/lopcodes.c:
 	.rodata     start:0x8059AB58 end:0x8059AB80
 
-Unclassified/AkDefault3DParams.cpp:
-	.data       start:0x806045C0 end:0x80604608
-
 Unclassified/BULWii.cpp:
 	.rodata     start:0x8059ADB0 end:0x8059AF78
 	.data       start:0x8060EB40 end:0x8060EB78
 
-Unclassified/bdDummySocket.cpp:
-	.rodata     start:0x805A0E68 end:0x805A0E88
-	.data       start:0x8060F368 end:0x8060F378
-	.sdata      start:0x80898068 end:0x80898078
-
-Unclassified/bdAntiCheatResponses.cpp:
-	.rodata     start:0x805A6A68 end:0x805A6A78
-	.data       start:0x8060F7F8 end:0x8060F808
-	.sdata      start:0x80898110 end:0x80898118
-
-Unclassified/bdConsoleID.cpp:
-	.rodata     start:0x805A6A78 end:0x805A6A88
-	.data       start:0x8060F808 end:0x8060F818
-	.sdata      start:0x80898118 end:0x80898120
-
-Unclassified/ecc.c:
-	.rodata     start:0x805BD1E0 end:0x805BD288
-	.data       start:0x80610748 end:0x80610CB0
-	.sdata      start:0x80898380 end:0x808983A8
-
-Unclassified/bncore.c:
-	.sdata      start:0x808983B0 end:0x808983C0
-
-Unclassified/bn_mp_radix_smap.c:
-	.data       start:0x80610CB0 end:0x80610CF8
-	.sdata      start:0x808983C0 end:0x808983C8
-
-Unclassified/bn_prime_tab.c:
-	.rodata     start:0x805BD2B0 end:0x805BD6B0
-
-Unclassified/Gecko_setjmp.c:
-	.text       start:0x802889EC end:0x80288C00
-
-Unclassified/Gecko_ExceptionPPC.cp:
-	extab       start:0x80006790 end:0x800067CE
-	extabindex  start:0x800132C8 end:0x80013304
-	.text       start:0x80288C00 end:0x8028A11C
-
-Unclassified/alloc.c:
-	.text       start:0x8028A11C end:0x8028AF1C
-
-Unclassified/ansi_files.c:
-	.text       start:0x8028AF1C end:0x8028B214
-
-Unclassified/ansi_fp.c:
-	.text       start:0x8028B214 end:0x8028CA94
-
-Unclassified/arith.c:
-	.text       start:0x8028CA94 end:0x8028CAB4
-
-Unclassified/buffer_io.c:
-	.text       start:0x8028CAB4 end:0x8028CDC0
-
-Unclassified/char_io.c:
-	.text       start:0x8028CDC0 end:0x8028CEF0
-
-Unclassified/ctype.c:
-	.text       start:0x8028CEF0 end:0x8028CFA0
-
-Unclassified/direct_io.c:
-	.text       start:0x8028CFA0 end:0x8028D5F0
-
-Unclassified/file_io.c:
-	.text       start:0x8028D5F0 end:0x8028DB98
-
-Unclassified/FILE_POS.C:
-	.text       start:0x8028DB98 end:0x8028DE0C
-
-Unclassified/locale.c:
-	.text       start:0x8028DE0C end:0x8028DEE8
-
-Unclassified/mbstring.c:
-	.text       start:0x8028DEE8 end:0x8028E788
-
-Unclassified/mem.c:
-	.text       start:0x8028E788 end:0x8028E8F8
-
-Unclassified/mem_funcs.c:
-	.text       start:0x8028E8F8 end:0x8028EBC8
-
-Unclassified/math_api.c:
-	.text       start:0x8028EBC8 end:0x8028ECBC
-
-Unclassified/misc_io.c:
-	.text       start:0x8028ECBC end:0x8028ECDC
-
-Unclassified/printf.c:
-	.text       start:0x8028ECDC end:0x80291214
-
-Unclassified/qsort.c:
-	.text       start:0x80291214 end:0x80291384
-
-Unclassified/rand.c:
-	.text       start:0x80291384 end:0x802913AC
-
-Unclassified/scanf.c:
-	.text       start:0x802913AC end:0x80292890
-
-Unclassified/signal.c:
-	.text       start:0x80292890 end:0x80292938
-
-Unclassified/string.c:
-	.text       start:0x80292938 end:0x80293968
-
-Unclassified/strtold.c:
-	.text       start:0x80293968 end:0x80294D70
-
-Unclassified/strtoul.c:
-	.text       start:0x80294D70 end:0x80295974
-
-Unclassified/time.c:
-	.text       start:0x80295974 end:0x802959AC
-
-Unclassified/wmem.c:
-	.text       start:0x802959AC end:0x802959DC
-
-Unclassified/wprintf.c:
-	.text       start:0x802959DC end:0x80297BFC
-
-Unclassified/wstring.c:
+MSL_C/wstring.c:
 	.text       start:0x80297BFC end:0x80297CD8
 
-Unclassified/wchar_io.c:
+MSL_C/wchar_io.c:
 	.text       start:0x80297CD8 end:0x80297D54
 
 Unclassified/time.dolphin.c:
 	.text       start:0x80297D54 end:0x80297D90
 
-Unclassified/uart_console_io_gcn.c:
+MSL_C/uart_console_io_gcn.c:
 	.text       start:0x80297D90 end:0x80297E60
+	.sbss       start:0x80898900 end:0x80898908
 
-Unclassified/abort_exit_ppc_eabi.c:
+MSL_C/abort_exit_ppc_eabi.c:
 	.text       start:0x80297E60 end:0x80297E94
+	.sbss       start:0x80898908 end:0x80898910
 
 Unclassified/secure_error.c:
 	.text       start:0x80297E94 end:0x80297EAC
 
-Unclassified/math_sun.c:
+MSL_C/math_sun.c:
 	.text       start:0x80297EAC end:0x80297EEC
 
 Unclassified/e_acos.c:
@@ -1884,13 +1883,48 @@ Unclassified/w_pow.c:
 Unclassified/e_sqrt.c:
 	.text       start:0x8029C110 end:0x8029C358
 
-Unclassified/math_ppc.c:
+MSL_C/PPC_EABI/math_ppc.c:
 	.text       start:0x8029C358 end:0x8029C384
+	.sdata2     start:0x8089BA60 end:0x8089BA68
+
+Unclassified/bta_sys_cfg.c:
+	.sdata      start:0x80896BA8 end:0x80896BB0
+	.sdata2     start:0x8089BEF8 end:0x8089BF00
+
+Unclassified/bdDummySocket.cpp:
+	.rodata     start:0x805A0E68 end:0x805A0E88
+	.data       start:0x8060F368 end:0x8060F378
+	.sdata      start:0x80898068 end:0x80898078
+
+Unclassified/bdAntiCheatResponses.cpp:
+	.rodata     start:0x805A6A68 end:0x805A6A78
+	.data       start:0x8060F7F8 end:0x8060F808
+	.sdata      start:0x80898110 end:0x80898118
+
+Unclassified/bdConsoleID.cpp:
+	.rodata     start:0x805A6A78 end:0x805A6A88
+	.data       start:0x8060F808 end:0x8060F818
+	.sdata      start:0x80898118 end:0x80898120
+
+Unclassified/ecc.c:
+	.rodata     start:0x805BD1E0 end:0x805BD288
+	.data       start:0x80610748 end:0x80610CB0
+	.sdata      start:0x80898380 end:0x808983A8
+
+Unclassified/bncore.c:
+	.sdata      start:0x808983B0 end:0x808983C0
+
+Unclassified/bn_mp_radix_smap.c:
+	.data       start:0x80610CB0 end:0x80610CF8
+	.sdata      start:0x808983C0 end:0x808983C8
+
+Unclassified/bn_prime_tab.c:
+	.rodata     start:0x805BD2B0 end:0x805BD6B0
 
 Unclassified/w_sqrt.c:
 	.text       start:0x8029C384 end:0x8029C388
 
-Unclassified/extras.c:
+MSL_C/extras.c:
 	.text       start:0x8029C388 end:0x8029C560
 
 Unclassified/euart.c:

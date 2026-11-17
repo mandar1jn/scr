@@ -1,6 +1,8 @@
 decomp-toolkit Project Template
 ===============================
 
+TODO: credit petari for library code. Also look at xenoblade, which seems to be closer to out version
+
 If starting a new GameCube / Wii decompilation project, this repository can be used as a scaffold.
 
 See [decomp-toolkit](https://github.com/encounter/decomp-toolkit) for background on the concept and more information on the tooling used.
