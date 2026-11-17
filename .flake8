@@ -2,3 +2,4 @@
 # E203: whitespace before ':'
 # E501: line too long
 extend-ignore = E203,E501
+max-line-length = 180

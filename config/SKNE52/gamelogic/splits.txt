@@ -6,7 +6,7 @@ Sections:
 	.data       type:data align:8
 	.bss        type:bss align:8
 
-GameLogic/WaveSpawner.cpp:
+GameLogic/BaseGameplay/Objects/WaveSpawner.cpp:
 	.text       start:0x00000000 end:0x00001D8C
 	.ctors      start:0x00000000 end:0x00000004
 	.rodata     start:0x00000000 end:0x00000580
@@ -14,3223 +14,3223 @@ GameLogic/WaveSpawner.cpp:
 	.bss        start:0x00000000 end:0x00000018
 	.bss        start:0x0000AC74 end:0x0000AD9C align:4 common
 
-GameLogic/CompositeObjectAnimationGraph.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectAnimationGraph.cpp:
 	.text       start:0x00001D8C end:0x00002544
 	.ctors      start:0x00000004 end:0x00000008
 
-GameLogic/LaserVisual.cpp:
+GameLogic/BaseGameplay/Objects/LaserVisual.cpp:
 	.text       start:0x00002544 end:0x00003290
 	.ctors      start:0x00000008 end:0x0000000C
 
-GameLogic/CompositeObject.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/CompositeObject.cpp:
 	.text       start:0x00003290 end:0x0000A00C
 	.ctors      start:0x0000000C end:0x00000010
 
-GameLogic/MovableAnimatedDestructable.cpp:
+GameLogic/BaseGameplay/Objects/MovableAnimatedDestructable.cpp:
 	.text       start:0x0000A00C end:0x00012378
 	.ctors      start:0x00000010 end:0x00000014
 
-GameLogic/CompositeObjectArriveOnTarget.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectArriveOnTarget.cpp:
 	.text       start:0x00012378 end:0x00013CF8
 	.ctors      start:0x00000014 end:0x00000018
 
-GameLogic/CompositeObjectFactory.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/CompositeObjectFactory.cpp:
 	.text       start:0x00013CF8 end:0x0001F0F4
 	.ctors      start:0x00000018 end:0x0000001C
 
-GameLogic/NetworkAnimatedObject.cpp:
+GameLogic/BaseGameplay/Objects/NetworkAnimatedObject.cpp:
 	.text       start:0x0001F0F4 end:0x0001F81C
 	.ctors      start:0x0000001C end:0x00000020
 
-GameLogic/CompositeObjectCollisionTrigger.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectCollisionTrigger.cpp:
 	.text       start:0x0001F81C end:0x00020C50
 	.ctors      start:0x00000020 end:0x00000024
 
-GameLogic/CompositeObjectBaseModule.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectBaseModule.cpp:
 	.text       start:0x00020C50 end:0x00020F18
 	.ctors      start:0x00000024 end:0x00000028
 
-GameLogic/CompositeObjectPhysicHelper.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/Helper/CompositeObjectPhysicHelper.cpp:
 	.text       start:0x00020F18 end:0x00023578
 	.ctors      start:0x00000028 end:0x0000002C
 
-GameLogic/CompositeObjectFollowSplineOnWater.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectFollowSplineOnWater.cpp:
 	.text       start:0x00023578 end:0x0002392C
 	.ctors      start:0x0000002C end:0x00000030
 
-GameLogic/CompositeObjectDestructible.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectDestructible.cpp:
 	.text       start:0x0002392C end:0x00027868
 	.ctors      start:0x00000030 end:0x00000034
 
-GameLogic/CompositeObjectBehavior.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectBehavior.cpp:
 	.text       start:0x00027868 end:0x00029DA4
 	.ctors      start:0x00000034 end:0x00000038
 
-GameLogic/CheckIntegerDynBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/CheckIntegerDynBehavior.cpp:
 	.text       start:0x00029DA4 end:0x0002AD4C
 	.ctors      start:0x00000038 end:0x0000003C
 
-GameLogic/APIGameLogicRSO.cpp:
+GameLogic/API/APIGameLogicRSO.cpp:
 	.text       start:0x0002AD4C end:0x0002AEE8
 	.ctors      start:0x0000003C end:0x00000040
 	.dtors      start:0x00000000 end:0x00000008
 
-GameLogic/CheckDistanceDynBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/CheckDistanceDynBehavior.cpp:
 	.text       start:0x0002AEE8 end:0x0002B4A8
 	.ctors      start:0x00000040 end:0x00000044
 
-GameLogic/BanksAndSensorsContainer.cpp:
+GameLogic/BaseGameplay/BT/BanksAndSensorsContainer.cpp:
 	.text       start:0x0002B4A8 end:0x0002BC68
 	.ctors      start:0x00000044 end:0x00000048
 
-GameLogic/CheckFloatDynBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/CheckFloatDynBehavior.cpp:
 	.text       start:0x0002BC68 end:0x0002C960
 	.ctors      start:0x00000048 end:0x0000004C
 
-GameLogic/BTDebugObserver.cpp:
+GameLogic/BaseGameplay/BT/BTDebugObserver.cpp:
 	.text       start:0x0002C960 end:0x0002D2A8
 	.ctors      start:0x0000004C end:0x00000050
 
-GameLogic/RacerBrain.cpp:
+GameLogic/BaseGameplay/AI/RacerBrain.cpp:
 	.text       start:0x0002D2A8 end:0x00041E5C
 	.ctors      start:0x00000050 end:0x00000054
 
-GameLogic/RacerAISpawner.cpp:
+GameLogic/BaseGameplay/AI/Spawner/RacerAISpawner.cpp:
 	.text       start:0x00041E5C end:0x00042B7C
 	.ctors      start:0x00000054 end:0x00000058
 
-GameLogic/BaseBehaviorModule.cpp:
+GameLogic/BaseGameplay/BT/BehaviorModule/BaseBehaviorModule.cpp:
 	.text       start:0x00042B7C end:0x00042E3C
 	.ctors      start:0x00000058 end:0x0000005C
 
-GameLogic/AnimationGraphDataManager.cpp:
+GameLogic/BaseGameplay/AI/AnimationGraphDataManager.cpp:
 	.text       start:0x00042E3C end:0x00046600
 	.ctors      start:0x0000005C end:0x00000060
 
-GameLogic/ExecuteAndWaitGenericBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/ExecuteAndWaitGenericBehavior.cpp:
 	.text       start:0x00046600 end:0x00046950
 	.ctors      start:0x00000060 end:0x00000064
 
-GameLogic/AISensor.cpp:
+GameLogic/BaseGameplay/AI/AISensor/AISensor.cpp:
 	.text       start:0x00046950 end:0x000494E4
 	.ctors      start:0x00000064 end:0x00000068
 
-GameLogic/ExecuteAndWaitForCompletedBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/ExecuteAndWaitForCompletedBehavior.cpp:
 	.text       start:0x000494E4 end:0x000497B8
 	.ctors      start:0x00000068 end:0x0000006C
 
-GameLogic/AIHints.cpp:
+GameLogic/BaseGameplay/AI/AIHints.cpp:
 	.text       start:0x000497B8 end:0x0004E014
 	.ctors      start:0x0000006C end:0x00000070
 
-GameLogic/BankAndSensorFactory.cpp:
+GameLogic/BaseGameplay/BT/BankAndSensorFactory.cpp:
 	.text       start:0x0004E014 end:0x0004EA24
 	.ctors      start:0x00000070 end:0x00000074
 
-GameLogic/CheckOrientationDynBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/CheckOrientationDynBehavior.cpp:
 	.text       start:0x0004EA24 end:0x0004F208
 	.ctors      start:0x00000074 end:0x00000078
 
-GameLogic/SetVariableBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/SetVariableBehavior.cpp:
 	.text       start:0x0004F208 end:0x0004F500
 	.ctors      start:0x00000078 end:0x0000007C
 
-GameLogic/CheckBoolDynBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/CheckBoolDynBehavior.cpp:
 	.text       start:0x0004F500 end:0x00050074
 	.ctors      start:0x0000007C end:0x00000080
 
-GameLogic/BehaviorTreeContainer.cpp:
+GameLogic/BaseGameplay/BT/BehaviorTreeContainer.cpp:
 	.text       start:0x00050074 end:0x000515D8
 	.ctors      start:0x00000080 end:0x00000084
 
-GameLogic/ExecuteBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/ExecuteBehavior.cpp:
 	.text       start:0x000515D8 end:0x00051610
 	.ctors      start:0x00000084 end:0x00000088
 
-GameLogic/BehaviorQueue.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Identity/BehaviorQueue.cpp:
 	.text       start:0x00051610 end:0x0005174C
 	.ctors      start:0x00000088 end:0x0000008C
 
-GameLogic/VehiclePlaneMove_BehaviorModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehiclePlaneMove/VehiclePlaneMove_BehaviorModule.cpp:
 	.text       start:0x0005174C end:0x00063018
 	.ctors      start:0x0000008C end:0x00000090
 
-GameLogic/VehiclePlaneMove_RemoteReplica_BehaviorModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehiclePlaneMove/VehiclePlaneMove_RemoteReplica_BehaviorModule.cpp:
 	.text       start:0x00063018 end:0x00063050
 	.ctors      start:0x00000090 end:0x00000094
 
-GameLogic/IdentityFactory.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Identity/IdentityFactory.cpp:
 	.text       start:0x00063050 end:0x0006335C
 	.ctors      start:0x00000094 end:0x00000098
 
-GameLogic/ExecuteCharacterBehaviorNode.cpp:
+GameLogic/BaseGameplay/CharacterInterface/BTCharacterNode/ExecuteCharacterBehaviorNode.cpp:
 	.text       start:0x0006335C end:0x00063394
 	.ctors      start:0x00000098 end:0x0000009C
 
-GameLogic/VehiclePlaneMove_Input_ControlModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehiclePlaneMove/VehiclePlaneMove_Input_ControlModule.cpp:
 	.text       start:0x00063394 end:0x00064344
 	.ctors      start:0x0000009C end:0x000000A0
 
-GameLogic/VehicleIdentityModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Identity/VehicleIdentityModule.cpp:
 	.text       start:0x00064344 end:0x00075E68
 	.ctors      start:0x000000A0 end:0x000000A4
 
-GameLogic/ParamBankInitializer.cpp:
+GameLogic/BaseGameplay/CharacterInterface/ParamBank/ParamBankInitializer.cpp:
 	.text       start:0x00075E68 end:0x00076238
 	.ctors      start:0x000000A4 end:0x000000A8
 
-GameLogic/BaseIdentityKnowledge.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Identity/BaseIdentityKnowledge.cpp:
 	.text       start:0x00076238 end:0x00079E84
 	.ctors      start:0x000000A8 end:0x000000AC
 
-GameLogic/ParamBank.cpp:
+GameLogic/BaseGameplay/CharacterInterface/ParamBank/ParamBank.cpp:
 	.text       start:0x00079E84 end:0x0007A1C8
 	.ctors      start:0x000000AC end:0x000000B0
 
-GameLogic/TreeBankInitializer.cpp:
+GameLogic/BaseGameplay/CharacterInterface/ParamBank/TreeBankInitializer.cpp:
 	.text       start:0x0007A1C8 end:0x0007A580
 	.ctors      start:0x000000B0 end:0x000000B4
 
-GameLogic/TreeBank.cpp:
+GameLogic/BaseGameplay/CharacterInterface/ParamBank/TreeBank.cpp:
 	.text       start:0x0007A580 end:0x0007A8C4
 	.ctors      start:0x000000B4 end:0x000000B8
 
-GameLogic/BaseIdentityModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Identity/BaseIdentityModule.cpp:
 	.text       start:0x0007A8C4 end:0x000818DC
 	.ctors      start:0x000000B8 end:0x000000BC
 
-GameLogic/SimpleOnlineNPC.cpp:
+GameLogic/BaseGameplay/Debug/OnlineMultiplayer/SimpleOnlineNPC.cpp:
 	.text       start:0x000818DC end:0x00081AF4
 	.ctors      start:0x000000BC end:0x000000C0
 
-GameLogic/BaseGameplayControl.cpp:
+GameLogic/BaseGameplay/Control/BaseGameplayControl.cpp:
 	.text       start:0x00081AF4 end:0x00083018
 	.ctors      start:0x000000C0 end:0x000000C4
 
-GameLogic/CutsceneFootStepsManager.cpp:
+GameLogic/BaseGameplay/FX/CutsceneFootStepsManager.cpp:
 	.text       start:0x00083018 end:0x000841F0
 	.ctors      start:0x000000C4 end:0x000000C8
 
-GameLogic/ChunkHelper.cpp:
+GameLogic/BaseGameplay/Helper/ChunkHelper.cpp:
 	.text       start:0x000841F0 end:0x00084A34
 	.ctors      start:0x000000C8 end:0x000000CC
 
-GameLogic/VehicleData.cpp:
+GameLogic/BaseGameplay/Data/VehicleData.cpp:
 	.text       start:0x00084A34 end:0x00085E28
 	.ctors      start:0x000000CC end:0x000000D0
 
-GameLogic/VehicleDriver.cpp:
+GameLogic/BaseGameplay/Drivers/VehicleDriver.cpp:
 	.text       start:0x00085E28 end:0x00091044
 	.ctors      start:0x000000D0 end:0x000000D4
 
-GameLogic/ButtonMashingHelper.cpp:
+GameLogic/BaseGameplay/Helper/ButtonMashingHelper.cpp:
 	.text       start:0x00091044 end:0x0009107C
 	.ctors      start:0x000000D4 end:0x000000D8
 
-GameLogic/HaloHelper.cpp:
+GameLogic/BaseGameplay/Helper/HaloHelper.cpp:
 	.text       start:0x0009107C end:0x00091134
 	.ctors      start:0x000000D8 end:0x000000DC
 
-GameLogic/OnlineMultiplayerController.cpp:
+GameLogic/BaseGameplay/Debug/OnlineMultiplayer/OnlineMultiplayerController.cpp:
 	.text       start:0x00091134 end:0x000916EC
 	.ctors      start:0x000000DC end:0x000000E0
 
-GameLogic/SoftBodyHelper.cpp:
+GameLogic/BaseGameplay/Helper/SoftBodyHelper.cpp:
 	.text       start:0x000916EC end:0x0009180C
 	.ctors      start:0x000000E0 end:0x000000E4
 
-GameLogic/HealthBarHelper.cpp:
+GameLogic/BaseGameplay/Helper/HealthBarHelper.cpp:
 	.text       start:0x0009180C end:0x00091F3C
 	.ctors      start:0x000000E4 end:0x000000E8
 
-GameLogic/HUDFloatingText.cpp:
+GameLogic/BaseGameplay/HUD/HUDFloatingText.cpp:
 	.text       start:0x00091F3C end:0x00093D30
 	.ctors      start:0x000000E8 end:0x000000EC
 
-GameLogic/ThreatHelper.cpp:
+GameLogic/BaseGameplay/Helper/ThreatHelper.cpp:
 	.text       start:0x00093D30 end:0x00093D68
 	.ctors      start:0x000000EC end:0x000000F0
 
-GameLogic/OnlineProjectile.cpp:
+GameLogic/BaseGameplay/Debug/OnlineMultiplayer/OnlineProjectile.cpp:
 	.text       start:0x00093D68 end:0x00093F80
 	.ctors      start:0x000000F0 end:0x000000F4
 
-GameLogic/HitHelper.cpp:
+GameLogic/BaseGameplay/Helper/HitHelper.cpp:
 	.text       start:0x00093F80 end:0x00094434
 	.ctors      start:0x000000F4 end:0x000000F8
 
-GameLogic/VehicleOrienter.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Orienters/VehicleOrienter.cpp:
 	.text       start:0x00094434 end:0x00094DF0
 	.ctors      start:0x000000F8 end:0x000000FC
 
-GameLogic/TimerTriggerModule.cpp:
+GameLogic/BaseGameplay/Trigger/Modules/TimerTriggerModule.cpp:
 	.text       start:0x00094DF0 end:0x00097E04
 	.ctors      start:0x000000FC end:0x00000100
 
-GameLogic/VignettePlayer.cpp:
+GameLogic/BaseGameplay/Vignettes/VignettePlayer.cpp:
 	.text       start:0x00097E04 end:0x0009A1FC
 	.ctors      start:0x00000100 end:0x00000104
 
-GameLogic/TargetUtil.cpp:
+GameLogic/BaseGameplay/Util/TargetUtil.cpp:
 	.text       start:0x0009A1FC end:0x0009A4C4
 	.ctors      start:0x00000104 end:0x00000108
 
-GameLogic/CompositeObjectScriptRunner.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectScriptRunner.cpp:
 	.text       start:0x0009A4C4 end:0x0009AC04
 	.ctors      start:0x00000108 end:0x0000010C
 
-GameLogic/FootStepHelper.cpp:
+GameLogic/BaseGameplay/Util/FootStepHelper.cpp:
 	.text       start:0x0009AC04 end:0x0009C4D4
 	.ctors      start:0x0000010C end:0x00000110
 
-GameLogic/HorizonSplinePositioner.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Positioners/HorizonSplinePositioner.cpp:
 	.text       start:0x0009C4D4 end:0x0009D074
 	.ctors      start:0x00000110 end:0x00000114
 
-GameLogic/BasePlayerControl.cpp:
+GameLogic/BasePlayer/Control/BasePlayerControl.cpp:
 	.text       start:0x0009D074 end:0x000A1F84
 	.ctors      start:0x00000114 end:0x00000118
 
-GameLogic/ToyDataLoader.cpp:
+GameLogic/BaseSkylander/ToyDataLoader.cpp:
 	.text       start:0x000A1F84 end:0x000A24CC
 	.ctors      start:0x00000118 end:0x0000011C
 
-GameLogic/PlaneRollPositioner.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Positioners/PlaneRollPositioner.cpp:
 	.text       start:0x000A24CC end:0x000A2F70
 	.ctors      start:0x0000011C end:0x00000120
 
-GameLogic/PortalManager.cpp:
+GameLogic/BaseSkylander/PortalManager.cpp:
 	.text       start:0x000A2F70 end:0x000A417C
 	.ctors      start:0x00000120 end:0x00000124
 
-GameLogic/CurveRatioBanker.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Bankers/CurveRatioBanker.cpp:
 	.text       start:0x000A417C end:0x000A478C
 	.ctors      start:0x00000124 end:0x00000128
 
-GameLogic/BaseLogic.cpp:
+GameLogic/Common/Base/BaseLogic.cpp:
 	.text       start:0x000A478C end:0x000A50F4
 	.ctors      start:0x00000128 end:0x0000012C
 
-GameLogic/ToyDataManager.cpp:
+GameLogic/BaseSkylander/ToyDataManager.cpp:
 	.text       start:0x000A50F4 end:0x000B4278
 	.ctors      start:0x0000012C end:0x00000130
 
-GameLogic/RotatingPositioner.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Positioners/RotatingPositioner.cpp:
 	.text       start:0x000B4278 end:0x000B492C
 	.ctors      start:0x00000130 end:0x00000134
 
-GameLogic/VehicleBanker.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Bankers/VehicleBanker.cpp:
 	.text       start:0x000B492C end:0x000B4E9C
 	.ctors      start:0x00000134 end:0x00000138
 
-GameLogic/ToyDataManager_UnitTest.cpp:
+GameLogic/BaseSkylander/ToyDataManager_UnitTest.cpp:
 	.text       start:0x000B4E9C end:0x000B4ED4
 	.ctors      start:0x00000138 end:0x0000013C
 
-GameLogic/PortalTag.cpp:
+GameLogic/BaseSkylander/PortalTag.cpp:
 	.text       start:0x000B4ED4 end:0x000B76D0
 	.ctors      start:0x0000013C end:0x00000140
 
-GameLogic/VehiclePositioner.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Positioners/VehiclePositioner.cpp:
 	.text       start:0x000B76D0 end:0x000B80F8
 	.ctors      start:0x00000140 end:0x00000144
 
-GameLogic/HorizonSplineOrienter.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Orienters/HorizonSplineOrienter.cpp:
 	.text       start:0x000B80F8 end:0x000B8648
 	.ctors      start:0x00000144 end:0x00000148
 
-GameLogic/BaseLogicAdv.cpp:
+GameLogic/Common/Base/BaseLogicAdv.cpp:
 	.text       start:0x000B8648 end:0x000B8680
 	.ctors      start:0x00000148 end:0x0000014C
 
-GameLogic/VirtualToyCollection.cpp:
+GameLogic/BaseSkylander/VirtualToyCollection.cpp:
 	.text       start:0x000B8680 end:0x000B9B7C
 	.ctors      start:0x0000014C end:0x00000150
 
-GameLogic/BlendYAxisTargeter.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Targeters/BlendYAxisTargeter.cpp:
 	.text       start:0x000B9B7C end:0x000B9FBC
 	.ctors      start:0x00000150 end:0x00000154
 
-GameLogic/PlaneOrienter.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Orienters/PlaneOrienter.cpp:
 	.text       start:0x000B9FBC end:0x000BA558
 	.ctors      start:0x00000154 end:0x00000158
 
-GameLogic/BaseToyData.cpp:
+GameLogic/BaseSkylander/Toy/BaseToyData.cpp:
 	.text       start:0x000BA558 end:0x000BA590
 	.ctors      start:0x00000158 end:0x0000015C
 
-GameLogic/InstructorCameraDebug.cpp:
+GameLogic/Common/Camera/InstructorCameraDebug.cpp:
 	.text       start:0x000BA590 end:0x000BE2FC
 	.ctors      start:0x0000015C end:0x00000160
 
-GameLogic/DebugDriverSelector.cpp:
+GameLogic/BaseSkylander/DebugDriverSelector.cpp:
 	.text       start:0x000BE2FC end:0x000BE874
 	.ctors      start:0x00000160 end:0x00000164
 
-GameLogic/BaseLogic_Debug.cpp:
+GameLogic/Common/Base/BaseLogic_Debug.cpp:
 	.text       start:0x000BE874 end:0x000BE8AC
 	.ctors      start:0x00000164 end:0x00000168
 
-GameLogic/GameObjectPositionSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/GameObjectPositionSlider.cpp:
 	.text       start:0x000BE8AC end:0x000BF43C
 	.ctors      start:0x00000168 end:0x0000016C
 
-GameLogic/BTBaseGameplayFactory.cpp:
+GameLogic/BaseGameplay/BT/BTBaseGameplayFactory.cpp:
 	.text       start:0x000BF43C end:0x000C3F20
 	.ctors      start:0x0000016C end:0x00000170
 
-GameLogic/RaceVehiclesManager.cpp:
+GameLogic/BaseGameplay/AI/Manager/RaceVehiclesManager.cpp:
 	.text       start:0x000C3F20 end:0x000CCF40
 	.ctors      start:0x00000170 end:0x00000174
 
-GameLogic/HUD2DTranslationSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DTranslationSlider.cpp:
 	.text       start:0x000CCF40 end:0x000CD2F0
 	.ctors      start:0x00000174 end:0x00000178
 
-GameLogic/VehicleCarMove_RemoteReplica_BehaviorModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleCarMove/VehicleCarMove_RemoteReplica_BehaviorModule.cpp:
 	.text       start:0x000CD2F0 end:0x000CD328
 	.ctors      start:0x00000178 end:0x0000017C
 
-GameLogic/HUDRouletteSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUDRouletteSlider.cpp:
 	.text       start:0x000CD328 end:0x000CDBB0
 	.ctors      start:0x0000017C end:0x00000180
 
-GameLogic/BaseVehicleVelocityAffector.cpp:
+GameLogic/BaseGameplay/Manager/VehicleVelocityAffectors/BaseVehicleVelocityAffector.cpp:
 	.text       start:0x000CDBB0 end:0x000CDC30
 	.ctors      start:0x00000180 end:0x00000184
 
-GameLogic/HUDIncrementNumberSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUDIncrementNumberSlider.cpp:
 	.text       start:0x000CDC30 end:0x000CE0D0
 	.ctors      start:0x00000184 end:0x00000188
 
-GameLogic/CircleVehicleVelocityAffector.cpp:
+GameLogic/BaseGameplay/Manager/VehicleVelocityAffectors/CircleVehicleVelocityAffector.cpp:
 	.text       start:0x000CE0D0 end:0x000CE228
 	.ctors      start:0x00000188 end:0x0000018C
 
-GameLogic/TargetingSystem.cpp:
+GameLogic/BaseGameplay/Manager/TargetManager/TargetingSystem.cpp:
 	.text       start:0x000CE228 end:0x000CE260
 	.ctors      start:0x0000018C end:0x00000190
 
-GameLogic/StagedEvent2DGraph.cpp:
+GameLogic/BaseGameplay/Misc/StagedEvent2DGraph.cpp:
 	.text       start:0x000CE260 end:0x000CF0FC
 	.ctors      start:0x00000190 end:0x00000194
 
-GameLogic/CharacterSpawner.cpp:
+GameLogic/BaseGameplay/Objects/CharacterSpawner.cpp:
 	.text       start:0x000CF0FC end:0x000CFD3C
 	.ctors      start:0x00000194 end:0x00000198
 
-GameLogic/PositionedVehicleVelocityAffector.cpp:
+GameLogic/BaseGameplay/Manager/VehicleVelocityAffectors/PositionedVehicleVelocityAffector.cpp:
 	.text       start:0x000CFD3C end:0x000CFDE8
 	.ctors      start:0x00000198 end:0x0000019C
 
-GameLogic/MovingObject.cpp:
+GameLogic/BaseGameplay/Objects/MovingObject.cpp:
 	.text       start:0x000CFDE8 end:0x000D0C98
 	.ctors      start:0x0000019C end:0x000001A0
 
-GameLogic/PhysicSoundsHelper.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/Helper/PhysicSoundsHelper.cpp:
 	.text       start:0x000D0C98 end:0x000D148C
 	.ctors      start:0x000001A0 end:0x000001A4
 
-GameLogic/CompositeObjectFootStep.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectFootStep.cpp:
 	.text       start:0x000D148C end:0x000D1F5C
 	.ctors      start:0x000001A4 end:0x000001A8
 
-GameLogic/CompositeObjectDirectionalMove.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectDirectionalMove.cpp:
 	.text       start:0x000D1F5C end:0x000D28A4
 	.ctors      start:0x000001A8 end:0x000001AC
 
-GameLogic/CompositeObjectBoneSnap.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectBoneSnap.cpp:
 	.text       start:0x000D28A4 end:0x000D2FDC
 	.ctors      start:0x000001AC end:0x000001B0
 
-GameLogic/CompositeObjectAdvancedPhysic.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectAdvancedPhysic.cpp:
 	.text       start:0x000D2FDC end:0x000D3DE8
 	.ctors      start:0x000001B0 end:0x000001B4
 
-GameLogic/CompositeObjectGameEventCatcher.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectGameEventCatcher.cpp:
 	.text       start:0x000D3DE8 end:0x000D406C
 	.ctors      start:0x000001B4 end:0x000001B8
 
-GameLogic/CompositeObjectDraggable.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectDraggable.cpp:
 	.text       start:0x000D406C end:0x000D4B0C
 	.ctors      start:0x000001B8 end:0x000001BC
 
-GameLogic/CompositeObjectInteractiveModule.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectInteractiveModule.cpp:
 	.text       start:0x000D4B0C end:0x000D8CAC
 	.ctors      start:0x000001BC end:0x000001C0
 
-GameLogic/CompositeObjectMover.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectMover.cpp:
 	.text       start:0x000D8CAC end:0x000D9560
 	.ctors      start:0x000001C0 end:0x000001C4
 
-GameLogic/CompositeObjectHittable.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectHittable.cpp:
 	.text       start:0x000D9560 end:0x000DAEBC
 	.ctors      start:0x000001C4 end:0x000001C8
 
-GameLogic/CompositeObjectFade.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectFade.cpp:
 	.text       start:0x000DAEBC end:0x000DC070
 	.ctors      start:0x000001C8 end:0x000001CC
 
-GameLogic/CompositeObjectLookAt.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectLookAt.cpp:
 	.text       start:0x000DC070 end:0x000DCA00
 	.ctors      start:0x000001CC end:0x000001D0
 
-GameLogic/CompositeObjectMoving.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectMoving.cpp:
 	.text       start:0x000DCA00 end:0x000DCB78
 	.ctors      start:0x000001D0 end:0x000001D4
 
-GameLogic/CompositeObjectInputListener.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectInputListener.cpp:
 	.text       start:0x000DCB78 end:0x000DD258
 	.ctors      start:0x000001D4 end:0x000001D8
 
-GameLogic/CompositeObjectFloatOnDynamicWater.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectFloatOnDynamicWater.cpp:
 	.text       start:0x000DD258 end:0x000DD3E4
 	.ctors      start:0x000001D8 end:0x000001DC
 
-GameLogic/CompositeObjectMatAnimChaining.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectMatAnimChaining.cpp:
 	.text       start:0x000DD3E4 end:0x000DD7C0
 	.ctors      start:0x000001DC end:0x000001E0
 
-GameLogic/CompositeObjectNPC.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectNPC.cpp:
 	.text       start:0x000DD7C0 end:0x000DF364
 	.ctors      start:0x000001E0 end:0x000001E4
 
-GameLogic/CompositeObjectInteractive.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectInteractive.cpp:
 	.text       start:0x000DF364 end:0x000DF94C
 	.ctors      start:0x000001E4 end:0x000001E8
 
-GameLogic/CompositeObjectFollowPos.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectFollowPos.cpp:
 	.text       start:0x000DF94C end:0x000E01C8
 	.ctors      start:0x000001E8 end:0x000001EC
 
-GameLogic/CompositeObjectSplitscreen.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectSplitscreen.cpp:
 	.text       start:0x000E01C8 end:0x000E08D0
 	.ctors      start:0x000001EC end:0x000001F0
 
-GameLogic/CompositeObjectNPCModel.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectNPCModel.cpp:
 	.text       start:0x000E08D0 end:0x000E0FC8
 	.ctors      start:0x000001F0 end:0x000001F4
 
-GameLogic/TriggerDetectionHelper.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/TriggerDetectionHelper.cpp:
 	.text       start:0x000E0FC8 end:0x000E2BCC
 	.ctors      start:0x000001F4 end:0x000001F8
 
-GameLogic/VehicleBoatMove_BehaviorModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleBoatMove/VehicleBoatMove_BehaviorModule.cpp:
 	.text       start:0x000E2BCC end:0x000F42B4
 	.ctors      start:0x000001F8 end:0x000001FC
 
-GameLogic/SideScrollerSpline.cpp:
+GameLogic/BaseGameplay/Manager/SideScrollerSpline.cpp:
 	.text       start:0x000F42B4 end:0x000F50C0
 	.ctors      start:0x000001FC end:0x00000200
 
-GameLogic/FloatOnWaterModule.cpp:
+GameLogic/BaseGameplay/Objects/Modules/FloatOnWaterModule.cpp:
 	.text       start:0x000F50C0 end:0x000F5BEC
 	.ctors      start:0x00000200 end:0x00000204
 
-GameLogic/BaseFollowRacerBoss.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/Boss/BaseFollowRacerBoss.cpp:
 	.text       start:0x000F5BEC end:0x000F75C8
 	.ctors      start:0x00000204 end:0x00000208
 
-GameLogic/ArtilleryProjectile.cpp:
+GameLogic/BaseGameplay/Objects/Projectiles/ArtilleryProjectile.cpp:
 	.text       start:0x000F75C8 end:0x000F83BC
 	.ctors      start:0x00000208 end:0x0000020C
 
-GameLogic/SplineEventManager.cpp:
+GameLogic/BaseGameplay/Manager/SplineEventManager.cpp:
 	.text       start:0x000F83BC end:0x000FCAA8
 	.ctors      start:0x0000020C end:0x00000210
 
-GameLogic/MatchMakingFindGroupModule.cpp:
+GameLogic/Common/Network/Matchmaking/MatchMakingFindGroupModule.cpp:
 	.text       start:0x000FCAA8 end:0x000FCAE0
 	.ctors      start:0x00000210 end:0x00000214
 
-GameLogic/PathfindingModule.cpp:
+GameLogic/Common/Pathfinding/PathfindingModule.cpp:
 	.text       start:0x000FCAE0 end:0x000FCB18
 	.ctors      start:0x00000214 end:0x00000218
 
-GameLogic/RedirectionObj.cpp:
+GameLogic/Common/Misc/RedirectionObj.cpp:
 	.text       start:0x000FCB18 end:0x000FCF44
 	.ctors      start:0x00000218 end:0x0000021C
 
-GameLogic/ScriptLibraryLoader.cpp:
+GameLogic/Common/Script/ScriptLibraryLoader.cpp:
 	.text       start:0x000FCF44 end:0x000FD280
 	.ctors      start:0x0000021C end:0x00000220
 
-GameLogic/DebugAudioCmdManager.cpp:
+GameLogic/Common/Manager/Audio/DebugAudioCmdManager.cpp:
 	.text       start:0x000FD280 end:0x000FED0C
 	.ctors      start:0x00000220 end:0x00000224
 
-GameLogic/MatchMakingGroup.cpp:
+GameLogic/Common/Network/Matchmaking/MatchMakingGroup.cpp:
 	.text       start:0x000FED0C end:0x000FED44
 	.ctors      start:0x00000224 end:0x00000228
 
-GameLogic/ScriptManager.cpp:
+GameLogic/Common/Script/ScriptManager.cpp:
 	.text       start:0x000FED44 end:0x00102AC4
 	.ctors      start:0x00000228 end:0x0000022C
 
-GameLogic/MusicManager.cpp:
+GameLogic/Common/Manager/Audio/MusicManager.cpp:
 	.text       start:0x00102AC4 end:0x00104B5C
 	.ctors      start:0x0000022C end:0x00000230
 
-GameLogic/MatchMakingModule.cpp:
+GameLogic/Common/Network/Matchmaking/MatchMakingModule.cpp:
 	.text       start:0x00104B5C end:0x00104B94
 	.ctors      start:0x00000230 end:0x00000234
 
-GameLogic/SimpleLight.cpp:
+GameLogic/Common/Misc/SimpleLight.cpp:
 	.text       start:0x00104B94 end:0x001057D0
 	.ctors      start:0x00000234 end:0x00000238
 
-GameLogic/PlayerData.cpp:
+GameLogic/Common/PC/PlayerData.cpp:
 	.text       start:0x001057D0 end:0x00106D70
 	.ctors      start:0x00000238 end:0x0000023C
 
-GameLogic/ScriptTable.cpp:
+GameLogic/Common/Script/ScriptTable.cpp:
 	.text       start:0x00106D70 end:0x00106FE8
 	.ctors      start:0x0000023C end:0x00000240
 
-GameLogic/VOChainManager_deprecated.cpp:
+GameLogic/Common/Manager/Audio/VOChainManager_deprecated.cpp:
 	.text       start:0x00106FE8 end:0x00108650
 	.ctors      start:0x00000240 end:0x00000244
 
-GameLogic/ReplicaClasses.cpp:
+GameLogic/Common/Network/ReplicaClasses/ReplicaClasses.cpp:
 	.text       start:0x00108650 end:0x00108688
 	.ctors      start:0x00000244 end:0x00000248
 
-GameLogic/ScriptUtil.cpp:
+GameLogic/Common/Script/ScriptUtil.cpp:
 	.text       start:0x00108688 end:0x00109220
 	.ctors      start:0x00000248 end:0x0000024C
 
-GameLogic/VOChainPlayer_deprecated.cpp:
+GameLogic/Common/Manager/Audio/VOChainPlayer_deprecated.cpp:
 	.text       start:0x00109220 end:0x0010A570
 	.ctors      start:0x0000024C end:0x00000250
 
-GameLogic/SoftBodyRope.cpp:
+GameLogic/Common/Misc/SoftBodyRope.cpp:
 	.text       start:0x0010A570 end:0x0010A624
 	.ctors      start:0x00000250 end:0x00000254
 
-GameLogic/ScriptFuncs_3DObj.cpp:
+GameLogic/Common/Script/ScriptFuncs_3DObj.cpp:
 	.text       start:0x0010A624 end:0x0010F2A8
 	.ctors      start:0x00000254 end:0x00000258
 
-GameLogic/ReplicaClassWrapper.cpp:
+GameLogic/Common/Network/ReplicaClasses/ReplicaClassWrapper.cpp:
 	.text       start:0x0010F2A8 end:0x0010F2E0
 	.ctors      start:0x00000258 end:0x0000025C
 
-GameLogic/AnimEventFXUtil.cpp:
+GameLogic/Common/Util/AnimEventFXUtil.cpp:
 	.text       start:0x0010F2E0 end:0x001122A0
 	.ctors      start:0x0000025C end:0x00000260
 
-GameLogic/ControllerRumble.cpp:
+GameLogic/Common/Manager/ControllerRumble/ControllerRumble.cpp:
 	.text       start:0x001122A0 end:0x00113424
 	.ctors      start:0x00000260 end:0x00000264
 
-GameLogic/GOUtil.cpp:
+GameLogic/Common/Util/GOUtil.cpp:
 	.text       start:0x00113424 end:0x0011476C
 	.ctors      start:0x00000264 end:0x00000268
 
-GameLogic/AnimEventUtil.cpp:
+GameLogic/Common/Util/AnimEventUtil.cpp:
 	.text       start:0x0011476C end:0x00117568
 	.ctors      start:0x00000268 end:0x0000026C
 
-GameLogic/StressTester.cpp:
+GameLogic/Common/Misc/StressTester.cpp:
 	.text       start:0x00117568 end:0x0011A14C
 	.ctors      start:0x0000026C end:0x00000270
 
-GameLogic/ControllerRumbleData.cpp:
+GameLogic/Common/Manager/ControllerRumble/ControllerRumbleData.cpp:
 	.text       start:0x0011A14C end:0x0011A4B8
 	.ctors      start:0x00000270 end:0x00000274
 
-GameLogic/ScriptFuncs_Audio.cpp:
+GameLogic/Common/Script/ScriptFuncs_Audio.cpp:
 	.text       start:0x0011A4B8 end:0x0011A810
 	.ctors      start:0x00000274 end:0x00000278
 
-GameLogic/GraphUtil.cpp:
+GameLogic/Common/Util/GraphUtil.cpp:
 	.text       start:0x0011A810 end:0x0011ACC0
 	.ctors      start:0x00000278 end:0x0000027C
 
-GameLogic/AnimUtil.cpp:
+GameLogic/Common/Util/AnimUtil.cpp:
 	.text       start:0x0011ACC0 end:0x0011C044
 	.ctors      start:0x0000027C end:0x00000280
 
-GameLogic/RumbleManager.cpp:
+GameLogic/Common/Manager/ControllerRumble/RumbleManager.cpp:
 	.text       start:0x0011C044 end:0x0011E7BC
 	.ctors      start:0x00000280 end:0x00000284
 
-GameLogic/HUD.cpp:
+GameLogic/Common/Util/HUD.cpp:
 	.text       start:0x0011E7BC end:0x001220D4
 	.ctors      start:0x00000284 end:0x00000288
 
-GameLogic/ClusterAnalyzer.cpp:
+GameLogic/Common/Util/ClusterAnalyzer.cpp:
 	.text       start:0x001220D4 end:0x0012362C
 	.ctors      start:0x00000288 end:0x0000028C
 
-GameLogic/TimeStamp.cpp:
+GameLogic/Common/Misc/TimeStamp.cpp:
 	.text       start:0x0012362C end:0x00123CBC
 	.ctors      start:0x0000028C end:0x00000290
 
-GameLogic/FlowGraph.cpp:
+GameLogic/Common/Manager/FlowManager/FlowGraph.cpp:
 	.text       start:0x00123CBC end:0x0012695C
 	.ctors      start:0x00000290 end:0x00000294
 
-GameLogic/ScriptFuncs_Camera.cpp:
+GameLogic/Common/Script/ScriptFuncs_Camera.cpp:
 	.text       start:0x0012695C end:0x00127174
 	.ctors      start:0x00000294 end:0x00000298
 
-GameLogic/HUD3D.cpp:
+GameLogic/Common/Util/HUD3D.cpp:
 	.text       start:0x00127174 end:0x00127378
 	.ctors      start:0x00000298 end:0x0000029C
 
-GameLogic/ConvexHull.cpp:
+GameLogic/Common/Util/ConvexHull.cpp:
 	.text       start:0x00127378 end:0x001279C4
 	.ctors      start:0x0000029C end:0x000002A0
 
-GameLogic/PostFXInitializer.cpp:
+GameLogic/Common/Manager/PostFXInitializer.cpp:
 	.text       start:0x001279C4 end:0x00129A9C
 	.ctors      start:0x000002A0 end:0x000002A4
 
-GameLogic/FlowManager.cpp:
+GameLogic/Common/Manager/FlowManager/FlowManager.cpp:
 	.text       start:0x00129A9C end:0x0012EBA8
 	.ctors      start:0x000002A4 end:0x000002A8
 
-GameLogic/VariableSFX.cpp:
+GameLogic/Common/Misc/VariableSFX.cpp:
 	.text       start:0x0012EBA8 end:0x0012EBE0
 	.ctors      start:0x000002A8 end:0x000002AC
 
-GameLogic/PostFXManager.cpp:
+GameLogic/Common/Manager/PostFXManager.cpp:
 	.text       start:0x0012EBE0 end:0x001361C4
 	.ctors      start:0x000002AC end:0x000002B0
 
-GameLogic/Curve.cpp:
+GameLogic/Common/Util/Curve.cpp:
 	.text       start:0x001361C4 end:0x001369D0
 	.ctors      start:0x000002B0 end:0x000002B4
 
-GameLogic/QuitGameManager.cpp:
+GameLogic/Common/Manager/QuitGameManager.cpp:
 	.text       start:0x001369D0 end:0x00137148
 	.ctors      start:0x000002B4 end:0x000002B8
 
-GameLogic/GameUtil.cpp:
+GameLogic/Common/Util/GameUtil.cpp:
 	.text       start:0x00137148 end:0x00137180
 	.ctors      start:0x000002B8 end:0x000002BC
 
-GameLogic/FlowNode.cpp:
+GameLogic/Common/Manager/FlowManager/FlowNode.cpp:
 	.text       start:0x00137180 end:0x00137F50
 	.ctors      start:0x000002BC end:0x000002C0
 
-GameLogic/CopyObjectChildOfSelector.cpp:
+GameLogic/Common/Util/Trigger/CopyObjectChildOfSelector.cpp:
 	.text       start:0x00137F50 end:0x0013810C
 	.ctors      start:0x000002C0 end:0x000002C4
 
-GameLogic/GO3dUtil.cpp:
+GameLogic/Common/Util/GO3dUtil.cpp:
 	.text       start:0x0013810C end:0x0013973C
 	.ctors      start:0x000002C4 end:0x000002C8
 
-GameLogic/StartupControl.cpp:
+GameLogic/Main/Control/StartupControl.cpp:
 	.text       start:0x0013973C end:0x0013B7E8
 	.ctors      start:0x000002C8 end:0x000002CC
 
-GameLogic/Functional.cpp:
+GameLogic/Generic/Functional.cpp:
 	.text       start:0x0013B7E8 end:0x0013B820
 	.ctors      start:0x000002CC end:0x000002D0
 
-GameLogic/CubeMapInitializer.cpp:
+GameLogic/Common/Manager/FX/CubeMapInitializer.cpp:
 	.text       start:0x0013B820 end:0x0013C448
 	.ctors      start:0x000002D0 end:0x000002D4
 
-GameLogic/GameObjectSelector.cpp:
+GameLogic/Common/Util/Trigger/GameObjectSelector.cpp:
 	.text       start:0x0013C448 end:0x0013C94C
 	.ctors      start:0x000002D4 end:0x000002D8
 
-GameLogic/WiiIOErrorHandler.cpp:
+GameLogic/Main/Handler/WiiIOErrorHandler.cpp:
 	.text       start:0x0013C94C end:0x0013DDA0
 	.ctors      start:0x000002D8 end:0x000002DC
 
-GameLogic/LegalControl.cpp:
+GameLogic/Legal/Control/LegalControl.cpp:
 	.text       start:0x0013DDA0 end:0x0013E320
 	.ctors      start:0x000002DC end:0x000002E0
 
-GameLogic/NoHomeMenuHUD.cpp:
+GameLogic/Main/HUD/NoHomeMenuHUD.cpp:
 	.text       start:0x0013E320 end:0x0013EEE0
 	.ctors      start:0x000002E0 end:0x000002E4
 
-GameLogic/HUDPage.cpp:
+GameLogic/Common/Menu/HUDPage.cpp:
 	.text       start:0x0013EEE0 end:0x00147180
 	.ctors      start:0x000002E4 end:0x000002E8
 
-GameLogic/FXManager.cpp:
+GameLogic/Common/Manager/FX/FXManager.cpp:
 	.text       start:0x00147180 end:0x0014D120
 	.ctors      start:0x000002E8 end:0x000002EC
 
-GameLogic/RacerSelector.cpp:
+GameLogic/Common/Util/Trigger/RacerSelector.cpp:
 	.text       start:0x0014D120 end:0x0014D438
 	.ctors      start:0x000002EC end:0x000002F0
 
-GameLogic/BSphere.cpp:
+GameLogic/Main/Math/BSphere.cpp:
 	.text       start:0x0014D438 end:0x0014D74C
 	.ctors      start:0x000002F0 end:0x000002F4
 
-GameLogic/LegalScreen.cpp:
+GameLogic/Legal/HUD/LegalScreen.cpp:
 	.text       start:0x0014D74C end:0x0014F008
 	.ctors      start:0x000002F4 end:0x000002F8
 
-GameLogic/HUD3DMaterial.cpp:
+GameLogic/Common/Util/HUD3DMaterial.cpp:
 	.text       start:0x0014F008 end:0x0014F314
 	.ctors      start:0x000002F8 end:0x000002FC
 
-GameLogic/MathUtil.cpp:
+GameLogic/Main/Math/MathUtil.cpp:
 	.text       start:0x0014F314 end:0x00158C18
 	.ctors      start:0x000002FC end:0x00000300
 
-GameLogic/ModButtonCopy.cpp:
+GameLogic/Common/Menu/ModButtonCopy.cpp:
 	.text       start:0x00158C18 end:0x00159604
 	.ctors      start:0x00000300 end:0x00000304
 
-GameLogic/FXMultiMaterialsManager.cpp:
+GameLogic/Common/Manager/FX/FXMultiMaterialsManager.cpp:
 	.text       start:0x00159604 end:0x0015AB60
 	.ctors      start:0x00000304 end:0x00000308
 
-GameLogic/SingleSelector.cpp:
+GameLogic/Common/Util/Trigger/SingleSelector.cpp:
 	.text       start:0x0015AB60 end:0x0015AD4C
 	.ctors      start:0x00000308 end:0x0000030C
 
-GameLogic/Matrix.cpp:
+GameLogic/Main/Math/Matrix.cpp:
 	.text       start:0x0015AD4C end:0x0015CAE4
 	.ctors      start:0x0000030C end:0x00000310
 
-GameLogic/HUDSpriteUtil.cpp:
+GameLogic/Common/Util/HUDSpriteUtil.cpp:
 	.text       start:0x0015CAE4 end:0x0015CB1C
 	.ctors      start:0x00000310 end:0x00000314
 
-GameLogic/MagicMomentManager.cpp:
+GameLogic/MagicMoment/MagicMomentManager.cpp:
 	.text       start:0x0015CB1C end:0x00173120
 	.ctors      start:0x00000314 end:0x00000318
 
-GameLogic/Shape.cpp:
+GameLogic/Main/Math/Shape.cpp:
 	.text       start:0x00173120 end:0x00173158
 	.ctors      start:0x00000318 end:0x0000031C
 
-GameLogic/HUDUtil.cpp:
+GameLogic/Common/Util/HUDUtil.cpp:
 	.text       start:0x00173158 end:0x001791B4
 	.ctors      start:0x0000031C end:0x00000320
 
-GameLogic/RaceEventButtonCopy.cpp:
+GameLogic/Common/Menu/RaceEventButtonCopy.cpp:
 	.text       start:0x001791B4 end:0x00179280
 	.ctors      start:0x00000320 end:0x00000324
 
-GameLogic/BaseHUD3DElement.cpp:
+GameLogic/Common/Manager/HUD/BaseHUD3DElement.cpp:
 	.text       start:0x00179280 end:0x00179898
 	.ctors      start:0x00000324 end:0x00000328
 
-GameLogic/XMLParser.cpp:
+GameLogic/Common/Util/XML/XMLParser.cpp:
 	.text       start:0x00179898 end:0x001798D0
 	.ctors      start:0x00000328 end:0x0000032C
 
-GameLogic/Transform.cpp:
+GameLogic/Main/Math/Transform.cpp:
 	.text       start:0x001798D0 end:0x00179908
 	.ctors      start:0x0000032C end:0x00000330
 
-GameLogic/NetworkUtil.cpp:
+GameLogic/Common/Util/NetworkUtil.cpp:
 	.text       start:0x00179908 end:0x00179940
 	.ctors      start:0x00000330 end:0x00000334
 
-GameLogic/Vector.cpp:
+GameLogic/Main/Math/Vector.cpp:
 	.text       start:0x00179940 end:0x0017A36C
 	.ctors      start:0x00000334 end:0x00000338
 
-GameLogic/PackageUtil.cpp:
+GameLogic/Common/Util/PackageUtil.cpp:
 	.text       start:0x0017A36C end:0x0017A7CC
 	.ctors      start:0x00000338 end:0x0000033C
 
-GameLogic/ContainerUnitTest.cpp:
+GameLogic/Main/Container/ContainerUnitTest.cpp:
 	.text       start:0x0017A7CC end:0x0017A804
 	.ctors      start:0x0000033C end:0x00000340
 
-GameLogic/BaseHUD3DElement_Deprecated.cpp:
+GameLogic/Common/Manager/HUD/BaseHUD3DElement_Deprecated.cpp:
 	.text       start:0x0017A804 end:0x0017A83C
 	.ctors      start:0x00000340 end:0x00000344
 
-GameLogic/FrontScreenControl.cpp:
+GameLogic/FrontScreen/Control/FrontScreenControl.cpp:
 	.text       start:0x0017A83C end:0x0017B0CC
 	.ctors      start:0x00000344 end:0x00000348
 
-GameLogic/Logger.cpp:
+GameLogic/Main/Misc/Logger.cpp:
 	.text       start:0x0017B0CC end:0x0017C508
 	.ctors      start:0x00000348 end:0x0000034C
 
-GameLogic/PhysicUtil.cpp:
+GameLogic/Common/Util/PhysicUtil.cpp:
 	.text       start:0x0017C508 end:0x0017ECB0
 	.ctors      start:0x0000034C end:0x00000350
 
-GameLogic/SequenceGraphBaseNode.cpp:
+GameLogic/Common/Misc/SequenceGraph/SequenceGraphBaseNode.cpp:
 	.text       start:0x0017ECB0 end:0x0017EFC4
 	.ctors      start:0x00000350 end:0x00000354
 
-GameLogic/AllocUtil.cpp:
+GameLogic/Main/Util/AllocUtil.cpp:
 	.text       start:0x0017EFC4 end:0x0017F538
 	.ctors      start:0x00000354 end:0x00000358
 
-GameLogic/ResourceUtil.cpp:
+GameLogic/Common/Util/ResourceUtil.cpp:
 	.text       start:0x0017F538 end:0x0017F624
 	.ctors      start:0x00000358 end:0x0000035C
 
-GameLogic/ParamBlockContainer.cpp:
+GameLogic/Main/Container/ParamBlockContainer.cpp:
 	.text       start:0x0017F624 end:0x0017F65C
 	.ctors      start:0x0000035C end:0x00000360
 
-GameLogic/BaseHUDElement.cpp:
+GameLogic/Common/Manager/HUD/BaseHUDElement.cpp:
 	.text       start:0x0017F65C end:0x001814EC
 	.ctors      start:0x00000360 end:0x00000364
 
-GameLogic/Assert.cpp:
+GameLogic/Main/Util/Assert.cpp:
 	.text       start:0x001814EC end:0x00181F58
 	.ctors      start:0x00000364 end:0x00000368
 
-GameLogic/FrontscreenObjectManager.cpp:
+GameLogic/FrontScreen/HUD/FrontscreenObjectManager.cpp:
 	.text       start:0x00181F58 end:0x00185284
 	.ctors      start:0x00000368 end:0x0000036C
 
-GameLogic/SplineCloning.cpp:
+GameLogic/Common/Util/SplineCloning.cpp:
 	.text       start:0x00185284 end:0x001858F8
 	.ctors      start:0x0000036C end:0x00000370
 
-GameLogic/SequenceGraphNodeFactory.cpp:
+GameLogic/Common/Misc/SequenceGraph/SequenceGraphNodeFactory.cpp:
 	.text       start:0x001858F8 end:0x00185C50
 	.ctors      start:0x00000370 end:0x00000374
 
-GameLogic/TriggerUtil.cpp:
+GameLogic/Common/Util/TriggerUtil.cpp:
 	.text       start:0x00185C50 end:0x00187D1C
 	.ctors      start:0x00000374 end:0x00000378
 
-GameLogic/MockOrienter.cpp:
+GameLogic/Common/InstructorSystem/InstructorTester/MockOrienter.cpp:
 	.text       start:0x00187D1C end:0x00187E94
 	.ctors      start:0x00000378 end:0x0000037C
 
-GameLogic/CRC32Generator.cpp:
+GameLogic/Main/Util/CRC32Generator.cpp:
 	.text       start:0x00187E94 end:0x001882CC
 	.ctors      start:0x0000037C end:0x00000380
 
-GameLogic/HUDManager.cpp:
+GameLogic/Common/Manager/HUD/HUDManager.cpp:
 	.text       start:0x001882CC end:0x0018A204
 	.ctors      start:0x00000380 end:0x00000384
 
-GameLogic/WinFileUtil.cpp:
+GameLogic/Common/Util/WinFileUtil.cpp:
 	.text       start:0x0018A204 end:0x0018A23C
 	.ctors      start:0x00000384 end:0x00000388
 
-GameLogic/ScriptFuncs_Debug.cpp:
+GameLogic/Common/Script/ScriptFuncs_Debug.cpp:
 	.text       start:0x0018A23C end:0x0018C11C
 	.ctors      start:0x00000388 end:0x0000038C
 
-GameLogic/MockPositioner.cpp:
+GameLogic/Common/InstructorSystem/InstructorTester/MockPositioner.cpp:
 	.text       start:0x0018C11C end:0x0018C294
 	.ctors      start:0x0000038C end:0x00000390
 
-GameLogic/SequenceGraphTimerNode.cpp:
+GameLogic/Common/Misc/SequenceGraph/SequenceGraphTimerNode.cpp:
 	.text       start:0x0018C294 end:0x0018C53C
 	.ctors      start:0x00000390 end:0x00000394
 
-GameLogic/DataStream.cpp:
+GameLogic/Main/Util/DataStream.cpp:
 	.text       start:0x0018C53C end:0x0018CDF4
 	.ctors      start:0x00000394 end:0x00000398
 
-GameLogic/ScriptFuncs_Game.cpp:
+GameLogic/Common/Script/ScriptFuncs_Game.cpp:
 	.text       start:0x0018CDF4 end:0x00190650
 	.ctors      start:0x00000398 end:0x0000039C
 
-GameLogic/HUDDebugLevelSelection.cpp:
+GameLogic/FrontScreen/HUD/HUDDebugLevelSelection.cpp:
 	.text       start:0x00190650 end:0x001932B8
 	.ctors      start:0x0000039C end:0x000003A0
 
-GameLogic/DataUtil.cpp:
+GameLogic/Main/Util/DataUtil.cpp:
 	.text       start:0x001932B8 end:0x001937FC
 	.ctors      start:0x000003A0 end:0x000003A4
 
-GameLogic/TransitionManager.cpp:
+GameLogic/Common/Manager/HUD/TransitionManager.cpp:
 	.text       start:0x001937FC end:0x001964B4
 	.ctors      start:0x000003A4 end:0x000003A8
 
-GameLogic/MockTransition.cpp:
+GameLogic/Common/InstructorSystem/InstructorTester/MockTransition.cpp:
 	.text       start:0x001964B4 end:0x00196FF0
 	.ctors      start:0x000003A8 end:0x000003AC
 
-GameLogic/ScriptFuncs_GameObj.cpp:
+GameLogic/Common/Script/ScriptFuncs_GameObj.cpp:
 	.text       start:0x00196FF0 end:0x0019755C
 	.ctors      start:0x000003AC end:0x000003B0
 
-GameLogic/NetworkAssert.cpp:
+GameLogic/Main/Util/NetworkAssert.cpp:
 	.text       start:0x0019755C end:0x001975FC
 	.ctors      start:0x000003B0 end:0x000003B4
 
-GameLogic/SequenceGraphVONode.cpp:
+GameLogic/Common/Misc/SequenceGraph/SequenceGraphVONode.cpp:
 	.text       start:0x001975FC end:0x00197C5C
 	.ctors      start:0x000003B4 end:0x000003B8
 
-GameLogic/ScriptFuncs_Math.cpp:
+GameLogic/Common/Script/ScriptFuncs_Math.cpp:
 	.text       start:0x00197C5C end:0x00198300
 	.ctors      start:0x000003B8 end:0x000003BC
 
-GameLogic/HUDLegalSLA.cpp:
+GameLogic/FrontScreen/HUD/HUDLegalSLA.cpp:
 	.text       start:0x00198300 end:0x00199114
 	.ctors      start:0x000003BC end:0x000003C0
 
-GameLogic/PropertyFile.cpp:
+GameLogic/Main/Util/PropertyFile.cpp:
 	.text       start:0x00199114 end:0x0019B7D8
 	.ctors      start:0x000003C0 end:0x000003C4
 
-GameLogic/HUDElement.cpp:
+GameLogic/Common/Interface/HUD/HUDElement.cpp:
 	.text       start:0x0019B7D8 end:0x001A46EC
 	.ctors      start:0x000003C4 end:0x000003C8
 
-GameLogic/ScriptFuncs_Menu.cpp:
+GameLogic/Common/Script/ScriptFuncs_Menu.cpp:
 	.text       start:0x001A46EC end:0x001A9BAC
 	.ctors      start:0x000003C8 end:0x000003CC
 
-GameLogic/InputManager.cpp:
+GameLogic/Common/Manager/InputManager/Generic/InputManager.cpp:
 	.text       start:0x001A9BAC end:0x001B1BE4
 	.ctors      start:0x000003CC end:0x000003D0
 
-GameLogic/HUDNotificationManager.cpp:
+GameLogic/BaseGameplay/HUD/HUDNotificationManager.cpp:
 	.text       start:0x001B1BE4 end:0x001B596C
 	.ctors      start:0x000003D0 end:0x000003D4
 
-GameLogic/VehicleSurfaceHelper.cpp:
+GameLogic/BaseGameplay/Helper/VehicleSurfaceHelper.cpp:
 	.text       start:0x001B596C end:0x001B633C
 	.ctors      start:0x000003D4 end:0x000003D8
 
-GameLogic/MaterialHelper.cpp:
+GameLogic/BaseGameplay/Helper/MaterialHelper.cpp:
 	.text       start:0x001B633C end:0x001B7FCC
 	.ctors      start:0x000003D8 end:0x000003DC
 
-GameLogic/SimpleOnlineFollower.cpp:
+GameLogic/BaseGameplay/Debug/OnlineMultiplayer/SimpleOnlineFollower.cpp:
 	.text       start:0x001B7FCC end:0x001B81E4
 	.ctors      start:0x000003DC end:0x000003E0
 
-GameLogic/HUDOnlineNotifications.cpp:
+GameLogic/BaseGameplay/HUD/HUDOnlineNotifications.cpp:
 	.text       start:0x001B81E4 end:0x001BCA34
 	.ctors      start:0x000003E0 end:0x000003E4
 
-GameLogic/DebugPauseMenu.cpp:
+GameLogic/BaseGameplay/HUD/DebugPauseMenu.cpp:
 	.text       start:0x001BCA34 end:0x001C0430
 	.ctors      start:0x000003E4 end:0x000003E8
 
-GameLogic/ModelVariationHelper.cpp:
+GameLogic/BaseGameplay/Helper/ModelVariationHelper.cpp:
 	.text       start:0x001C0430 end:0x001C2234
 	.ctors      start:0x000003E8 end:0x000003EC
 
-GameLogic/SimpleOnlineHero.cpp:
+GameLogic/BaseGameplay/Debug/OnlineMultiplayer/SimpleOnlineHero.cpp:
 	.text       start:0x001C2234 end:0x001C244C
 	.ctors      start:0x000003EC end:0x000003F0
 
-GameLogic/HUDScreenTracker.cpp:
+GameLogic/BaseGameplay/HUD/HUDScreenTracker.cpp:
 	.text       start:0x001C244C end:0x001C6BF4
 	.ctors      start:0x000003F0 end:0x000003F4
 
-GameLogic/PauseMenuControl.cpp:
+GameLogic/BaseGameplay/HUD/PauseMenuControl.cpp:
 	.text       start:0x001C6BF4 end:0x001C82E0
 	.ctors      start:0x000003F4 end:0x000003F8
 
-GameLogic/PathfindingHelper.cpp:
+GameLogic/BaseGameplay/Helper/PathfindingHelper.cpp:
 	.text       start:0x001C82E0 end:0x001C8318
 	.ctors      start:0x000003F8 end:0x000003FC
 
-GameLogic/SimpleOnlineHero_GroundMove.cpp:
+GameLogic/BaseGameplay/Debug/OnlineMultiplayer/SimpleOnlineHero_GroundMove.cpp:
 	.text       start:0x001C8318 end:0x001C8350
 	.ctors      start:0x000003FC end:0x00000400
 
-GameLogic/HUDTrackPosition.cpp:
+GameLogic/BaseGameplay/HUD/HUDTrackPosition.cpp:
 	.text       start:0x001C8350 end:0x001C9CFC
 	.ctors      start:0x00000400 end:0x00000404
 
-GameLogic/PathFindPositioner.cpp:
+GameLogic/BaseGameplay/InstructorSystem/Instructors/Positioners/PathFindPositioner.cpp:
 	.text       start:0x001C9CFC end:0x001CA154
 	.ctors      start:0x00000404 end:0x00000408
 
-GameLogic/RagdollModule.cpp:
+GameLogic/BaseGameplay/Helper/RagdollModule.cpp:
 	.text       start:0x001CA154 end:0x001CA610
 	.ctors      start:0x00000408 end:0x0000040C
 
-GameLogic/DestructibleChunkManager.cpp:
+GameLogic/BaseGameplay/Manager/DestructibleChunkManager.cpp:
 	.text       start:0x001CA610 end:0x001CBFD0
 	.ctors      start:0x0000040C end:0x00000410
 
-GameLogic/VehicleEffectManager.cpp:
+GameLogic/BaseGameplay/Manager/VehicleEffectManager.cpp:
 	.text       start:0x001CBFD0 end:0x001CF31C
 	.ctors      start:0x00000410 end:0x00000414
 
-GameLogic/AffixBankManager.cpp:
+GameLogic/BaseGameplay/Manager/AffixBankManager.cpp:
 	.text       start:0x001CF31C end:0x001D0AF0
 	.ctors      start:0x00000414 end:0x00000418
 
-GameLogic/HUD2DAllMoveSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DAllMoveSlider.cpp:
 	.text       start:0x001D0AF0 end:0x001D125C
 	.ctors      start:0x00000418 end:0x0000041C
 
-GameLogic/DoTManager.cpp:
+GameLogic/BaseGameplay/Manager/DoTManager.cpp:
 	.text       start:0x001D125C end:0x001D1A74
 	.ctors      start:0x0000041C end:0x00000420
 
-GameLogic/SliderManager.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/SliderManager.cpp:
 	.text       start:0x001D1A74 end:0x001DD2DC
 	.ctors      start:0x00000420 end:0x00000424
 
-GameLogic/HUDPositionListManager.cpp:
+GameLogic/BaseGameplay/Manager/HUDPositionListManager.cpp:
 	.text       start:0x001DD2DC end:0x001E2F40
 	.ctors      start:0x00000424 end:0x00000428
 
-GameLogic/HUD2DAlphaSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DAlphaSlider.cpp:
 	.text       start:0x001E2F40 end:0x001E3334
 	.ctors      start:0x00000428 end:0x0000042C
 
-GameLogic/HUD2DRotateTextureSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DRotateTextureSlider.cpp:
 	.text       start:0x001E3334 end:0x001E3740
 	.ctors      start:0x0000042C end:0x00000430
 
-GameLogic/BaseSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/BaseSlider.cpp:
 	.text       start:0x001E3740 end:0x001E404C
 	.ctors      start:0x00000430 end:0x00000434
 
-GameLogic/HUD2DScaleHUDSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DScaleHUDSlider.cpp:
 	.text       start:0x001E404C end:0x001E4588
 	.ctors      start:0x00000434 end:0x00000438
 
-GameLogic/HUD2DColorSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DColorSlider.cpp:
 	.text       start:0x001E4588 end:0x001E4844
 	.ctors      start:0x00000438 end:0x0000043C
 
-GameLogic/MiniMapManager.cpp:
+GameLogic/BaseGameplay/Manager/MiniMapManager.cpp:
 	.text       start:0x001E4844 end:0x001E6B40
 	.ctors      start:0x0000043C end:0x00000440
 
-GameLogic/Rotators.cpp:
+GameLogic/BaseGameplay/Objects/Rotators.cpp:
 	.text       start:0x001E6B40 end:0x001E8AA8
 	.ctors      start:0x00000440 end:0x00000444
 
-GameLogic/Collectible.cpp:
+GameLogic/BaseGameplay/Objects/Collectible.cpp:
 	.text       start:0x001E8AA8 end:0x001EC90C
 	.ctors      start:0x00000444 end:0x00000448
 
-GameLogic/SplineVehicleVelocityAffector.cpp:
+GameLogic/BaseGameplay/Manager/VehicleVelocityAffectors/SplineVehicleVelocityAffector.cpp:
 	.text       start:0x001EC90C end:0x001EC9C0
 	.ctors      start:0x00000448 end:0x0000044C
 
-GameLogic/SplineRamp.cpp:
+GameLogic/BaseGameplay/Objects/SplineRamp.cpp:
 	.text       start:0x001EC9C0 end:0x001ECBC0
 	.ctors      start:0x0000044C end:0x00000450
 
-GameLogic/CollectibleSpline.cpp:
+GameLogic/BaseGameplay/Objects/CollectibleSpline.cpp:
 	.text       start:0x001ECBC0 end:0x001ED214
 	.ctors      start:0x00000450 end:0x00000454
 
-GameLogic/NotificationScoreManager.cpp:
+GameLogic/BaseGameplay/Misc/NotificationScoreManager.cpp:
 	.text       start:0x001ED214 end:0x001EDF84
 	.ctors      start:0x00000454 end:0x00000458
 
-GameLogic/TimedAudioPlayer.cpp:
+GameLogic/BaseGameplay/Objects/TimedAudioPlayer.cpp:
 	.text       start:0x001EDF84 end:0x001EE400
 	.ctors      start:0x00000458 end:0x0000045C
 
-GameLogic/DamageObject.cpp:
+GameLogic/BaseGameplay/Objects/DamageObject.cpp:
 	.text       start:0x001EE400 end:0x001F2C80
 	.ctors      start:0x0000045C end:0x00000460
 
-GameLogic/VehicleProximityTrigger.cpp:
+GameLogic/BaseGameplay/Objects/VehicleProximityTrigger.cpp:
 	.text       start:0x001F2C80 end:0x001F3568
 	.ctors      start:0x00000460 end:0x00000464
 
-GameLogic/VehicleBooster.cpp:
+GameLogic/BaseGameplay/Objects/VehicleBooster.cpp:
 	.text       start:0x001F3568 end:0x001F3C1C
 	.ctors      start:0x00000464 end:0x00000468
 
-GameLogic/DestructibleChunk.cpp:
+GameLogic/BaseGameplay/Objects/DestructibleChunk.cpp:
 	.text       start:0x001F3C1C end:0x001F5058
 	.ctors      start:0x00000468 end:0x0000046C
 
-GameLogic/VehicleShield.cpp:
+GameLogic/BaseGameplay/Objects/VehicleShield.cpp:
 	.text       start:0x001F5058 end:0x001F584C
 	.ctors      start:0x0000046C end:0x00000470
 
-GameLogic/CompositeObjectAnimated.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectAnimated.cpp:
 	.text       start:0x001F584C end:0x001F8EF0
 	.ctors      start:0x00000470 end:0x00000474
 
-GameLogic/FloatingObject.cpp:
+GameLogic/BaseGameplay/Objects/FloatingObject.cpp:
 	.text       start:0x001F8EF0 end:0x001F9934
 	.ctors      start:0x00000474 end:0x00000478
 
-GameLogic/PanOrienter.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Orienters/PanOrienter.cpp:
 	.text       start:0x001F9934 end:0x001FA0A4
 	.ctors      start:0x00000478 end:0x0000047C
 
-GameLogic/Positioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/Positioner.cpp:
 	.text       start:0x001FA0A4 end:0x001FA1D8
 	.ctors      start:0x0000047C end:0x00000480
 
-GameLogic/SplinePositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/SplinePositioner.cpp:
 	.text       start:0x001FA1D8 end:0x001FA904
 	.ctors      start:0x00000480 end:0x00000484
 
-GameLogic/GameObjectInitManager.cpp:
+GameLogic/Common/Manager/GameObjectInitManager.cpp:
 	.text       start:0x001FA904 end:0x001FB890
 	.ctors      start:0x00000484 end:0x00000488
 
-GameLogic/SplineOrienter.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Orienters/SplineOrienter.cpp:
 	.text       start:0x001FB890 end:0x001FBB2C
 	.ctors      start:0x00000488 end:0x0000048C
 
-GameLogic/HeightMapHelper.cpp:
+GameLogic/Common/Helper/HeightMapHelper.cpp:
 	.text       start:0x001FBB2C end:0x00200530
 	.ctors      start:0x0000048C end:0x00000490
 
-GameLogic/SecondPersonPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/SecondPersonPositioner.cpp:
 	.text       start:0x00200530 end:0x002007E8
 	.ctors      start:0x00000490 end:0x00000494
 
-GameLogic/GameObjectListManager.cpp:
+GameLogic/Common/Manager/GameObjectListManager.cpp:
 	.text       start:0x002007E8 end:0x00201774
 	.ctors      start:0x00000494 end:0x00000498
 
-GameLogic/ArcadePositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/ArcadePositioner.cpp:
 	.text       start:0x00201774 end:0x00203578
 	.ctors      start:0x00000498 end:0x0000049C
 
-GameLogic/SideScrollerPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/SideScrollerPositioner.cpp:
 	.text       start:0x00203578 end:0x00203AA4
 	.ctors      start:0x0000049C end:0x000004A0
 
-GameLogic/ThirdPersonPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/ThirdPersonPositioner.cpp:
 	.text       start:0x00203AA4 end:0x0020473C
 	.ctors      start:0x000004A0 end:0x000004A4
 
-GameLogic/GameObjPoolManager.cpp:
+GameLogic/Common/Manager/GameObjPoolManager.cpp:
 	.text       start:0x0020473C end:0x002060D0
 	.ctors      start:0x000004A4 end:0x000004A8
 
-GameLogic/DollyPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/DollyPositioner.cpp:
 	.text       start:0x002060D0 end:0x00206854
 	.ctors      start:0x000004A8 end:0x000004AC
 
-GameLogic/HUDAnimHelper.cpp:
+GameLogic/Common/Helper/HUDAnimHelper.cpp:
 	.text       start:0x00206854 end:0x002070D0
 	.ctors      start:0x000004AC end:0x000004B0
 
-GameLogic/GameStateManager.cpp:
+GameLogic/Common/Manager/GameStateManager.cpp:
 	.text       start:0x002070D0 end:0x0020D2A8
 	.ctors      start:0x000004B0 end:0x000004B4
 
-GameLogic/DollyZoomPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/DollyZoomPositioner.cpp:
 	.text       start:0x0020D2A8 end:0x0020DA2C
 	.ctors      start:0x000004B4 end:0x000004B8
 
-GameLogic/ZoomableThirdPersonPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/ZoomableThirdPersonPositioner.cpp:
 	.text       start:0x0020DA2C end:0x0020DF84
 	.ctors      start:0x000004B8 end:0x000004BC
 
-GameLogic/GlowManager.cpp:
+GameLogic/Common/Manager/GlowManager.cpp:
 	.text       start:0x0020DF84 end:0x0021032C
 	.ctors      start:0x000004BC end:0x000004C0
 
-GameLogic/JoystickHelper.cpp:
+GameLogic/Common/Helper/JoystickHelper.cpp:
 	.text       start:0x0021032C end:0x00210364
 	.ctors      start:0x000004C0 end:0x000004C4
 
-GameLogic/FixedPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/FixedPositioner.cpp:
 	.text       start:0x00210364 end:0x00210B8C
 	.ctors      start:0x000004C4 end:0x000004C8
 
-GameLogic/HUDPopupManager.cpp:
+GameLogic/Common/Manager/HUDPopupManager.cpp:
 	.text       start:0x00210B8C end:0x00213720
 	.ctors      start:0x000004C8 end:0x000004CC
 
-GameLogic/OpacityManager.cpp:
+GameLogic/Common/Manager/OpacityManager.cpp:
 	.text       start:0x00213720 end:0x00215BC8
 	.ctors      start:0x000004CC end:0x000004D0
 
-GameLogic/ResourceListGroupManager.cpp:
+GameLogic/Common/Manager/ResourceListGroupManager.cpp:
 	.text       start:0x00215BC8 end:0x00215E28
 	.ctors      start:0x000004D0 end:0x000004D4
 
-GameLogic/InstructorTesterSuite.cpp:
+GameLogic/Common/InstructorSystem/InstructorTester/InstructorTesterSuite.cpp:
 	.text       start:0x00215E28 end:0x00215E60
 	.ctors      start:0x000004D4 end:0x000004D8
 
-GameLogic/InGameListener.cpp:
+GameLogic/Common/Manager/InGameListener.cpp:
 	.text       start:0x00215E60 end:0x002174AC
 	.ctors      start:0x000004D8 end:0x000004DC
 
-GameLogic/LookHelper.cpp:
+GameLogic/Common/Helper/LookHelper.cpp:
 	.text       start:0x002174AC end:0x00218F44
 	.ctors      start:0x000004DC end:0x000004E0
 
-GameLogic/BaseWindowComponentObj.cpp:
+GameLogic/Common/HUD/Base/BaseWindowComponentObj.cpp:
 	.text       start:0x00218F44 end:0x0021A42C
 	.ctors      start:0x000004E0 end:0x000004E4
 
-GameLogic/AudioEventLauncher.cpp:
+GameLogic/Common/Audio/Obj/AudioEventLauncher.cpp:
 	.text       start:0x0021A42C end:0x0021BCBC
 	.ctors      start:0x000004E4 end:0x000004E8
 
-GameLogic/FXModuleWorldOrientation.cpp:
+GameLogic/Common/FX/Modules/FXModuleWorldOrientation.cpp:
 	.text       start:0x0021BCBC end:0x0021C360
 	.ctors      start:0x000004E8 end:0x000004EC
 
-GameLogic/AnimatedHUD.cpp:
+GameLogic/Common/HUD/Util/AnimatedHUD.cpp:
 	.text       start:0x0021C360 end:0x0021CDCC
 	.ctors      start:0x000004EC end:0x000004F0
 
-GameLogic/InputManager_Wii.cpp:
+GameLogic/Common/Manager/InputManager/Wii/InputManager_Wii.cpp:
 	.text       start:0x0021CDCC end:0x00220EC0
 	.ctors      start:0x000004F0 end:0x000004F4
 
-GameLogic/FXEnvMatAnimChaining.cpp:
+GameLogic/Common/FX/Obj/FXEnvMatAnimChaining.cpp:
 	.text       start:0x00220EC0 end:0x002223F0
 	.ctors      start:0x000004F4 end:0x000004F8
 
-GameLogic/LoosePositionHelper.cpp:
+GameLogic/Common/Helper/LoosePositionHelper.cpp:
 	.text       start:0x002223F0 end:0x00222428
 	.ctors      start:0x000004F8 end:0x000004FC
 
-GameLogic/InstructorFactory.cpp:
+GameLogic/Common/InstructorSystem/InstructorFactory.cpp:
 	.text       start:0x00222428 end:0x002228A8
 	.ctors      start:0x000004FC end:0x00000500
 
-GameLogic/ChoiceWindowComponent.cpp:
+GameLogic/Common/HUD/Base/ChoiceWindowComponent.cpp:
 	.text       start:0x002228A8 end:0x0022354C
 	.ctors      start:0x00000500 end:0x00000504
 
-GameLogic/FXNearFadeChanger.cpp:
+GameLogic/Common/FX/Obj/FXNearFadeChanger.cpp:
 	.text       start:0x0022354C end:0x00223F20
 	.ctors      start:0x00000504 end:0x00000508
 
-GameLogic/InstructorMover.cpp:
+GameLogic/Common/InstructorSystem/InstructorMover/InstructorMover.cpp:
 	.text       start:0x00223F20 end:0x002241FC
 	.ctors      start:0x00000508 end:0x0000050C
 
-GameLogic/MotionTrailHelper.cpp:
+GameLogic/Common/Helper/MotionTrailHelper.cpp:
 	.text       start:0x002241FC end:0x00224508
 	.ctors      start:0x0000050C end:0x00000510
 
-GameLogic/SaveGameManager_SelectDeviceModule.cpp:
+GameLogic/Common/Manager/SaveGame/SaveGameManager_SelectDeviceModule.cpp:
 	.text       start:0x00224508 end:0x00225720
 	.ctors      start:0x00000510 end:0x00000514
 
-GameLogic/HUDButtonHelper.cpp:
+GameLogic/Common/HUD/Base/HUDButtonHelper.cpp:
 	.text       start:0x00225720 end:0x0022724C
 	.ctors      start:0x00000514 end:0x00000518
 
-GameLogic/Banker.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Bankers/Banker.cpp:
 	.text       start:0x0022724C end:0x00227370
 	.ctors      start:0x00000518 end:0x0000051C
 
-GameLogic/SaveData.cpp:
+GameLogic/Common/Manager/SaveGame/SaveData.cpp:
 	.text       start:0x00227370 end:0x00227620
 	.ctors      start:0x0000051C end:0x00000520
 
-GameLogic/SaveGameManager_SelectFileModule.cpp:
+GameLogic/Common/Manager/SaveGame/SaveGameManager_SelectFileModule.cpp:
 	.text       start:0x00227620 end:0x00229144
 	.ctors      start:0x00000520 end:0x00000524
 
-GameLogic/FixedBanker.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Bankers/FixedBanker.cpp:
 	.text       start:0x00229144 end:0x002296C0
 	.ctors      start:0x00000524 end:0x00000528
 
-GameLogic/SimpleAnimatedMenuItem.cpp:
+GameLogic/Common/Menu/SimpleAnimatedMenuItem.cpp:
 	.text       start:0x002296C0 end:0x0022A7C8
 	.ctors      start:0x00000528 end:0x0000052C
 
-GameLogic/SaveDataManager.cpp:
+GameLogic/Common/Manager/SaveGame/SaveDataManager.cpp:
 	.text       start:0x0022A7C8 end:0x0022FB70
 	.ctors      start:0x0000052C end:0x00000530
 
-GameLogic/HUDWindowManager.cpp:
+GameLogic/Common/HUD/Base/HUDWindowManager.cpp:
 	.text       start:0x0022FB70 end:0x00236BF0
 	.ctors      start:0x00000530 end:0x00000534
 
-GameLogic/SectionManager.cpp:
+GameLogic/Common/Manager/SectionManager/SectionManager.cpp:
 	.text       start:0x00236BF0 end:0x002475E4
 	.ctors      start:0x00000534 end:0x00000538
 
-GameLogic/CapsuleCollisioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Collisioners/CapsuleCollisioner.cpp:
 	.text       start:0x002475E4 end:0x00247978
 	.ctors      start:0x00000538 end:0x0000053C
 
-GameLogic/SaveDataManagerTesterSuite.cpp:
+GameLogic/Common/Manager/SaveGame/SaveDataManagerTesterSuite.cpp:
 	.text       start:0x00247978 end:0x002479B0
 	.ctors      start:0x0000053C end:0x00000540
 
-GameLogic/StreamingGraph.cpp:
+GameLogic/Common/Manager/SectionManager/StreamingGraph.cpp:
 	.text       start:0x002479B0 end:0x00248D58
 	.ctors      start:0x00000540 end:0x00000544
 
-GameLogic/Collisioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Collisioners/Collisioner.cpp:
 	.text       start:0x00248D58 end:0x00248E7C
 	.ctors      start:0x00000544 end:0x00000548
 
-GameLogic/VehicleButtonCopy.cpp:
+GameLogic/Common/Menu/VehicleButtonCopy.cpp:
 	.text       start:0x00248E7C end:0x0024993C
 	.ctors      start:0x00000548 end:0x0000054C
 
-GameLogic/TextWindowComponent.cpp:
+GameLogic/Common/HUD/Base/TextWindowComponent.cpp:
 	.text       start:0x0024993C end:0x0024A250
 	.ctors      start:0x0000054C end:0x00000550
 
-GameLogic/SaveDataTypeUtil.cpp:
+GameLogic/Common/Manager/SaveGame/SaveDataTypeUtil.cpp:
 	.text       start:0x0024A250 end:0x0024A288
 	.ctors      start:0x00000550 end:0x00000554
 
-GameLogic/StreamingGraphInitializer.cpp:
+GameLogic/Common/Manager/SectionManager/StreamingGraphInitializer.cpp:
 	.text       start:0x0024A288 end:0x0024A4AC
 	.ctors      start:0x00000554 end:0x00000558
 
-GameLogic/SkylanderToyData_UnitTest.cpp:
+GameLogic/BaseSkylander/Toy/SkylanderToyData_UnitTest.cpp:
 	.text       start:0x0024A4AC end:0x0024A4E4
 	.ctors      start:0x00000558 end:0x0000055C
 
-GameLogic/FXEmitterModuleEvents.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModuleEvents.cpp:
 	.text       start:0x0024A4E4 end:0x0024AB3C
 	.ctors      start:0x0000055C end:0x00000560
 
-GameLogic/InitWiiHomeMenu.cpp:
+GameLogic/Common/Control/InitWiiHomeMenu.cpp:
 	.text       start:0x0024AB3C end:0x0024B820
 	.ctors      start:0x00000560 end:0x00000564
 
-GameLogic/VisualAssertManager.cpp:
+GameLogic/Common/Debug/VisualAssert/VisualAssertManager.cpp:
 	.text       start:0x0024B820 end:0x0024C480
 	.ctors      start:0x00000564 end:0x00000568
 
-GameLogic/StartupControlSKY2015.cpp:
+GameLogic/Common/Control/StartupControlSKY2015.cpp:
 	.text       start:0x0024C480 end:0x0024DB2C
 	.ctors      start:0x00000568 end:0x0000056C
 
-GameLogic/CompositeHUD.cpp:
+GameLogic/Common/HUD/CompositeHUD.cpp:
 	.text       start:0x0024DB2C end:0x0024EFD8
 	.ctors      start:0x0000056C end:0x00000570
 
-GameLogic/FXEmitterModuleFields.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModuleFields.cpp:
 	.text       start:0x0024EFD8 end:0x0024FA98
 	.ctors      start:0x00000570 end:0x00000574
 
-GameLogic/CompositeHUDDialog.cpp:
+GameLogic/Common/HUD/CompositeHUDDialog.cpp:
 	.text       start:0x0024FA98 end:0x0024FED0
 	.ctors      start:0x00000574 end:0x00000578
 
-GameLogic/VehicleToyData.cpp:
+GameLogic/BaseSkylander/Toy/VehicleToyData.cpp:
 	.text       start:0x0024FED0 end:0x0024FF08
 	.ctors      start:0x00000578 end:0x0000057C
 
-GameLogic/CutscenePlayer.cpp:
+GameLogic/Common/Cutscene/CutscenePlayer.cpp:
 	.text       start:0x0024FF08 end:0x0025D298
 	.ctors      start:0x0000057C end:0x00000580
 
-GameLogic/FXEmitterModuleLifeTime.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModuleLifeTime.cpp:
 	.text       start:0x0025D298 end:0x0025E958
 	.ctors      start:0x00000580 end:0x00000584
 
-GameLogic/CamFXUtil.cpp:
+GameLogic/Common/FX/CamFXUtil.cpp:
 	.text       start:0x0025E958 end:0x0025EE54
 	.ctors      start:0x00000584 end:0x00000588
 
-GameLogic/CompositeHUDElem.cpp:
+GameLogic/Common/HUD/CompositeHUDElem.cpp:
 	.text       start:0x0025EE54 end:0x00260AE8
 	.ctors      start:0x00000588 end:0x0000058C
 
-GameLogic/BuildVersionNumberManager.cpp:
+GameLogic/Common/Debug/BuildVersionNumberManager.cpp:
 	.text       start:0x00260AE8 end:0x0026101C
 	.ctors      start:0x0000058C end:0x00000590
 
-GameLogic/HUDCredits.cpp:
+GameLogic/Common/HUD/HUDCredits.cpp:
 	.text       start:0x0026101C end:0x00263598
 	.ctors      start:0x00000590 end:0x00000594
 
-GameLogic/AudioOptions.cpp:
+GameLogic/Common/Audio/AudioOptions.cpp:
 	.text       start:0x00263598 end:0x00263CF8
 	.ctors      start:0x00000594 end:0x00000598
 
-GameLogic/CompositeHUDProgressBar.cpp:
+GameLogic/Common/HUD/CompositeHUDProgressBar.cpp:
 	.text       start:0x00263CF8 end:0x002643C0
 	.ctors      start:0x00000598 end:0x0000059C
 
-GameLogic/Clipboard.cpp:
+GameLogic/Common/Debug/Clipboard.cpp:
 	.text       start:0x002643C0 end:0x002643F8
 	.ctors      start:0x0000059C end:0x000005A0
 
-GameLogic/HUDGeneric3D.cpp:
+GameLogic/Common/HUD/HUDGeneric3D.cpp:
 	.text       start:0x002643F8 end:0x0026634C
 	.ctors      start:0x000005A0 end:0x000005A4
 
-GameLogic/FXHandleAnimationMessage.cpp:
+GameLogic/Common/FX/FXHandleAnimationMessage.cpp:
 	.text       start:0x0026634C end:0x00266598
 	.ctors      start:0x000005A4 end:0x000005A8
 
-GameLogic/CompositeHUDVideo.cpp:
+GameLogic/Common/HUD/CompositeHUDVideo.cpp:
 	.text       start:0x00266598 end:0x00266BA8
 	.ctors      start:0x000005A8 end:0x000005AC
 
-GameLogic/CollisionTester.cpp:
+GameLogic/Common/Debug/CollisionTester.cpp:
 	.text       start:0x00266BA8 end:0x00269014
 	.ctors      start:0x000005AC end:0x000005B0
 
-GameLogic/HUDLoadingScreen.cpp:
+GameLogic/Common/HUD/HUDLoadingScreen.cpp:
 	.text       start:0x00269014 end:0x00270004
 	.ctors      start:0x000005B0 end:0x000005B4
 
-GameLogic/AudioUtil.cpp:
+GameLogic/Common/Audio/AudioUtil.cpp:
 	.text       start:0x00270004 end:0x00271638
 	.ctors      start:0x000005B4 end:0x000005B8
 
-GameLogic/CollisionTesterObj.cpp:
+GameLogic/Common/Debug/CollisionTesterObj.cpp:
 	.text       start:0x00271638 end:0x00272F18
 	.ctors      start:0x000005B8 end:0x000005BC
 
-GameLogic/HUD3DList.cpp:
+GameLogic/Common/HUD/HUD3DList.cpp:
 	.text       start:0x00272F18 end:0x00273300
 	.ctors      start:0x000005BC end:0x000005C0
 
-GameLogic/LenseFlare.cpp:
+GameLogic/Common/FX/LenseFlare.cpp:
 	.text       start:0x00273300 end:0x002751A4
 	.ctors      start:0x000005C0 end:0x000005C4
 
-GameLogic/HUDMiniLoading.cpp:
+GameLogic/Common/HUD/HUDMiniLoading.cpp:
 	.text       start:0x002751A4 end:0x00275E74
 	.ctors      start:0x000005C4 end:0x000005C8
 
-GameLogic/DebugCommandSelector.cpp:
+GameLogic/Common/Debug/DebugCommandSelector.cpp:
 	.text       start:0x00275E74 end:0x0027B9E4
 	.ctors      start:0x000005C8 end:0x000005CC
 
-GameLogic/HUD3DMatrix.cpp:
+GameLogic/Common/HUD/HUD3DMatrix.cpp:
 	.text       start:0x0027B9E4 end:0x0027BB64
 	.ctors      start:0x000005CC end:0x000005D0
 
-GameLogic/HUDSaving.cpp:
+GameLogic/Common/HUD/HUDSaving.cpp:
 	.text       start:0x0027BB64 end:0x0027C9A4
 	.ctors      start:0x000005D0 end:0x000005D4
 
-GameLogic/FootStepsModule.cpp:
+GameLogic/Common/Audio/Module/FootStepsModule.cpp:
 	.text       start:0x0027C9A4 end:0x0027CE20
 	.ctors      start:0x000005D4 end:0x000005D8
 
-GameLogic/PostFXUtil.cpp:
+GameLogic/Common/FX/PostFXUtil.cpp:
 	.text       start:0x0027CE20 end:0x0027D598
 	.ctors      start:0x000005D8 end:0x000005DC
 
-GameLogic/DebugConsole.cpp:
+GameLogic/Common/Debug/DebugConsole.cpp:
 	.text       start:0x0027D598 end:0x0027DA20
 	.ctors      start:0x000005DC end:0x000005E0
 
-GameLogic/HUD3DScrollBar.cpp:
+GameLogic/Common/HUD/HUD3DScrollBar.cpp:
 	.text       start:0x0027DA20 end:0x0027DAFC
 	.ctors      start:0x000005E0 end:0x000005E4
 
-GameLogic/HUDSubtitle.cpp:
+GameLogic/Common/HUD/HUDSubtitle.cpp:
 	.text       start:0x0027DAFC end:0x0027FC34
 	.ctors      start:0x000005E4 end:0x000005E8
 
-GameLogic/DebugCutsceneSelector.cpp:
+GameLogic/Common/Debug/DebugCutsceneSelector.cpp:
 	.text       start:0x0027FC34 end:0x002805E4
 	.ctors      start:0x000005E8 end:0x000005EC
 
-GameLogic/HUDCounter.cpp:
+GameLogic/Common/HUD/HUDCounter.cpp:
 	.text       start:0x002805E4 end:0x002819EC
 	.ctors      start:0x000005EC end:0x000005F0
 
-GameLogic/HUDTempCutscene.cpp:
+GameLogic/Common/HUD/HUDTempCutscene.cpp:
 	.text       start:0x002819EC end:0x00281F90
 	.ctors      start:0x000005F0 end:0x000005F4
 
-GameLogic/DistanceMusicPlayer.cpp:
+GameLogic/Common/Audio/Music/DistanceMusicPlayer.cpp:
 	.text       start:0x00281F90 end:0x00282B2C
 	.ctors      start:0x000005F4 end:0x000005F8
 
-GameLogic/VFXUtil.cpp:
+GameLogic/Common/FX/VFXUtil.cpp:
 	.text       start:0x00282B2C end:0x0028B1C8
 	.ctors      start:0x000005F8 end:0x000005FC
 
-GameLogic/ThreeChoiceWindowComponent.cpp:
+GameLogic/Common/HUD/Base/ThreeChoiceWindowComponent.cpp:
 	.text       start:0x0028B1C8 end:0x0028BF3C
 	.ctors      start:0x000005FC end:0x00000600
 
-GameLogic/InstructorContainer.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Containers/InstructorContainer.cpp:
 	.text       start:0x0028BF3C end:0x0028F264
 	.ctors      start:0x00000600 end:0x00000604
 
-GameLogic/LanguageSelect.cpp:
+GameLogic/Common/HUD/LanguageSelect.cpp:
 	.text       start:0x0028F264 end:0x00290A04
 	.ctors      start:0x00000604 end:0x00000608
 
-GameLogic/YesNoWindowComponent.cpp:
+GameLogic/Common/HUD/Base/YesNoWindowComponent.cpp:
 	.text       start:0x00290A04 end:0x00291380
 	.ctors      start:0x00000608 end:0x0000060C
 
-GameLogic/InstructorProcessor.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Containers/InstructorProcessor.cpp:
 	.text       start:0x00291380 end:0x002A2320
 	.ctors      start:0x0000060C end:0x00000610
 
-GameLogic/AmbiancePlayer.cpp:
+GameLogic/Common/Audio/Obj/AmbiancePlayer.cpp:
 	.text       start:0x002A2320 end:0x002A2E74
 	.ctors      start:0x00000610 end:0x00000614
 
-GameLogic/BaseWindowComponent.cpp:
+GameLogic/Common/HUD/Base/BaseWindowComponent.cpp:
 	.text       start:0x002A2E74 end:0x002A35D0
 	.ctors      start:0x00000614 end:0x00000618
 
-GameLogic/FXMatAnimChainingModule.cpp:
+GameLogic/Common/FX/Modules/FXMatAnimChainingModule.cpp:
 	.text       start:0x002A35D0 end:0x002A5170
 	.ctors      start:0x00000618 end:0x0000061C
 
-GameLogic/VideoOptionsWindowComponent.cpp:
+GameLogic/Common/HUD/Options/VideoOptionsWindowComponent.cpp:
 	.text       start:0x002A5170 end:0x002A52F0
 	.ctors      start:0x0000061C end:0x00000620
 
-GameLogic/InstructorProcessorUtil.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Containers/InstructorProcessorUtil.cpp:
 	.text       start:0x002A52F0 end:0x002A6B30
 	.ctors      start:0x00000620 end:0x00000624
 
-GameLogic/FXPhysicObjectSpawner.cpp:
+GameLogic/Common/FX/Obj/Spawner/FXPhysicObjectSpawner.cpp:
 	.text       start:0x002A6B30 end:0x002A8C30
 	.ctors      start:0x00000624 end:0x00000628
 
-GameLogic/CubicBezierHelper.cpp:
+GameLogic/Common/Helper/CubicBezierHelper.cpp:
 	.text       start:0x002A8C30 end:0x002AAB58
 	.ctors      start:0x00000628 end:0x0000062C
 
-GameLogic/TimeScaleHelper.cpp:
+GameLogic/Common/Helper/TimeScaleHelper.cpp:
 	.text       start:0x002AAB58 end:0x002AAC2C
 	.ctors      start:0x0000062C end:0x00000630
 
-GameLogic/InstructorTransition.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Containers/InstructorTransition.cpp:
 	.text       start:0x002AAC2C end:0x002AB408
 	.ctors      start:0x00000630 end:0x00000634
 
-GameLogic/FXSimpleInZoneSpawner.cpp:
+GameLogic/Common/FX/Obj/Spawner/FXSimpleInZoneSpawner.cpp:
 	.text       start:0x002AB408 end:0x002ADAA8
 	.ctors      start:0x00000634 end:0x00000638
 
-GameLogic/CheckBox.cpp:
+GameLogic/Common/Debug/GUI/CheckBox.cpp:
 	.text       start:0x002ADAA8 end:0x002AE8D0
 	.ctors      start:0x00000638 end:0x0000063C
 
-GameLogic/WaterHeightMap.cpp:
+GameLogic/Common/Helper/WaterHeightMap.cpp:
 	.text       start:0x002AE8D0 end:0x002AECE8
 	.ctors      start:0x0000063C end:0x00000640
 
-GameLogic/Instructor.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Instructor/Instructor.cpp:
 	.text       start:0x002AECE8 end:0x002AF4BC
 	.ctors      start:0x00000640 end:0x00000644
 
-GameLogic/GameEvent.cpp:
+GameLogic/Common/GameEvent/GameEvent.cpp:
 	.text       start:0x002AF4BC end:0x002AF4F4
 	.ctors      start:0x00000644 end:0x00000648
 
-GameLogic/CurveInterpolationHelper.cpp:
+GameLogic/Common/Helper/CurveInterpolationHelper.cpp:
 	.text       start:0x002AF4F4 end:0x002AF52C
 	.ctors      start:0x00000648 end:0x0000064C
 
-GameLogic/NwFieldHelper.cpp:
+GameLogic/Common/Helper/Network/NwFieldHelper.cpp:
 	.text       start:0x002AF52C end:0x002AF564
 	.ctors      start:0x0000064C end:0x00000650
 
-GameLogic/FixedOrienter.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Orienters/FixedOrienter.cpp:
 	.text       start:0x002AF564 end:0x002AFC00
 	.ctors      start:0x00000650 end:0x00000654
 
-GameLogic/GameEventSystem_ChannelSubscriptions.cpp:
+GameLogic/Common/GameEvent/GameEventSystem_ChannelSubscriptions.cpp:
 	.text       start:0x002AFC00 end:0x002B269C
 	.ctors      start:0x00000654 end:0x00000658
 
-GameLogic/EditBox.cpp:
+GameLogic/Common/Debug/GUI/EditBox.cpp:
 	.text       start:0x002B269C end:0x002B2738
 	.ctors      start:0x00000658 end:0x0000065C
 
-GameLogic/FocusPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/FocusPositioner.cpp:
 	.text       start:0x002B2738 end:0x002B2AB4
 	.ctors      start:0x0000065C end:0x00000660
 
-GameLogic/DecisionsHelper.cpp:
+GameLogic/Common/Helper/DecisionsHelper.cpp:
 	.text       start:0x002B2AB4 end:0x002B2C14
 	.ctors      start:0x00000660 end:0x00000664
 
-GameLogic/HoveringOrienter.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Orienters/HoveringOrienter.cpp:
 	.text       start:0x002B2C14 end:0x002B30CC
 	.ctors      start:0x00000664 end:0x00000668
 
-GameLogic/GameEventSystem_Manager.cpp:
+GameLogic/Common/GameEvent/GameEventSystem_Manager.cpp:
 	.text       start:0x002B30CC end:0x002B5450
 	.ctors      start:0x00000668 end:0x0000066C
 
-GameLogic/HoveringPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/HoveringPositioner.cpp:
 	.text       start:0x002B5450 end:0x002B59DC
 	.ctors      start:0x0000066C end:0x00000670
 
-GameLogic/GUIManager.cpp:
+GameLogic/Common/Debug/GUI/GUIManager.cpp:
 	.text       start:0x002B59DC end:0x002B7148
 	.ctors      start:0x00000670 end:0x00000674
 
-GameLogic/GameEventSystem_ObjectSubscriptions.cpp:
+GameLogic/Common/GameEvent/GameEventSystem_ObjectSubscriptions.cpp:
 	.text       start:0x002B7148 end:0x002B8530
 	.ctors      start:0x00000674 end:0x00000678
 
-GameLogic/LookAtTargetOrienter.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Orienters/LookAtTargetOrienter.cpp:
 	.text       start:0x002B8530 end:0x002B942C
 	.ctors      start:0x00000678 end:0x0000067C
 
-GameLogic/InputMovePositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/InputMovePositioner.cpp:
 	.text       start:0x002B942C end:0x002B9910
 	.ctors      start:0x0000067C end:0x00000680
 
-GameLogic/FlagHelper.cpp:
+GameLogic/Common/Helper/FlagHelper.cpp:
 	.text       start:0x002B9910 end:0x002BA32C
 	.ctors      start:0x00000680 end:0x00000684
 
-GameLogic/AnimBlendGridHelper.cpp:
+GameLogic/Common/Helper/AnimBlendGridHelper.cpp:
 	.text       start:0x002BA32C end:0x002BD4EC
 	.ctors      start:0x00000684 end:0x00000688
 
-GameLogic/MoveDirectionOrienter.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Orienters/MoveDirectionOrienter.cpp:
 	.text       start:0x002BD4EC end:0x002BD974
 	.ctors      start:0x00000688 end:0x0000068C
 
-GameLogic/OffsetPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/OffsetPositioner.cpp:
 	.text       start:0x002BD974 end:0x002BDED0
 	.ctors      start:0x0000068C end:0x00000690
 
-GameLogic/SpeedSplinePositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/SpeedSplinePositioner.cpp:
 	.text       start:0x002BDED0 end:0x002BE66C
 	.ctors      start:0x00000690 end:0x00000694
 
-GameLogic/EscManager.cpp:
+GameLogic/Common/Manager/EscManager.cpp:
 	.text       start:0x002BE66C end:0x002BE6A4
 	.ctors      start:0x00000694 end:0x00000698
 
-GameLogic/Orienter.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Orienters/Orienter.cpp:
 	.text       start:0x002BE6A4 end:0x002BE7C8
 	.ctors      start:0x00000698 end:0x0000069C
 
-GameLogic/GraphHelper.cpp:
+GameLogic/Common/Helper/GraphHelper.cpp:
 	.text       start:0x002BE7C8 end:0x002C1230
 	.ctors      start:0x0000069C end:0x000006A0
 
-GameLogic/OrbitPositioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Positioners/OrbitPositioner.cpp:
 	.text       start:0x002C1230 end:0x002C1AEC
 	.ctors      start:0x000006A0 end:0x000006A4
 
-GameLogic/GameManager.cpp:
+GameLogic/Common/Manager/GameManager.cpp:
 	.text       start:0x002C1AEC end:0x002CB43C
 	.ctors      start:0x000006A4 end:0x000006A8
 
-GameLogic/InstructorCameraManager.cpp:
+GameLogic/Common/Camera/InstructorCameraManager.cpp:
 	.text       start:0x002CB43C end:0x002D663C
 	.ctors      start:0x000006A8 end:0x000006AC
 
-GameLogic/BaseToyData_UnitTest.cpp:
+GameLogic/BaseSkylander/Toy/BaseToyData_UnitTest.cpp:
 	.text       start:0x002D663C end:0x002D6674
 	.ctors      start:0x000006AC end:0x000006B0
 
-GameLogic/DebugData.cpp:
+GameLogic/Common/Debug/DebugData.cpp:
 	.text       start:0x002D6674 end:0x002D95CC
 	.ctors      start:0x000006B0 end:0x000006B4
 
-GameLogic/InstructorCameraObjectOpacity.cpp:
+GameLogic/Common/Camera/InstructorCameraObjectOpacity.cpp:
 	.text       start:0x002D95CC end:0x002DB100
 	.ctors      start:0x000006B4 end:0x000006B8
 
-GameLogic/MagicItemToyData.cpp:
+GameLogic/BaseSkylander/Toy/MagicItemToyData.cpp:
 	.text       start:0x002DB100 end:0x002DB138
 	.ctors      start:0x000006B8 end:0x000006BC
 
-GameLogic/InstructorCameraDof.cpp:
+GameLogic/Common/Camera/InstructorCameraDof.cpp:
 	.text       start:0x002DB138 end:0x002DBACC
 	.ctors      start:0x000006BC end:0x000006C0
 
-GameLogic/BaseModule.cpp:
+GameLogic/Common/Base/BaseModule.cpp:
 	.text       start:0x002DBACC end:0x002DC250
 	.ctors      start:0x000006C0 end:0x000006C4
 
-GameLogic/DebugFile.cpp:
+GameLogic/Common/Debug/DebugFile.cpp:
 	.text       start:0x002DC250 end:0x002DC6BC
 	.ctors      start:0x000006C4 end:0x000006C8
 
-GameLogic/FireRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/FireRaceItem.cpp:
 	.text       start:0x002DC6BC end:0x002DC9EC
 	.ctors      start:0x000006C8 end:0x000006CC
 
-GameLogic/SheepRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/SheepRaceItem.cpp:
 	.text       start:0x002DC9EC end:0x002DCC58
 	.ctors      start:0x000006CC end:0x000006D0
 
-GameLogic/IfTaskCompleteTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/IfTaskCompleteTrigger.cpp:
 	.text       start:0x002DCC58 end:0x002DD144
 	.ctors      start:0x000006D0 end:0x000006D4
 
-GameLogic/RaceSpline.cpp:
+GameLogic/BaseGameplay/Race/Track/RaceSpline.cpp:
 	.text       start:0x002DD144 end:0x002DD728
 	.ctors      start:0x000006D4 end:0x000006D8
 
-GameLogic/BaseModule_Debug.cpp:
+GameLogic/Common/Base/BaseModule_Debug.cpp:
 	.text       start:0x002DD728 end:0x002DD760
 	.ctors      start:0x000006D8 end:0x000006DC
 
-GameLogic/KaosRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/KaosRaceItem.cpp:
 	.text       start:0x002DD760 end:0x002DD798
 	.ctors      start:0x000006DC end:0x000006E0
 
-GameLogic/TechRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/TechRaceItem.cpp:
 	.text       start:0x002DD798 end:0x002DDB70
 	.ctors      start:0x000006E0 end:0x000006E4
 
-GameLogic/RaceTimer.cpp:
+GameLogic/BaseGameplay/Race/Track/RaceTimer.cpp:
 	.text       start:0x002DDB70 end:0x002DED18
 	.ctors      start:0x000006E4 end:0x000006E8
 
-GameLogic/LifeRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/LifeRaceItem.cpp:
 	.text       start:0x002DED18 end:0x002DEF84
 	.ctors      start:0x000006E8 end:0x000006EC
 
-GameLogic/OnSpawnTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/OnSpawnTrigger.cpp:
 	.text       start:0x002DEF84 end:0x002DF5AC
 	.ctors      start:0x000006EC end:0x000006F0
 
-GameLogic/UndeadRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/UndeadRaceItem.cpp:
 	.text       start:0x002DF5AC end:0x002DFAA8
 	.ctors      start:0x000006F0 end:0x000006F4
 
-GameLogic/RaceTrackManager.cpp:
+GameLogic/BaseGameplay/Race/Track/RaceTrackManager.cpp:
 	.text       start:0x002DFAA8 end:0x002E65A8
 	.ctors      start:0x000006F4 end:0x000006F8
 
-GameLogic/NwBaseLogic.cpp:
+GameLogic/Common/Base/NwBaseLogic.cpp:
 	.text       start:0x002E65A8 end:0x002E65E0
 	.ctors      start:0x000006F8 end:0x000006FC
 
-GameLogic/LightRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/LightRaceItem.cpp:
 	.text       start:0x002E65E0 end:0x002E6AE8
 	.ctors      start:0x000006FC end:0x00000700
 
-GameLogic/WaterRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/WaterRaceItem.cpp:
 	.text       start:0x002E6AE8 end:0x002E6D54
 	.ctors      start:0x00000700 end:0x00000704
 
-GameLogic/StuckZone.cpp:
+GameLogic/BaseGameplay/Race/Track/StuckZone.cpp:
 	.text       start:0x002E6D54 end:0x002E71B4
 	.ctors      start:0x00000704 end:0x00000708
 
-GameLogic/MagicRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/MagicRaceItem.cpp:
 	.text       start:0x002E71B4 end:0x002E7420
 	.ctors      start:0x00000708 end:0x0000070C
 
-GameLogic/ProximityTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/ProximityTrigger.cpp:
 	.text       start:0x002E7420 end:0x002E78D0
 	.ctors      start:0x0000070C end:0x00000710
 
-GameLogic/ScriptFuncs_Race.cpp:
+GameLogic/BaseGameplay/Race/Script/ScriptFuncs_Race.cpp:
 	.text       start:0x002E78D0 end:0x002EAD04
 	.ctors      start:0x00000710 end:0x00000714
 
-GameLogic/VehicleSwapZone.cpp:
+GameLogic/BaseGameplay/Race/Track/VehicleSwapZone.cpp:
 	.text       start:0x002EAD04 end:0x002EB430
 	.ctors      start:0x00000714 end:0x00000718
 
-GameLogic/CameraHolder.cpp:
+GameLogic/Common/Camera/CameraHolder.cpp:
 	.text       start:0x002EB430 end:0x002EF960
 	.ctors      start:0x00000718 end:0x0000071C
 
-GameLogic/FrameByFrameManager.cpp:
+GameLogic/Common/Debug/FrameByFrameManager.cpp:
 	.text       start:0x002EF960 end:0x002F0E2C
 	.ctors      start:0x0000071C end:0x00000720
 
-GameLogic/RaceManager.cpp:
+GameLogic/BaseGameplay/RaceManager/RaceManager.cpp:
 	.text       start:0x002F0E2C end:0x0030990C
 	.ctors      start:0x00000720 end:0x00000724
 
-GameLogic/PackageStreamingUI.cpp:
+GameLogic/Common/Debug/PackageStreamingUI.cpp:
 	.text       start:0x0030990C end:0x0030A214
 	.ctors      start:0x00000724 end:0x00000728
 
-GameLogic/QTETrigger.cpp:
+GameLogic/BaseGameplay/Trigger/QTETrigger.cpp:
 	.text       start:0x0030A214 end:0x0030AE30
 	.ctors      start:0x00000728 end:0x0000072C
 
-GameLogic/FreeCam.cpp:
+GameLogic/Common/Debug/FreeCam.cpp:
 	.text       start:0x0030AE30 end:0x0030EAE4
 	.ctors      start:0x0000072C end:0x00000730
 
-GameLogic/RaceSettings.cpp:
+GameLogic/BaseGameplay/RaceManager/RaceSettings.cpp:
 	.text       start:0x0030EAE4 end:0x0030EF14
 	.ctors      start:0x00000730 end:0x00000734
 
-GameLogic/PathfindingTester.cpp:
+GameLogic/Common/Debug/PathfindingTester.cpp:
 	.text       start:0x0030EF14 end:0x0030EF4C
 	.ctors      start:0x00000734 end:0x00000738
 
-GameLogic/InstructorCamera.cpp:
+GameLogic/Common/Camera/InstructorCamera.cpp:
 	.text       start:0x0030EF4C end:0x003163A4
 	.ctors      start:0x00000738 end:0x0000073C
 
-GameLogic/HUD3DDebug.cpp:
+GameLogic/Common/Debug/HUD3DDebug.cpp:
 	.text       start:0x003163A4 end:0x003167B4
 	.ctors      start:0x0000073C end:0x00000740
 
-GameLogic/TrackSettings.cpp:
+GameLogic/BaseGameplay/RaceManager/TrackSettings.cpp:
 	.text       start:0x003167B4 end:0x00316BE4
 	.ctors      start:0x00000740 end:0x00000744
 
-GameLogic/ProfileControl.cpp:
+GameLogic/Common/Debug/ProfileControl.cpp:
 	.text       start:0x00316BE4 end:0x00317834
 	.ctors      start:0x00000744 end:0x00000748
 
-GameLogic/RandomTimerTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/RandomTimerTrigger.cpp:
 	.text       start:0x00317834 end:0x00317AE8
 	.ctors      start:0x00000748 end:0x0000074C
 
-GameLogic/HUDBuildInfo.cpp:
+GameLogic/Common/Debug/HUDBuildInfo.cpp:
 	.text       start:0x00317AE8 end:0x003191A0
 	.ctors      start:0x0000074C end:0x00000750
 
-GameLogic/ScriptFuncs_Multiplayer.cpp:
+GameLogic/BaseGameplay/Script/ScriptFuncs_Multiplayer.cpp:
 	.text       start:0x003191A0 end:0x0031939C
 	.ctors      start:0x00000750 end:0x00000754
 
-GameLogic/ScriptedHud2DManager.cpp:
+GameLogic/Common/Debug/ScriptedHud2DManager.cpp:
 	.text       start:0x0031939C end:0x0031C278
 	.ctors      start:0x00000754 end:0x00000758
 
-GameLogic/CameraFocusEditor.cpp:
+GameLogic/Common/Debug/Editors/CameraFocusEditor.cpp:
 	.text       start:0x0031C278 end:0x0031C490
 	.ctors      start:0x00000758 end:0x0000075C
 
-GameLogic/HUDDebugger.cpp:
+GameLogic/Common/Debug/HUDDebugger.cpp:
 	.text       start:0x0031C490 end:0x0031EF44
 	.ctors      start:0x0000075C end:0x00000760
 
-GameLogic/ScriptFuncs_Player.cpp:
+GameLogic/BaseGameplay/Script/ScriptFuncs_Player.cpp:
 	.text       start:0x0031EF44 end:0x00321B2C
 	.ctors      start:0x00000760 end:0x00000764
 
-GameLogic/StartupCommands.cpp:
+GameLogic/Common/Debug/StartupCommands.cpp:
 	.text       start:0x00321B2C end:0x003225CC
 	.ctors      start:0x00000764 end:0x00000768
 
-GameLogic/Label.cpp:
+GameLogic/Common/Debug/GUI/Label.cpp:
 	.text       start:0x003225CC end:0x00322F88
 	.ctors      start:0x00000768 end:0x0000076C
 
-GameLogic/LaunchFromTools.cpp:
+GameLogic/Common/Debug/LaunchFromTools.cpp:
 	.text       start:0x00322F88 end:0x00323388
 	.ctors      start:0x0000076C end:0x00000770
 
-GameLogic/ScriptFuncs_RaceItems.cpp:
+GameLogic/BaseGameplay/Script/ScriptFuncs_RaceItems.cpp:
 	.text       start:0x00323388 end:0x00324014
 	.ctors      start:0x00000770 end:0x00000774
 
-GameLogic/AutomatedTestEditor.cpp:
+GameLogic/Common/Debug/Editors/AutomatedTestEditor.cpp:
 	.text       start:0x00324014 end:0x00324AA8
 	.ctors      start:0x00000774 end:0x00000778
 
-GameLogic/CameraStagedEditor.cpp:
+GameLogic/Common/Debug/Editors/CameraStagedEditor.cpp:
 	.text       start:0x00324AA8 end:0x00324CC0
 	.ctors      start:0x00000778 end:0x0000077C
 
-GameLogic/LinkUpdateResourceManager.cpp:
+GameLogic/Common/Debug/LinkUpdateResourceManager.cpp:
 	.text       start:0x00324CC0 end:0x003272E4
 	.ctors      start:0x0000077C end:0x00000780
 
-GameLogic/BTILinkService.cpp:
+GameLogic/Common/Debug/Link/BehaviorTreeInspector/BTILinkService.cpp:
 	.text       start:0x003272E4 end:0x00328D20
 	.ctors      start:0x00000780 end:0x00000784
 
-GameLogic/BaseEditor.cpp:
+GameLogic/Common/Debug/Editors/BaseEditor.cpp:
 	.text       start:0x00328D20 end:0x00329610
 	.ctors      start:0x00000784 end:0x00000788
 
-GameLogic/SequenceGraphWaitingNode.cpp:
+GameLogic/Common/Misc/SequenceGraph/SequenceGraphWaitingNode.cpp:
 	.text       start:0x00329610 end:0x00329870
 	.ctors      start:0x00000788 end:0x0000078C
 
-GameLogic/StringUnitTest.cpp:
+GameLogic/Main/Util/StringUnitTest.cpp:
 	.text       start:0x00329870 end:0x003298A8
 	.ctors      start:0x0000078C end:0x00000790
 
-GameLogic/ScriptFuncs_Misc.cpp:
+GameLogic/Common/Script/ScriptFuncs_Misc.cpp:
 	.text       start:0x003298A8 end:0x0032ADB0
 	.ctors      start:0x00000790 end:0x00000794
 
-GameLogic/HUDStartScreen.cpp:
+GameLogic/FrontScreen/HUD/HUDStartScreen.cpp:
 	.text       start:0x0032ADB0 end:0x0032C4A4
 	.ctors      start:0x00000794 end:0x00000798
 
-GameLogic/StringUtil.cpp:
+GameLogic/Main/Util/StringUtil.cpp:
 	.text       start:0x0032C4A4 end:0x0032F070
 	.ctors      start:0x00000798 end:0x0000079C
 
-GameLogic/ScriptFuncs_HUD2D.cpp:
+GameLogic/Common/Interface/HUD/ScriptFuncs_HUD2D.cpp:
 	.text       start:0x0032F070 end:0x00332650
 	.ctors      start:0x0000079C end:0x000007A0
 
-GameLogic/ScriptFuncs_Physic.cpp:
+GameLogic/Common/Script/ScriptFuncs_Physic.cpp:
 	.text       start:0x00332650 end:0x00332A38
 	.ctors      start:0x000007A0 end:0x000007A4
 
-GameLogic/InputManagerBC.cpp:
+GameLogic/Common/Manager/InputManager/Generic/InputManagerBC.cpp:
 	.text       start:0x00332A38 end:0x00332C54
 	.ctors      start:0x000007A4 end:0x000007A8
 
-GameLogic/SimpleVolumetricSound.cpp:
+GameLogic/Common/Misc/SimpleVolumetricSound/SimpleVolumetricSound.cpp:
 	.text       start:0x00332C54 end:0x0033392C
 	.ctors      start:0x000007A8 end:0x000007AC
 
-GameLogic/GameLogic.cpp:
+GameLogic/SKY2015/GameLogic.cpp:
 	.text       start:0x0033392C end:0x003393FC
 	.ctors      start:0x000007AC end:0x000007B0
 
-GameLogic/MenuManager.cpp:
+GameLogic/FrontScreen/HUD/MenuManager.cpp:
 	.text       start:0x003393FC end:0x00347268
 	.ctors      start:0x000007B0 end:0x000007B4
 
-GameLogic/AllMoveHUD2DTrack.cpp:
+GameLogic/Common/Util/Sequence/AllMoveHUD2DTrack.cpp:
 	.text       start:0x00347268 end:0x00347A58
 	.ctors      start:0x000007B4 end:0x000007B8
 
-GameLogic/ScriptFuncs_HUDElement.cpp:
+GameLogic/Common/Interface/HUD/ScriptFuncs_HUDElement.cpp:
 	.text       start:0x00347A58 end:0x0034B6D8
 	.ctors      start:0x000007B8 end:0x000007BC
 
-GameLogic/DebugEnemySpawner.cpp:
+GameLogic/_Debug/DesignShowroom/Spawner/DebugEnemySpawner.cpp:
 	.text       start:0x0034B6D8 end:0x0034C628
 	.ctors      start:0x000007BC end:0x000007C0
 
-GameLogic/SimpleVolumetricSoundCylinder.cpp:
+GameLogic/Common/Misc/SimpleVolumetricSound/SimpleVolumetricSoundCylinder.cpp:
 	.text       start:0x0034C628 end:0x0034D028
 	.ctors      start:0x000007C0 end:0x000007C4
 
-GameLogic/AlphaHUD2DTrack.cpp:
+GameLogic/Common/Util/Sequence/AlphaHUD2DTrack.cpp:
 	.text       start:0x0034D028 end:0x0034D430
 	.ctors      start:0x000007C4 end:0x000007C8
 
-GameLogic/MultiplayerMenuManager.cpp:
+GameLogic/FrontScreen/HUD/MultiplayerMenuManager.cpp:
 	.text       start:0x0034D430 end:0x0034F19C
 	.ctors      start:0x000007C8 end:0x000007CC
 
-GameLogic/ZoneTeleporter.cpp:
+GameLogic/_Debug/DynamicShowroom/Object/ZoneTeleporter.cpp:
 	.text       start:0x0034F19C end:0x00350018
 	.ctors      start:0x000007CC end:0x000007D0
 
-GameLogic/AlphaHUD3DTrack.cpp:
+GameLogic/Common/Util/Sequence/AlphaHUD3DTrack.cpp:
 	.text       start:0x00350018 end:0x00350050
 	.ctors      start:0x000007D0 end:0x000007D4
 
-GameLogic/SimpleVolumetricSoundSphere.cpp:
+GameLogic/Common/Misc/SimpleVolumetricSound/SimpleVolumetricSoundSphere.cpp:
 	.text       start:0x00350050 end:0x00350580
 	.ctors      start:0x000007D4 end:0x000007D8
 
-GameLogic/CheatsManager.cpp:
+GameLogic/Common/Manager/CheatsManager.cpp:
 	.text       start:0x00350580 end:0x003524A0
 	.ctors      start:0x000007D8 end:0x000007DC
 
-GameLogic/AnimHUD3DTrack.cpp:
+GameLogic/Common/Util/Sequence/AnimHUD3DTrack.cpp:
 	.text       start:0x003524A0 end:0x003524D8
 	.ctors      start:0x000007DC end:0x000007E0
 
-GameLogic/MultiplayerToyVirtualisationManager.cpp:
+GameLogic/FrontScreen/HUD/MultiplayerToyVirtualisationManager.cpp:
 	.text       start:0x003524D8 end:0x00359F88
 	.ctors      start:0x000007E0 end:0x000007E4
 
-GameLogic/SimpleVolumetricSoundSpline.cpp:
+GameLogic/Common/Misc/SimpleVolumetricSound/SimpleVolumetricSoundSpline.cpp:
 	.text       start:0x00359F88 end:0x0035A7C4
 	.ctors      start:0x000007E4 end:0x000007E8
 
-GameLogic/BaseTrack.cpp:
+GameLogic/Common/Util/Sequence/BaseTrack.cpp:
 	.text       start:0x0035A7C4 end:0x0035AAF4
 	.ctors      start:0x000007E8 end:0x000007EC
 
-GameLogic/SimpleVolumetricSoundZone.cpp:
+GameLogic/Common/Misc/SimpleVolumetricSound/SimpleVolumetricSoundZone.cpp:
 	.text       start:0x0035AAF4 end:0x0035B140
 	.ctors      start:0x000007EC end:0x000007F0
 
-GameLogic/DelayManager.cpp:
+GameLogic/Common/Manager/DelayManager.cpp:
 	.text       start:0x0035B140 end:0x0035C138
 	.ctors      start:0x000007F0 end:0x000007F4
 
-GameLogic/ColorHUD2DTrack.cpp:
+GameLogic/Common/Util/Sequence/ColorHUD2DTrack.cpp:
 	.text       start:0x0035C138 end:0x0035C554
 	.ctors      start:0x000007F4 end:0x000007F8
 
-GameLogic/SaveMenuManager.cpp:
+GameLogic/FrontScreen/HUD/SaveMenuManager.cpp:
 	.text       start:0x0035C554 end:0x0035DF2C
 	.ctors      start:0x000007F8 end:0x000007FC
 
-GameLogic/BlendTargeter.cpp:
+GameLogic/Common/Misc/Targeters/BlendTargeter.cpp:
 	.text       start:0x0035DF2C end:0x0035E2C8
 	.ctors      start:0x000007FC end:0x00000800
 
-GameLogic/EventTrack.cpp:
+GameLogic/Common/Util/Sequence/EventTrack.cpp:
 	.text       start:0x0035E2C8 end:0x0035E388
 	.ctors      start:0x00000800 end:0x00000804
 
-GameLogic/Targeter.cpp:
+GameLogic/Common/Misc/Targeters/Targeter.cpp:
 	.text       start:0x0035E388 end:0x0035E654
 	.ctors      start:0x00000804 end:0x00000808
 
-GameLogic/EnvironmentManager.cpp:
+GameLogic/Common/Manager/EnvironmentManager.cpp:
 	.text       start:0x0035E654 end:0x00360314
 	.ctors      start:0x00000808 end:0x0000080C
 
-GameLogic/MatAnimHUD3DTrack.cpp:
+GameLogic/Common/Util/Sequence/MatAnimHUD3DTrack.cpp:
 	.text       start:0x00360314 end:0x0036034C
 	.ctors      start:0x0000080C end:0x00000810
 
-GameLogic/MatAnimRatioHUD3DTrack.cpp:
+GameLogic/Common/Util/Sequence/MatAnimRatioHUD3DTrack.cpp:
 	.text       start:0x0036034C end:0x00360384
 	.ctors      start:0x00000810 end:0x00000814
 
-GameLogic/MatSwapHUD3DTrack.cpp:
+GameLogic/Common/Util/Sequence/MatSwapHUD3DTrack.cpp:
 	.text       start:0x00360384 end:0x003603BC
 	.ctors      start:0x00000814 end:0x00000818
 
-GameLogic/RotationHUD2DTrack.cpp:
+GameLogic/Common/Util/Sequence/RotationHUD2DTrack.cpp:
 	.text       start:0x003603BC end:0x00360820
 	.ctors      start:0x00000818 end:0x0000081C
 
-GameLogic/ScaleHUD2DTrack.cpp:
+GameLogic/Common/Util/Sequence/ScaleHUD2DTrack.cpp:
 	.text       start:0x00360820 end:0x00360CC8
 	.ctors      start:0x0000081C end:0x00000820
 
-GameLogic/ScriptTrack.cpp:
+GameLogic/Common/Util/Sequence/ScriptTrack.cpp:
 	.text       start:0x00360CC8 end:0x00360D54
 	.ctors      start:0x00000820 end:0x00000824
 
-GameLogic/SequencePlayer.cpp:
+GameLogic/Common/Util/Sequence/SequencePlayer.cpp:
 	.text       start:0x00360D54 end:0x00367D04
 	.ctors      start:0x00000824 end:0x00000828
 
-GameLogic/SubSequenceHUD2DTrack.cpp:
+GameLogic/Common/Util/Sequence/SubSequenceHUD2DTrack.cpp:
 	.text       start:0x00367D04 end:0x00368810
 	.ctors      start:0x00000828 end:0x0000082C
 
-GameLogic/TranslateHUD2DTrack.cpp:
+GameLogic/Common/Util/Sequence/TranslateHUD2DTrack.cpp:
 	.text       start:0x00368810 end:0x00368BBC
 	.ctors      start:0x0000082C end:0x00000830
 
-GameLogic/CameraSelector.cpp:
+GameLogic/Common/Util/Trigger/CameraSelector.cpp:
 	.text       start:0x00368BBC end:0x00368EF4
 	.ctors      start:0x00000830 end:0x00000834
 
-GameLogic/ColliderSelector.cpp:
+GameLogic/Common/Util/Trigger/ColliderSelector.cpp:
 	.text       start:0x00368EF4 end:0x00368F80
 	.ctors      start:0x00000834 end:0x00000838
 
-GameLogic/AirAnimationModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Animation/AirAnimationModule.cpp:
 	.text       start:0x00368F80 end:0x0036CEA8
 	.ctors      start:0x00000838 end:0x0000083C
 
-GameLogic/BehaviorPrioritySelectorWithMemory.cpp:
+GameLogic/BaseGameplay/BT/Selector/BehaviorPrioritySelectorWithMemory.cpp:
 	.text       start:0x0036CEA8 end:0x0036D134
 	.ctors      start:0x0000083C end:0x00000840
 
-GameLogic/BehaviorSwitchSelector.cpp:
+GameLogic/BaseGameplay/BT/Selector/BehaviorSwitchSelector.cpp:
 	.text       start:0x0036D134 end:0x0036D16C
 	.ctors      start:0x00000840 end:0x00000844
 
-GameLogic/SensorArray.cpp:
+GameLogic/BaseGameplay/BT/Sensor/SensorArray.cpp:
 	.text       start:0x0036D16C end:0x0036D2A0
 	.ctors      start:0x00000844 end:0x00000848
 
-GameLogic/LandAnimationModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Animation/LandAnimationModule.cpp:
 	.text       start:0x0036D2A0 end:0x0036FAC8
 	.ctors      start:0x00000848 end:0x0000084C
 
-GameLogic/BaseBehaviorFactory.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/BaseBehaviorFactory.cpp:
 	.text       start:0x0036FAC8 end:0x00370EEC
 	.ctors      start:0x0000084C end:0x00000850
 
-GameLogic/AIDefaultSensor.cpp:
+GameLogic/BaseGameplay/BT/Sensor/AIDefaultSensor.cpp:
 	.text       start:0x00370EEC end:0x003713BC
 	.ctors      start:0x00000850 end:0x00000854
 
-GameLogic/Character.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Character.cpp:
 	.text       start:0x003713BC end:0x00372938
 	.ctors      start:0x00000854 end:0x00000858
 
-GameLogic/VehicleAnimationModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Animation/VehicleAnimationModule.cpp:
 	.text       start:0x00372938 end:0x00372AFC
 	.ctors      start:0x00000858 end:0x0000085C
 
-GameLogic/BaseControlModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/BaseControlModule.cpp:
 	.text       start:0x00372AFC end:0x00372D08
 	.ctors      start:0x0000085C end:0x00000860
 
-GameLogic/BaseVehicleKnowledge.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/BaseVehicleKnowledge.cpp:
 	.text       start:0x00372D08 end:0x00374088
 	.ctors      start:0x00000860 end:0x00000864
 
-GameLogic/VehicleBoatMove_Input_ControlModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleBoatMove/VehicleBoatMove_Input_ControlModule.cpp:
 	.text       start:0x00374088 end:0x00374E94
 	.ctors      start:0x00000864 end:0x00000868
 
-GameLogic/VehicleCarMove_BehaviorModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleCarMove/VehicleCarMove_BehaviorModule.cpp:
 	.text       start:0x00374E94 end:0x0038364C
 	.ctors      start:0x00000868 end:0x0000086C
 
-GameLogic/BaseModuleKnowledge.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/BaseModuleKnowledge.cpp:
 	.text       start:0x0038364C end:0x003836E0
 	.ctors      start:0x0000086C end:0x00000870
 
-GameLogic/CharacterBehaviorModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/CharacterBehaviorModule.cpp:
 	.text       start:0x003836E0 end:0x003855AC
 	.ctors      start:0x00000870 end:0x00000874
 
-GameLogic/VehicleBoatMove_Knowledge.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleBoatMove/VehicleBoatMove_Knowledge.cpp:
 	.text       start:0x003855AC end:0x003855E4
 	.ctors      start:0x00000874 end:0x00000878
 
-GameLogic/VehicleCarMove_Input_ControlModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleCarMove/VehicleCarMove_Input_ControlModule.cpp:
 	.text       start:0x003855E4 end:0x00386244
 	.ctors      start:0x00000878 end:0x0000087C
 
-GameLogic/BaseNetworkBehavior.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/BaseNetworkBehavior.cpp:
 	.text       start:0x00386244 end:0x0038627C
 	.ctors      start:0x0000087C end:0x00000880
 
-GameLogic/VehicleBoatMove_AI_ControlModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleBoatMove/VehicleBoatMove_AI_ControlModule.cpp:
 	.text       start:0x0038627C end:0x0038726C
 	.ctors      start:0x00000880 end:0x00000884
 
-GameLogic/VehicleBoatMove_RemoteReplica_BehaviorModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleBoatMove/VehicleBoatMove_RemoteReplica_BehaviorModule.cpp:
 	.text       start:0x0038726C end:0x003872A4
 	.ctors      start:0x00000884 end:0x00000888
 
-GameLogic/VehicleCarMove_Knowledge.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleCarMove/VehicleCarMove_Knowledge.cpp:
 	.text       start:0x003872A4 end:0x003872DC
 	.ctors      start:0x00000888 end:0x0000088C
 
-GameLogic/HorizonSpline.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehiclePlaneMove/HorizonSpline.cpp:
 	.text       start:0x003872DC end:0x00387580
 	.ctors      start:0x0000088C end:0x00000890
 
-GameLogic/BehaviorTreeModule.cpp:
+GameLogic/BaseGameplay/BT/BehaviorTreeModule.cpp:
 	.text       start:0x00387580 end:0x00388B30
 	.ctors      start:0x00000890 end:0x00000894
 
-GameLogic/VehicleCarMove_AI_ControlModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleCarMove/VehicleCarMove_AI_ControlModule.cpp:
 	.text       start:0x00388B30 end:0x0038999C
 	.ctors      start:0x00000894 end:0x00000898
 
-GameLogic/AnimationGraphModule.cpp:
+GameLogic/BaseGameplay/AI/AnimationGraphModule.cpp:
 	.text       start:0x0038999C end:0x00391388
 	.ctors      start:0x00000898 end:0x0000089C
 
-GameLogic/VehiclePlaneMove_AI_ControlModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehiclePlaneMove/VehiclePlaneMove_AI_ControlModule.cpp:
 	.text       start:0x00391388 end:0x00392188
 	.ctors      start:0x0000089C end:0x000008A0
 
-GameLogic/VehiclePlaneMove_Knowledge.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehiclePlaneMove/VehiclePlaneMove_Knowledge.cpp:
 	.text       start:0x00392188 end:0x003921C0
 	.ctors      start:0x000008A0 end:0x000008A4
 
-GameLogic/VehicleRespawn_BehaviorModule.cpp:
+GameLogic/BaseGameplay/CharacterInterface/Behavior/VehicleRespawn/VehicleRespawn_BehaviorModule.cpp:
 	.text       start:0x003921C0 end:0x00392DD8
 	.ctors      start:0x000008A4 end:0x000008A8
 
-GameLogic/RacePositionsManager.cpp:
+GameLogic/BaseGameplay/Race/Track/RacePositionsManager.cpp:
 	.text       start:0x00392DD8 end:0x0039BA10
 	.ctors      start:0x000008A8 end:0x000008AC
 
-GameLogic/BTBaseNode.cpp:
+GameLogic/BaseGameplay/BT/BTBaseNode.cpp:
 	.text       start:0x0039BA10 end:0x0039CB44
 	.ctors      start:0x000008AC end:0x000008B0
 
-GameLogic/CompositeObjectFollowSpline.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectFollowSpline.cpp:
 	.text       start:0x0039CB44 end:0x0039CDDC
 	.ctors      start:0x000008B0 end:0x000008B4
 
-GameLogic/CameraViewTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/CameraViewTrigger.cpp:
 	.text       start:0x0039CDDC end:0x0039F090
 	.ctors      start:0x000008B4 end:0x000008B8
 
-GameLogic/HUD2DMoveMaskSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DMoveMaskSlider.cpp:
 	.text       start:0x0039F090 end:0x0039F648
 	.ctors      start:0x000008B8 end:0x000008BC
 
-GameLogic/RandomTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/RandomTrigger.cpp:
 	.text       start:0x0039F648 end:0x0039FEBC
 	.ctors      start:0x000008BC end:0x000008C0
 
-GameLogic/CollisionTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/CollisionTrigger.cpp:
 	.text       start:0x0039FEBC end:0x003A0534
 	.ctors      start:0x000008C0 end:0x000008C4
 
-GameLogic/HUD2DMoveSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DMoveSlider.cpp:
 	.text       start:0x003A0534 end:0x003A0848
 	.ctors      start:0x000008C4 end:0x000008C8
 
-GameLogic/CompositeObjectPhysicSounds.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectPhysicSounds.cpp:
 	.text       start:0x003A0848 end:0x003A0BF4
 	.ctors      start:0x000008C8 end:0x000008CC
 
-GameLogic/IntervalActivator.cpp:
+GameLogic/BaseGameplay/Util/IntervalActivator.cpp:
 	.text       start:0x003A0BF4 end:0x003A1620
 	.ctors      start:0x000008CC end:0x000008D0
 
-GameLogic/RelayTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/RelayTrigger.cpp:
 	.text       start:0x003A1620 end:0x003A1F18
 	.ctors      start:0x000008D0 end:0x000008D4
 
-GameLogic/ComplexRelayTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/ComplexRelayTrigger.cpp:
 	.text       start:0x003A1F18 end:0x003A2B3C
 	.ctors      start:0x000008D4 end:0x000008D8
 
-GameLogic/HUD2DMoveTextureSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DMoveTextureSlider.cpp:
 	.text       start:0x003A2B3C end:0x003A2FAC
 	.ctors      start:0x000008D8 end:0x000008DC
 
-GameLogic/SequenceTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/SequenceTrigger.cpp:
 	.text       start:0x003A2FAC end:0x003A374C
 	.ctors      start:0x000008DC end:0x000008E0
 
-GameLogic/ConditionTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/ConditionTrigger.cpp:
 	.text       start:0x003A374C end:0x003A3CCC
 	.ctors      start:0x000008E0 end:0x000008E4
 
-GameLogic/CompositeObjectPrompt.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectPrompt.cpp:
 	.text       start:0x003A3CCC end:0x003A3F64
 	.ctors      start:0x000008E4 end:0x000008E8
 
-GameLogic/HUD2DRotateHUDSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DRotateHUDSlider.cpp:
 	.text       start:0x003A3F64 end:0x003A4378
 	.ctors      start:0x000008E8 end:0x000008EC
 
-GameLogic/PostFXIntervalActivator.cpp:
+GameLogic/BaseGameplay/Util/PostFXIntervalActivator.cpp:
 	.text       start:0x003A4378 end:0x003A45D0
 	.ctors      start:0x000008EC end:0x000008F0
 
-GameLogic/TimerTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/TimerTrigger.cpp:
 	.text       start:0x003A45D0 end:0x003A4984
 	.ctors      start:0x000008F0 end:0x000008F4
 
-GameLogic/CounterTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/CounterTrigger.cpp:
 	.text       start:0x003A4984 end:0x003A5320
 	.ctors      start:0x000008F4 end:0x000008F8
 
-GameLogic/HUD2DRotateMaskSlider.cpp:
+GameLogic/BaseGameplay/Manager/SliderManager/Sliders/HUD2DRotateMaskSlider.cpp:
 	.text       start:0x003A5320 end:0x003A572C
 	.ctors      start:0x000008F8 end:0x000008FC
 
-GameLogic/TimeStampedLoopTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/TimeStampedLoopTrigger.cpp:
 	.text       start:0x003A572C end:0x003A6288
 	.ctors      start:0x000008FC end:0x00000900
 
-GameLogic/VehicleInput.cpp:
+GameLogic/BaseGameplay/Util/VehicleInput.cpp:
 	.text       start:0x003A6288 end:0x003A6454
 	.ctors      start:0x00000900 end:0x00000904
 
-GameLogic/StratagemUtil.cpp:
+GameLogic/BaseGameplay/Util/StratagemUtil.cpp:
 	.text       start:0x003A6454 end:0x003A65E4
 	.ctors      start:0x00000904 end:0x00000908
 
-GameLogic/CompositeObjectProximityTrigger.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectProximityTrigger.cpp:
 	.text       start:0x003A65E4 end:0x003A77E0
 	.ctors      start:0x00000908 end:0x0000090C
 
-GameLogic/TimedInterpolationOrienter.cpp:
+GameLogic/BasePlayer/InstructorSystem/Instructors/Orienters/TimedInterpolationOrienter.cpp:
 	.text       start:0x003A77E0 end:0x003A7D74
 	.ctors      start:0x0000090C end:0x00000910
 
-GameLogic/ZoneTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/ZoneTrigger.cpp:
 	.text       start:0x003A7D74 end:0x003A8FF0
 	.ctors      start:0x00000910 end:0x00000914
 
-GameLogic/Vignette.cpp:
+GameLogic/BaseGameplay/Vignettes/Vignette.cpp:
 	.text       start:0x003A8FF0 end:0x003AB33C
 	.ctors      start:0x00000914 end:0x00000918
 
-GameLogic/FollowSplineModule.cpp:
+GameLogic/BaseGameplay/Objects/Modules/FollowSplineModule.cpp:
 	.text       start:0x003AB33C end:0x003AD514
 	.ctors      start:0x00000918 end:0x0000091C
 
-GameLogic/CompositeObjectChompyBoss.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/Boss/CompositeObjectChompyBoss.cpp:
 	.text       start:0x003AD514 end:0x003AE384
 	.ctors      start:0x0000091C end:0x00000920
 
-GameLogic/BaseProjectile.cpp:
+GameLogic/BaseGameplay/Objects/Projectiles/BaseProjectile.cpp:
 	.text       start:0x003AE384 end:0x003B2D78
 	.ctors      start:0x00000920 end:0x00000924
 
-GameLogic/TutorialManager.cpp:
+GameLogic/BaseGameplay/Manager/TutorialManager.cpp:
 	.text       start:0x003B2D78 end:0x003B552C
 	.ctors      start:0x00000924 end:0x00000928
 
-GameLogic/MovingObjectModule.cpp:
+GameLogic/BaseGameplay/Objects/Modules/MovingObjectModule.cpp:
 	.text       start:0x003B552C end:0x003B58C8
 	.ctors      start:0x00000928 end:0x0000092C
 
-GameLogic/BeamProjectile.cpp:
+GameLogic/BaseGameplay/Objects/Projectiles/BeamProjectile.cpp:
 	.text       start:0x003B58C8 end:0x003B75B8
 	.ctors      start:0x0000092C end:0x00000930
 
-GameLogic/CompositeObjectFlyingSnake.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/Boss/CompositeObjectFlyingSnake.cpp:
 	.text       start:0x003B75B8 end:0x003B902C
 	.ctors      start:0x00000930 end:0x00000934
 
-GameLogic/FollowMachineGunProjectile.cpp:
+GameLogic/BaseGameplay/Objects/Projectiles/FollowMachineGunProjectile.cpp:
 	.text       start:0x003B902C end:0x003BA654
 	.ctors      start:0x00000934 end:0x00000938
 
-GameLogic/PromptModule.cpp:
+GameLogic/BaseGameplay/Objects/Modules/PromptModule.cpp:
 	.text       start:0x003BA654 end:0x003BB43C
 	.ctors      start:0x00000938 end:0x0000093C
 
-GameLogic/FollowGroundProjectile.cpp:
+GameLogic/BaseGameplay/Objects/Projectiles/FollowGroundProjectile.cpp:
 	.text       start:0x003BB43C end:0x003BC924
 	.ctors      start:0x0000093C end:0x00000940
 
-GameLogic/CanonModeManager.cpp:
+GameLogic/BaseGameplay/Race/Events/CanonModeManager.cpp:
 	.text       start:0x003BC924 end:0x003BEF24
 	.ctors      start:0x00000940 end:0x00000944
 
-GameLogic/LobbedProjectile.cpp:
+GameLogic/BaseGameplay/Objects/Projectiles/LobbedProjectile.cpp:
 	.text       start:0x003BEF24 end:0x003BFD5C
 	.ctors      start:0x00000944 end:0x00000948
 
-GameLogic/DangerZoneManager.cpp:
+GameLogic/BaseGameplay/Race/Events/DangerZoneManager.cpp:
 	.text       start:0x003BFD5C end:0x003C0EAC
 	.ctors      start:0x00000948 end:0x0000094C
 
-GameLogic/ShieldManager.cpp:
+GameLogic/BaseGameplay/Race/Events/Managers/ShieldManager.cpp:
 	.text       start:0x003C0EAC end:0x003C1960
 	.ctors      start:0x0000094C end:0x00000950
 
-GameLogic/CompositeObjectStagedEvent.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectStagedEvent.cpp:
 	.text       start:0x003C1960 end:0x003C1CD8
 	.ctors      start:0x00000950 end:0x00000954
 
-GameLogic/SelfProjectile.cpp:
+GameLogic/BaseGameplay/Objects/Projectiles/SelfProjectile.cpp:
 	.text       start:0x003C1CD8 end:0x003C2E48
 	.ctors      start:0x00000954 end:0x00000958
 
-GameLogic/MasteryManager.cpp:
+GameLogic/BaseGameplay/Race/Events/MasteryManager.cpp:
 	.text       start:0x003C2E48 end:0x003C59B0
 	.ctors      start:0x00000958 end:0x0000095C
 
-GameLogic/ChompyGeddonManager.cpp:
+GameLogic/BaseGameplay/Race/Events/ChompyGeddonManager.cpp:
 	.text       start:0x003C59B0 end:0x003CAD1C
 	.ctors      start:0x0000095C end:0x00000960
 
-GameLogic/ChompyTarget.cpp:
+GameLogic/BaseGameplay/Race/Events/Objects/ChompyTarget.cpp:
 	.text       start:0x003CAD1C end:0x003CB6EC
 	.ctors      start:0x00000960 end:0x00000964
 
-GameLogic/Quest.cpp:
+GameLogic/BaseGameplay/Quest/Quest.cpp:
 	.text       start:0x003CB6EC end:0x003D2E68
 	.ctors      start:0x00000964 end:0x00000968
 
-GameLogic/ReticleManager.cpp:
+GameLogic/BaseGameplay/Race/Events/ReticleManager.cpp:
 	.text       start:0x003D2E68 end:0x003D3EE0
 	.ctors      start:0x00000968 end:0x0000096C
 
-GameLogic/SheepTarget.cpp:
+GameLogic/BaseGameplay/Race/Events/Objects/SheepTarget.cpp:
 	.text       start:0x003D3EE0 end:0x003D44A0
 	.ctors      start:0x0000096C end:0x00000970
 
-GameLogic/CompositeObjectVORandom.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectVORandom.cpp:
 	.text       start:0x003D44A0 end:0x003D52D8
 	.ctors      start:0x00000970 end:0x00000974
 
-GameLogic/QuestCheckTrigger.cpp:
+GameLogic/BaseGameplay/Quest/QuestCheckTrigger.cpp:
 	.text       start:0x003D52D8 end:0x003D59F8
 	.ctors      start:0x00000974 end:0x00000978
 
-GameLogic/SheepHerderManager.cpp:
+GameLogic/BaseGameplay/Race/Events/SheepHerderManager.cpp:
 	.text       start:0x003D59F8 end:0x003DDBFC
 	.ctors      start:0x00000978 end:0x0000097C
 
-GameLogic/CloackTimeAttackManager.cpp:
+GameLogic/BaseGameplay/Race/Events/CloackTimeAttackManager.cpp:
 	.text       start:0x003DDBFC end:0x003E045C
 	.ctors      start:0x0000097C end:0x00000980
 
-GameLogic/SheepZone.cpp:
+GameLogic/BaseGameplay/Race/Events/Objects/SheepZone.cpp:
 	.text       start:0x003E045C end:0x003E0854
 	.ctors      start:0x00000980 end:0x00000984
 
-GameLogic/QuestManager.cpp:
+GameLogic/BaseGameplay/Quest/QuestManager.cpp:
 	.text       start:0x003E0854 end:0x003E80AC
 	.ctors      start:0x00000984 end:0x00000988
 
-GameLogic/BoolConditionBehavior.cpp:
+GameLogic/BaseGameplay/BT/Condition/BoolConditionBehavior.cpp:
 	.text       start:0x003E80AC end:0x003E84FC
 	.ctors      start:0x00000988 end:0x0000098C
 
-GameLogic/FloatConditionBehavior.cpp:
+GameLogic/BaseGameplay/BT/Condition/FloatConditionBehavior.cpp:
 	.text       start:0x003E84FC end:0x003E896C
 	.ctors      start:0x0000098C end:0x00000990
 
-GameLogic/StandStillBehavior.cpp:
+GameLogic/BaseGameplay/BT/Behavior/StandStillBehavior.cpp:
 	.text       start:0x003E896C end:0x003E89A4
 	.ctors      start:0x00000990 end:0x00000994
 
-GameLogic/BehaviorModule_PlayAnim.cpp:
+GameLogic/BaseGameplay/BT/BehaviorModule/BehaviorModule_PlayAnim.cpp:
 	.text       start:0x003E89A4 end:0x003E8F60
 	.ctors      start:0x00000994 end:0x00000998
 
-GameLogic/BoolSetterBehavior.cpp:
+GameLogic/BaseGameplay/BT/Condition/BoolSetterBehavior.cpp:
 	.text       start:0x003E8F60 end:0x003E9290
 	.ctors      start:0x00000998 end:0x0000099C
 
-GameLogic/FloatSetterBehavior.cpp:
+GameLogic/BaseGameplay/BT/Condition/FloatSetterBehavior.cpp:
 	.text       start:0x003E9290 end:0x003E9530
 	.ctors      start:0x0000099C end:0x000009A0
 
-GameLogic/IntegerConditionBehavior.cpp:
+GameLogic/BaseGameplay/BT/Condition/IntegerConditionBehavior.cpp:
 	.text       start:0x003E9530 end:0x003E999C
 	.ctors      start:0x000009A0 end:0x000009A4
 
-GameLogic/AIBaseKnowledgeBank.cpp:
+GameLogic/BaseGameplay/BT/KnowledgeBank/AIBaseKnowledgeBank.cpp:
 	.text       start:0x003E999C end:0x003EA264
 	.ctors      start:0x000009A4 end:0x000009A8
 
-GameLogic/BaseKnowledgeBank.cpp:
+GameLogic/BaseGameplay/BT/KnowledgeBank/BaseKnowledgeBank.cpp:
 	.text       start:0x003EA264 end:0x003EC568
 	.ctors      start:0x000009A8 end:0x000009AC
 
-GameLogic/DynamicKnowledgeBank.cpp:
+GameLogic/BaseGameplay/BT/KnowledgeBank/DynamicKnowledgeBank.cpp:
 	.text       start:0x003EC568 end:0x003EE900
 	.ctors      start:0x000009AC end:0x000009B0
 
-GameLogic/IntegerSetterBehavior.cpp:
+GameLogic/BaseGameplay/BT/Condition/IntegerSetterBehavior.cpp:
 	.text       start:0x003EE900 end:0x003EEBC8
 	.ctors      start:0x000009B0 end:0x000009B4
 
-GameLogic/AnimationGraphKnowledgeBank.cpp:
+GameLogic/BaseGameplay/BT/KnowledgeBank/AnimationGraphKnowledgeBank.cpp:
 	.text       start:0x003EEBC8 end:0x003EF24C
 	.ctors      start:0x000009B4 end:0x000009B8
 
-GameLogic/CompositeObjectKnowledgeBank.cpp:
+GameLogic/BaseGameplay/BT/KnowledgeBank/CompositeObjectKnowledgeBank.cpp:
 	.text       start:0x003EF24C end:0x003EFD2C
 	.ctors      start:0x000009B8 end:0x000009BC
 
-GameLogic/KnowledgeBankArray.cpp:
+GameLogic/BaseGameplay/BT/KnowledgeBank/KnowledgeBankArray.cpp:
 	.text       start:0x003EFD2C end:0x003EFF44
 	.ctors      start:0x000009BC end:0x000009C0
 
-GameLogic/BaseTimerDecorator.cpp:
+GameLogic/BaseGameplay/BT/Modifier/BaseTimerDecorator.cpp:
 	.text       start:0x003EFF44 end:0x003F0948
 	.ctors      start:0x000009C0 end:0x000009C4
 
-GameLogic/DurationDecorator.cpp:
+GameLogic/BaseGameplay/BT/Modifier/DurationDecorator.cpp:
 	.text       start:0x003F0948 end:0x003F0FB4
 	.ctors      start:0x000009C4 end:0x000009C8
 
-GameLogic/ProbabilityDecorator.cpp:
+GameLogic/BaseGameplay/BT/Modifier/ProbabilityDecorator.cpp:
 	.text       start:0x003F0FB4 end:0x003F1490
 	.ctors      start:0x000009C8 end:0x000009CC
 
-GameLogic/UntilFailDecorator.cpp:
+GameLogic/BaseGameplay/BT/Modifier/UntilFailDecorator.cpp:
 	.text       start:0x003F1490 end:0x003F16FC
 	.ctors      start:0x000009CC end:0x000009D0
 
-GameLogic/BTBaseModifier.cpp:
+GameLogic/BaseGameplay/BT/Modifier/BTBaseModifier.cpp:
 	.text       start:0x003F16FC end:0x003F1C54
 	.ctors      start:0x000009D0 end:0x000009D4
 
-GameLogic/InverterDecorator.cpp:
+GameLogic/BaseGameplay/BT/Modifier/InverterDecorator.cpp:
 	.text       start:0x003F1C54 end:0x003F1EE4
 	.ctors      start:0x000009D4 end:0x000009D8
 
-GameLogic/TimerDecorator.cpp:
+GameLogic/BaseGameplay/BT/Modifier/TimerDecorator.cpp:
 	.text       start:0x003F1EE4 end:0x003F2200
 	.ctors      start:0x000009D8 end:0x000009DC
 
-GameLogic/BehaviorParallel.cpp:
+GameLogic/BaseGameplay/BT/Selector/BehaviorParallel.cpp:
 	.text       start:0x003F2200 end:0x003F26AC
 	.ctors      start:0x000009DC end:0x000009E0
 
-GameLogic/BehaviorRandomSelector.cpp:
+GameLogic/BaseGameplay/BT/Selector/BehaviorRandomSelector.cpp:
 	.text       start:0x003F26AC end:0x003F2C10
 	.ctors      start:0x000009E0 end:0x000009E4
 
-GameLogic/AnimationGraphSensor.cpp:
+GameLogic/BaseGameplay/BT/Sensor/AnimationGraphSensor.cpp:
 	.text       start:0x003F2C10 end:0x003F2EE0
 	.ctors      start:0x000009E4 end:0x000009E8
 
-GameLogic/PlayerObjectReference.cpp:
+GameLogic/BaseGameplay/CharacterInterface/PlayerObjectReference.cpp:
 	.text       start:0x003F2EE0 end:0x003F3310
 	.ctors      start:0x000009E8 end:0x000009EC
 
-GameLogic/BehaviorPrioritySelector.cpp:
+GameLogic/BaseGameplay/BT/Selector/BehaviorPrioritySelector.cpp:
 	.text       start:0x003F3310 end:0x003F3888
 	.ctors      start:0x000009EC end:0x000009F0
 
-GameLogic/BehaviorSequenceSelector.cpp:
+GameLogic/BaseGameplay/BT/Selector/BehaviorSequenceSelector.cpp:
 	.text       start:0x003F3888 end:0x003F3CA0
 	.ctors      start:0x000009F0 end:0x000009F4
 
-GameLogic/BaseSensor.cpp:
+GameLogic/BaseGameplay/BT/Sensor/BaseSensor.cpp:
 	.text       start:0x003F3CA0 end:0x003F3D38
 	.ctors      start:0x000009F4 end:0x000009F8
 
-GameLogic/MoveHelper.cpp:
+GameLogic/Common/Helper/MoveHelper.cpp:
 	.text       start:0x003F3D38 end:0x003F429C
 	.ctors      start:0x000009F8 end:0x000009FC
 
-GameLogic/SceneAssistant.cpp:
+GameLogic/Common/Debug/GameDirector/SceneAssistant.cpp:
 	.text       start:0x003F429C end:0x003F44B0
 	.ctors      start:0x000009FC end:0x00000A00
 
-GameLogic/FXSplineMove_Module.cpp:
+GameLogic/Common/FX/Obj/MovingObject/FXSplineMove_Module.cpp:
 	.text       start:0x003F44B0 end:0x003F6DC8
 	.ctors      start:0x00000A00 end:0x00000A04
 
-GameLogic/DebugWaterTest.cpp:
+GameLogic/Common/Debug/DebugWaterTest.cpp:
 	.text       start:0x003F6DC8 end:0x003F75B0
 	.ctors      start:0x00000A04 end:0x00000A08
 
-GameLogic/NavMeshHelper.cpp:
+GameLogic/Common/Helper/NavMeshHelper.cpp:
 	.text       start:0x003F75B0 end:0x003F75E8
 	.ctors      start:0x00000A08 end:0x00000A0C
 
-GameLogic/BoneToBoneHelper.cpp:
+GameLogic/Common/Helper/BoneToBoneHelper.cpp:
 	.text       start:0x003F75E8 end:0x003F85D0
 	.ctors      start:0x00000A0C end:0x00000A10
 
-GameLogic/FXClutUtil.cpp:
+GameLogic/Common/FX/Obj/PostFX/FXClutUtil.cpp:
 	.text       start:0x003F85D0 end:0x003F9BD0
 	.ctors      start:0x00000A10 end:0x00000A14
 
-GameLogic/DrawDebugManager.cpp:
+GameLogic/Common/Debug/DrawDebugManager.cpp:
 	.text       start:0x003F9BD0 end:0x00400978
 	.ctors      start:0x00000A14 end:0x00000A18
 
-GameLogic/PositionHelper.cpp:
+GameLogic/Common/Helper/PositionHelper.cpp:
 	.text       start:0x00400978 end:0x00401F0C
 	.ctors      start:0x00000A18 end:0x00000A1C
 
-GameLogic/BaseGUI.cpp:
+GameLogic/Common/Debug/GUI/BaseGUI.cpp:
 	.text       start:0x00401F0C end:0x004029D8
 	.ctors      start:0x00000A1C end:0x00000A20
 
-GameLogic/FXFogUtil.cpp:
+GameLogic/Common/FX/Obj/PostFX/FXFogUtil.cpp:
 	.text       start:0x004029D8 end:0x00403250
 	.ctors      start:0x00000A20 end:0x00000A24
 
-GameLogic/DrawUtil.cpp:
+GameLogic/Common/Debug/DrawUtil.cpp:
 	.text       start:0x00403250 end:0x00404ADC
 	.ctors      start:0x00000A24 end:0x00000A28
 
-GameLogic/SnapBoneHelper.cpp:
+GameLogic/Common/Helper/SnapBoneHelper.cpp:
 	.text       start:0x00404ADC end:0x00404DB4
 	.ctors      start:0x00000A28 end:0x00000A2C
 
-GameLogic/ContextHelper.cpp:
+GameLogic/Common/Helper/ContextHelper.cpp:
 	.text       start:0x00404DB4 end:0x004063FC
 	.ctors      start:0x00000A2C end:0x00000A30
 
-GameLogic/FXRadialBlur.cpp:
+GameLogic/Common/FX/Obj/PostFX/FXRadialBlur.cpp:
 	.text       start:0x004063FC end:0x00406A9C
 	.ctors      start:0x00000A30 end:0x00000A34
 
-GameLogic/SphereMoveOnCol.cpp:
+GameLogic/Common/Helper/SphereMoveOnCol.cpp:
 	.text       start:0x00406A9C end:0x00406AD4
 	.ctors      start:0x00000A34 end:0x00000A38
 
-GameLogic/ParamGraphHelper.cpp:
+GameLogic/Common/Helper/ParamGraph/ParamGraphHelper.cpp:
 	.text       start:0x00406AD4 end:0x004093E4
 	.ctors      start:0x00000A38 end:0x00000A3C
 
-GameLogic/Button.cpp:
+GameLogic/Common/Debug/GUI/Button.cpp:
 	.text       start:0x004093E4 end:0x00409E6C
 	.ctors      start:0x00000A3C end:0x00000A40
 
-GameLogic/InstructorCameraPoi.cpp:
+GameLogic/Common/Camera/InstructorCameraPoi.cpp:
 	.text       start:0x00409E6C end:0x0040BD48
 	.ctors      start:0x00000A40 end:0x00000A44
 
-GameLogic/ParamGraphValidation.cpp:
+GameLogic/Common/Helper/ParamGraph/ParamGraphValidation.cpp:
 	.text       start:0x0040BD48 end:0x0040E3F4
 	.ctors      start:0x00000A44 end:0x00000A48
 
-GameLogic/FXEmitterModuleCopyKiller.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModuleCopyKiller.cpp:
 	.text       start:0x0040E3F4 end:0x0040E788
 	.ctors      start:0x00000A48 end:0x00000A4C
 
-GameLogic/SkylanderToyData.cpp:
+GameLogic/BaseSkylander/Toy/SkylanderToyData.cpp:
 	.text       start:0x0040E788 end:0x0040E7C0
 	.ctors      start:0x00000A4C end:0x00000A50
 
-GameLogic/InstructorCameraTransition.cpp:
+GameLogic/Common/Camera/InstructorCameraTransition.cpp:
 	.text       start:0x0040E7C0 end:0x0040F0B8
 	.ctors      start:0x00000A50 end:0x00000A54
 
-GameLogic/VisualAssertData.cpp:
+GameLogic/Common/Debug/VisualAssert/VisualAssertData.cpp:
 	.text       start:0x0040F0B8 end:0x0040FF74
 	.ctors      start:0x00000A54 end:0x00000A58
 
-GameLogic/TextFileReadHelper.cpp:
+GameLogic/Common/Helper/TextFileRead/TextFileReadHelper.cpp:
 	.text       start:0x0040FF74 end:0x0040FFAC
 	.ctors      start:0x00000A58 end:0x00000A5C
 
-GameLogic/FXEmitterModuleEmissions.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModuleEmissions.cpp:
 	.text       start:0x0040FFAC end:0x0041007C
 	.ctors      start:0x00000A5C end:0x00000A60
 
-GameLogic/InstructorCameraTransitionZone.cpp:
+GameLogic/Common/Camera/InstructorCameraTransitionZone.cpp:
 	.text       start:0x0041007C end:0x00410AB8
 	.ctors      start:0x00000A60 end:0x00000A64
 
-GameLogic/ClickableHUDManager.cpp:
+GameLogic/Common/HUD/ClickableHUDManager.cpp:
 	.text       start:0x00410AB8 end:0x00410B24
 	.ctors      start:0x00000A64 end:0x00000A68
 
-GameLogic/ScrollBar.cpp:
+GameLogic/Common/Debug/GUI/ScrollBar.cpp:
 	.text       start:0x00410B24 end:0x00411EF0
 	.ctors      start:0x00000A68 end:0x00000A6C
 
-GameLogic/MarketingTools.cpp:
+GameLogic/Common/Debug/MarketingTools.cpp:
 	.text       start:0x00411EF0 end:0x00415FDC
 	.ctors      start:0x00000A6C end:0x00000A70
 
-GameLogic/LinkBroFX.cpp:
+GameLogic/Common/Debug/Link/BroFX/LinkBroFX.cpp:
 	.text       start:0x00415FDC end:0x00416644
 	.ctors      start:0x00000A70 end:0x00000A74
 
-GameLogic/CameraStaticRailEditor.cpp:
+GameLogic/Common/Debug/Editors/CameraStaticRailEditor.cpp:
 	.text       start:0x00416644 end:0x0041D990
 	.ctors      start:0x00000A74 end:0x00000A78
 
-GameLogic/FXSplashOnCamera.cpp:
+GameLogic/Common/FX/Obj/FXSplashOnCamera.cpp:
 	.text       start:0x0041D990 end:0x0041E820
 	.ctors      start:0x00000A78 end:0x00000A7C
 
-GameLogic/FXEmitterModuleLight.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModuleLight.cpp:
 	.text       start:0x0041E820 end:0x0041F144
 	.ctors      start:0x00000A7C end:0x00000A80
 
-GameLogic/Window.cpp:
+GameLogic/Common/Debug/GUI/Window.cpp:
 	.text       start:0x0041F144 end:0x00421918
 	.ctors      start:0x00000A80 end:0x00000A84
 
-GameLogic/LinkGameObjInfo.cpp:
+GameLogic/Common/Debug/Link/GameObjInfo/LinkGameObjInfo.cpp:
 	.text       start:0x00421918 end:0x00422298
 	.ctors      start:0x00000A84 end:0x00000A88
 
-GameLogic/FXEmitter.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/FXEmitter.cpp:
 	.text       start:0x00422298 end:0x004254D8
 	.ctors      start:0x00000A88 end:0x00000A8C
 
-GameLogic/FXEmitterModulePhysics.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModulePhysics.cpp:
 	.text       start:0x004254D8 end:0x0042595C
 	.ctors      start:0x00000A8C end:0x00000A90
 
-GameLogic/FreeCamHelper.cpp:
+GameLogic/Common/Debug/Editors/FreeCamHelper.cpp:
 	.text       start:0x0042595C end:0x00425994
 	.ctors      start:0x00000A90 end:0x00000A94
 
-GameLogic/LinkDebugCommand.cpp:
+GameLogic/Common/Debug/Link/LinkDebugCommand/LinkDebugCommand.cpp:
 	.text       start:0x00425994 end:0x00425DF4
 	.ctors      start:0x00000A94 end:0x00000A98
 
-GameLogic/FXEmitterModule.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModule.cpp:
 	.text       start:0x00425DF4 end:0x00425F54
 	.ctors      start:0x00000A98 end:0x00000A9C
 
-GameLogic/FXEmitterModuleSpawn.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModuleSpawn.cpp:
 	.text       start:0x00425F54 end:0x00426DD0
 	.ctors      start:0x00000A9C end:0x00000AA0
 
-GameLogic/WindowManager.cpp:
+GameLogic/Common/Debug/GUI/WindowManager.cpp:
 	.text       start:0x00426DD0 end:0x00428538
 	.ctors      start:0x00000AA0 end:0x00000AA4
 
-GameLogic/InstructorCameraFov.cpp:
+GameLogic/Common/Camera/InstructorCameraFov.cpp:
 	.text       start:0x00428538 end:0x0042B240
 	.ctors      start:0x00000AA4 end:0x00000AA8
 
-GameLogic/DebugGOAttachedHUD.cpp:
+GameLogic/Common/Debug/DebugGOAttachedHUD.cpp:
 	.text       start:0x0042B240 end:0x0042CBCC
 	.ctors      start:0x00000AA8 end:0x00000AAC
 
-GameLogic/FXEmitterModuleVisibilityQuery.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/FXEmitterModuleVisibilityQuery.cpp:
 	.text       start:0x0042CBCC end:0x0042D764
 	.ctors      start:0x00000AAC end:0x00000AB0
 
-GameLogic/MovementDisplay.cpp:
+GameLogic/Common/Debug/Editors/MovementDisplay.cpp:
 	.text       start:0x0042D764 end:0x0042E924
 	.ctors      start:0x00000AB0 end:0x00000AB4
 
-GameLogic/InstructorCameraHeroOpacity.cpp:
+GameLogic/Common/Camera/InstructorCameraHeroOpacity.cpp:
 	.text       start:0x0042E924 end:0x0042F494
 	.ctors      start:0x00000AB4 end:0x00000AB8
 
-GameLogic/DebugLoggingSelector.cpp:
+GameLogic/Common/Debug/DebugLoggingSelector.cpp:
 	.text       start:0x0042F494 end:0x0042F8E4
 	.ctors      start:0x00000AB8 end:0x00000ABC
 
-GameLogic/FXEmitterModuleSplineParticleUpdate.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/CustomParticleUpdate/FXEmitterModuleSplineParticleUpdate.cpp:
 	.text       start:0x0042F8E4 end:0x00430980
 	.ctors      start:0x00000ABC end:0x00000AC0
 
-GameLogic/LinkGLPacket.cpp:
+GameLogic/Common/Debug/Link/LinkGLPacket.cpp:
 	.text       start:0x00430980 end:0x00430D54
 	.ctors      start:0x00000AC0 end:0x00000AC4
 
-GameLogic/SkyLight.cpp:
+GameLogic/Common/FX/Obj/Light/SkyLight.cpp:
 	.text       start:0x00430D54 end:0x004313B8
 	.ctors      start:0x00000AC4 end:0x00000AC8
 
-GameLogic/DebugMenu.cpp:
+GameLogic/Common/Debug/DebugMenu.cpp:
 	.text       start:0x004313B8 end:0x0043516C
 	.ctors      start:0x00000AC8 end:0x00000ACC
 
-GameLogic/MovementTracker.cpp:
+GameLogic/Common/Debug/Editors/MovementTracker.cpp:
 	.text       start:0x0043516C end:0x00435A6C
 	.ctors      start:0x00000ACC end:0x00000AD0
 
-GameLogic/FXEmitterModuleTrailParticleUpdate.cpp:
+GameLogic/Common/FX/Obj/FXEmitter/Modules/CustomParticleUpdate/FXEmitterModuleTrailParticleUpdate.cpp:
 	.text       start:0x00435A6C end:0x00436474
 	.ctors      start:0x00000AD0 end:0x00000AD4
 
-GameLogic/AnimationLightModule.cpp:
+GameLogic/Common/FX/Obj/Light/Modules/AnimationLightModule.cpp:
 	.text       start:0x00436474 end:0x0043A9B0
 	.ctors      start:0x00000AD4 end:0x00000AD8
 
-GameLogic/DebugOutput.cpp:
+GameLogic/Common/Debug/DebugOutput.cpp:
 	.text       start:0x0043A9B0 end:0x0043AF6C
 	.ctors      start:0x00000AD8 end:0x00000ADC
 
-GameLogic/LinkServiceManager.cpp:
+GameLogic/Common/Debug/Link/LinkServiceManager.cpp:
 	.text       start:0x0043AF6C end:0x0043BE58
 	.ctors      start:0x00000ADC end:0x00000AE0
 
-GameLogic/FXEmitter2.cpp:
+GameLogic/Common/FX/Obj/FXEmitter2/FXEmitter2.cpp:
 	.text       start:0x0043BE58 end:0x0043D298
 	.ctors      start:0x00000AE0 end:0x00000AE4
 
-GameLogic/LightModule.cpp:
+GameLogic/Common/FX/Obj/Light/Modules/LightModule.cpp:
 	.text       start:0x0043D298 end:0x0043D2D0
 	.ctors      start:0x00000AE4 end:0x00000AE8
 
-GameLogic/DebugPackageManager.cpp:
+GameLogic/Common/Debug/DebugPackageManager.cpp:
 	.text       start:0x0043D2D0 end:0x0043DEC8
 	.ctors      start:0x00000AE8 end:0x00000AEC
 
-GameLogic/MovementTrackerEditor.cpp:
+GameLogic/Common/Debug/Editors/MovementTrackerEditor.cpp:
 	.text       start:0x0043DEC8 end:0x0043FD6C
 	.ctors      start:0x00000AEC end:0x00000AF0
 
-GameLogic/Light.cpp:
+GameLogic/Common/FX/Obj/Light/Light.cpp:
 	.text       start:0x0043FD6C end:0x004419DC
 	.ctors      start:0x00000AF0 end:0x00000AF4
 
-GameLogic/DebugPortalSelector.cpp:
+GameLogic/Common/Debug/DebugPortalSelector.cpp:
 	.text       start:0x004419DC end:0x00443B8C
 	.ctors      start:0x00000AF4 end:0x00000AF8
 
-GameLogic/ManagedLightModule.cpp:
+GameLogic/Common/FX/Obj/Light/Modules/ManagedLightModule.cpp:
 	.text       start:0x00443B8C end:0x004447C8
 	.ctors      start:0x00000AF8 end:0x00000AFC
 
-GameLogic/PHLinkService.cpp:
+GameLogic/Common/Debug/Link/PHLinkService.cpp:
 	.text       start:0x004447C8 end:0x0044515C
 	.ctors      start:0x00000AFC end:0x00000B00
 
-GameLogic/FXBonetoBoneMove_Module.cpp:
+GameLogic/Common/FX/Obj/MovingObject/FXBonetoBoneMove_Module.cpp:
 	.text       start:0x0044515C end:0x00446C0C
 	.ctors      start:0x00000B00 end:0x00000B04
 
-GameLogic/DebugSelector.cpp:
+GameLogic/Common/Debug/DebugSelector.cpp:
 	.text       start:0x00446C0C end:0x00448114
 	.ctors      start:0x00000B04 end:0x00000B08
 
-GameLogic/AnimBlendGridHelper1D.cpp:
+GameLogic/Common/Helper/AnimBlendGridHelper1D.cpp:
 	.text       start:0x00448114 end:0x00449A30
 	.ctors      start:0x00000B08 end:0x00000B0C
 
-GameLogic/GameDirector.cpp:
+GameLogic/Common/Debug/GameDirector/GameDirector.cpp:
 	.text       start:0x00449A30 end:0x00449C44
 	.ctors      start:0x00000B0C end:0x00000B10
 
-GameLogic/FXFakeGravityMove_Module.cpp:
+GameLogic/Common/FX/Obj/MovingObject/FXFakeGravityMove_Module.cpp:
 	.text       start:0x00449C44 end:0x0044A7E4
 	.ctors      start:0x00000B10 end:0x00000B14
 
-GameLogic/DebugTextManager.cpp:
+GameLogic/Common/Debug/DebugTextManager.cpp:
 	.text       start:0x0044A7E4 end:0x0044C0F4
 	.ctors      start:0x00000B14 end:0x00000B18
 
-GameLogic/AnimChannelHelper.cpp:
+GameLogic/Common/Helper/AnimChannelHelper.cpp:
 	.text       start:0x0044C0F4 end:0x0044CB58
 	.ctors      start:0x00000B18 end:0x00000B1C
 
-GameLogic/AsynJobHelper.cpp:
+GameLogic/Common/Helper/AsynJobHelper.cpp:
 	.text       start:0x0044CB58 end:0x0044CB90
 	.ctors      start:0x00000B1C end:0x00000B20
 
-GameLogic/FXModule.cpp:
+GameLogic/Common/FX/Obj/MovingObject/FXModule.cpp:
 	.text       start:0x0044CB90 end:0x0044CCDC
 	.ctors      start:0x00000B20 end:0x00000B24
 
-GameLogic/DebugTimeScaler.cpp:
+GameLogic/Common/Debug/DebugTimeScaler.cpp:
 	.text       start:0x0044CCDC end:0x0044D5CC
 	.ctors      start:0x00000B24 end:0x00000B28
 
-GameLogic/AnimStateMachine.cpp:
+GameLogic/Common/Helper/AnimStateMachine.cpp:
 	.text       start:0x0044D5CC end:0x0044D604
 	.ctors      start:0x00000B28 end:0x00000B2C
 
-GameLogic/GameDirectorScriptHelper.cpp:
+GameLogic/Common/Debug/GameDirector/GameDirectorScriptHelper.cpp:
 	.text       start:0x0044D604 end:0x0044D63C
 	.ctors      start:0x00000B2C end:0x00000B30
 
-GameLogic/FXMovingObject.cpp:
+GameLogic/Common/FX/Obj/MovingObject/FXMovingObject.cpp:
 	.text       start:0x0044D63C end:0x0044E4AC
 	.ctors      start:0x00000B30 end:0x00000B34
 
-GameLogic/DebugTrigger.cpp:
+GameLogic/Common/Debug/DebugTrigger.cpp:
 	.text       start:0x0044E4AC end:0x0044EB88
 	.ctors      start:0x00000B34 end:0x00000B38
 
-GameLogic/AnimTreeHelper.cpp:
+GameLogic/Common/Helper/AnimTreeHelper.cpp:
 	.text       start:0x0044EB88 end:0x0044EC84
 	.ctors      start:0x00000B38 end:0x00000B3C
 
-GameLogic/BaseAnimBlendGrid.cpp:
+GameLogic/Common/Helper/BaseAnimBlendGrid.cpp:
 	.text       start:0x0044EC84 end:0x0044ED7C
 	.ctors      start:0x00000B3C end:0x00000B40
 
-GameLogic/FXPhysicsMove_Module.cpp:
+GameLogic/Common/FX/Obj/MovingObject/FXPhysicsMove_Module.cpp:
 	.text       start:0x0044ED7C end:0x00451414
 	.ctors      start:0x00000B40 end:0x00000B44
 
-GameLogic/DebugUserSettings.cpp:
+GameLogic/Common/Debug/DebugUserSettings.cpp:
 	.text       start:0x00451414 end:0x00451868
 	.ctors      start:0x00000B44 end:0x00000B48
 
-GameLogic/ShootThemAllManager.cpp:
+GameLogic/BaseGameplay/Race/Events/ShootThemAllManager.cpp:
 	.text       start:0x00451868 end:0x00454F18
 	.ctors      start:0x00000B48 end:0x00000B4C
 
-GameLogic/ShootThemAllSpline.cpp:
+GameLogic/BaseGameplay/Race/Events/Objects/ShootThemAllSpline.cpp:
 	.text       start:0x00454F18 end:0x00455E40
 	.ctors      start:0x00000B4C end:0x00000B50
 
-GameLogic/CompositeObjectWorldOrientation.cpp:
+GameLogic/BaseGameplay/Objects/CompositeObject/LogicModules/CompositeObjectWorldOrientation.cpp:
 	.text       start:0x00455E40 end:0x0045616C
 	.ctors      start:0x00000B50 end:0x00000B54
 
-GameLogic/QuestNode.cpp:
+GameLogic/BaseGameplay/Quest/QuestNode.cpp:
 	.text       start:0x0045616C end:0x00458834
 	.ctors      start:0x00000B54 end:0x00000B58
 
-GameLogic/CreditManager.cpp:
+GameLogic/BaseGameplay/Race/Events/CreditManager.cpp:
 	.text       start:0x00458834 end:0x00459510
 	.ctors      start:0x00000B58 end:0x00000B5C
 
-GameLogic/SurvivalManager.cpp:
+GameLogic/BaseGameplay/Race/Events/SurvivalManager.cpp:
 	.text       start:0x00459510 end:0x0045A68C
 	.ctors      start:0x00000B5C end:0x00000B60
 
-GameLogic/ShootThemAllTarget.cpp:
+GameLogic/BaseGameplay/Race/Events/Objects/ShootThemAllTarget.cpp:
 	.text       start:0x0045A68C end:0x0045B204
 	.ctors      start:0x00000B60 end:0x00000B64
 
-GameLogic/ScriptFuncs_Quest.cpp:
+GameLogic/BaseGameplay/Quest/ScriptFuncs_Quest.cpp:
 	.text       start:0x0045B204 end:0x0045C02C
 	.ctors      start:0x00000B64 end:0x00000B68
 
-GameLogic/TimeTrialManager.cpp:
+GameLogic/BaseGameplay/Race/Events/TimeTrialManager.cpp:
 	.text       start:0x0045C02C end:0x0045FC48
 	.ctors      start:0x00000B68 end:0x00000B6C
 
-GameLogic/AirRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/AirRaceItem.cpp:
 	.text       start:0x0045FC48 end:0x0045FEB4
 	.ctors      start:0x00000B6C end:0x00000B70
 
-GameLogic/BoostRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/BoostRaceItem.cpp:
 	.text       start:0x0045FEB4 end:0x0046023C
 	.ctors      start:0x00000B70 end:0x00000B74
 
-GameLogic/BattleManager.cpp:
+GameLogic/BaseGameplay/Race/Track/BattleManager.cpp:
 	.text       start:0x0046023C end:0x00464254
 	.ctors      start:0x00000B74 end:0x00000B78
 
-GameLogic/PanderghastRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/PanderghastRaceItem.cpp:
 	.text       start:0x00464254 end:0x004647D0
 	.ctors      start:0x00000B78 end:0x00000B7C
 
-GameLogic/BossHealthManager.cpp:
+GameLogic/BaseGameplay/Race/Events/Managers/BossHealthManager.cpp:
 	.text       start:0x004647D0 end:0x00465AD0
 	.ctors      start:0x00000B7C end:0x00000B80
 
-GameLogic/BombRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/BombRaceItem.cpp:
 	.text       start:0x00465AD0 end:0x00465F50
 	.ctors      start:0x00000B80 end:0x00000B84
 
-GameLogic/MissileManager.cpp:
+GameLogic/BaseGameplay/Race/Track/MissileManager.cpp:
 	.text       start:0x00465F50 end:0x00469C10
 	.ctors      start:0x00000B84 end:0x00000B88
 
-GameLogic/ScriptFuncs_Stats.cpp:
+GameLogic/BaseGameplay/Script/ScriptFuncs_Stats.cpp:
 	.text       start:0x00469C10 end:0x0046CB74
 	.ctors      start:0x00000B88 end:0x00000B8C
 
-GameLogic/DebugGameText.cpp:
+GameLogic/BaseGameplay/Trigger/DebugGameText.cpp:
 	.text       start:0x0046CB74 end:0x0046D510
 	.ctors      start:0x00000B8C end:0x00000B90
 
-GameLogic/DarkRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/DarkRaceItem.cpp:
 	.text       start:0x0046D510 end:0x0046D77C
 	.ctors      start:0x00000B90 end:0x00000B94
 
-GameLogic/RaceEndManager.cpp:
+GameLogic/BaseGameplay/Race/Track/RaceEndManager.cpp:
 	.text       start:0x0046D77C end:0x00471238
 	.ctors      start:0x00000B94 end:0x00000B98
 
-GameLogic/RaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/RaceItem.cpp:
 	.text       start:0x00471238 end:0x00471904
 	.ctors      start:0x00000B98 end:0x00000B9C
 
-GameLogic/FlowChoiceTrigger.cpp:
+GameLogic/BaseGameplay/Trigger/FlowChoiceTrigger.cpp:
 	.text       start:0x00471904 end:0x00471DE4
 	.ctors      start:0x00000B9C end:0x00000BA0
 
-GameLogic/PackageController.cpp:
+GameLogic/BaseGameplay/Streaming/PackageController.cpp:
 	.text       start:0x00471DE4 end:0x00472350
 	.ctors      start:0x00000BA0 end:0x00000BA4
 
-GameLogic/RaceItemsManager.cpp:
+GameLogic/BaseGameplay/Race/Track/RaceItemsManager.cpp:
 	.text       start:0x00472350 end:0x0047EDA0
 	.ctors      start:0x00000BA4 end:0x00000BA8
 
-GameLogic/GameEventCatcher.cpp:
+GameLogic/BaseGameplay/Trigger/GameEventCatcher.cpp:
 	.text       start:0x0047EDA0 end:0x0047F2D4
 	.ctors      start:0x00000BA8 end:0x00000BAC
 
-GameLogic/EarthRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/EarthRaceItem.cpp:
 	.text       start:0x0047F2D4 end:0x0047F540
 	.ctors      start:0x00000BAC end:0x00000BB0
 
-GameLogic/SectionController.cpp:
+GameLogic/BaseGameplay/Streaming/SectionController.cpp:
 	.text       start:0x0047F540 end:0x0048094C
 	.ctors      start:0x00000BB0 end:0x00000BB4
 
-GameLogic/RocketRaceItem.cpp:
+GameLogic/BaseGameplay/Race/Items/RocketRaceItem.cpp:
 	.text       start:0x0048094C end:0x00480EE4
 	.ctors      start:0x00000BB4 end:0x00000BB8
 
-GameLogic/TurnCollisioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Collisioners/TurnCollisioner.cpp:
 	.text       start:0x00480EE4 end:0x00481710
 	.ctors      start:0x00000BB8 end:0x00000BBC
 
-GameLogic/SaveDataType_Generic.cpp:
+GameLogic/Common/Manager/SaveGame/SaveDataType_Generic.cpp:
 	.text       start:0x00481710 end:0x00481778
 	.ctors      start:0x00000BBC end:0x00000BC0
 
-GameLogic/TimeScaleManager.cpp:
+GameLogic/Common/Manager/TimeScale/TimeScaleManager.cpp:
 	.text       start:0x00481778 end:0x00484284
 	.ctors      start:0x00000BC0 end:0x00000BC4
 
-GameLogic/VehicleCollisioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Collisioners/VehicleCollisioner.cpp:
 	.text       start:0x00484284 end:0x00484618
 	.ctors      start:0x00000BC4 end:0x00000BC8
 
-GameLogic/ContentInfoHolder.cpp:
+GameLogic/Common/Misc/ContentInfoHolder.cpp:
 	.text       start:0x00484618 end:0x0048490C
 	.ctors      start:0x00000BC8 end:0x00000BCC
 
-GameLogic/EnvironmentRenderActivator.cpp:
+GameLogic/Common/Misc/Environment/EnvironmentRenderActivator.cpp:
 	.text       start:0x0048490C end:0x004862C4
 	.ctors      start:0x00000BCC end:0x00000BD0
 
-GameLogic/SaveDataType_Specific.cpp:
+GameLogic/Common/Manager/SaveGame/SaveDataType_Specific.cpp:
 	.text       start:0x004862C4 end:0x004862FC
 	.ctors      start:0x00000BD0 end:0x00000BD4
 
-GameLogic/WaterManager.cpp:
+GameLogic/Common/Manager/Water/WaterManager.cpp:
 	.text       start:0x004862FC end:0x00487A34
 	.ctors      start:0x00000BD4 end:0x00000BD8
 
-GameLogic/ZoomCollisioner.cpp:
+GameLogic/Common/InstructorSystem/Instructors/Collisioners/ZoomCollisioner.cpp:
 	.text       start:0x00487A34 end:0x00488AA8
 	.ctors      start:0x00000BD8 end:0x00000BDC
 
-GameLogic/SaveFileNameUtil.cpp:
+GameLogic/Common/Manager/SaveGame/SaveFileNameUtil.cpp:
 	.text       start:0x00488AA8 end:0x0048962C
 	.ctors      start:0x00000BDC end:0x00000BE0
 
-GameLogic/BaseButtonCopy.cpp:
+GameLogic/Common/Menu/BaseButtonCopy.cpp:
 	.text       start:0x0048962C end:0x0048BD88
 	.ctors      start:0x00000BE0 end:0x00000BE4
 
-GameLogic/DynamicWater.cpp:
+GameLogic/Common/Misc/Water/DynamicWater.cpp:
 	.text       start:0x0048BD88 end:0x0048C32C
 	.ctors      start:0x00000BE4 end:0x00000BE8
 
-GameLogic/CTR3DController.cpp:
+GameLogic/Common/Misc/CTR3DController.cpp:
 	.text       start:0x0048C32C end:0x0048C364
 	.ctors      start:0x00000BE8 end:0x00000BEC
 
-GameLogic/LightingZoneManager.cpp:
+GameLogic/Common/Misc/Lighting/LightingZoneManager.cpp:
 	.text       start:0x0048C364 end:0x0048DE6C
 	.ctors      start:0x00000BEC end:0x00000BF0
 
-GameLogic/SaveGameManager.cpp:
+GameLogic/Common/Manager/SaveGame/SaveGameManager.cpp:
 	.text       start:0x0048DE6C end:0x0048F348
 	.ctors      start:0x00000BF0 end:0x00000BF4
 
-GameLogic/ButtonCopyData.cpp:
+GameLogic/Common/Menu/ButtonCopyData.cpp:
 	.text       start:0x0048F348 end:0x0048F380
 	.ctors      start:0x00000BF4 end:0x00000BF8
 
-GameLogic/DynamicWaterV2.cpp:
+GameLogic/Common/Misc/Water/DynamicWaterV2.cpp:
 	.text       start:0x0048F380 end:0x0048F654
 	.ctors      start:0x00000BF8 end:0x00000BFC
 
-GameLogic/SaveGameManager_LoadModule.cpp:
+GameLogic/Common/Manager/SaveGame/SaveGameManager_LoadModule.cpp:
 	.text       start:0x0048F654 end:0x00492574
 	.ctors      start:0x00000BFC end:0x00000C00
 
-GameLogic/CharacterButtonCopy.cpp:
+GameLogic/Common/Menu/CharacterButtonCopy.cpp:
 	.text       start:0x00492574 end:0x00493374
 	.ctors      start:0x00000C00 end:0x00000C04
 
-GameLogic/ConnectivityModule.cpp:
+GameLogic/Common/Network/ConnectivityModule.cpp:
 	.text       start:0x00493374 end:0x004953EC
 	.ctors      start:0x00000C04 end:0x00000C08
 
-GameLogic/SequenceGraph.cpp:
+GameLogic/Common/Misc/SequenceGraph/SequenceGraph.cpp:
 	.text       start:0x004953EC end:0x00498054
 	.ctors      start:0x00000C08 end:0x00000C0C
 
-GameLogic/DataMining.cpp:
+GameLogic/Common/Misc/DataMining.cpp:
 	.text       start:0x00498054 end:0x00499F80
 	.ctors      start:0x00000C0C end:0x00000C10
 
-GameLogic/SaveGameManager_Module.cpp:
+GameLogic/Common/Manager/SaveGame/SaveGameManager_Module.cpp:
 	.text       start:0x00499F80 end:0x0049A05C
 	.ctors      start:0x00000C10 end:0x00000C14
 
-GameLogic/ElementButtonCopy.cpp:
+GameLogic/Common/Menu/ElementButtonCopy.cpp:
 	.text       start:0x0049A05C end:0x0049A6B0
 	.ctors      start:0x00000C14 end:0x00000C18
 
-GameLogic/GameFlowModule.cpp:
+GameLogic/Common/Network/GameFlowModule.cpp:
 	.text       start:0x0049A6B0 end:0x0049A6E8
 	.ctors      start:0x00000C18 end:0x00000C1C
 
-GameLogic/SaveGameManager_SaveModule.cpp:
+GameLogic/Common/Manager/SaveGame/SaveGameManager_SaveModule.cpp:
 	.text       start:0x0049A6E8 end:0x0049CF64
 	.ctors      start:0x00000C1C end:0x00000C20
 
-GameLogic/HUDButton.cpp:
+GameLogic/Common/Menu/HUDButton.cpp:
 	.text       start:0x0049CF64 end:0x004A2308
 	.ctors      start:0x00000C20 end:0x00000C24
 
-GameLogic/ExternTimer.cpp:
+GameLogic/Common/Misc/ExternTimer.cpp:
 	.text       start:0x004A2308 end:0x004A2950
 	.ctors      start:0x00000C24 end:0x00000C28
 
-GameLogic/SequenceGraphActionNode.cpp:
+GameLogic/Common/Misc/SequenceGraph/SequenceGraphActionNode.cpp:
 	.text       start:0x004A2950 end:0x004A2B60
 	.ctors      start:0x00000C28 end:0x00000C2C
 
-GameLogic/GameInfo.cpp:
+GameLogic/Common/Network/GameInfo.cpp:
 	.text       start:0x004A2B60 end:0x004A2BFC
 	.ctors      start:0x00000C2C end:0x00000C30
 
-GameLogic/ResourceListLoader.cpp:
+GameLogic/Common/Manager/ResourceListLoader.cpp:
 	.text       start:0x004A2BFC end:0x004A2F80
 	.ctors      start:0x00000C30 end:0x00000C34
 
-GameLogic/KillManager.cpp:
+GameLogic/Common/Manager/KillManager.cpp:
 	.text       start:0x004A2F80 end:0x004A4298
 	.ctors      start:0x00000C34 end:0x00000C38
 
-GameLogic/GlobalTimeStampModule.cpp:
+GameLogic/Common/Network/GlobalTimeStampModule.cpp:
 	.text       start:0x004A4298 end:0x004A42D0
 	.ctors      start:0x00000C38 end:0x00000C3C
 
-GameLogic/FunnelDeque.cpp:
+GameLogic/Common/Pathfinding/FunnelDeque.cpp:
 	.text       start:0x004A42D0 end:0x004A5C10
 	.ctors      start:0x00000C3C end:0x00000C40
 
-GameLogic/RichPresenceManager.cpp:
+GameLogic/Common/Manager/RichPresenceManager.cpp:
 	.text       start:0x004A5C10 end:0x004A5C48
 	.ctors      start:0x00000C40 end:0x00000C44
 
-GameLogic/InputEventNotifier.cpp:
+GameLogic/Common/Misc/InputEventNotifier.cpp:
 	.text       start:0x004A5C48 end:0x004A6818
 	.ctors      start:0x00000C44 end:0x00000C48
 
-GameLogic/LightManager.cpp:
+GameLogic/Common/Manager/LightManager.cpp:
 	.text       start:0x004A6818 end:0x004A7430
 	.ctors      start:0x00000C48 end:0x00000C4C
 
-GameLogic/NetworkManager.cpp:
+GameLogic/Common/Network/NetworkManager.cpp:
 	.text       start:0x004A7430 end:0x004A8704
 	.ctors      start:0x00000C4C end:0x00000C50
 
-GameLogic/ShadowMapInitializer.cpp:
+GameLogic/Common/Manager/ShadowMapInitializer.cpp:
 	.text       start:0x004A8704 end:0x004A9368
 	.ctors      start:0x00000C50 end:0x00000C54
 
-GameLogic/Managers.cpp:
+GameLogic/Common/Manager/Managers.cpp:
 	.text       start:0x004A9368 end:0x004A9408
 	.ctors      start:0x00000C54 end:0x00000C58
 
-GameLogic/NetworkMessages.cpp:
+GameLogic/Common/Network/NetworkMessages.cpp:
 	.text       start:0x004A9408 end:0x004A98E0
 	.ctors      start:0x00000C58 end:0x00000C5C
 
-GameLogic/PathfindingConflictManager.cpp:
+GameLogic/Common/Pathfinding/PathfindingConflictManager.cpp:
 	.text       start:0x004A98E0 end:0x004A9918
 	.ctors      start:0x00000C5C end:0x00000C60
 
-GameLogic/MatAnimHelper.cpp:
+GameLogic/Common/Misc/MatAnimHelper.cpp:
 	.text       start:0x004A9918 end:0x004A9950
 	.ctors      start:0x00000C60 end:0x00000C64
 
-GameLogic/MouseManager.cpp:
+GameLogic/Common/Manager/MouseManager.cpp:
 	.text       start:0x004A9950 end:0x004ADE6C
 	.ctors      start:0x00000C64 end:0x00000C68
 
-GameLogic/SplitscreenOverrider.cpp:
+GameLogic/Common/Manager/SplitscreenOverrider.cpp:
 	.text       start:0x004ADE6C end:0x004AE614
 	.ctors      start:0x00000C68 end:0x00000C6C
 
-GameLogic/ReplicaModule.cpp:
+GameLogic/Common/Network/ReplicaModule.cpp:
 	.text       start:0x004AE614 end:0x004AE64C
 	.ctors      start:0x00000C6C end:0x00000C70
 
-GameLogic/MoviePlayer.cpp:
+GameLogic/Common/Manager/MoviePlayer.cpp:
 	.text       start:0x004AE64C end:0x004B3450
 	.ctors      start:0x00000C70 end:0x00000C74
 
-GameLogic/SubtitleManager.cpp:
+GameLogic/Common/Manager/SubtitleManager.cpp:
 	.text       start:0x004B3450 end:0x004B4F08
 	.ctors      start:0x00000C74 end:0x00000C78
 
-GameLogic/SessionModule.cpp:
+GameLogic/Common/Network/SessionModule.cpp:
 	.text       start:0x004B4F08 end:0x004B4F40
 	.ctors      start:0x00000C78 end:0x00000C7C
 
-GameLogic/PathfindingManager.cpp:
+GameLogic/Common/Pathfinding/PathfindingManager.cpp:
 	.text       start:0x004B4F40 end:0x004B4F78
 	.ctors      start:0x00000C7C end:0x00000C80
 
-GameLogic/PerlinNoise.cpp:
+GameLogic/Common/Misc/PerlinNoise.cpp:
 	.text       start:0x004B4F78 end:0x004B6BB0
 	.ctors      start:0x00000C80 end:0x00000C84
 
-GameLogic/ScriptFuncs_UI.cpp:
+GameLogic/Common/Script/ScriptFuncs_UI.cpp:
 	.text       start:0x004B6BB0 end:0x004B6F98
 	.ctors      start:0x00000C84 end:0x00000C88
 
-GameLogic/AmbianceManager.cpp:
+GameLogic/Common/Manager/Audio/AmbianceManager.cpp:
 	.text       start:0x004B6F98 end:0x004B8670
 	.ctors      start:0x00000C88 end:0x00000C8C
 
-GameLogic/MatchMakingCreateGroupModule.cpp:
+GameLogic/Common/Network/Matchmaking/MatchMakingCreateGroupModule.cpp:
 	.text       start:0x004B8670 end:0x004B86A8
 	.ctors      start:0x00000C8C end:0x00000C90
 
-GameLogic/ScriptFuncs_Variables.cpp:
+GameLogic/Common/Script/ScriptFuncs_Variables.cpp:
 	.text       start:0x004B86A8 end:0x004BA1D8
 	.ctors      start:0x00000C90 end:0x00000C94
 
-GameLogic/AudioManager.cpp:
+GameLogic/Common/Manager/Audio/AudioManager.cpp:
 	.text       start:0x004BA1D8 end:0x004BC9A4
 	.ctors      start:0x00000C94 end:0x00000C98
