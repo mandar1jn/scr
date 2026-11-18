@@ -7,7 +7,7 @@ Sections:
 	.dtors      type:rodata align:32
 	.rodata     type:rodata align:64
 	.data       type:data align:32
-	wii_embedded type:rodata align:32
+	wii_embedded type:data align:32
 	.bss        type:bss align:64
 	.sdata      type:data align:32
 	.sbss       type:bss align:32
@@ -1742,6 +1742,97 @@ Unclassified/DSPCode.c:
 Unclassified/AkDefault3DParams.cpp:
 	.data       start:0x806045C0 end:0x80604608
 
+MSL_C/wstring.c:
+	.text       start:0x80297BFC end:0x80297CD8
+
+MSL_C/wchar_io.c:
+	.text       start:0x80297CD8 end:0x80297D54
+
+Unclassified/time.dolphin.c:
+	.text       start:0x80297D54 end:0x80297D90
+
+MSL_C/uart_console_io_gcn.c:
+	.text       start:0x80297D90 end:0x80297E60
+	.sbss       start:0x80898900 end:0x80898908
+
+MSL_C/abort_exit_ppc_eabi.c:
+	.text       start:0x80297E60 end:0x80297E94
+	.sbss       start:0x80898908 end:0x80898910
+
+MSL_C/secure_error.c:
+	.text       start:0x80297E94 end:0x80297EAC
+	.sbss       start:0x80898910 end:0x80898918
+
+MSL_C/math_sun.c:
+	.text       start:0x80297EAC end:0x80297EEC
+
+MSL_C/Math/Double_precision/e_acos.c:
+	.text       start:0x80297EEC end:0x802981B8
+	.sdata2     start:0x8089B4D8 end:0x8089B560
+
+MSL_C/Math/Double_precision/e_asin.c:
+	.text       start:0x802981B8 end:0x80298450
+	.sdata2     start:0x8089B560 end:0x8089B5E8
+
+MSL_C/Math/Double_precision/e_atan2.c:
+	.text       start:0x80298450 end:0x802986A8
+	.sdata2     start:0x8089B5E8 end:0x8089B640
+
+MSL_C/Math/Double_precision/e_exp.c:
+	.text       start:0x802986A8 end:0x802988D8
+	.rodata     start:0x80591E70 end:0x80591EA0
+	.sdata2     start:0x8089B640 end:0x8089B6B8
+
+MSL_C/Math/Double_precision/e_fmod.c:
+	.text       start:0x802988D8 end:0x80298C58
+	.rodata     start:0x80591EA0 end:0x80591EB0
+
+MSL_C/Math/Double_precision/e_log.c:
+	.text       start:0x80298C58 end:0x80298F0C
+	.sbss       start:0x80898918 end:0x80898920
+	.sdata2     start:0x8089B6B8 end:0x8089B738
+
+MSL_C/Math/Double_precision/e_log10.c:
+	.text       start:0x80298F0C end:0x80299020
+	.sbss       start:0x80898920 end:0x80898928
+	.sdata2     start:0x8089B738 end:0x8089B768
+
+MSL_C/Math/Double_precision/e_pow.c:
+	.text       start:0x80299020 end:0x80299834
+	.rodata     start:0x80591EB0 end:0x80591EE0
+	.sdata2     start:0x8089B768 end:0x8089B878
+
+MSL_C/Math/Double_precision/e_rem_pio2.c:
+	.text       start:0x80299834 end:0x80299BB8
+	.rodata     start:0x80591EE0 end:0x80592068
+	.sdata2     start:0x8089B878 end:0x8089B8D0
+
+MSL_C/Math/Double_precision/fminmaxdim.c:
+	.text       start:0x80299BB8 end:0x80299C24
+
+MSL_C/Math/Double_precision/k_cos.c:
+	.text       start:0x80299C24 end:0x80299D34
+	.sdata2     start:0x8089B8D0 end:0x8089B918
+
+MSL_C/Math/Double_precision/k_rem_pio2.c:
+	.text       start:0x80299D34 end:0x8029B3EC
+	.rodata     start:0x80592068 end:0x805920B8
+	.sdata2     start:0x8089B918 end:0x8089B958
+
+MSL_C/Math/Double_precision/k_sin.c:
+	.text       start:0x8029B3EC end:0x8029B4AC
+	.sdata2     start:0x8089B958 end:0x8089B990
+
+MSL_C/Math/Double_precision/k_tan.c:
+	.text       start:0x8029B4AC end:0x8029B6FC
+	.rodata     start:0x805920B8 end:0x80592120
+	.sdata2     start:0x8089B990 end:0x8089B9C8
+
+MSL_C/Math/Double_precision/s_atan.c:
+	.text       start:0x8029B6FC end:0x8029B92C
+	.rodata     start:0x80592120 end:0x805921B8
+	.sdata2     start:0x8089B9C8 end:0x8089B9F0
+
 Unclassified/bta_dm_cfg.c:
 	.rodata     start:0x805923A8 end:0x80592438
 	.sdata      start:0x80896B80 end:0x80896B98
@@ -1761,127 +1852,67 @@ Unclassified/BULWii.cpp:
 	.rodata     start:0x8059ADB0 end:0x8059AF78
 	.data       start:0x8060EB40 end:0x8060EB78
 
-MSL_C/wstring.c:
-	.text       start:0x80297BFC end:0x80297CD8
-
-MSL_C/wchar_io.c:
-	.text       start:0x80297CD8 end:0x80297D54
-
-Unclassified/time.dolphin.c:
-	.text       start:0x80297D54 end:0x80297D90
-
-MSL_C/uart_console_io_gcn.c:
-	.text       start:0x80297D90 end:0x80297E60
-	.sbss       start:0x80898900 end:0x80898908
-
-MSL_C/abort_exit_ppc_eabi.c:
-	.text       start:0x80297E60 end:0x80297E94
-	.sbss       start:0x80898908 end:0x80898910
-
-Unclassified/secure_error.c:
-	.text       start:0x80297E94 end:0x80297EAC
-
-MSL_C/math_sun.c:
-	.text       start:0x80297EAC end:0x80297EEC
-
-Unclassified/e_acos.c:
-	.text       start:0x80297EEC end:0x802981B8
-
-Unclassified/e_asin.c:
-	.text       start:0x802981B8 end:0x80298450
-
-Unclassified/e_atan2.c:
-	.text       start:0x80298450 end:0x802986A8
-
-Unclassified/e_exp.c:
-	.text       start:0x802986A8 end:0x802988D8
-
-Unclassified/e_fmod.c:
-	.text       start:0x802988D8 end:0x80298C58
-
-Unclassified/e_log.c:
-	.text       start:0x80298C58 end:0x80298F0C
-
-Unclassified/e_log10.c:
-	.text       start:0x80298F0C end:0x80299020
-
-Unclassified/e_pow.c:
-	.text       start:0x80299020 end:0x80299834
-
-Unclassified/e_rem_pio2.c:
-	.text       start:0x80299834 end:0x80299BB8
-
-Unclassified/fminmaxdim.c:
-	.text       start:0x80299BB8 end:0x80299C24
-
-Unclassified/k_cos.c:
-	.text       start:0x80299C24 end:0x80299D34
-
-Unclassified/k_rem_pio2.c:
-	.text       start:0x80299D34 end:0x8029B3EC
-
-Unclassified/k_sin.c:
-	.text       start:0x8029B3EC end:0x8029B4AC
-
-Unclassified/k_tan.c:
-	.text       start:0x8029B4AC end:0x8029B6FC
-
-Unclassified/s_atan.c:
-	.text       start:0x8029B6FC end:0x8029B92C
-
-Unclassified/s_ceil.c:
+MSL_C/Math/Double_precision/s_ceil.c:
 	.text       start:0x8029B92C end:0x8029BA78
+	.sdata2     start:0x8089B9F0 end:0x8089BA00
 
-Unclassified/s_copysign.c:
+MSL_C/Math/Double_precision/s_copysign.c:
 	.text       start:0x8029BA78 end:0x8029BAA4
 
-Unclassified/s_cos.c:
+MSL_C/Math/Double_precision/s_cos.c:
 	.text       start:0x8029BAA4 end:0x8029BB6C
+	.sdata2     start:0x8089BA00 end:0x8089BA08
 
-Unclassified/s_floor.c:
+MSL_C/Math/Double_precision/s_floor.c:
 	.text       start:0x8029BB6C end:0x8029BCBC
+	.sdata2     start:0x8089BA08 end:0x8089BA18
 
-Unclassified/s_frexp.c:
+MSL_C/Math/Double_precision/s_frexp.c:
 	.text       start:0x8029BCBC end:0x8029BD44
+	.sdata2     start:0x8089BA18 end:0x8089BA20
 
-Unclassified/s_ldexp.c:
+MSL_C/Math/Double_precision/s_ldexp.c:
 	.text       start:0x8029BD44 end:0x8029BEB0
+	.sdata2     start:0x8089BA20 end:0x8089BA48
 
-Unclassified/s_modf.c:
+MSL_C/Math/Double_precision/s_modf.c:
 	.text       start:0x8029BEB0 end:0x8029BFAC
 
-Unclassified/s_sin.c:
+MSL_C/Math/Double_precision/s_sin.c:
 	.text       start:0x8029BFAC end:0x8029C078
+	.sdata2     start:0x8089BA48 end:0x8089BA50
 
-Unclassified/s_tan.c:
+MSL_C/Math/Double_precision/s_tan.c:
 	.text       start:0x8029C078 end:0x8029C0F0
+	.sdata2     start:0x8089BA50 end:0x8089BA58
 
-Unclassified/w_acos.c:
+MSL_C/Math/Double_precision/w_acos.c:
 	.text       start:0x8029C0F0 end:0x8029C0F4
 
-Unclassified/w_asin.c:
+MSL_C/Math/Double_precision/w_asin.c:
 	.text       start:0x8029C0F4 end:0x8029C0F8
 
-Unclassified/w_atan2.c:
+MSL_C/Math/Double_precision/w_atan2.c:
 	.text       start:0x8029C0F8 end:0x8029C0FC
 
-Unclassified/w_exp.c:
+MSL_C/Math/Double_precision/w_exp.c:
 	.text       start:0x8029C0FC end:0x8029C100
 
-Unclassified/w_fmod.c:
+MSL_C/Math/Double_precision/w_fmod.c:
 	.text       start:0x8029C100 end:0x8029C104
 
-Unclassified/w_log.c:
+MSL_C/Math/Double_precision/w_log.c:
 	.text       start:0x8029C104 end:0x8029C108
 
-Unclassified/w_log10.c:
+MSL_C/Math/Double_precision/w_log10.c:
 	.text       start:0x8029C108 end:0x8029C10C
 
-Unclassified/w_pow.c:
+MSL_C/Math/Double_precision/w_pow.c:
 	.text       start:0x8029C10C end:0x8029C110
 
-Unclassified/e_sqrt.c:
+MSL_C/Math/Double_precision/e_sqrt.c:
 	.text       start:0x8029C110 end:0x8029C358
+	.sdata2     start:0x8089BA58 end:0x8089BA60
 
 MSL_C/PPC_EABI/math_ppc.c:
 	.text       start:0x8029C358 end:0x8029C384
@@ -1921,7 +1952,7 @@ Unclassified/bn_mp_radix_smap.c:
 Unclassified/bn_prime_tab.c:
 	.rodata     start:0x805BD2B0 end:0x805BD6B0
 
-Unclassified/w_sqrt.c:
+MSL_C/Math/Double_precision/w_sqrt.c:
 	.text       start:0x8029C384 end:0x8029C388
 
 MSL_C/extras.c:
