@@ -312,6 +312,13 @@ def MatchingFor(*versions):
 config.warn_missing_config = True
 config.warn_missing_source = False
 config.libs = [
+    {
+        "lib": "AkSoundEngine",
+        "mw_version": "Wii/1.7",
+        "cflags": cflags_base,
+        "progress_category": "msl",
+        "objects": [],
+    },
     Gamelogic(
         "GameLogic",
         [
@@ -1231,7 +1238,7 @@ config.libs = [
             Object(NonMatching, "Runtime/GCN_mem_alloc.c"),
             Object(NonMatching, "Runtime/NMWException.cp"),
             Object(NonMatching, "Runtime/ptmf.c"),
-            Object(NonMatching, "Runtime/Gecko_ExceptionPPC.cp"),
+            Object(NonMatching, "Runtime/Gecko_ExceptionPPC.cpp"),
             Object(NonMatching, "Runtime/__va_arg.c"),
             Object(NonMatching, "Runtime/global_destructor_chain.c"),
             Object(NonMatching, "Runtime/runtime.c"),
@@ -1354,6 +1361,20 @@ config.libs = [
             Object(NonMatching, "MSL_C/Math/Double_precision/w_sqrt.c"),
         ],
     ),
+    {
+        "lib": "nand",
+        "mw_version": config.linker_version,
+        "cflags": cflags_base,
+        "progress_category": "sdk",
+        "objects": [
+            Object(NonMatching, "RVL_SDK/nand/NANDCore.c"),
+            Object(NonMatching, "RVL_SDK/nand/nand.c"),
+            Object(NonMatching, "RVL_SDK/nand/NANDLogging.c"),
+            Object(NonMatching, "RVL_SDK/nand/NANDErrorMessage.c"),
+            Object(NonMatching, "RVL_SDK/nand/NANDCheck.c"),
+            Object(NonMatching, "RVL_SDK/nand/NANDOpenClose.c"),
+        ],
+    },
     {
         "lib": "os",
         "mw_version": config.linker_version,
@@ -1912,12 +1933,6 @@ config.libs = [
             Object(NonMatching, "Unclassified/scsystem.c"),
             Object(NonMatching, "Unclassified/scapi.c"),
             Object(NonMatching, "Unclassified/scapi_prdinfo.c"),
-            Object(NonMatching, "Unclassified/nand.c"),
-            Object(NonMatching, "Unclassified/NANDOpenClose.c"),
-            Object(NonMatching, "Unclassified/NANDCore.c"),
-            Object(NonMatching, "Unclassified/NANDCheck.c"),
-            Object(NonMatching, "Unclassified/NANDLogging.c"),
-            Object(NonMatching, "Unclassified/NANDErrorMessage.c"),
             Object(NonMatching, "Unclassified/esp.c"),
             Object(NonMatching, "Unclassified/vi.c"),
             Object(NonMatching, "Unclassified/i2c.c"),

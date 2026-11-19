@@ -2,8 +2,8 @@ from pathlib import Path
 import re
 import shutil
 
-lib = "os.a"
-srcpath = "RVL_SDK/os/"
+lib = "AkSoundEngine.a"
+srcpath = "AkSoundEngine/"
 
 base = Path("src") / srcpath
 
