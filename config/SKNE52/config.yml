@@ -12,6 +12,10 @@ mw_comment_version: 14
 
 symbols_known: true
 
+extract:
+  - symbol: sgEmbeddedPakData
+    header: Game/GE/sgEmbeddedPakData.inc
+
 modules:
   - object: files/Data/gamelogic.rso
     hash: ecea711e4b2a8c8d083c7b1f982b6cd86ba7f946
