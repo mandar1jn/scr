@@ -1565,19 +1565,19 @@ Runtime/__mem.c:
 	.init       start:0x80005F34 end:0x800062C0
 	.text       start:0x8028761C end:0x80287638
 
-Unclassified/__va_arg.c:
+Runtime/__va_arg.c:
 	.text       start:0x80287638 end:0x80287700
 
 Runtime/global_destructor_chain.c:
 	.text       start:0x80287700 end:0x80287760
 	.sbss       start:0x808988E8 end:0x808988F0
 
-Unclassified/NMWException.cp:
+Runtime/NMWException.cp:
 	extab       start:0x80006740 end:0x80006790
 	extabindex  start:0x80013280 end:0x800132C8
 	.text       start:0x80287760 end:0x80287E10
 
-Unclassified/ptmf.c:
+Runtime/ptmf.c:
 	.text       start:0x80287E10 end:0x80287F58
 
 Runtime/runtime.c:
@@ -1591,10 +1591,10 @@ Runtime/__init_cpp_exceptions.cpp:
 	.dtors      start:0x805857A4 end:0x805857A8 rename:.dtors$15
 	.sdata      start:0x80896910 end:0x80896918
 
-Unclassified/Gecko_setjmp.c:
+Runtime/Gecko_setjmp.c:
 	.text       start:0x802889EC end:0x80288C00
 
-Unclassified/Gecko_ExceptionPPC.cp:
+Runtime/Gecko_ExceptionPPC.cpp:
 	extab       start:0x80006790 end:0x800067CE
 	extabindex  start:0x800132C8 end:0x80013304
 	.text       start:0x80288C00 end:0x8028A11C
