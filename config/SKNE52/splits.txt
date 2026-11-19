@@ -202,13 +202,13 @@ Game/AD/ADOcclusionMap.cpp:
 	.text       start:0x8005D280 end:0x8005FD80
 	.ctors      start:0x80585554 end:0x80585558
 
-Unclassified/DBHUD.cpp:
+Game/DB/DBHUD.cpp:
 	.text       start:0x8005FD80 end:0x80060220
 
-Unclassified/DBMesh.cpp:
+Game/DB/DBMesh.cpp:
 	.text       start:0x80060220 end:0x800603D0
 
-Unclassified/DBLink.cpp:
+Game/DB/DBLink.cpp:
 	.text       start:0x800603D0 end:0x80062060
 
 Game/AD/ADAudioBankMgr.cpp:
@@ -218,10 +218,10 @@ Game/AD/ADAudioBankMgr.cpp:
 Unclassified/ANJobsMgr.cpp:
 	.text       start:0x800672C0 end:0x800678D0
 
-Unclassified/DBToggles.cpp:
+Game/DB/DBToggles.cpp:
 	.text       start:0x800678D0 end:0x80068160
 
-Unclassified/DBVideoCapture.cpp:
+Game/DB/DBVideoCapture.cpp:
 	.text       start:0x80068160 end:0x800689F0
 
 Game/AD/ADAudioHandle.cpp:
