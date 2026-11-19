@@ -7,14 +7,14 @@ Sections:
 	.dtors      type:rodata align:32
 	.rodata     type:rodata align:64
 	.data       type:data align:32
-	wii_embedded type:data align:32
+	wii_embedded type:rodata align:32
 	.bss        type:bss align:64
 	.sdata      type:data align:32
 	.sbss       type:bss align:32
 	.sdata2     type:rodata align:32
 	.sbss2      type:bss align:32
 
-Unclassified/GEEmbeddedPak_wii.cpp:
+Game/GE/GEEmbeddedPak_wii.cpp:
 	wii_embedded start:0x80610F80 end:0x806D1788
 
 Unclassified/PFProfileCounters.cpp:
@@ -31,7 +31,7 @@ Unclassified/xfontdata.c:
 Unclassified/APIBaseObject.cpp:
 	.text       start:0x8001ADE0 end:0x8001B800
 
-Unclassified/GEEngineMgr.cpp:
+Game/GE/GEEngineMgr.cpp:
 	.text       start:0x8001B800 end:0x80020850
 	.ctors      start:0x80585504 end:0x80585508
 
@@ -156,7 +156,7 @@ Unclassified/ANAnimationCue.cpp:
 	.text       start:0x80043C10 end:0x80046BD0
 	.ctors      start:0x80585538 end:0x8058553C
 
-Unclassified/ADAudio2Mgr.cpp:
+Game/AD/ADAudio2Mgr.cpp:
 	.text       start:0x80046BD0 end:0x8004C120
 	.ctors      start:0x8058553C end:0x80585540
 
@@ -174,11 +174,11 @@ Unclassified/ANTree.cpp:
 	.text       start:0x8004F230 end:0x80050210
 	.ctors      start:0x80585544 end:0x80585548
 
-Unclassified/ADAudioObject.cpp:
+Game/AD/ADAudioObject.cpp:
 	.text       start:0x80050210 end:0x80053C30
 	.ctors      start:0x80585548 end:0x8058554C
 
-Unclassified/ADAudioOcclusionMgr.cpp:
+Game/AD/ADAudioOcclusionMgr.cpp:
 	.text       start:0x80053C30 end:0x80055610
 
 Unclassified/ANValidation.cpp:
@@ -187,18 +187,18 @@ Unclassified/ANValidation.cpp:
 Unclassified/ANBuffer.cpp:
 	.text       start:0x800565F0 end:0x80057150
 
-Unclassified/ADWwiseFileReader.cpp:
+Game/AD/ADWwiseFileReader.cpp:
 	.text       start:0x80057150 end:0x8005C740
 	.ctors      start:0x8058554C end:0x80585550
 
-Unclassified/ADAudioWwise.cpp:
+Game/AD/ADAudioWwise.cpp:
 	.text       start:0x8005C740 end:0x8005D1E0
 	.ctors      start:0x80585550 end:0x80585554
 
-Unclassified/ADAudioWwise_wii.cpp:
+Game/AD/ADAudioWwise_wii.cpp:
 	.text       start:0x8005D1E0 end:0x8005D280
 
-Unclassified/ADOcclusionMap.cpp:
+Game/AD/ADOcclusionMap.cpp:
 	.text       start:0x8005D280 end:0x8005FD80
 	.ctors      start:0x80585554 end:0x80585558
 
@@ -211,7 +211,7 @@ Unclassified/DBMesh.cpp:
 Unclassified/DBLink.cpp:
 	.text       start:0x800603D0 end:0x80062060
 
-Unclassified/ADAudioBankMgr.cpp:
+Game/AD/ADAudioBankMgr.cpp:
 	.text       start:0x80062060 end:0x800672C0
 	.ctors      start:0x80585558 end:0x8058555C
 
@@ -224,167 +224,167 @@ Unclassified/DBToggles.cpp:
 Unclassified/DBVideoCapture.cpp:
 	.text       start:0x80068160 end:0x800689F0
 
-Unclassified/ADAudioHandle.cpp:
+Game/AD/ADAudioHandle.cpp:
 	.text       start:0x800689F0 end:0x800691D0
 	.ctors      start:0x8058555C end:0x80585560
 
-Unclassified/GLAPI3dObj.cpp:
+Game/GLAPI/GLAPI3dObj.cpp:
 	.text       start:0x800691D0 end:0x80075F70
 
-Unclassified/GLAPIAudio2.cpp:
+Game/GLAPI/GLAPIAudio2.cpp:
 	.text       start:0x80075F70 end:0x80078CF0
 	.ctors      start:0x80585560 end:0x80585564
 
-Unclassified/GLAPICamera.cpp:
+Game/GLAPI/GLAPICamera.cpp:
 	.text       start:0x80078CF0 end:0x8007E060
 
-Unclassified/GLAPIBSpline.cpp:
+Game/GLAPI/GLAPIBSpline.cpp:
 	.text       start:0x8007E060 end:0x8007F6A0
 
-Unclassified/ADAudioInput.cpp:
+Game/AD/ADAudioInput.cpp:
 	.text       start:0x8007F6A0 end:0x8007FC00
 	.ctors      start:0x80585564 end:0x80585568
 
-Unclassified/GLAPIDecal.cpp:
+Game/GLAPI/GLAPIDecal.cpp:
 	.text       start:0x8007FC00 end:0x80080250
 
-Unclassified/GLAPICity.cpp:
+Game/GLAPI/GLAPICity.cpp:
 	.text       start:0x80080250 end:0x80080DE0
 
-Unclassified/GLAPI3DS.cpp:
+Game/GLAPI/GLAPI3DS.cpp:
 	.text       start:0x80080DE0 end:0x80081390
 
-Unclassified/GLAPIEnvironment.cpp:
+Game/GLAPI/GLAPIEnvironment.cpp:
 	.text       start:0x80081390 end:0x80082BA0
 
-Unclassified/GLAPIComScore.cpp:
+Game/GLAPI/GLAPIComScore.cpp:
 	.text       start:0x80082BA0 end:0x80083100
 
-Unclassified/GLAPIGameObj.cpp:
+Game/GLAPI/GLAPIGameObj.cpp:
 	.text       start:0x80083100 end:0x8008BC80
 
-Unclassified/GLAPIGraph.cpp:
+Game/GLAPI/GLAPIGraph.cpp:
 	.text       start:0x8008BC80 end:0x8008C390
 
-Unclassified/GLAPIDurango.cpp:
+Game/GLAPI/GLAPIDurango.cpp:
 	.text       start:0x8008C390 end:0x8008C620
 
-Unclassified/GLAPIContent.cpp:
+Game/GLAPI/GLAPIContent.cpp:
 	.text       start:0x8008C620 end:0x8008CA40
 
-Unclassified/GLAPIAnimation.cpp:
+Game/GLAPI/GLAPIAnimation.cpp:
 	.text       start:0x8008CA40 end:0x80090D50
 
-Unclassified/GLAPIInstall.cpp:
+Game/GLAPI/GLAPIInstall.cpp:
 	.text       start:0x80090D50 end:0x80090EC0
 
-Unclassified/GLAPICurve.cpp:
+Game/GLAPI/GLAPICurve.cpp:
 	.text       start:0x80090EC0 end:0x80091420
 
-Unclassified/GLAPILight.cpp:
+Game/GLAPI/GLAPILight.cpp:
 	.text       start:0x80091420 end:0x80092C40
 
-Unclassified/GLAPIGraphics.cpp:
+Game/GLAPI/GLAPIGraphics.cpp:
 	.text       start:0x80092C40 end:0x80094FE0
 
-Unclassified/GLAPIEmitter.cpp:
+Game/GLAPI/GLAPIEmitter.cpp:
 	.text       start:0x80094FE0 end:0x80098180
 
-Unclassified/GLAPIAudio.cpp:
+Game/GLAPI/GLAPIAudio.cpp:
 	.text       start:0x80098180 end:0x80098D50
 
 Unclassified/ANAnimationHandler.cpp:
 	.text       start:0x80098D50 end:0x8009CB20
 	.ctors      start:0x80585568 end:0x8058556C
 
-Unclassified/GLAPICutscene.cpp:
+Game/GLAPI/GLAPICutscene.cpp:
 	.text       start:0x8009CB20 end:0x8009D8D0
 	.ctors      start:0x8058556C end:0x80585570
 
-Unclassified/GLAPILogic.cpp:
+Game/GLAPI/GLAPILogic.cpp:
 	.text       start:0x8009D8D0 end:0x800A09D0
 
-Unclassified/GLAPIDataMining.cpp:
+Game/GLAPI/GLAPIDataMining.cpp:
 	.text       start:0x800A09D0 end:0x800A0BD0
 
-Unclassified/GLAPIHUD.cpp:
+Game/GLAPI/GLAPIHUD.cpp:
 	.text       start:0x800A0BD0 end:0x800A9070
 
-Unclassified/GLAPIMoodbox.cpp:
+Game/GLAPI/GLAPIMoodbox.cpp:
 	.text       start:0x800A9070 end:0x800A91E0
 
-Unclassified/GLAPIEngine.cpp:
+Game/GLAPI/GLAPIEngine.cpp:
 	.text       start:0x800A91E0 end:0x800A9CE0
 
-Unclassified/GLAPIMoveRecognition.cpp:
+Game/GLAPI/GLAPIMoveRecognition.cpp:
 	.text       start:0x800A9CE0 end:0x800AA210
 
-Unclassified/GLAPIOnline.cpp:
+Game/GLAPI/GLAPIOnline.cpp:
 	.text       start:0x800AA210 end:0x800AA620
 
-Unclassified/GLAPIDebug.cpp:
+Game/GLAPI/GLAPIDebug.cpp:
 	.text       start:0x800AA620 end:0x800AD090
 	.ctors      start:0x80585570 end:0x80585574
 
-Unclassified/GLAPIOrbis.cpp:
+Game/GLAPI/GLAPIOrbis.cpp:
 	.text       start:0x800AD090 end:0x800AD2F0
 
-Unclassified/GLAPISoftBody.cpp:
+Game/GLAPI/GLAPISoftBody.cpp:
 	.text       start:0x800AD2F0 end:0x800AE8A0
 
-Unclassified/GLAPIInput.cpp:
+Game/GLAPI/GLAPIInput.cpp:
 	.text       start:0x800AE8A0 end:0x800B0AE0
 	.ctors      start:0x80585574 end:0x80585578
 
-Unclassified/GLAPIPS3.cpp:
+Game/GLAPI/GLAPIPS3.cpp:
 	.text       start:0x800B0AE0 end:0x800B0CB0
 
-Unclassified/GLAPIMovie.cpp:
+Game/GLAPI/GLAPIMovie.cpp:
 	.text       start:0x800B0CB0 end:0x800B1550
 
-Unclassified/GLAPIString.cpp:
+Game/GLAPI/GLAPIString.cpp:
 	.text       start:0x800B1550 end:0x800B2F80
 
-Unclassified/GLAPIUtil.cpp:
+Game/GLAPI/GLAPIUtil.cpp:
 	.text       start:0x800B2F80 end:0x800B3920
 
-Unclassified/GLVariable.cpp:
+Game/GL/GLVariable.cpp:
 	.text       start:0x800B3920 end:0x800B3B60
 	.ctors      start:0x80585578 end:0x8058557C
 
-Unclassified/GLAPIReplica.cpp:
+Game/GLAPI/GLAPIReplica.cpp:
 	.text       start:0x800B3B60 end:0x800B44E0
 
-Unclassified/GLAPINavMesh.cpp:
+Game/GLAPI/GLAPINavMesh.cpp:
 	.text       start:0x800B44E0 end:0x800B51B0
 
-Unclassified/GLAPIWeb.cpp:
+Game/GLAPI/GLAPIWeb.cpp:
 	.text       start:0x800B51B0 end:0x800B5FC0
 
-Unclassified/GLLogicInstance_common.cpp:
+Game/GL/GLLogicInstance_common.cpp:
 	.text       start:0x800B5FC0 end:0x800B60E0
 
-Unclassified/GLAPIWii.cpp:
+Game/GLAPI/GLAPIWii.cpp:
 	.text       start:0x800B60E0 end:0x800B64D0
 
 Unclassified/GO3dObj.cpp:
 	.text       start:0x800B64D0 end:0x800C3CA0
 	.ctors      start:0x8058557C end:0x80585580
 
-Unclassified/GLAPIResource.cpp:
+Game/GLAPI/GLAPIResource.cpp:
 	.text       start:0x800C3CA0 end:0x800C4FB0
 
-Unclassified/GLAPINetwork.cpp:
+Game/GLAPI/GLAPINetwork.cpp:
 	.text       start:0x800C4FB0 end:0x800C6D20
 
-Unclassified/GLAPIWiiU.cpp:
+Game/GLAPI/GLAPIWiiU.cpp:
 	.text       start:0x800C6D20 end:0x800C6F00
 
 Unclassified/GOGameObj.cpp:
 	.text       start:0x800C6F00 end:0x800CE730
 	.ctors      start:0x80585580 end:0x80585584
 
-Unclassified/GLLogicMgr_common.cpp:
+Game/GL/GLLogicMgr_common.cpp:
 	.text       start:0x800CE730 end:0x800D0160
 	.ctors      start:0x80585584 end:0x80585588
 
@@ -392,17 +392,17 @@ Unclassified/GO3dObjShadow.cpp:
 	.text       start:0x800D0160 end:0x800D0C10
 	.ctors      start:0x80585588 end:0x8058558C
 
-Unclassified/GLAPIWindows.cpp:
+Game/GLAPI/GLAPIWindows.cpp:
 	.text       start:0x800D0C10 end:0x800D10C0
 
 Unclassified/GOGameObjMgr.cpp:
 	.text       start:0x800D10C0 end:0x800D9E60
 	.ctors      start:0x8058558C end:0x80585590
 
-Unclassified/GLAPISaveGame.cpp:
+Game/GLAPI/GLAPISaveGame.cpp:
 	.text       start:0x800D9E60 end:0x800DA4E0
 
-Unclassified/GLAPIXBOX360.cpp:
+Game/GLAPI/GLAPIXBOX360.cpp:
 	.text       start:0x800DA4E0 end:0x800DA7B0
 
 Unclassified/GOGraph.cpp:
@@ -417,20 +417,20 @@ Unclassified/GOLight.cpp:
 	.text       start:0x800DC230 end:0x800DE0D0
 	.ctors      start:0x80585598 end:0x8058559C
 
-Unclassified/GLAPIZone.cpp:
+Game/GLAPI/GLAPIZone.cpp:
 	.text       start:0x800DE0D0 end:0x800DEAE0
 
 Unclassified/GOProcMesh.cpp:
 	.text       start:0x800DEAE0 end:0x800E1820
 	.ctors      start:0x8058559C end:0x805855A0
 
-Unclassified/GLBaseAPI.cpp:
+Game/GL/GLBaseAPI.cpp:
 	.text       start:0x800E1820 end:0x800E19A0
 
 Unclassified/GOAutoDeactivationMgr.cpp:
 	.text       start:0x800E19A0 end:0x800E2A10
 
-Unclassified/GEUpdateFrequencyData.cpp:
+Game/GE/GEUpdateFrequencyData.cpp:
 	.text       start:0x800E2A10 end:0x800E2D30
 
 Unclassified/GOSpline.cpp:
@@ -440,14 +440,14 @@ Unclassified/GOSpline.cpp:
 Unclassified/GOGameObjMgr_ms.cpp:
 	.text       start:0x800E6320 end:0x800E6C10
 
-Unclassified/GLAPIScript.cpp:
+Game/GLAPI/GLAPIScript.cpp:
 	.text       start:0x800E6C10 end:0x800E7B90
 
 Unclassified/GOTimer.cpp:
 	.text       start:0x800E7B90 end:0x800E81C0
 	.ctors      start:0x805855A4 end:0x805855A8
 
-Unclassified/GLAPIPackage.cpp:
+Game/GLAPI/GLAPIPackage.cpp:
 	.text       start:0x800E81C0 end:0x800E9200
 	.ctors      start:0x805855A8 end:0x805855AC
 
@@ -455,7 +455,7 @@ Unclassified/GOZone.cpp:
 	.text       start:0x800E9200 end:0x800EB700
 	.ctors      start:0x805855AC end:0x805855B0
 
-Unclassified/GLAPISkylanderPortal.cpp:
+Game/GLAPI/GLAPISkylanderPortal.cpp:
 	.text       start:0x800EB700 end:0x800EBE50
 
 Unclassified/GO3dObjRLESkinning_wii.cpp:
@@ -464,7 +464,7 @@ Unclassified/GO3dObjRLESkinning_wii.cpp:
 Unclassified/GRLightGrid.cpp:
 	.text       start:0x800EC350 end:0x800ECEE0
 
-Unclassified/GLAPIPhysic.cpp:
+Game/GLAPI/GLAPIPhysic.cpp:
 	.text       start:0x800ECEE0 end:0x800F7C30
 
 Unclassified/GO3dObj_wii.cpp:
@@ -485,7 +485,7 @@ Unclassified/GRLightsMgr.cpp:
 Unclassified/GOEmitter_wii.cpp:
 	.text       start:0x80105E00 end:0x80109C10
 
-Unclassified/GLAPIProcMesh.cpp:
+Game/GLAPI/GLAPIProcMesh.cpp:
 	.text       start:0x80109C10 end:0x8010A330
 
 Unclassified/GRMaterialAnimation.cpp:
@@ -543,11 +543,11 @@ Unclassified/GOEmitterField_Radial.cpp:
 Unclassified/GOEmitterUpdate.cpp:
 	.text       start:0x8011CC30 end:0x8011F560
 
-Unclassified/GLCriticalSection.cpp:
+Game/GL/GLCriticalSection.cpp:
 	.text       start:0x8011F560 end:0x8011FA00
 	.ctors      start:0x805855CC end:0x805855D0
 
-Unclassified/GLLogicInstance.cpp:
+Game/GL/GLLogicInstance.cpp:
 	.text       start:0x8011FA00 end:0x80123080
 	.ctors      start:0x805855D0 end:0x805855D4
 
@@ -557,7 +557,7 @@ Unclassified/GRCamera_wii.cpp:
 Unclassified/GRCamera.cpp:
 	.text       start:0x80123280 end:0x801245C0
 
-Unclassified/GLLogicMgr.cpp:
+Game/GL/GLLogicMgr.cpp:
 	.text       start:0x801245C0 end:0x80127FE0
 	.ctors      start:0x805855D4 end:0x805855D8
 
@@ -567,7 +567,7 @@ Unclassified/GRMainCamera_wii.cpp:
 Unclassified/GRCameraFactory.cpp:
 	.text       start:0x80128310 end:0x80128390
 
-Unclassified/GLParamBlock.cpp:
+Game/GL/GLParamBlock.cpp:
 	.text       start:0x80128390 end:0x80129510
 	.ctors      start:0x805855D8 end:0x805855DC
 
@@ -577,13 +577,13 @@ Unclassified/GRTextureCamera_wii.cpp:
 Unclassified/GRCameraMgr.cpp:
 	.text       start:0x80129D70 end:0x8012B4B0
 
-Unclassified/GLParamBlockMgr.cpp:
+Game/GL/GLParamBlockMgr.cpp:
 	.text       start:0x8012B4B0 end:0x8012BD20
 
 Unclassified/GRHudCamera.cpp:
 	.text       start:0x8012BD20 end:0x8012BDE0
 
-Unclassified/GLPostedMessage.cpp:
+Game/GL/GLPostedMessage.cpp:
 	.text       start:0x8012BDE0 end:0x8012CDB0
 	.ctors      start:0x805855DC end:0x805855E0
 
@@ -1346,7 +1346,7 @@ Unclassified/RZHAnim.cpp:
 	.text       start:0x8025B680 end:0x8025CCF0
 	.ctors      start:0x805856CC end:0x805856D0
 
-Unclassified/GEEngineMgr_wii.cpp:
+Game/GE/GEEngineMgr_wii.cpp:
 	.text       start:0x8025CCF0 end:0x8025EEB0
 	.ctors      start:0x805856D0 end:0x805856D4
 
@@ -1358,7 +1358,7 @@ Unclassified/RZHeightMap.cpp:
 	.text       start:0x80261B60 end:0x802622F0
 	.ctors      start:0x805856D8 end:0x805856DC
 
-Unclassified/GEErrorHandler_wii.cpp:
+Game/GE/GEErrorHandler_wii.cpp:
 	.text       start:0x802622F0 end:0x80263C60
 
 Unclassified/NWReplicaCollection.cpp:
@@ -1368,7 +1368,7 @@ Unclassified/RZHierarchy.cpp:
 	.text       start:0x802650E0 end:0x80266FF0
 	.ctors      start:0x805856DC end:0x805856E0
 
-Unclassified/GEHomeMenu_wii.cpp:
+Game/GE/GEHomeMenu_wii.cpp:
 	.text       start:0x80266FF0 end:0x802680C0
 
 Unclassified/RZLogicCode.cpp:
@@ -1378,7 +1378,7 @@ Unclassified/RZLogicCode.cpp:
 Unclassified/PSEnvColPrim.cpp:
 	.text       start:0x80268C50 end:0x80268CF0
 
-Unclassified/GELCMemcpy.cpp:
+Game/GE/GELCMemcpy.cpp:
 	.text       start:0x80268CF0 end:0x80269070
 
 Unclassified/NWReplicaSerializer.cpp:
@@ -1391,10 +1391,10 @@ Unclassified/RZMotionTrail.cpp:
 Unclassified/PSEnvColTests.cpp:
 	.text       start:0x80269F30 end:0x80272FE0
 
-Unclassified/GELockedCache_wii.cpp:
+Game/GE/GELockedCache_wii.cpp:
 	.text       start:0x80272FE0 end:0x802732E0
 
-Unclassified/GEWriteGatherPipe_wii.cpp:
+Game/GE/GEWriteGatherPipe_wii.cpp:
 	.text       start:0x802732E0 end:0x80273340
 
 Unclassified/NWNetworkMgr_wii.cpp:
@@ -1407,7 +1407,7 @@ Unclassified/RZParamBlock.cpp:
 	.text       start:0x80276EA0 end:0x802774C0
 	.ctors      start:0x805856E8 end:0x805856EC
 
-Unclassified/GENANDFileMgr_wii.cpp:
+Game/GE/GENANDFileMgr_wii.cpp:
 	.text       start:0x802774C0 end:0x80277C30
 
 Unclassified/NWPlatformInit_wii.cpp:
