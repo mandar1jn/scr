@@ -1739,7 +1739,7 @@ Unclassified/DSPCode.c:
 	.data       start:0x805DF8A0 end:0x805E18A0
 	.sdata      start:0x80896A20 end:0x80896A28
 
-Unclassified/AkDefault3DParams.cpp:
+AkSoundEngine/AkDefault3DParams.cpp:
 	.data       start:0x806045C0 end:0x80604608
 
 MSL_C/wstring.c:
@@ -3096,500 +3096,500 @@ Unclassified/cftfx.c:
 Unclassified/cftyp422_ppc.c:
 	.text       start:0x8038DC04 end:0x8038E6F0
 
-Unclassified/AkAttenuationMgr.cpp:
+AkSoundEngine/AkAttenuationMgr.cpp:
 	.text       start:0x8038E6F0 end:0x8038FEA0
 
-Unclassified/AkActorMixer.cpp:
+AkSoundEngine/AkActorMixer.cpp:
 	.text       start:0x8038FEA0 end:0x803918D0
 
-Unclassified/AkAuxBus.cpp:
+AkSoundEngine/AkAuxBus.cpp:
 	.text       start:0x803918D0 end:0x80391F30
 
-Unclassified/AkBus.cpp:
+AkSoundEngine/AkBus.cpp:
 	.text       start:0x80391F30 end:0x8039A0E0
 	.ctors      start:0x80585714 end:0x80585718
 
-Unclassified/AkDuckItem.cpp:
+AkSoundEngine/AkDuckItem.cpp:
 	.text       start:0x8039A0E0 end:0x8039A250
 
-Unclassified/AkContainerBase.cpp:
+AkSoundEngine/AkContainerBase.cpp:
 	.text       start:0x8039A250 end:0x8039A4F0
 
-Unclassified/AkContinuationList.cpp:
+AkSoundEngine/AkContinuationList.cpp:
 	.text       start:0x8039A4F0 end:0x8039A900
 
-Unclassified/AkDecisionTree.cpp:
+AkSoundEngine/AkDecisionTree.cpp:
 	.text       start:0x8039A900 end:0x8039C260
 
-Unclassified/AkDialogueEvent.cpp:
+AkSoundEngine/AkDialogueEvent.cpp:
 	.text       start:0x8039C260 end:0x8039C5F0
 
-Unclassified/AkDynamicSequence.cpp:
+AkSoundEngine/AkDynamicSequence.cpp:
 	.text       start:0x8039C5F0 end:0x8039D4B0
 
-Unclassified/AkFxBase.cpp:
+AkSoundEngine/AkFxBase.cpp:
 	.text       start:0x8039D4B0 end:0x8039EE00
 
-Unclassified/AkLayer.cpp:
+AkSoundEngine/AkLayer.cpp:
 	.text       start:0x8039EE00 end:0x803A30D0
 
-Unclassified/AkLayerCntr.cpp:
+AkSoundEngine/AkLayerCntr.cpp:
 	.text       start:0x803A30D0 end:0x803A4270
 
-Unclassified/AkPlaylist.cpp:
+AkSoundEngine/AkPlaylist.cpp:
 	.text       start:0x803A4270 end:0x803A4E00
 
-Unclassified/AkPreparationAware.cpp:
+AkSoundEngine/AkPreparationAware.cpp:
 	.text       start:0x803A4E00 end:0x803A4F90
 
-Unclassified/AkRanSeqBaseInfo.cpp:
+AkSoundEngine/AkRanSeqBaseInfo.cpp:
 	.text       start:0x803A4F90 end:0x803A5870
 
-Unclassified/AkRanSeqCntr.cpp:
+AkSoundEngine/AkRanSeqCntr.cpp:
 	.text       start:0x803A5870 end:0x803AA6A0
 
-Unclassified/AkSwitchAware.cpp:
+AkSoundEngine/AkSwitchAware.cpp:
 	.text       start:0x803AA6A0 end:0x803AA820
 
-Unclassified/AkSwitchCntr.cpp:
+AkSoundEngine/AkSwitchCntr.cpp:
 	.text       start:0x803AA820 end:0x803AF0C0
 
-Unclassified/AkMultiPlayNode.cpp:
+AkSoundEngine/AkMultiPlayNode.cpp:
 	.text       start:0x803AF0C0 end:0x803B0440
 
-Unclassified/AkSound.cpp:
+AkSoundEngine/AkSound.cpp:
 	.text       start:0x803B0440 end:0x803B0F80
 
-Unclassified/AkSoundBase.cpp:
+AkSoundEngine/AkSoundBase.cpp:
 	.text       start:0x803B0F80 end:0x803B1900
 
-Unclassified/AkSource.cpp:
+AkSoundEngine/AkSource.cpp:
 	.text       start:0x803B1900 end:0x803B1F20
 
-Unclassified/AkParameterNode.cpp:
+AkSoundEngine/AkParameterNode.cpp:
 	.text       start:0x803B1F20 end:0x803B91C0
 
-Unclassified/AkParameterNodeBase.cpp:
+AkSoundEngine/AkParameterNodeBase.cpp:
 	.text       start:0x803B91C0 end:0x803CAA20
 	.ctors      start:0x80585718 end:0x8058571C
 
-Unclassified/AkPBIAware.cpp:
+AkSoundEngine/AkPBIAware.cpp:
 	.text       start:0x803CAA20 end:0x803CAB30
 
-Unclassified/AkFeedbackBus.cpp:
+AkSoundEngine/AkFeedbackBus.cpp:
 	.text       start:0x803CAB30 end:0x803CBFA0
 
-Unclassified/AkFeedbackNode.cpp:
+AkSoundEngine/AkFeedbackNode.cpp:
 	.text       start:0x803CBFA0 end:0x803CD140
 
-Unclassified/AkFeedbackStructs.cpp:
+AkSoundEngine/AkFeedbackStructs.cpp:
 	.text       start:0x803CD140 end:0x803CD460
 
-Unclassified/AkThreadedBankMgr.cpp:
+AkSoundEngine/AkThreadedBankMgr.cpp:
 	.text       start:0x803CD460 end:0x803CDFB0
 
-Unclassified/AkBankMgr.cpp:
+AkSoundEngine/AkBankMgr.cpp:
 	.text       start:0x803CDFB0 end:0x803D8560
 
-Unclassified/AkBankList.cpp:
+AkSoundEngine/AkBankList.cpp:
 	.text       start:0x803D8560 end:0x803D89B0
 	.ctors      start:0x8058571C end:0x80585720
 
-Unclassified/AkBankCallbackMgr.cpp:
+AkSoundEngine/AkBankCallbackMgr.cpp:
 	.text       start:0x803D89B0 end:0x803D9370
 
-Unclassified/AkBankReader.cpp:
+AkSoundEngine/AkBankReader.cpp:
 	.text       start:0x803D9370 end:0x803D9F90
 
-Unclassified/AkBusCallbackMgr.cpp:
+AkSoundEngine/AkBusCallbackMgr.cpp:
 	.text       start:0x803D9F90 end:0x803DA530
 
-Unclassified/AkIndexable.cpp:
+AkSoundEngine/AkIndexable.cpp:
 	.text       start:0x803DA530 end:0x803DA5A0
 
-Unclassified/AkEnvironmentsMgr.cpp:
+AkSoundEngine/AkEnvironmentsMgr.cpp:
 	.text       start:0x803DA5A0 end:0x803DA7C0
 
-Unclassified/AkActionActive.cpp:
+AkSoundEngine/AkActionActive.cpp:
 	.text       start:0x803DA7C0 end:0x803DACB0
 
-Unclassified/AkActionPause.cpp:
+AkSoundEngine/AkActionPause.cpp:
 	.text       start:0x803DACB0 end:0x803DAF00
 
-Unclassified/AkActionResume.cpp:
+AkSoundEngine/AkActionResume.cpp:
 	.text       start:0x803DAF00 end:0x803DB150
 
-Unclassified/AkActionRelease.cpp:
+AkSoundEngine/AkActionRelease.cpp:
 	.text       start:0x803DB150 end:0x803DB2E0
 
-Unclassified/AkActionStop.cpp:
+AkSoundEngine/AkActionStop.cpp:
 	.text       start:0x803DB2E0 end:0x803DB4F0
 
-Unclassified/AkActionBreak.cpp:
+AkSoundEngine/AkActionBreak.cpp:
 	.text       start:0x803DB4F0 end:0x803DB6E0
 
-Unclassified/AkActionSeek.cpp:
+AkSoundEngine/AkActionSeek.cpp:
 	.text       start:0x803DB6E0 end:0x803DBF30
 
-Unclassified/AkActionDuck.cpp:
+AkSoundEngine/AkActionDuck.cpp:
 	.text       start:0x803DBF30 end:0x803DC020
 
-Unclassified/AkActionBypassFX.cpp:
+AkSoundEngine/AkActionBypassFX.cpp:
 	.text       start:0x803DC020 end:0x803DC7B0
 
-Unclassified/AkActionPlay.cpp:
+AkSoundEngine/AkActionPlay.cpp:
 	.text       start:0x803DC7B0 end:0x803DCD10
 
-Unclassified/AkActionPlayAndContinue.cpp:
+AkSoundEngine/AkActionPlayAndContinue.cpp:
 	.text       start:0x803DCD10 end:0x803DDD30
 
-Unclassified/AkActionSetGameParameter.cpp:
+AkSoundEngine/AkActionSetGameParameter.cpp:
 	.text       start:0x803DDD30 end:0x803DE290
 
-Unclassified/AkActionMute.cpp:
+AkSoundEngine/AkActionMute.cpp:
 	.text       start:0x803DE290 end:0x803DE710
 
-Unclassified/AkActionSetValue.cpp:
+AkSoundEngine/AkActionSetValue.cpp:
 	.text       start:0x803DE710 end:0x803DF060
 
-Unclassified/AkActionSetAkProp.cpp:
+AkSoundEngine/AkActionSetAkProp.cpp:
 	.text       start:0x803DF060 end:0x803DF640
 
-Unclassified/AkActionSetState.cpp:
+AkSoundEngine/AkActionSetState.cpp:
 	.text       start:0x803DF640 end:0x803DF7C0
 
-Unclassified/AkActionSetSwitch.cpp:
+AkSoundEngine/AkActionSetSwitch.cpp:
 	.text       start:0x803DF7C0 end:0x803DF9B0
 
-Unclassified/AkActionTrigger.cpp:
+AkSoundEngine/AkActionTrigger.cpp:
 	.text       start:0x803DF9B0 end:0x803DFAD0
 
-Unclassified/AkActionUseState.cpp:
+AkSoundEngine/AkActionUseState.cpp:
 	.text       start:0x803DFAD0 end:0x803DFC50
 
-Unclassified/AkAction.cpp:
+AkSoundEngine/AkAction.cpp:
 	.text       start:0x803DFC50 end:0x803E0F30
 
-Unclassified/AkActionEvent.cpp:
+AkSoundEngine/AkActionEvent.cpp:
 	.text       start:0x803E0F30 end:0x803E1270
 
-Unclassified/AkActionExcept.cpp:
+AkSoundEngine/AkActionExcept.cpp:
 	.text       start:0x803E1270 end:0x803E1AB0
 
-Unclassified/AkEvent.cpp:
+AkSoundEngine/AkEvent.cpp:
 	.text       start:0x803E1AB0 end:0x803E2400
 
-Unclassified/AkStreamCacheMgmt.cpp:
+AkSoundEngine/AkStreamCacheMgmt.cpp:
 	.text       start:0x803E2400 end:0x803E4E00
 	.ctors      start:0x80585720 end:0x80585724
 
-Unclassified/AkGen3DParams.cpp:
+AkSoundEngine/AkGen3DParams.cpp:
 	.text       start:0x803E4E00 end:0x803E5510
 
-Unclassified/AkState.cpp:
+AkSoundEngine/AkState.cpp:
 	.text       start:0x803E5510 end:0x803E5A90
 
-Unclassified/AkMonitor.cpp:
+AkSoundEngine/AkMonitor.cpp:
 	.text       start:0x803E5A90 end:0x803F0620
 	.ctors      start:0x80585724 end:0x80585728
 
-Unclassified/AkPath.cpp:
+AkSoundEngine/AkPath.cpp:
 	.text       start:0x803F0620 end:0x803F2480
 
-Unclassified/AkPathManager.cpp:
+AkSoundEngine/AkPathManager.cpp:
 	.text       start:0x803F2480 end:0x803F30F0
 
-Unclassified/AkBusCtx.cpp:
+AkSoundEngine/AkBusCtx.cpp:
 	.text       start:0x803F30F0 end:0x803F3210
 
-Unclassified/AkContinuousPBI.cpp:
+AkSoundEngine/AkContinuousPBI.cpp:
 	.text       start:0x803F3210 end:0x803F4DA0
 
-Unclassified/AkPBI.cpp:
+AkSoundEngine/AkPBI.cpp:
 	.text       start:0x803F4DA0 end:0x803FCE70
 
-Unclassified/AkModulatorPBIData.cpp:
+AkSoundEngine/AkModulatorPBIData.cpp:
 	.text       start:0x803FCE70 end:0x803FD560
 
-Unclassified/AkPlayingMgr.cpp:
+AkSoundEngine/AkPlayingMgr.cpp:
 	.text       start:0x803FD560 end:0x803FFEB0
 
-Unclassified/AkPositionRepository.cpp:
+AkSoundEngine/AkPositionRepository.cpp:
 	.text       start:0x803FFEB0 end:0x804019D0
 
-Unclassified/AkProfile.cpp:
+AkSoundEngine/AkProfile.cpp:
 	.text       start:0x804019D0 end:0x804028D0
 	.ctors      start:0x80585728 end:0x8058572C
 
-Unclassified/AkRegisteredObj.cpp:
+AkSoundEngine/AkRegisteredObj.cpp:
 	.text       start:0x804028D0 end:0x80403970
 
-Unclassified/AkRegistryMgr.cpp:
+AkSoundEngine/AkRegistryMgr.cpp:
 	.text       start:0x80403970 end:0x80406BE0
 
-Unclassified/AkURenderer.cpp:
+AkSoundEngine/AkURenderer.cpp:
 	.text       start:0x80406BE0 end:0x80409600
 	.ctors      start:0x8058572C end:0x80585730
 
-Unclassified/AkRTPCMgr.cpp:
+AkSoundEngine/AkRTPCMgr.cpp:
 	.text       start:0x80409600 end:0x8041B190
 
-Unclassified/AkScopedRtpcObj.cpp:
+AkSoundEngine/AkScopedRtpcObj.cpp:
 	.text       start:0x8041B190 end:0x8041C3C0
 
-Unclassified/AkSIS.cpp:
+AkSoundEngine/AkSIS.cpp:
 	.text       start:0x8041C3C0 end:0x8041C6E0
 
-Unclassified/AkModulatorMgr.cpp:
+AkSoundEngine/AkModulatorMgr.cpp:
 	.text       start:0x8041C6E0 end:0x8041DDC0
 
-Unclassified/AkModulatorEngine.cpp:
+AkSoundEngine/AkModulatorEngine.cpp:
 	.text       start:0x8041DDC0 end:0x80423380
 
-Unclassified/AkModulatorCtx.cpp:
+AkSoundEngine/AkModulatorCtx.cpp:
 	.text       start:0x80423380 end:0x804252C0
 
-Unclassified/AkModulator.cpp:
+AkSoundEngine/AkModulator.cpp:
 	.text       start:0x804252C0 end:0x80433F20
 	.ctors      start:0x80585730 end:0x80585734
 
-Unclassified/AkAudioLib.cpp:
+AkSoundEngine/AkAudioLib.cpp:
 	.text       start:0x80433F20 end:0x80437620
 	.ctors      start:0x80585734 end:0x80585738
 
-Unclassified/AkAudioLibIndex.cpp:
+AkSoundEngine/AkAudioLibIndex.cpp:
 	.text       start:0x80437620 end:0x80438B30
 
-Unclassified/AkAudioMgr.cpp:
+AkSoundEngine/AkAudioMgr.cpp:
 	.text       start:0x80438B30 end:0x804434D0
 
-Unclassified/AkAudioMix.cpp:
+AkSoundEngine/AkAudioMix.cpp:
 	.text       start:0x804434D0 end:0x80443590
 
-Unclassified/AkAudioThread.cpp:
+AkSoundEngine/AkAudioThread.cpp:
 	.text       start:0x80443590 end:0x804438F0
 
-Unclassified/AkCommon.cpp:
+AkSoundEngine/AkCommon.cpp:
 	.text       start:0x804438F0 end:0x80443960
 
-Unclassified/AkQueryParameters.cpp:
+AkSoundEngine/AkQueryParameters.cpp:
 	.text       start:0x80443960 end:0x804439C0
 
-Unclassified/AkSwitchMgr.cpp:
+AkSoundEngine/AkSwitchMgr.cpp:
 	.text       start:0x804439C0 end:0x80449060
 
-Unclassified/AkVoiceConnection.cpp:
+AkSoundEngine/AkVoiceConnection.cpp:
 	.text       start:0x80449060 end:0x80449D20
 
-Unclassified/AkStateMgr.cpp:
+AkSoundEngine/AkStateMgr.cpp:
 	.text       start:0x80449D20 end:0x8044CD20
 
-Unclassified/AkTransition.cpp:
+AkSoundEngine/AkTransition.cpp:
 	.text       start:0x8044CD20 end:0x8044D790
 
-Unclassified/AkTransitionManager.cpp:
+AkSoundEngine/AkTransitionManager.cpp:
 	.text       start:0x8044D790 end:0x8044E590
 
-Unclassified/AkChunkRing.cpp:
+AkSoundEngine/AkChunkRing.cpp:
 	.text       start:0x8044E590 end:0x8044E7C0
 
-Unclassified/AkIDStringMap.cpp:
+AkSoundEngine/AkIDStringMap.cpp:
 	.text       start:0x8044E7C0 end:0x8044EAA0
 
-Unclassified/AkAudiolibTimer.cpp:
+AkSoundEngine/AkAudiolibTimer.cpp:
 	.text       start:0x8044EAA0 end:0x8044EB50
 	.ctors      start:0x80585738 end:0x8058573C
 
-Unclassified/AkMath.cpp:
+AkSoundEngine/AkMath.cpp:
 	.text       start:0x8044EB50 end:0x8044EE10
 
-Unclassified/AkBytesMem.cpp:
+AkSoundEngine/AkBytesMem.cpp:
 	.text       start:0x8044EE10 end:0x8044F0A0
 
-Unclassified/ALBytesMem.cpp:
+AkSoundEngine/ALBytesMem.cpp:
 	.text       start:0x8044F0A0 end:0x8044F150
 
-Unclassified/AkWiimoteMgr.cpp:
+AkSoundEngine/AkWiimoteMgr.cpp:
 	.text       start:0x8044F150 end:0x8044F780
 
-Unclassified/AkFeedbackMgr.cpp:
+AkSoundEngine/AkFeedbackMgr.cpp:
 	.text       start:0x8044F780 end:0x80450540
 
-Unclassified/AkOutputMgr.cpp:
+AkSoundEngine/AkOutputMgr.cpp:
 	.text       start:0x80450540 end:0x80451B80
 	.ctors      start:0x8058573C end:0x80585740
 
-Unclassified/AkFXMemAlloc.cpp:
+AkSoundEngine/AkFXMemAlloc.cpp:
 	.text       start:0x80451B80 end:0x80451C10
 	.ctors      start:0x80585740 end:0x80585744
 
-Unclassified/Ak3DListener.cpp:
+AkSoundEngine/Ak3DListener.cpp:
 	.text       start:0x80451C10 end:0x80455DD0
 	.ctors      start:0x80585744 end:0x80585748
 
-Unclassified/AkEffectsMgr.cpp:
+AkSoundEngine/AkEffectsMgr.cpp:
 	.text       start:0x80455DD0 end:0x80456790
 	.ctors      start:0x80585748 end:0x8058574C
 
-Unclassified/AkFXContext.cpp:
+AkSoundEngine/AkFXContext.cpp:
 	.text       start:0x80456790 end:0x80457210
 
-Unclassified/AkLEngine.cpp:
+AkSoundEngine/AkLEngine.cpp:
 	.text       start:0x80457210 end:0x8045A100
 	.ctors      start:0x8058574C end:0x80585750
 
-Unclassified/AkLEngine_Common.cpp:
+AkSoundEngine/AkLEngine_Common.cpp:
 	.text       start:0x8045A100 end:0x8045A940
 
-Unclassified/AkLEngineCmds.cpp:
+AkSoundEngine/AkLEngineCmds.cpp:
 	.text       start:0x8045A940 end:0x8045B990
 	.ctors      start:0x80585750 end:0x80585754
 
-Unclassified/AkCaptureMgr.cpp:
+AkSoundEngine/AkCaptureMgr.cpp:
 	.text       start:0x8045B990 end:0x8045C4C0
 
-Unclassified/FileCaptureWriter.cpp:
+AkSoundEngine/FileCaptureWriter.cpp:
 	.text       start:0x8045C4C0 end:0x8045C800
 
-Unclassified/AkSinkBase.cpp:
+AkSoundEngine/AkSinkBase.cpp:
 	.text       start:0x8045C800 end:0x8045CAC0
 
-Unclassified/AkSink.cpp:
+AkSoundEngine/AkSink.cpp:
 	.text       start:0x8045CAC0 end:0x8045D2D0
 
-Unclassified/AkSpeakerPan.cpp:
+AkSoundEngine/AkSpeakerPan.cpp:
 	.text       start:0x8045D2D0 end:0x8045EF30
 
-Unclassified/AkMarkers.cpp:
+AkSoundEngine/AkMarkers.cpp:
 	.text       start:0x8045EF30 end:0x8045F270
 
-Unclassified/AkFileParserBase.cpp:
+AkSoundEngine/AkFileParserBase.cpp:
 	.text       start:0x8045F270 end:0x8045F640
 
-Unclassified/AkSrcBase.cpp:
+AkSoundEngine/AkSrcBase.cpp:
 	.text       start:0x8045F640 end:0x8045FBF0
 
-Unclassified/AkSrcBank.cpp:
+AkSoundEngine/AkSrcBank.cpp:
 	.text       start:0x8045FBF0 end:0x804614C0
 
-Unclassified/AkSrcFile.cpp:
+AkSoundEngine/AkSrcFile.cpp:
 	.text       start:0x804614C0 end:0x80466BC0
 
-Unclassified/AkSrcPhysModel.cpp:
+AkSoundEngine/AkSrcPhysModel.cpp:
 	.text       start:0x80466BC0 end:0x80468390
 
-Unclassified/AkSrcSoftware.cpp:
+AkSoundEngine/AkSrcSoftware.cpp:
 	.text       start:0x80468390 end:0x80468F70
 
-Unclassified/AkVPLMixBusNode.cpp:
+AkSoundEngine/AkVPLMixBusNode.cpp:
 	.text       start:0x80468F70 end:0x80469700
 
-Unclassified/AkVPLSrcCbxNode.cpp:
+AkSoundEngine/AkVPLSrcCbxNode.cpp:
 	.text       start:0x80469700 end:0x8046A800
 
-Unclassified/AkVPLSrcNode.cpp:
+AkSoundEngine/AkVPLSrcNode.cpp:
 	.text       start:0x8046A800 end:0x8046EA50
 
-Unclassified/AkSettings.cpp:
+AkSoundEngine/AkSettings.cpp:
 	.text       start:0x8046EA50 end:0x8046EA50
 
-Unclassified/AkVoicePlaybackCtrl.cpp:
+AkSoundEngine/AkVoicePlaybackCtrl.cpp:
 	.text       start:0x8046EA50 end:0x8046F7D0
 
-Unclassified/AkDoubleBuffer.cpp:
+AkSoundEngine/AkDoubleBuffer.cpp:
 	.text       start:0x8046F7D0 end:0x8046FBA0
 
-Unclassified/AkFeedbackSrcGen.cpp:
+AkSoundEngine/AkFeedbackSrcGen.cpp:
 	.text       start:0x8046FBA0 end:0x8046FFD0
 
-Unclassified/CommandData.cpp:
+AkSoundEngine/CommandData.cpp:
 	.text       start:0x8046FFD0 end:0x80477E50
 
-Unclassified/CommandDataSerializer.cpp:
+AkSoundEngine/CommandDataSerializer.cpp:
 	.text       start:0x80477E50 end:0x8047F060
 
-Unclassified/RendererProxyLocal.cpp:
+AkSoundEngine/RendererProxyLocal.cpp:
 	.text       start:0x8047F060 end:0x804800C0
 
-Unclassified/StateMgrProxyLocal.cpp:
+AkSoundEngine/StateMgrProxyLocal.cpp:
 	.text       start:0x804800C0 end:0x80480460
 
-Unclassified/ActionProxyConnected.cpp:
+AkSoundEngine/ActionProxyConnected.cpp:
 	.text       start:0x80480460 end:0x804815F0
 
-Unclassified/ActorMixerProxyConnected.cpp:
+AkSoundEngine/ActorMixerProxyConnected.cpp:
 	.text       start:0x804815F0 end:0x804816C0
 
-Unclassified/ALMonitorProxyConnected.cpp:
+AkSoundEngine/ALMonitorProxyConnected.cpp:
 	.text       start:0x804816C0 end:0x80481AB0
 
-Unclassified/AttenuationProxyConnected.cpp:
+AkSoundEngine/AttenuationProxyConnected.cpp:
 	.text       start:0x80481AB0 end:0x80481BF0
 
-Unclassified/AuxBusProxyConnected.cpp:
+AkSoundEngine/AuxBusProxyConnected.cpp:
 	.text       start:0x80481BF0 end:0x80481CC0
 
-Unclassified/BusProxyConnected.cpp:
+AkSoundEngine/BusProxyConnected.cpp:
 	.text       start:0x80481CC0 end:0x80481D90
 
-Unclassified/DialogueEventProxyConnected.cpp:
+AkSoundEngine/DialogueEventProxyConnected.cpp:
 	.text       start:0x80481D90 end:0x804820D0
 
-Unclassified/EventProxyConnected.cpp:
+AkSoundEngine/EventProxyConnected.cpp:
 	.text       start:0x804820D0 end:0x80482320
 
-Unclassified/FxBaseProxyConnected.cpp:
+AkSoundEngine/FxBaseProxyConnected.cpp:
 	.text       start:0x80482320 end:0x80482680
 
-Unclassified/LayerContainerProxyConnected.cpp:
+AkSoundEngine/LayerContainerProxyConnected.cpp:
 	.text       start:0x80482680 end:0x80482800
 
-Unclassified/LayerProxyConnected.cpp:
+AkSoundEngine/LayerProxyConnected.cpp:
 	.text       start:0x80482800 end:0x80482A80
 
-Unclassified/ObjectProxyConnected.cpp:
+AkSoundEngine/ObjectProxyConnected.cpp:
 	.text       start:0x80482A80 end:0x80482B00
 
-Unclassified/ParameterableProxyConnected.cpp:
+AkSoundEngine/ParameterableProxyConnected.cpp:
 	.text       start:0x80482B00 end:0x80483740
 
-Unclassified/ParameterNodeProxyConnected.cpp:
+AkSoundEngine/ParameterNodeProxyConnected.cpp:
 	.text       start:0x80483740 end:0x80484430
 
-Unclassified/ProxyFrameworkConnected.cpp:
+AkSoundEngine/ProxyFrameworkConnected.cpp:
 	.text       start:0x80484430 end:0x80485630
 
-Unclassified/ProxyFrameworkFactory.cpp:
+AkSoundEngine/ProxyFrameworkFactory.cpp:
 	.text       start:0x80485630 end:0x80485680
 
-Unclassified/RanSeqContainerProxyConnected.cpp:
+AkSoundEngine/RanSeqContainerProxyConnected.cpp:
 	.text       start:0x80485680 end:0x80485E90
 
-Unclassified/RendererProxyConnected.cpp:
+AkSoundEngine/RendererProxyConnected.cpp:
 	.text       start:0x80485E90 end:0x80486870
 
-Unclassified/SoundProxyConnected.cpp:
+AkSoundEngine/SoundProxyConnected.cpp:
 	.text       start:0x80486870 end:0x80486AD0
 
-Unclassified/StateMgrProxyConnected.cpp:
+AkSoundEngine/StateMgrProxyConnected.cpp:
 	.text       start:0x80486AD0 end:0x80486D50
 
-Unclassified/StateProxyConnected.cpp:
+AkSoundEngine/StateProxyConnected.cpp:
 	.text       start:0x80486D50 end:0x80486EE0
 
-Unclassified/SwitchContainerProxyConnected.cpp:
+AkSoundEngine/SwitchContainerProxyConnected.cpp:
 	.text       start:0x80486EE0 end:0x80487270
 
-Unclassified/BaseBusConnected.cpp:
+AkSoundEngine/BaseBusConnected.cpp:
 	.text       start:0x80487270 end:0x804879A0
 
-Unclassified/FeedbackBusProxyConnected.cpp:
+AkSoundEngine/FeedbackBusProxyConnected.cpp:
 	.text       start:0x804879A0 end:0x80487A70
 
-Unclassified/FeedbackNodeProxyConnected.cpp:
+AkSoundEngine/FeedbackNodeProxyConnected.cpp:
 	.text       start:0x80487A70 end:0x80487C90
 
-Unclassified/ModulatorProxyConnected.cpp:
+AkSoundEngine/ModulatorProxyConnected.cpp:
 	.text       start:0x80487C90 end:0x804880E0
 
 Unclassified/AkFXSrcAudioInput.cpp:
