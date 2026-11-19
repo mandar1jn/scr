@@ -1748,7 +1748,7 @@ MSL_C/wstring.c:
 MSL_C/wchar_io.c:
 	.text       start:0x80297CD8 end:0x80297D54
 
-Unclassified/time.dolphin.c:
+RVL_SDK/os/time.dolphin.c:
 	.text       start:0x80297D54 end:0x80297D90
 
 MSL_C/uart_console_io_gcn.c:
@@ -2141,106 +2141,106 @@ Unclassified/AXFXReverbStdExpDpl2.c:
 Unclassified/AXFXHooks.c:
 	.text       start:0x802BC460 end:0x802BC4B0
 
-Unclassified/OS.c:
+RVL_SDK/os/OS.c:
 	.text       start:0x802BC4B0 end:0x802BD990
 
-Unclassified/OSAlarm.c:
+RVL_SDK/os/OSAlarm.c:
 	.text       start:0x802BD990 end:0x802BE310
 
-Unclassified/OSAlloc.c:
+RVL_SDK/os/OSAlloc.c:
 	.text       start:0x802BE310 end:0x802BE540
 
-Unclassified/OSArena.c:
+RVL_SDK/os/OSArena.c:
 	.text       start:0x802BE540 end:0x802BE640
 
-Unclassified/OSAudioSystem.c:
+RVL_SDK/os/OSAudioSystem.c:
 	.text       start:0x802BE640 end:0x802BEB00
 
-Unclassified/OSCache.c:
+RVL_SDK/os/OSCache.c:
 	.text       start:0x802BEB00 end:0x802BF200
 
-Unclassified/OSContext.c:
+RVL_SDK/os/OSContext.c:
 	.text       start:0x802BF200 end:0x802BFAD0
 
-Unclassified/OSError.c:
+RVL_SDK/os/OSError.c:
 	.text       start:0x802BFAD0 end:0x802C0220
 
-Unclassified/OSExec.c:
+RVL_SDK/os/OSExec.c:
 	.text       start:0x802C0220 end:0x802C1B90
 
-Unclassified/OSFatal.c:
+RVL_SDK/os/OSFatal.c:
 	.text       start:0x802C1B90 end:0x802C27C0
 
-Unclassified/OSFont.c:
+RVL_SDK/os/OSFont.c:
 	.text       start:0x802C27C0 end:0x802C34B0
 
-Unclassified/OSInterrupt.c:
+RVL_SDK/os/OSInterrupt.c:
 	.text       start:0x802C34B0 end:0x802C3C80
 
-Unclassified/OSLink.c:
+RVL_SDK/os/OSLink.c:
 	.text       start:0x802C3C80 end:0x802C3CA0
 
-Unclassified/OSMessage.c:
+RVL_SDK/os/OSMessage.c:
 	.text       start:0x802C3CA0 end:0x802C3F80
 
-Unclassified/OSMemory.c:
+RVL_SDK/os/OSMemory.c:
 	.text       start:0x802C3F80 end:0x802C4720
 
-Unclassified/OSMutex.c:
+RVL_SDK/os/OSMutex.c:
 	.text       start:0x802C4720 end:0x802C4D00
 
-Unclassified/OSReboot.c:
+RVL_SDK/os/OSReboot.c:
 	.text       start:0x802C4D00 end:0x802C4D90
 
-Unclassified/OSReset.c:
+RVL_SDK/os/OSReset.c:
 	.text       start:0x802C4D90 end:0x802C5700
 
-Unclassified/OSRtc.c:
+RVL_SDK/os/OSRtc.c:
 	.text       start:0x802C5700 end:0x802C61B0
 
-Unclassified/OSSemaphore.c:
+RVL_SDK/os/OSSemaphore.c:
 	.text       start:0x802C61B0 end:0x802C6340
 
-Unclassified/OSSync.c:
+RVL_SDK/os/OSSync.c:
 	.text       start:0x802C6340 end:0x802C63C0
 
-Unclassified/OSThread.c:
+RVL_SDK/os/OSThread.c:
 	.text       start:0x802C63C0 end:0x802C83C0
 
-Unclassified/OSTime.c:
+RVL_SDK/os/OSTime.c:
 	.text       start:0x802C83C0 end:0x802C8A90
 
-Unclassified/OSUtf.c:
+RVL_SDK/os/OSUtf.c:
 	.text       start:0x802C8A90 end:0x802C8CE0
 
-Unclassified/OSIpc.c:
+RVL_SDK/os/OSIpc.c:
 	.text       start:0x802C8CE0 end:0x802C8D20
 
-Unclassified/OSStateTM.c:
+RVL_SDK/os/OSStateTM.c:
 	.text       start:0x802C8D20 end:0x802C9470
 
-Unclassified/OSPlayRecord.c:
+RVL_SDK/os/OSPlayRecord.c:
 	.text       start:0x802C9470 end:0x802C9B90
 
-Unclassified/OSStateFlags.c:
+RVL_SDK/os/OSStateFlags.c:
 	.text       start:0x802C9B90 end:0x802C9DB0
 
-Unclassified/OSNet.c:
+RVL_SDK/os/OSNet.c:
 	.text       start:0x802C9DB0 end:0x802C9E70
 
-Unclassified/OSNandbootInfo.c:
+RVL_SDK/os/OSNandbootInfo.c:
 	.text       start:0x802C9E70 end:0x802CA080
 
-Unclassified/OSPlayTime.c:
+RVL_SDK/os/OSPlayTime.c:
 	.text       start:0x802CA080 end:0x802CA860
 
-Unclassified/OSCrc.c:
+RVL_SDK/os/OSCrc.c:
 	.text       start:0x802CA860 end:0x802CA9A0
 
-Unclassified/OSLaunch.c:
+RVL_SDK/os/OSLaunch.c:
 	.text       start:0x802CA9A0 end:0x802CABB0
 
-Unclassified/__ppc_eabi_init.cpp:
+RVL_SDK/os/__ppc_eabi_init.cpp:
 	.text       start:0x802CABB0 end:0x802CAC70
 
 Unclassified/Pad.c:
@@ -5610,7 +5610,7 @@ Unclassified/tfbSpyroTag.cpp:
 Unclassified/tfbSpyroTagCustomize.cpp:
 	.text       start:0x80583928 end:0x80583930
 
-Unclassified/__start.c:
+RVL_SDK/os/__start.c:
 	.init       start:0x800062C0 end:0x80006620
 	.sbss       start:0x80898D58 end:0x80898D60
 

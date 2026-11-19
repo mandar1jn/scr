@@ -1,8 +1,11 @@
 from pathlib import Path
 import re
+import shutil
 
 lib = "os.a"
-base = Path("src/RVL_SDK/os")
+srcpath = "RVL_SDK/os/"
+
+base = Path("src") / srcpath
 
 mapf = open("orig/SKNE52/files/goliath.engine.wii.profile.MAP", "rt")
 splitsf = open("config/SKNE52/splits.txt")
@@ -25,7 +28,23 @@ for line in mapdata:
     if match and match.group("lib") == lib:
         matches.add(match.group("obj"))
 
-print(matches)
+# print(matches)
+
+for match in matches:
+    # print(match)
+    files = list(Path("src/Unclassified").glob(f"{'.'.join(match.split('.')[:-1]).split("/")[-1]}.*"))
+    assert len(files) == 1
+    file = files[0]
+    target = base / match
+    target = target.with_suffix(f".{file.name.split(".")[-1]}")
+    # print(target)
+    if not target.parent.exists():
+        target.parent.mkdir()
+
+    shutil.move(file, target)
+    splits = splits.replace(f"Unclassified/{target.name}", f"{srcpath}{match}".replace(".o", f".{file.name.split(".")[-1]}"))
+    config = config.replace(f'            Object(NonMatching, "Unclassified/{target.name}"),\n', "")
+    print(f'Object(NonMatching, "{f"{srcpath}{match}".replace(".o", f".{file.name.split(".")[-1]}")}"),')
 
 splitsf.write(splits)
 configf.write(config)
