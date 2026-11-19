@@ -2,8 +2,8 @@ from pathlib import Path
 import re
 import shutil
 
-lib = "AkSoundEngine.a"
-srcpath = "AkSoundEngine/"
+lib = "AkMusicEngine.a"
+srcpath = "AkMusicEngine/"
 
 base = Path("src") / srcpath
 
@@ -25,6 +25,8 @@ mapdata = mapf.readlines()
 matches = set()
 for line in mapdata:
     match = re.search(reg, line.strip())
+    # if match:
+    #     print(match.group("lib"))
     if match and match.group("lib") == lib:
         matches.add(match.group("obj"))
 
@@ -33,7 +35,7 @@ for line in mapdata:
 for match in matches:
     # print(match)
     files = list(Path("src/Unclassified").glob(f"{'.'.join(match.split('.')[:-1]).split("/")[-1]}.*"))
-    assert len(files) == 1
+    assert len(files) == 1, match
     file = files[0]
     target = base / match
     target = target.with_suffix(f".{file.name.split(".")[-1]}")

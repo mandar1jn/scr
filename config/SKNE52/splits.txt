@@ -3607,120 +3607,120 @@ Unclassified/AkMemoryMgr.cpp:
 Unclassified/tlsf.cpp:
 	.text       start:0x80489EA0 end:0x8048B1B0
 
-Unclassified/AkChildCtx.cpp:
+AkMusicEngine/AkChildCtx.cpp:
 	.text       start:0x8048B1B0 end:0x8048B230
 
-Unclassified/AkMusicPBI.cpp:
+AkMusicEngine/AkMusicPBI.cpp:
 	.text       start:0x8048B230 end:0x8048B9C0
 
-Unclassified/AkMusicCtx.cpp:
+AkMusicEngine/AkMusicCtx.cpp:
 	.text       start:0x8048B9C0 end:0x8048D2F0
 
-Unclassified/AkSegmentCtx.cpp:
+AkMusicEngine/AkSegmentCtx.cpp:
 	.text       start:0x8048D2F0 end:0x8048EC80
 
-Unclassified/AkMatrixAwareCtx.cpp:
+AkMusicEngine/AkMatrixAwareCtx.cpp:
 	.text       start:0x8048EC80 end:0x8048F370
 
-Unclassified/AkSegmentChain.cpp:
+AkMusicEngine/AkSegmentChain.cpp:
 	.text       start:0x8048F370 end:0x80490440
 
-Unclassified/AkSequencableSegmentCtx.cpp:
+AkMusicEngine/AkSequencableSegmentCtx.cpp:
 	.text       start:0x80490440 end:0x80490C80
 
-Unclassified/AkSequenceCtx.cpp:
+AkMusicEngine/AkSequenceCtx.cpp:
 	.text       start:0x80490C80 end:0x80491AF0
 
-Unclassified/AkMusicSwitchCtx.cpp:
+AkMusicEngine/AkMusicSwitchCtx.cpp:
 	.text       start:0x80491AF0 end:0x80496370
 
-Unclassified/AkSubTrackCtx.cpp:
+AkMusicEngine/AkSubTrackCtx.cpp:
 	.text       start:0x80496370 end:0x80498760
 
-Unclassified/AkSwitchTrackInfo.cpp:
+AkMusicEngine/AkSwitchTrackInfo.cpp:
 	.text       start:0x80498760 end:0x80498EF0
 
-Unclassified/AkMidiBaseCtx.cpp:
+AkMusicEngine/AkMidiBaseCtx.cpp:
 	.text       start:0x80498EF0 end:0x804993C0
 
-Unclassified/AkMidiClipCtx.cpp:
+AkMusicEngine/AkMidiClipCtx.cpp:
 	.text       start:0x804993C0 end:0x8049AA90
 
-Unclassified/AkMidiNoteCtx.cpp:
+AkMusicEngine/AkMidiNoteCtx.cpp:
 	.text       start:0x8049AA90 end:0x8049BC80
 
-Unclassified/AkMusicNode.cpp:
+AkMusicEngine/AkMusicNode.cpp:
 	.text       start:0x8049BC80 end:0x8049D950
 
-Unclassified/AkMusicRanSeqCntr.cpp:
+AkMusicEngine/AkMusicRanSeqCntr.cpp:
 	.text       start:0x8049D950 end:0x8049EC00
 
-Unclassified/AkMusicSegment.cpp:
+AkMusicEngine/AkMusicSegment.cpp:
 	.text       start:0x8049EC00 end:0x804A0380
 
-Unclassified/AkMusicSwitchCntr.cpp:
+AkMusicEngine/AkMusicSwitchCntr.cpp:
 	.text       start:0x804A0380 end:0x804A1200
 
-Unclassified/AkMusicTrack.cpp:
+AkMusicEngine/AkMusicTrack.cpp:
 	.text       start:0x804A1200 end:0x804A4220
 
-Unclassified/AkMusicTransAware.cpp:
+AkMusicEngine/AkMusicTransAware.cpp:
 	.text       start:0x804A4220 end:0x804A5F50
 	.ctors      start:0x80585754 end:0x80585758
 
-Unclassified/AkRSIterator.cpp:
+AkMusicEngine/AkRSIterator.cpp:
 	.text       start:0x804A5F50 end:0x804A99D0
 
-Unclassified/AkContextualMusicSequencer.cpp:
+AkMusicEngine/AkContextualMusicSequencer.cpp:
 	.text       start:0x804A99D0 end:0x804A9E80
 
-Unclassified/AkMatrixSequencer.cpp:
+AkMusicEngine/AkMatrixSequencer.cpp:
 	.text       start:0x804A9E80 end:0x804ACBD0
 
-Unclassified/AkScheduleWindow.cpp:
+AkMusicEngine/AkScheduleWindow.cpp:
 	.text       start:0x804ACBD0 end:0x804ADFA0
 
-Unclassified/AkMidiBaseMgr.cpp:
+AkMusicEngine/AkMidiBaseMgr.cpp:
 	.text       start:0x804ADFA0 end:0x804AF4B0
 
-Unclassified/AkMidiClipMgr.cpp:
+AkMusicEngine/AkMidiClipMgr.cpp:
 	.text       start:0x804AF4B0 end:0x804AFA90
 
-Unclassified/AkMidiParseSe.cpp:
+AkMusicEngine/AkMidiParseSe.cpp:
 	.text       start:0x804AFA90 end:0x804B1400
 
-Unclassified/AkMusicBank.cpp:
+AkMusicEngine/AkMusicBank.cpp:
 	.text       start:0x804B1400 end:0x804B1980
 
-Unclassified/AkMusicRenderer.cpp:
+AkMusicEngine/AkMusicRenderer.cpp:
 	.text       start:0x804B1980 end:0x804B38F0
 	.ctors      start:0x80585758 end:0x8058575C
 
-Unclassified/AkSegmentInfoRepository.cpp:
+AkMusicEngine/AkSegmentInfoRepository.cpp:
 	.text       start:0x804B38F0 end:0x804B4380
 
-Unclassified/MusicNodeProxyConnected.cpp:
+AkMusicEngine/MusicNodeProxyConnected.cpp:
 	.text       start:0x804B4380 end:0x804B4570
 
-Unclassified/MusicRanSeqProxyConnected.cpp:
+AkMusicEngine/MusicRanSeqProxyConnected.cpp:
 	.text       start:0x804B4570 end:0x804B46C0
 
-Unclassified/MusicSwitchProxyConnected.cpp:
+AkMusicEngine/MusicSwitchProxyConnected.cpp:
 	.text       start:0x804B46C0 end:0x804B4CB0
 
-Unclassified/MusicTransAwareProxyConnected.cpp:
+AkMusicEngine/MusicTransAwareProxyConnected.cpp:
 	.text       start:0x804B4CB0 end:0x804B4DD0
 
-Unclassified/ProxyMusic.cpp:
+AkMusicEngine/ProxyMusic.cpp:
 	.text       start:0x804B4DD0 end:0x804B4EF0
 
-Unclassified/SegmentProxyConnected.cpp:
+AkMusicEngine/SegmentProxyConnected.cpp:
 	.text       start:0x804B4EF0 end:0x804B5130
 
-Unclassified/TrackProxyConnected.cpp:
+AkMusicEngine/TrackProxyConnected.cpp:
 	.text       start:0x804B5130 end:0x804B55F0
 
-Unclassified/MidiDeviceMgrProxyConnected.cpp:
+AkMusicEngine/MidiDeviceMgrProxyConnected.cpp:
 	.text       start:0x804B55F0 end:0x804B56B0
 
 Unclassified/AkFXSrcSilence.cpp:
