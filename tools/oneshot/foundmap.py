@@ -2,8 +2,8 @@ from pathlib import Path
 import re
 import shutil
 
-lib = "AkMemoryMgr.a"
-srcpath = "AkMemoryMgr/"
+lib = "libtomcrypt.a"
+srcpath = "TomCrypt/"
 
 base = Path("src") / srcpath
 
@@ -25,14 +25,20 @@ for line in mapdata:
     # if match:
     #     print(match.group("lib"))
     if match and match.group("lib") == lib:
-        matches.add(match.group("obj"))
+        matches.add(re.sub("-wii", "", match.group("obj"), count=1))
 
 # print(matches)
 
 for match in matches:
     # print(match)
     files = list(Path("src/Unclassified").glob(f"{'.'.join(match.split('.')[:-1]).split("/")[-1]}.*"))
+    # if len(files) != 1:
+    #     print(match)
+    #     (Path("src/Unclassified") / match.replace(".o", ".cpp")).touch()
+    #     files = list(Path("src/Unclassified").glob(f"{'.'.join(match.split('.')[:-1]).split("/")[-1]}.*"))
     assert len(files) == 1, match
+
+# exit(0)
 
 for match in matches:
     # print(match)
