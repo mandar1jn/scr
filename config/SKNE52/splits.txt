@@ -3592,19 +3592,19 @@ AkSoundEngine/FeedbackNodeProxyConnected.cpp:
 AkSoundEngine/ModulatorProxyConnected.cpp:
 	.text       start:0x80487C90 end:0x804880E0
 
-Unclassified/AkFXSrcAudioInput.cpp:
+AkAudioInputSource/AkFXSrcAudioInput.cpp:
 	.text       start:0x804880E0 end:0x80488D50
 
-Unclassified/AkFXSrcAudioInputParams.cpp:
+AkAudioInputSource/AkFXSrcAudioInputParams.cpp:
 	.text       start:0x80488D50 end:0x80488F60
 
-Unclassified/AkMemoryMgrBase.cpp:
+AkMemoryMgr/AkMemoryMgrBase.cpp:
 	.text       start:0x80488F60 end:0x80489AB0
 
-Unclassified/AkMemoryMgr.cpp:
+AkMemoryMgr/AkMemoryMgr.cpp:
 	.text       start:0x80489AB0 end:0x80489EA0
 
-Unclassified/tlsf.cpp:
+AkMemoryMgr/tlsf.cpp:
 	.text       start:0x80489EA0 end:0x8048B1B0
 
 AkMusicEngine/AkChildCtx.cpp:
@@ -3723,28 +3723,28 @@ AkMusicEngine/TrackProxyConnected.cpp:
 AkMusicEngine/MidiDeviceMgrProxyConnected.cpp:
 	.text       start:0x804B55F0 end:0x804B56B0
 
-Unclassified/AkFXSrcSilence.cpp:
+AkSilenceSource/AkFXSrcSilence.cpp:
 	.text       start:0x804B56B0 end:0x804B5E00
 
-Unclassified/AkIOThread.cpp:
+AkStreamMgr/AkIOThread.cpp:
 	.text       start:0x804B5E00 end:0x804B64E0
 
-Unclassified/AkIOMemMgr.cpp:
+AkStreamMgr/AkIOMemMgr.cpp:
 	.text       start:0x804B64E0 end:0x804B77D0
 
-Unclassified/AkDeviceBase.cpp:
+AkStreamMgr/AkDeviceBase.cpp:
 	.text       start:0x804B77D0 end:0x804BD2F0
 
-Unclassified/AkDeviceBlocking.cpp:
+AkStreamMgr/AkDeviceBlocking.cpp:
 	.text       start:0x804BD2F0 end:0x804BED60
 
-Unclassified/AkTransferDeferred.cpp:
+AkStreamMgr/AkTransferDeferred.cpp:
 	.text       start:0x804BED60 end:0x804BF120
 
-Unclassified/AkDeviceDeferredLinedUp.cpp:
+AkStreamMgr/AkDeviceDeferredLinedUp.cpp:
 	.text       start:0x804BF120 end:0x804C1C50
 
-Unclassified/AkStreamMgr.cpp:
+AkStreamMgr/AkStreamMgr.cpp:
 	.text       start:0x804C1C50 end:0x804C4750
 	.ctors      start:0x8058575C end:0x80585760
 
@@ -3789,19 +3789,19 @@ Unclassified/Network.cpp:
 Unclassified/NotificationChannel.cpp:
 	.text       start:0x804C77E0 end:0x804C7D60
 
-Unclassified/AkWiiChorus.cpp:
+AkWiiChorus/AkWiiChorus.cpp:
 	.text       start:0x804C7D60 end:0x804C7D60
 
-Unclassified/AkWiiReverbHiParams.cpp:
+AkWiiReverbHi/AkWiiReverbHiParams.cpp:
 	.text       start:0x804C7D60 end:0x804C8050
 
-Unclassified/AkWiiReverbHi.cpp:
+AkWiiReverbHi/AkWiiReverbHi.cpp:
 	.text       start:0x804C8050 end:0x804C8340
 
-Unclassified/AkWiiReverbStdParams.cpp:
+AkWiiReverbStd/AkWiiReverbStdParams.cpp:
 	.text       start:0x804C8340 end:0x804C8600
 
-Unclassified/AkWiiReverbStd.cpp:
+AkWiiReverbStd/AkWiiReverbStd.cpp:
 	.text       start:0x804C8600 end:0x804C88D8
 
 Unclassified/lcorolib.c:

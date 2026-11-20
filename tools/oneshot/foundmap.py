@@ -2,8 +2,8 @@ from pathlib import Path
 import re
 import shutil
 
-lib = "AkMusicEngine.a"
-srcpath = "AkMusicEngine/"
+lib = "AkMemoryMgr.a"
+srcpath = "AkMemoryMgr/"
 
 base = Path("src") / srcpath
 
@@ -15,9 +15,6 @@ splits = splitsf.read()
 splitsf.close()
 config = configf.read()
 configf.close()
-
-splitsf = open("config/SKNE52/splits.txt", "w")
-configf = open("configure.py", "w")
 
 reg = r"found in (?P<lib>.*\.a) (?P<obj>.*\.o)$"
 mapdata = mapf.readlines()
@@ -36,6 +33,11 @@ for match in matches:
     # print(match)
     files = list(Path("src/Unclassified").glob(f"{'.'.join(match.split('.')[:-1]).split("/")[-1]}.*"))
     assert len(files) == 1, match
+
+for match in matches:
+    # print(match)
+    files = list(Path("src/Unclassified").glob(f"{'.'.join(match.split('.')[:-1]).split("/")[-1]}.*"))
+    assert len(files) == 1, match
     file = files[0]
     target = base / match
     target = target.with_suffix(f".{file.name.split(".")[-1]}")
@@ -48,5 +50,7 @@ for match in matches:
     config = config.replace(f'            Object(NonMatching, "Unclassified/{target.name}"),\n', "")
     print(f'Object(NonMatching, "{f"{srcpath}{match}".replace(".o", f".{file.name.split(".")[-1]}")}"),')
 
+splitsf = open("config/SKNE52/splits.txt", "w")
+configf = open("configure.py", "w")
 splitsf.write(splits)
 configf.write(config)
