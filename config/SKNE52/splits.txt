@@ -5601,13 +5601,13 @@ LibTom/Math/bn_mp_get_int.c:
 LibTom/Math/bn_mp_invmod_slow.c:
 	.text       start:0x80575B14 end:0x8057605C
 
-Game/tfbPortalDriver.cpp:
+SkylanderPortal/tfbPortalDriver.cpp:
 	.text       start:0x8057605C end:0x8057B528
 
-Unclassified/tfbSpyroTag.cpp:
+SkylanderPortal/tfbSpyroTag.cpp:
 	.text       start:0x8057B528 end:0x80583928
 
-Unclassified/tfbSpyroTagCustomize.cpp:
+SkylanderPortal/tfbSpyroTagCustomize.cpp:
 	.text       start:0x80583928 end:0x80583930
 
 RVL_SDK/os/__start.c:
@@ -5632,5 +5632,5 @@ BitDemon/Platform/bdPlatformSocket.cpp:
 BitDemon/Platform/bdPlatformStreamSocket.cpp:
 	.sbss       start:0x80899698 end:0x808996A8
 
-Unclassified/tfbPortalAlgorithms.c:
+SkylanderPortal/tfbPortalAlgorithms.c:
 	.init       start:0x80006684 end:0x80006684
