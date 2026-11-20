@@ -1922,17 +1922,17 @@ Unclassified/bta_sys_cfg.c:
 	.sdata      start:0x80896BA8 end:0x80896BB0
 	.sdata2     start:0x8089BEF8 end:0x8089BF00
 
-Unclassified/bdDummySocket.cpp:
+BDCore/bdDummySocket.cpp:
 	.rodata     start:0x805A0E68 end:0x805A0E88
 	.data       start:0x8060F368 end:0x8060F378
 	.sdata      start:0x80898068 end:0x80898078
 
-Unclassified/bdAntiCheatResponses.cpp:
+BDLobby/bdAntiCheatResponses.cpp:
 	.rodata     start:0x805A6A68 end:0x805A6A78
 	.data       start:0x8060F7F8 end:0x8060F808
 	.sdata      start:0x80898110 end:0x80898118
 
-Unclassified/bdConsoleID.cpp:
+BDLobby/bdConsoleID.cpp:
 	.rodata     start:0x805A6A78 end:0x805A6A88
 	.data       start:0x8060F808 end:0x8060F818
 	.sdata      start:0x80898118 end:0x80898120
@@ -4105,123 +4105,123 @@ Unclassified/bdUnreliableSendWindow.cpp:
 	extabindex  start:0x80015224 end:0x8001526C
 	.text       start:0x805094B0 end:0x805096D4
 
-Unclassified/bdCore.cpp:
+BDCore/bdCore.cpp:
 	extab       start:0x800093A4 end:0x800093BC
 	extabindex  start:0x8001526C end:0x80015290
 	.text       start:0x805096D4 end:0x80509914
 
-Unclassified/bdCompression.cpp:
+BDCore/bdCompression.cpp:
 	extab       start:0x800093BC end:0x800093D4
 	extabindex  start:0x80015290 end:0x8001529C
 	.text       start:0x80509914 end:0x805099C8
 
-Unclassified/bdDeflate.cpp:
+BDCore/bdDeflate.cpp:
 	extab       start:0x800093D4 end:0x800094A8
 	extabindex  start:0x8001529C end:0x80015350
 	.text       start:0x805099C8 end:0x80509FB4
 
-Unclassified/bdBitBuffer.cpp:
+BDCore/bdBitBuffer.cpp:
 	extab       start:0x800094A8 end:0x8000960C
 	extabindex  start:0x80015350 end:0x800154D0
 	.text       start:0x80509FB4 end:0x8050BB10
 
-Unclassified/bdByteBuffer.cpp:
+BDCore/bdByteBuffer.cpp:
 	extab       start:0x8000960C end:0x800097A8
 	extabindex  start:0x800154D0 end:0x8001571C
 	.text       start:0x8050BB10 end:0x8050D6FC
 
-Unclassified/bdKeyValueStream.cpp:
+BDCore/bdKeyValueStream.cpp:
 	extab       start:0x800097A8 end:0x80009858
 	extabindex  start:0x8001571C end:0x8001580C
 	.text       start:0x8050D6FC end:0x8050DC70
 	.ctors      start:0x80585770 end:0x80585774
 
-Unclassified/bdSequenceNumber.cpp:
+BDCore/bdSequenceNumber.cpp:
 	extab       start:0x80009858 end:0x80009880
 	extabindex  start:0x8001580C end:0x80015848
 	.text       start:0x8050DC70 end:0x8050E0E4
 
-Unclassified/bdSequenceNumberStore.cpp:
+BDCore/bdSequenceNumberStore.cpp:
 	extab       start:0x80009880 end:0x80009890
 	extabindex  start:0x80015848 end:0x80015860
 	.text       start:0x8050E0E4 end:0x8050E268
 
-Unclassified/bdCryptoDynamic.cpp:
+BDCore/bdCryptoDynamic.cpp:
 	extab       start:0x80009890 end:0x80009B98
 	extabindex  start:0x80015860 end:0x800159BC
 	.text       start:0x8050E268 end:0x8050F044
 
-Unclassified/bdCryptoUtils.cpp:
+BDCore/bdCryptoUtils.cpp:
 	extab       start:0x80009B98 end:0x80009BF0
 	extabindex  start:0x800159BC end:0x800159F8
 	.text       start:0x8050F044 end:0x8050F2E4
 
-Unclassified/bdCypher.cpp:
+BDCore/bdCypher.cpp:
 	extab       start:0x80009BF0 end:0x80009C00
 	extabindex  start:0x800159F8 end:0x80015A10
 	.text       start:0x8050F2E4 end:0x8050F36C
 
-Unclassified/bdCypher3Des.cpp:
+BDCore/bdCypher3Des.cpp:
 	extab       start:0x80009C00 end:0x80009C3C
 	extabindex  start:0x80015A10 end:0x80015A4C
 	.text       start:0x8050F36C end:0x8050F750
 
-Unclassified/bdCypherAES.cpp:
+BDCore/bdCypherAES.cpp:
 	extab       start:0x80009C3C end:0x80009C78
 	extabindex  start:0x80015A4C end:0x80015A88
 	.text       start:0x8050F750 end:0x8050FB58
 
-Unclassified/bdECCKey.cpp:
+BDCore/bdECCKey.cpp:
 	extab       start:0x80009C78 end:0x80009CB8
 	extabindex  start:0x80015A88 end:0x80015AD0
 	.text       start:0x8050FB58 end:0x8051022C
 
-Unclassified/bdHash.cpp:
+BDCore/bdHash.cpp:
 	extab       start:0x80009CB8 end:0x80009CC8
 	extabindex  start:0x80015AD0 end:0x80015AE8
 	.text       start:0x8051022C end:0x805102B8
 
-Unclassified/bdHashMD5.cpp:
+BDCore/bdHashMD5.cpp:
 	extab       start:0x80009CC8 end:0x80009CF4
 	extabindex  start:0x80015AE8 end:0x80015B0C
 	.text       start:0x805102B8 end:0x80510484
 
-Unclassified/bdHashSHA1.cpp:
+BDCore/bdHashSHA1.cpp:
 	extab       start:0x80009CF4 end:0x80009D20
 	extabindex  start:0x80015B0C end:0x80015B30
 	.text       start:0x80510484 end:0x80510650
 
-Unclassified/bdHashSHA256.cpp:
+BDCore/bdHashSHA256.cpp:
 	extab       start:0x80009D20 end:0x80009D4C
 	extabindex  start:0x80015B30 end:0x80015B54
 	.text       start:0x80510650 end:0x80510898
 
-Unclassified/bdHashTiger192.cpp:
+BDCore/bdHashTiger192.cpp:
 	extab       start:0x80009D4C end:0x80009D78
 	extabindex  start:0x80015B54 end:0x80015B78
 	.text       start:0x80510898 end:0x80510A64
 
-Unclassified/bdHMac.cpp:
+BDCore/bdHMac.cpp:
 	extab       start:0x80009D78 end:0x80009D88
 	extabindex  start:0x80015B78 end:0x80015B90
 	.text       start:0x80510A64 end:0x80510AD8
 
-Unclassified/bdHMacSHA1.cpp:
+BDCore/bdHMacSHA1.cpp:
 	extab       start:0x80009D88 end:0x80009DBC
 	extabindex  start:0x80015B90 end:0x80015BC0
 	.text       start:0x80510AD8 end:0x80510D78
 
-Unclassified/bdHMacSHA256.cpp:
+BDCore/bdHMacSHA256.cpp:
 	extab       start:0x80009DBC end:0x80009DF0
 	extabindex  start:0x80015BC0 end:0x80015BF0
 	.text       start:0x80510D78 end:0x80511008
 
-Unclassified/bdRSAKey.cpp:
+BDCore/bdRSAKey.cpp:
 	extab       start:0x80009DF0 end:0x80009E30
 	extabindex  start:0x80015BF0 end:0x80015C38
 	.text       start:0x80511008 end:0x80511424
 
-Unclassified/bdMallocMemory-heap.cpp:
+BDCore/bdMallocMemory-heap.cpp:
 	extab       start:0x80009E30 end:0x80009ED0
 	extabindex  start:0x80015C38 end:0x80015D28
 	.text       start:0x80511424 end:0x80511D14
@@ -4232,144 +4232,144 @@ Unclassified/bdMallocMemory-wii.cpp:
 	extabindex  start:0x80015D28 end:0x80015D58
 	.text       start:0x80511D14 end:0x80511E68
 
-Unclassified/bdMemory-heap.cpp:
+BDCore/bdMemory-heap.cpp:
 	.text       start:0x80511E68 end:0x80511E98
 
-Unclassified/bdMemory.cpp:
+BDCore/bdMemory.cpp:
 	extab       start:0x80009EF0 end:0x80009F28
 	extabindex  start:0x80015D58 end:0x80015DAC
 	.text       start:0x80511E98 end:0x805120E0
 
-Unclassified/bdReferencable.cpp:
+BDCore/bdReferencable.cpp:
 	extab       start:0x80009F28 end:0x80009F38
 	extabindex  start:0x80015DAC end:0x80015DC4
 	.text       start:0x805120E0 end:0x80512154
 
-Unclassified/bdAddr.cpp:
+BDCore/bdAddr.cpp:
 	extab       start:0x80009F38 end:0x80009FCC
 	extabindex  start:0x80015DC4 end:0x80015E6C
 	.text       start:0x80512154 end:0x805127DC
 
-Unclassified/bdCommonAddr.cpp:
+BDCore/bdCommonAddr.cpp:
 	extab       start:0x80009FCC end:0x8000A2B4
 	extabindex  start:0x80015E6C end:0x80015FBC
 	.text       start:0x805127DC end:0x80513868
 
-Unclassified/bdCommonAddrInfo.cpp:
+BDCore/bdCommonAddrInfo.cpp:
 	extab       start:0x8000A2B4 end:0x8000A2D4
 	extabindex  start:0x80015FBC end:0x80015FEC
 	.text       start:0x80513868 end:0x80513E8C
 
-Unclassified/bdEndpoint.cpp:
+BDCore/bdEndpoint.cpp:
 	extab       start:0x8000A2D4 end:0x8000A338
 	extabindex  start:0x80015FEC end:0x8001604C
 	.text       start:0x80513E8C end:0x805141BC
 
-Unclassified/bdInetAddr.cpp:
+BDCore/bdInetAddr.cpp:
 	extab       start:0x8000A338 end:0x8000A3E8
 	extabindex  start:0x8001604C end:0x8001613C
 	.text       start:0x805141BC end:0x805147A8
 
-Unclassified/bdMACAddr.cpp:
+BDCore/bdMACAddr.cpp:
 	.text       start:0x805147A8 end:0x805147AC
 
-Unclassified/bdReceiveThread.cpp:
+BDCore/bdReceiveThread.cpp:
 	extab       start:0x8000A3E8 end:0x8000A61C
 	extabindex  start:0x8001613C end:0x8001628C
 	.text       start:0x805147AC end:0x805153C8
 
-Unclassified/bdSecurityID.cpp:
+BDCore/bdSecurityID.cpp:
 	extab       start:0x8000A61C end:0x8000A63C
 	extabindex  start:0x8001628C end:0x800162BC
 	.text       start:0x805153C8 end:0x805154C4
 
-Unclassified/bdSecurityInfo.cpp:
+BDCore/bdSecurityInfo.cpp:
 	extab       start:0x8000A63C end:0x8000A654
 	extabindex  start:0x800162BC end:0x800162E0
 	.text       start:0x805154C4 end:0x8051560C
 
-Unclassified/bdSecurityKey.cpp:
+BDCore/bdSecurityKey.cpp:
 	extab       start:0x8000A654 end:0x8000A664
 	extabindex  start:0x800162E0 end:0x800162F8
 	.text       start:0x8051560C end:0x80515688
 
-Unclassified/bdSendThread.cpp:
+BDCore/bdSendThread.cpp:
 	extab       start:0x8000A664 end:0x8000A8E8
 	extabindex  start:0x800162F8 end:0x80016460
 	.text       start:0x80515688 end:0x8051619C
 
-Unclassified/bdSocket.cpp:
+BDCore/bdSocket.cpp:
 	extab       start:0x8000A8E8 end:0x8000A968
 	extabindex  start:0x80016460 end:0x800164D8
 	.text       start:0x8051619C end:0x8051667C
 
-Unclassified/bdStreamSocket.cpp:
+BDCore/bdStreamSocket.cpp:
 	extab       start:0x8000A968 end:0x8000A9B0
 	extabindex  start:0x800164D8 end:0x80016544
 	.text       start:0x8051667C end:0x80516964
 
-Unclassified/bdThreadedSocket.cpp:
+BDCore/bdThreadedSocket.cpp:
 	extab       start:0x8000A9B0 end:0x8000AA84
 	extabindex  start:0x80016544 end:0x80016604
 	.text       start:0x80516964 end:0x805172B8
 
-Unclassified/bdString.cpp:
+BDCore/bdString.cpp:
 	extab       start:0x8000AA84 end:0x8000AB04
 	extabindex  start:0x80016604 end:0x800166C4
 	.text       start:0x805172B8 end:0x8051776C
 	.ctors      start:0x80585778 end:0x8058577C
 
-Unclassified/bdMutex.cpp:
+BDCore/bdMutex.cpp:
 	extab       start:0x8000AB04 end:0x8000AB2C
 	extabindex  start:0x800166C4 end:0x80016700
 	.text       start:0x8051776C end:0x805178B4
 
-Unclassified/bdRunnable.cpp:
+BDCore/bdRunnable.cpp:
 	extab       start:0x8000AB2C end:0x8000AB3C
 	extabindex  start:0x80016700 end:0x80016718
 	.text       start:0x805178B4 end:0x80517958
 
-Unclassified/bdSignal.cpp:
+BDCore/bdSignal.cpp:
 	extab       start:0x8000AB3C end:0x8000AB64
 	extabindex  start:0x80016718 end:0x80016754
 	.text       start:0x80517958 end:0x80517A74
 
-Unclassified/bdThread.cpp:
+BDCore/bdThread.cpp:
 	extab       start:0x8000AB64 end:0x8000AB9C
 	extabindex  start:0x80016754 end:0x800167A8
 	.text       start:0x80517A74 end:0x80517E0C
 
-Unclassified/bdStopwatch.cpp:
+BDCore/bdStopwatch.cpp:
 	extab       start:0x8000AB9C end:0x8000ABB4
 	extabindex  start:0x800167A8 end:0x800167CC
 	.text       start:0x80517E0C end:0x80517F24
 
-Unclassified/bdBase64.cpp:
+BDCore/bdBase64.cpp:
 	extab       start:0x8000ABB4 end:0x8000ABCC
 	extabindex  start:0x800167CC end:0x800167F0
 	.text       start:0x80517F24 end:0x80518290
 
-Unclassified/bdBitOperations.cpp:
+BDCore/bdBitOperations.cpp:
 	extab       start:0x8000ABCC end:0x8000ABDC
 	extabindex  start:0x800167F0 end:0x80016808
 	.text       start:0x80518290 end:0x80518368
 
-Unclassified/bdBytePacker.cpp:
+BDCore/bdBytePacker.cpp:
 	extab       start:0x8000ABDC end:0x8000AC0C
 	extabindex  start:0x80016808 end:0x80016850
 	.text       start:0x80518368 end:0x80518808
 
-Unclassified/bdRandom.cpp:
+BDCore/bdRandom.cpp:
 	extab       start:0x8000AC0C end:0x8000AC3C
 	extabindex  start:0x80016850 end:0x80016898
 	.text       start:0x80518808 end:0x80518A24
 
-Unclassified/bdTokenBucket.cpp:
+BDCore/bdTokenBucket.cpp:
 	extab       start:0x8000AC3C end:0x8000AC4C
 	extabindex  start:0x80016898 end:0x800168B0
 	.text       start:0x80518A24 end:0x80518C34
 
-Unclassified/bdTrulyRandom.cpp:
+BDCore/bdTrulyRandom.cpp:
 	extab       start:0x8000AC4C end:0x8000AC5C
 	extabindex  start:0x800168B0 end:0x800168C8
 	.text       start:0x80518C34 end:0x80518CB4
@@ -4387,423 +4387,423 @@ Unclassified/bdJSONUtility.cpp:
 	extabindex  start:0x800169F4 end:0x80016A78
 	.text       start:0x8051A200 end:0x8051B408
 
-Unclassified/bdAuthService-wii.cpp:
+BDLobby/bdAuthService-wii.cpp:
 	extab       start:0x8000AE0C end:0x8000AEC4
 	extabindex  start:0x80016A78 end:0x80016AF0
 	.text       start:0x8051B408 end:0x8051BA74
 
-Unclassified/bdAuthService.cpp:
+BDLobby/bdAuthService.cpp:
 	extab       start:0x8000AEC4 end:0x8000B430
 	extabindex  start:0x80016AF0 end:0x80016C70
 	.text       start:0x8051BA74 end:0x8051D6E8
 
-Unclassified/bdAuthTicket.cpp:
+BDLobby/bdAuthTicket.cpp:
 	extab       start:0x8000B430 end:0x8000B458
 	extabindex  start:0x80016C70 end:0x80016CAC
 	.text       start:0x8051D6E8 end:0x8051DB74
 
-Unclassified/bdLobbyConnection.cpp:
+BDLobby/bdLobbyConnection.cpp:
 	extab       start:0x8000B458 end:0x8000BB64
 	extabindex  start:0x80016CAC end:0x80016FB8
 	.text       start:0x8051DB74 end:0x805222F0
 
-Unclassified/bdLobbyConnectionListener.cpp:
+BDLobby/bdLobbyConnectionListener.cpp:
 	extab       start:0x8000BB64 end:0x8000BB74
 	extabindex  start:0x80016FB8 end:0x80016FD0
 	.text       start:0x805222F0 end:0x80522380
 
-Unclassified/bdLobbyEventHandler.cpp:
+BDLobby/bdLobbyEventHandler.cpp:
 	extab       start:0x8000BB74 end:0x8000BB8C
 	extabindex  start:0x80016FD0 end:0x80016FF4
 	.text       start:0x80522380 end:0x80522538
 
-Unclassified/bdLobbyService.cpp:
+BDLobby/bdLobbyService.cpp:
 	extab       start:0x8000BB8C end:0x8000D894
 	extabindex  start:0x80016FF4 end:0x80017B28
 	.text       start:0x80522538 end:0x8052C694
 
-Unclassified/bdAntiCheat.cpp:
+BDLobby/bdAntiCheat.cpp:
 	extab       start:0x8000D894 end:0x8000D8BC
 	extabindex  start:0x80017B28 end:0x80017B64
 	.text       start:0x8052C694 end:0x8052C910
 
-Unclassified/bdAntiCheatChallenge.cpp:
+BDLobby/bdAntiCheatChallenge.cpp:
 	extab       start:0x8000D8BC end:0x8000D9F4
 	extabindex  start:0x80017B64 end:0x80017C54
 	.text       start:0x8052C910 end:0x8052D300
 
-Unclassified/bdAntiCheatChallengeParam.cpp:
+BDLobby/bdAntiCheatChallengeParam.cpp:
 	extab       start:0x8000D9F4 end:0x8000DA1C
 	extabindex  start:0x80017C54 end:0x80017C90
 	.text       start:0x8052D300 end:0x8052D510
 
-Unclassified/bdAntiCheatChallenges.cpp:
+BDLobby/bdAntiCheatChallenges.cpp:
 	extab       start:0x8000DA1C end:0x8000DAF8
 	extabindex  start:0x80017C90 end:0x80017D20
 	.text       start:0x8052D510 end:0x8052DA5C
 
-Unclassified/bdCodOnlineTeams.cpp:
+BDLobby/bdCodOnlineTeams.cpp:
 	extab       start:0x8000DAF8 end:0x8000DB08
 	extabindex  start:0x80017D20 end:0x80017D38
 	.text       start:0x8052DA5C end:0x8052DB24
 
-Unclassified/bdCommerce.cpp:
+BDLobby/bdCommerce.cpp:
 	extab       start:0x8000DB08 end:0x8000DB10
 	extabindex  start:0x80017D38 end:0x80017D44
 	.text       start:0x8052DB24 end:0x8052DB70
 
-Unclassified/bdContentStreaming.cpp:
+BDLobby/bdContentStreaming.cpp:
 	extab       start:0x8000DB10 end:0x8000DB30
 	extabindex  start:0x80017D44 end:0x80017D74
 	.text       start:0x8052DB70 end:0x8052DC64
 
-Unclassified/bdContentStreamingBase.cpp:
+BDLobby/bdContentStreamingBase.cpp:
 	extab       start:0x8000DB30 end:0x8000DB38
 	extabindex  start:0x80017D74 end:0x80017D80
 	.text       start:0x8052DC64 end:0x8052DD20
 
-Unclassified/bdContentUnlock.cpp:
+BDLobby/bdContentUnlock.cpp:
 	extab       start:0x8000DB38 end:0x8000DB40
 	extabindex  start:0x80017D80 end:0x80017D8C
 	.text       start:0x8052DD20 end:0x8052DD74
 
-Unclassified/bdCounter.cpp:
+BDLobby/bdCounter.cpp:
 	extab       start:0x8000DB40 end:0x8000DB48
 	extabindex  start:0x80017D8C end:0x80017D98
 	.text       start:0x8052DD74 end:0x8052DDC0
 
-Unclassified/bdEventBuffer.cpp:
+BDLobby/bdEventBuffer.cpp:
 	extab       start:0x8000DB48 end:0x8000DC14
 	extabindex  start:0x80017D98 end:0x80017E40
 	.text       start:0x8052DDC0 end:0x8052E9C8
 
-Unclassified/bdEventInfo.cpp:
+BDLobby/bdEventInfo.cpp:
 	extab       start:0x8000DC14 end:0x8000DC9C
 	extabindex  start:0x80017E40 end:0x80017E7C
 	.text       start:0x8052E9C8 end:0x8052ED2C
 
-Unclassified/bdEventLog.cpp:
+BDLobby/bdEventLog.cpp:
 	extab       start:0x8000DC9C end:0x8000DD0C
 	extabindex  start:0x80017E7C end:0x80017EC4
 	.text       start:0x8052ED2C end:0x8052F10C
 
-Unclassified/bdFacebook.cpp:
+BDLobby/bdFacebook.cpp:
 	extab       start:0x8000DD0C end:0x8000DD14
 	extabindex  start:0x80017EC4 end:0x80017ED0
 	.text       start:0x8052F10C end:0x8052F158
 
-Unclassified/bdFeatureBan.cpp:
+BDLobby/bdFeatureBan.cpp:
 	extab       start:0x8000DD14 end:0x8000DD1C
 	extabindex  start:0x80017ED0 end:0x80017EDC
 	.text       start:0x8052F158 end:0x8052F1A4
 
-Unclassified/bdFeatureBanInfo.cpp:
+BDLobby/bdFeatureBanInfo.cpp:
 	extab       start:0x8000DD1C end:0x8000DD68
 	extabindex  start:0x80017EDC end:0x80017F0C
 	.text       start:0x8052F1A4 end:0x8052F3B4
 
-Unclassified/bdFriends.cpp:
+BDLobby/bdFriends.cpp:
 	extab       start:0x8000DD68 end:0x8000DD70
 	extabindex  start:0x80017F0C end:0x80017F18
 	.text       start:0x8052F3B4 end:0x8052F408
 
-Unclassified/bdGroup.cpp:
+BDLobby/bdGroup.cpp:
 	extab       start:0x8000DD70 end:0x8000DD78
 	extabindex  start:0x80017F18 end:0x80017F24
 	.text       start:0x8052F408 end:0x8052F454
 
-Unclassified/bdHTTPClient.cpp:
+BDLobby/bdHTTPClient.cpp:
 	extab       start:0x8000DD78 end:0x8000DD88
 	extabindex  start:0x80017F24 end:0x80017F3C
 	.text       start:0x8052F454 end:0x8052F4B4
 
-Unclassified/bdHTTPWrapperBase.cpp:
+BDLobby/bdHTTPWrapperBase.cpp:
 	extab       start:0x8000DD88 end:0x8000DD98
 	extabindex  start:0x80017F3C end:0x80017F54
 	.text       start:0x8052F4B4 end:0x8052F514
 
-Unclassified/bdKeyArchive.cpp:
+BDLobby/bdKeyArchive.cpp:
 	extab       start:0x8000DD98 end:0x8000DDA8
 	extabindex  start:0x80017F54 end:0x80017F6C
 	.text       start:0x8052F514 end:0x8052F610
 
-Unclassified/bdLeague.cpp:
+BDLobby/bdLeague.cpp:
 	extab       start:0x8000DDA8 end:0x8000DDB0
 	extabindex  start:0x80017F6C end:0x80017F78
 	.text       start:0x8052F610 end:0x8052F65C
 
-Unclassified/bdLinkCode.cpp:
+BDLobby/bdLinkCode.cpp:
 	extab       start:0x8000DDB0 end:0x8000DDB8
 	extabindex  start:0x80017F78 end:0x80017F84
 	.text       start:0x8052F65C end:0x8052F6B0
 
-Unclassified/bdAuthCommon.cpp:
+BDLobby/bdAuthCommon.cpp:
 	extab       start:0x8000DDB8 end:0x8000DE10
 	extabindex  start:0x80017F84 end:0x80017FC0
 	.text       start:0x8052F6B0 end:0x8052FA40
 
-Unclassified/bdBufferParams.cpp:
+BDLobby/bdBufferParams.cpp:
 	extab       start:0x8000DE10 end:0x8000DE40
 	extabindex  start:0x80017FC0 end:0x80018008
 	.text       start:0x8052FA40 end:0x8052FFC4
 
-Unclassified/bdJSONTaskResult.cpp:
+BDLobby/bdJSONTaskResult.cpp:
 	extab       start:0x8000DE40 end:0x8000DEB0
 	extabindex  start:0x80018008 end:0x80018038
 	.text       start:0x8052FFC4 end:0x80530328
 
-Unclassified/bdSerializable.cpp:
+BDLobby/bdSerializable.cpp:
 	extab       start:0x8000DEB0 end:0x8000DEF4
 	extabindex  start:0x80018038 end:0x80018068
 	.text       start:0x80530328 end:0x8053054C
 
-Unclassified/bdTaskParams.cpp:
+BDLobby/bdTaskParams.cpp:
 	extab       start:0x8000DEF4 end:0x8000DF94
 	extabindex  start:0x80018068 end:0x800180A4
 	.text       start:0x8053054C end:0x80530878
 
-Unclassified/bdTaskResult.cpp:
+BDLobby/bdTaskResult.cpp:
 	extab       start:0x8000DF94 end:0x8000DFC0
 	extabindex  start:0x800180A4 end:0x800180C8
 	.text       start:0x80530878 end:0x805309C0
 
-Unclassified/bdUserAccountID.cpp:
+BDLobby/bdUserAccountID.cpp:
 	extab       start:0x8000DFC0 end:0x8000E020
 	extabindex  start:0x800180C8 end:0x80018158
 	.text       start:0x805309C0 end:0x80530F00
 
-Unclassified/bdBandwidthTest.cpp:
+BDLobby/bdBandwidthTest.cpp:
 	extab       start:0x8000E020 end:0x8000E1DC
 	extabindex  start:0x80018158 end:0x80018224
 	.text       start:0x80530F00 end:0x805326D0
 
-Unclassified/bdBandwidthTestResults.cpp:
+BDLobby/bdBandwidthTestResults.cpp:
 	extab       start:0x8000E1DC end:0x8000E1F4
 	extabindex  start:0x80018224 end:0x80018248
 	.text       start:0x805326D0 end:0x805329BC
 
-Unclassified/bdMarketingComms.cpp:
+BDLobby/bdMarketingComms.cpp:
 	extab       start:0x8000E1F4 end:0x8000E1FC
 	extabindex  start:0x80018248 end:0x80018254
 	.text       start:0x805329BC end:0x80532A08
 
-Unclassified/bdMarketplace.cpp:
+BDLobby/bdMarketplace.cpp:
 	extab       start:0x8000E1FC end:0x8000E204
 	extabindex  start:0x80018254 end:0x80018260
 	.text       start:0x80532A08 end:0x80532A54
 
-Unclassified/bdMarketplaceCouponInventory.cpp:
+BDLobby/bdMarketplaceCouponInventory.cpp:
 	extab       start:0x8000E204 end:0x8000E30C
 	extabindex  start:0x80018260 end:0x800182A8
 	.text       start:0x80532A54 end:0x805333F0
 
-Unclassified/bdMarketplaceCurrency.cpp:
+BDLobby/bdMarketplaceCurrency.cpp:
 	extab       start:0x8000E30C end:0x8000E36C
 	extabindex  start:0x800182A8 end:0x800182D8
 	.text       start:0x805333F0 end:0x8053372C
 
-Unclassified/bdMarketplaceEntitlement.cpp:
+BDLobby/bdMarketplaceEntitlement.cpp:
 	.text       start:0x8053372C end:0x80533734
 
-Unclassified/bdMarketplaceInventory.cpp:
+BDLobby/bdMarketplaceInventory.cpp:
 	extab       start:0x8000E36C end:0x8000E48C
 	extabindex  start:0x800182D8 end:0x80018338
 	.text       start:0x80533734 end:0x80534270
 
-Unclassified/bdMatchMaking.cpp:
+BDLobby/bdMatchMaking.cpp:
 	extab       start:0x8000E48C end:0x8000E55C
 	extabindex  start:0x80018338 end:0x80018380
 	.text       start:0x80534270 end:0x8053472C
 
-Unclassified/bdMatchMakingInfo.cpp:
+BDLobby/bdMatchMakingInfo.cpp:
 	extab       start:0x8000E55C end:0x8000E654
 	extabindex  start:0x80018380 end:0x800183D4
 	.text       start:0x8053472C end:0x80534CD0
 
-Unclassified/bdPagingToken.cpp:
+BDLobby/bdPagingToken.cpp:
 	.text       start:0x80534CD0 end:0x80534CE4
 
-Unclassified/bdSessionID.cpp:
+BDLobby/bdSessionID.cpp:
 	extab       start:0x8000E654 end:0x8000E6F4
 	extabindex  start:0x800183D4 end:0x80018404
 	.text       start:0x80534CE4 end:0x80534F44
 
-Unclassified/bdSessionInvite.cpp:
+BDLobby/bdSessionInvite.cpp:
 	extab       start:0x8000E6F4 end:0x8000E774
 	extabindex  start:0x80018404 end:0x80018434
 	.text       start:0x80534F44 end:0x80535210
 
-Unclassified/bdSessionParams.cpp:
+BDLobby/bdSessionParams.cpp:
 	extab       start:0x8000E774 end:0x8000E7C0
 	extabindex  start:0x80018434 end:0x80018464
 	.text       start:0x80535210 end:0x805353BC
 
-Unclassified/bdChannelInfo.cpp:
+BDLobby/bdChannelInfo.cpp:
 	extab       start:0x8000E7C0 end:0x8000E80C
 	extabindex  start:0x80018464 end:0x80018494
 	.text       start:0x805353BC end:0x805356DC
 
-Unclassified/bdChannelMember.cpp:
+BDLobby/bdChannelMember.cpp:
 	extab       start:0x8000E80C end:0x8000E858
 	extabindex  start:0x80018494 end:0x800184C4
 	.text       start:0x805356DC end:0x80535928
 
-Unclassified/bdMessaging.cpp:
+BDLobby/bdMessaging.cpp:
 	extab       start:0x8000E858 end:0x8000E860
 	extabindex  start:0x800184C4 end:0x800184D0
 	.text       start:0x80535928 end:0x80535974
 
-Unclassified/bdPresenceService.cpp:
+BDLobby/bdPresenceService.cpp:
 	extab       start:0x8000E860 end:0x8000E868
 	extabindex  start:0x800184D0 end:0x800184DC
 	.text       start:0x80535974 end:0x805359C0
 
-Unclassified/bdProfiles.cpp:
+BDLobby/bdProfiles.cpp:
 	extab       start:0x8000E868 end:0x8000E870
 	extabindex  start:0x800184DC end:0x800184E8
 	.text       start:0x805359C0 end:0x80535A14
 
-Unclassified/bdQueuedMatching.cpp:
+BDLobby/bdQueuedMatching.cpp:
 	extab       start:0x8000E870 end:0x8000E878
 	extabindex  start:0x800184E8 end:0x800184F4
 	.text       start:0x80535A14 end:0x80535A60
 
-Unclassified/bdFinishedTask.cpp:
+BDLobby/bdFinishedTask.cpp:
 	extab       start:0x8000E878 end:0x8000E888
 	extabindex  start:0x800184F4 end:0x8001850C
 	.text       start:0x80535A60 end:0x80535B04
 
-Unclassified/bdRemoteTask.cpp:
+BDLobby/bdRemoteTask.cpp:
 	extab       start:0x8000E888 end:0x8000E9BC
 	extabindex  start:0x8001850C end:0x80018590
 	.text       start:0x80535B04 end:0x805369E0
 
-Unclassified/bdRemoteTaskManager.cpp:
+BDLobby/bdRemoteTaskManager.cpp:
 	extab       start:0x8000E9BC end:0x8000EE38
 	extabindex  start:0x80018590 end:0x800188A8
 	.text       start:0x805369E0 end:0x80538F58
 
-Unclassified/bdTaskByteBuffer.cpp:
+BDLobby/bdTaskByteBuffer.cpp:
 	extab       start:0x8000EE38 end:0x8000EEA8
 	extabindex  start:0x800188A8 end:0x80018914
 	.text       start:0x80538F58 end:0x8053953C
 
-Unclassified/bdReward.cpp:
+BDLobby/bdReward.cpp:
 	extab       start:0x8000EEA8 end:0x8000EEB0
 	extabindex  start:0x80018914 end:0x80018920
 	.text       start:0x8053953C end:0x80539590
 
-Unclassified/bdRewardEvent.cpp:
+BDLobby/bdRewardEvent.cpp:
 	extab       start:0x8000EEB0 end:0x8000EF38
 	extabindex  start:0x80018920 end:0x8001895C
 	.text       start:0x80539590 end:0x805397D4
 
-Unclassified/bdRewardEventJSON.cpp:
+BDLobby/bdRewardEventJSON.cpp:
 	extab       start:0x8000EF38 end:0x8000EF9C
 	extabindex  start:0x8001895C end:0x80018998
 	.text       start:0x805397D4 end:0x80539AA4
 
-Unclassified/bdRichPresenceService.cpp:
+BDLobby/bdRichPresenceService.cpp:
 	extab       start:0x8000EF9C end:0x8000EFA4
 	extabindex  start:0x80018998 end:0x800189A4
 	.text       start:0x80539AA4 end:0x80539AF0
 
-Unclassified/bdStats.cpp:
+BDLobby/bdStats.cpp:
 	extab       start:0x8000EFA4 end:0x8000EFAC
 	extabindex  start:0x800189A4 end:0x800189B0
 	.text       start:0x80539AF0 end:0x80539B44
 
-Unclassified/bdFileData.cpp:
+BDLobby/bdFileData.cpp:
 	extab       start:0x8000EFAC end:0x8000EFF8
 	extabindex  start:0x800189B0 end:0x800189E0
 	.text       start:0x80539B44 end:0x80539D14
 
-Unclassified/bdFileInfo.cpp:
+BDLobby/bdFileInfo.cpp:
 	extab       start:0x8000EFF8 end:0x8000F044
 	extabindex  start:0x800189E0 end:0x80018A10
 	.text       start:0x80539D14 end:0x8053A0B0
 
-Unclassified/bdStorage.cpp:
+BDLobby/bdStorage.cpp:
 	extab       start:0x8000F044 end:0x8000F0B4
 	extabindex  start:0x80018A10 end:0x80018A40
 	.text       start:0x8053A0B0 end:0x8053A36C
 
-Unclassified/bdSubscription.cpp:
+BDLobby/bdSubscription.cpp:
 	extab       start:0x8000F0B4 end:0x8000F0BC
 	extabindex  start:0x80018A40 end:0x80018A4C
 	.text       start:0x8053A36C end:0x8053A3B8
 
-Unclassified/bdTags.cpp:
+BDLobby/bdTags.cpp:
 	extab       start:0x8000F0BC end:0x8000F0C4
 	extabindex  start:0x80018A4C end:0x80018A58
 	.text       start:0x8053A3B8 end:0x8053A40C
 
-Unclassified/bdTeamMarketplace.cpp:
+BDLobby/bdTeamMarketplace.cpp:
 	extab       start:0x8000F0C4 end:0x8000F0CC
 	extabindex  start:0x80018A58 end:0x80018A64
 	.text       start:0x8053A40C end:0x8053A458
 
-Unclassified/bdTencent.cpp:
+BDLobby/bdTencent.cpp:
 	extab       start:0x8000F0CC end:0x8000F0DC
 	extabindex  start:0x80018A64 end:0x80018A7C
 	.text       start:0x8053A458 end:0x8053A50C
 
-Unclassified/bdTencentAASRecord.cpp:
+BDLobby/bdTencentAASRecord.cpp:
 	extab       start:0x8000F0DC end:0x8000F128
 	extabindex  start:0x80018A7C end:0x80018AAC
 	.text       start:0x8053A50C end:0x8053A7F0
 
-Unclassified/bdTitleUtilities.cpp:
+BDLobby/bdTitleUtilities.cpp:
 	extab       start:0x8000F128 end:0x8000F130
 	extabindex  start:0x80018AAC end:0x80018AB8
 	.text       start:0x8053A7F0 end:0x8053A83C
 
-Unclassified/bdTwitch.cpp:
+BDLobby/bdTwitch.cpp:
 	extab       start:0x8000F130 end:0x8000F138
 	extabindex  start:0x80018AB8 end:0x80018AC4
 	.text       start:0x8053A83C end:0x8053A888
 
-Unclassified/bdTwitter.cpp:
+BDLobby/bdTwitter.cpp:
 	extab       start:0x8000F138 end:0x8000F140
 	extabindex  start:0x80018AC4 end:0x80018AD0
 	.text       start:0x8053A888 end:0x8053A8D4
 
-Unclassified/bdUCD.cpp:
+BDLobby/bdUCD.cpp:
 	extab       start:0x8000F140 end:0x8000F15C
 	extabindex  start:0x80018AD0 end:0x80018ADC
 	.text       start:0x8053A8D4 end:0x8053A940
 
-Unclassified/bdUCDPublicKeyInfo.cpp:
+BDLobby/bdUCDPublicKeyInfo.cpp:
 	extab       start:0x8000F15C end:0x8000F180
 	extabindex  start:0x80018ADC end:0x80018AF4
 	.text       start:0x8053A940 end:0x8053AA00
 
-Unclassified/bdUserBlockList.cpp:
+BDLobby/bdUserBlockList.cpp:
 	extab       start:0x8000F180 end:0x8000F188
 	extabindex  start:0x80018AF4 end:0x80018B00
 	.text       start:0x8053AA00 end:0x8053AA54
 
-Unclassified/bdUserGroups.cpp:
+BDLobby/bdUserGroups.cpp:
 	extab       start:0x8000F188 end:0x8000F190
 	extabindex  start:0x80018B00 end:0x80018B0C
 	.text       start:0x8053AA54 end:0x8053AAA0
 
-Unclassified/bdVoteRank.cpp:
+BDLobby/bdVoteRank.cpp:
 	extab       start:0x8000F190 end:0x8000F198
 	extabindex  start:0x80018B0C end:0x80018B18
 	.text       start:0x8053AAA0 end:0x8053AAF4
 
-Unclassified/bdVoting.cpp:
+BDLobby/bdVoting.cpp:
 	extab       start:0x8000F198 end:0x8000F1A0
 	extabindex  start:0x80018B18 end:0x80018B24
 	.text       start:0x8053AAF4 end:0x8053AB48
 
-Unclassified/bdYouTube.cpp:
+BDLobby/bdYouTube.cpp:
 	extab       start:0x8000F1A0 end:0x8000F1A8
 	extabindex  start:0x80018B24 end:0x80018B30
 	.text       start:0x8053AB48 end:0x8053AB94
 
-Unclassified/bdYouTubeRegistrationResult.cpp:
+BDLobby/bdYouTubeRegistrationResult.cpp:
 	extab       start:0x8000F1A8 end:0x8000F1F4
 	extabindex  start:0x80018B30 end:0x80018B60
 	.text       start:0x8053AB94 end:0x8053AD68
@@ -4923,167 +4923,167 @@ Unclassified/bdPlatformTiming-wii.cpp:
 	extabindex  start:0x80019424 end:0x80019460
 	.text       start:0x805440FC end:0x80544398
 
-Unclassified/bdAddressMap.cpp:
+BDSocket/bdAddressMap.cpp:
 	extab       start:0x8001029C end:0x80010484
 	extabindex  start:0x80019460 end:0x80019574
 	.text       start:0x80544398 end:0x805452D8
 
-Unclassified/bdAddrHandle.cpp:
+BDSocket/bdAddrHandle.cpp:
 	extab       start:0x80010484 end:0x800104E8
 	extabindex  start:0x80019574 end:0x800195A4
 	.text       start:0x805452D8 end:0x8054542C
 
-Unclassified/bdAddrHandleRefWrapper.cpp:
+BDSocket/bdAddrHandleRefWrapper.cpp:
 	extab       start:0x800104E8 end:0x80010508
 	extabindex  start:0x800195A4 end:0x800195D4
 	.text       start:0x8054542C end:0x80545590
 
-Unclassified/bdPacketBuffer.cpp:
+BDSocket/bdPacketBuffer.cpp:
 	extab       start:0x80010508 end:0x80010540
 	extabindex  start:0x800195D4 end:0x80019628
 	.text       start:0x80545590 end:0x80545A8C
 
-Unclassified/bdPacketInterceptor.cpp:
+BDSocket/bdPacketInterceptor.cpp:
 	extab       start:0x80010540 end:0x80010550
 	extabindex  start:0x80019628 end:0x80019640
 	.text       start:0x80545A8C end:0x80545B10
 
-Unclassified/bdSecurityKeyMap.cpp:
+BDSocket/bdSecurityKeyMap.cpp:
 	extab       start:0x80010550 end:0x80010638
 	extabindex  start:0x80019640 end:0x80019784
 	.text       start:0x80545B10 end:0x80546850
 
-Unclassified/bdServiceBandwidthArbitrator.cpp:
+BDSocket/bdServiceBandwidthArbitrator.cpp:
 	.text       start:0x80546850 end:0x805468E4
 
-Unclassified/bdSocketRouter.cpp:
+BDSocket/bdSocketRouter.cpp:
 	extab       start:0x80010638 end:0x80011518
 	extabindex  start:0x80019784 end:0x80019C94
 	.text       start:0x805468E4 end:0x8054BA34
 
-Unclassified/bdSocketRouterConfig.cpp:
+BDSocket/bdSocketRouterConfig.cpp:
 	extab       start:0x80011518 end:0x80011520
 	extabindex  start:0x80019C94 end:0x80019CA0
 	.text       start:0x8054BA34 end:0x8054BB88
 
-Unclassified/bdDTLSAssociation.cpp:
+BDSocket/bdDTLSAssociation.cpp:
 	extab       start:0x80011520 end:0x80011958
 	extabindex  start:0x80019CA0 end:0x80019DFC
 	.text       start:0x8054BB88 end:0x8054E0E8
 	.ctors      start:0x8058577C end:0x80585780
 
-Unclassified/bdDTLSCookieAck.cpp:
+BDSocket/bdDTLSCookieAck.cpp:
 	extab       start:0x80011958 end:0x800119B8
 	extabindex  start:0x80019DFC end:0x80019E50
 	.text       start:0x8054E0E8 end:0x8054E450
 
-Unclassified/bdDTLSCookieEcho.cpp:
+BDSocket/bdDTLSCookieEcho.cpp:
 	extab       start:0x800119B8 end:0x80011A68
 	extabindex  start:0x80019E50 end:0x80019EA4
 	.text       start:0x8054E450 end:0x8054EA28
 
-Unclassified/bdDTLSData.cpp:
+BDSocket/bdDTLSData.cpp:
 	extab       start:0x80011A68 end:0x80011AA8
 	extabindex  start:0x80019EA4 end:0x80019F04
 	.text       start:0x8054EA28 end:0x8054F088
 
-Unclassified/bdDTLSError.cpp:
+BDSocket/bdDTLSError.cpp:
 	extab       start:0x80011AA8 end:0x80011B08
 	extabindex  start:0x80019F04 end:0x80019F58
 	.text       start:0x8054F088 end:0x8054F404
 
-Unclassified/bdDTLSHeader.cpp:
+BDSocket/bdDTLSHeader.cpp:
 	extab       start:0x80011B08 end:0x80011B28
 	extabindex  start:0x80019F58 end:0x80019F88
 	.text       start:0x8054F404 end:0x8054F738
 
-Unclassified/bdDTLSInit.cpp:
+BDSocket/bdDTLSInit.cpp:
 	extab       start:0x80011B28 end:0x80011B88
 	extabindex  start:0x80019F88 end:0x80019FDC
 	.text       start:0x8054F738 end:0x8054FA9C
 
-Unclassified/bdDTLSInitAck.cpp:
+BDSocket/bdDTLSInitAck.cpp:
 	extab       start:0x80011B88 end:0x80011C34
 	extabindex  start:0x80019FDC end:0x8001A048
 	.text       start:0x8054FA9C end:0x80550524
 
-Unclassified/bdIPDiscoveryClient.cpp:
+BDSocket/bdIPDiscoveryClient.cpp:
 	extab       start:0x80011C34 end:0x80011CFC
 	extabindex  start:0x8001A048 end:0x8001A0B4
 	.text       start:0x80550524 end:0x80550C48
 
-Unclassified/bdIPDiscoveryConfig.cpp:
+BDSocket/bdIPDiscoveryConfig.cpp:
 	extab       start:0x80011CFC end:0x80011D04
 	extabindex  start:0x8001A0B4 end:0x8001A0C0
 	.text       start:0x80550C48 end:0x80550D04
 
-Unclassified/bdNATTravClient.cpp:
+BDSocket/bdNATTravClient.cpp:
 	extab       start:0x80011D04 end:0x800125A0
 	extabindex  start:0x8001A0C0 end:0x8001A408
 	.text       start:0x80550D04 end:0x805541F8
 	.ctors      start:0x80585780 end:0x80585784
 
-Unclassified/bdNATTravClientData.cpp:
+BDSocket/bdNATTravClientData.cpp:
 	extab       start:0x800125A0 end:0x80012648
 	extabindex  start:0x8001A408 end:0x8001A438
 	.text       start:0x805541F8 end:0x80554458
 
-Unclassified/bdNATTravListener.cpp:
+BDSocket/bdNATTravListener.cpp:
 	extab       start:0x80012648 end:0x80012650
 	extabindex  start:0x8001A438 end:0x8001A444
 	.text       start:0x80554458 end:0x805544BC
 
-Unclassified/bdNATTypeDiscoveryClient.cpp:
+BDSocket/bdNATTypeDiscoveryClient.cpp:
 	extab       start:0x80012650 end:0x80012774
 	extabindex  start:0x8001A444 end:0x8001A504
 	.text       start:0x805544BC end:0x805550D0
 
-Unclassified/bdNATTypeDiscoveryConfig.cpp:
+BDSocket/bdNATTypeDiscoveryConfig.cpp:
 	extab       start:0x80012774 end:0x8001277C
 	extabindex  start:0x8001A504 end:0x8001A510
 	.text       start:0x805550D0 end:0x80555184
 
-Unclassified/bdIPDiscoveryPacket.cpp:
+BDSocket/bdIPDiscoveryPacket.cpp:
 	extab       start:0x8001277C end:0x80012784
 	extabindex  start:0x8001A510 end:0x8001A51C
 	.text       start:0x80555184 end:0x80555250
 
-Unclassified/bdIPDiscoveryPacketReply.cpp:
+BDSocket/bdIPDiscoveryPacketReply.cpp:
 	extab       start:0x80012784 end:0x800127C0
 	extabindex  start:0x8001A51C end:0x8001A540
 	.text       start:0x80555250 end:0x805555E8
 
-Unclassified/bdNATTraversalPacket.cpp:
+BDSocket/bdNATTraversalPacket.cpp:
 	extab       start:0x800127C0 end:0x80012818
 	extabindex  start:0x8001A540 end:0x8001A588
 	.text       start:0x805555E8 end:0x80555A98
 
-Unclassified/bdNATTypeDiscoveryPacket.cpp:
+BDSocket/bdNATTypeDiscoveryPacket.cpp:
 	extab       start:0x80012818 end:0x80012820
 	extabindex  start:0x8001A588 end:0x8001A594
 	.text       start:0x80555A98 end:0x80555BAC
 
-Unclassified/bdNATTypeDiscoveryPacketReply.cpp:
+BDSocket/bdNATTypeDiscoveryPacketReply.cpp:
 	extab       start:0x80012820 end:0x80012844
 	extabindex  start:0x8001A594 end:0x8001A5AC
 	.text       start:0x80555BAC end:0x80555E94
 
-Unclassified/bdQoSProbe.cpp:
+BDSocket/bdQoSProbe.cpp:
 	extab       start:0x80012844 end:0x800131D8
 	extabindex  start:0x8001A5AC end:0x8001ACD8
 	.text       start:0x80555E94 end:0x8055B640
 
-Unclassified/bdQoSProbeListener.cpp:
+BDSocket/bdQoSProbeListener.cpp:
 	extab       start:0x800131D8 end:0x80013204
 	extabindex  start:0x8001ACD8 end:0x8001ACFC
 	.text       start:0x8055B640 end:0x8055B738
 
-Unclassified/bdQoSReplyPacket.cpp:
+BDSocket/bdQoSReplyPacket.cpp:
 	extab       start:0x80013204 end:0x80013264
 	extabindex  start:0x8001ACFC end:0x8001AD8C
 	.text       start:0x8055B738 end:0x8055C288
 
-Unclassified/bdQoSRequestPacket.cpp:
+BDSocket/bdQoSRequestPacket.cpp:
 	extab       start:0x80013264 end:0x8001327C
 	extabindex  start:0x8001AD8C end:0x8001ADB0
 	.text       start:0x8055C288 end:0x8055C5F0
@@ -5620,7 +5620,7 @@ Unclassified/nand_drv.c:
 Unclassified/BULog.cpp:
 	.sbss       start:0x808995C8 end:0x808995D0
 
-Unclassified/bdSingleton.cpp:
+BDCore/bdSingleton.cpp:
 	.sbss       start:0x80899600 end:0x80899608
 
 Unclassified/bdPlatformError.cpp:
