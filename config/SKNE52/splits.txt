@@ -3962,145 +3962,145 @@ Unclassified/uncompr.c:
 Unclassified/zutil.c:
 	.text       start:0x804F7CDC end:0x804F7D68
 
-Unclassified/bdConnection.cpp:
+BDConnection/bdConnection.cpp:
 	extab       start:0x80006D90 end:0x80006F7C
 	extabindex  start:0x80013BA4 end:0x80013D18
 	.text       start:0x804F7D68 end:0x804F88F4
 
-Unclassified/bdConnectionListener.cpp:
+BDConnection/bdConnectionListener.cpp:
 	extab       start:0x80006F7C end:0x80006FBC
 	extabindex  start:0x80013D18 end:0x80013D48
 	.text       start:0x804F88F4 end:0x804F8A70
 
-Unclassified/bdConnectionStatistics.cpp:
+BDConnection/bdConnectionStatistics.cpp:
 	extab       start:0x80006FBC end:0x80006FDC
 	extabindex  start:0x80013D48 end:0x80013D78
 	.text       start:0x804F8A70 end:0x804F8D00
 
-Unclassified/bdConnectionStore.cpp:
+BDConnection/bdConnectionStore.cpp:
 	extab       start:0x80006FDC end:0x800076F4
 	extabindex  start:0x80013D78 end:0x800140CC
 	.text       start:0x804F8D00 end:0x804FB6E4
 
-Unclassified/bdConnectionStoreConfig.cpp:
+BDConnection/bdConnectionStoreConfig.cpp:
 	.text       start:0x804FB6E4 end:0x804FB72C
 
-Unclassified/bdLoopbackConnection.cpp:
+BDConnection/bdLoopbackConnection.cpp:
 	extab       start:0x800076F4 end:0x80007824
 	extabindex  start:0x800140CC end:0x800141F8
 	.text       start:0x804FB72C end:0x804FC0E4
 
-Unclassified/bdUnicastConnection.cpp:
+BDConnection/bdUnicastConnection.cpp:
 	extab       start:0x80007824 end:0x800085E0
 	extabindex  start:0x800141F8 end:0x80014894
 	.text       start:0x804FC0E4 end:0x80500F08
 
-Unclassified/bdDispatcher.cpp:
+BDConnection/bdDispatcher.cpp:
 	extab       start:0x800085E0 end:0x80008718
 	extabindex  start:0x80014894 end:0x80014954
 	.text       start:0x80500F08 end:0x805016BC
 
-Unclassified/bdDispatchInterceptor.cpp:
+BDConnection/bdDispatchInterceptor.cpp:
 	extab       start:0x80008718 end:0x80008728
 	extabindex  start:0x80014954 end:0x8001496C
 	.text       start:0x805016BC end:0x80501748
 
-Unclassified/bdMessage.cpp:
+BDConnection/bdMessage.cpp:
 	extab       start:0x80008728 end:0x80008804
 	extabindex  start:0x8001496C end:0x800149D8
 	.text       start:0x80501748 end:0x80501A9C
 
-Unclassified/bdReceivedMessage.cpp:
+BDConnection/bdReceivedMessage.cpp:
 	extab       start:0x80008804 end:0x80008854
 	extabindex  start:0x800149D8 end:0x80014A14
 	.text       start:0x80501A9C end:0x80501BE0
 
-Unclassified/bdChunk.cpp:
+BDConnection/bdChunk.cpp:
 	extab       start:0x80008854 end:0x800088AC
 	extabindex  start:0x80014A14 end:0x80014A98
 	.text       start:0x80501BE0 end:0x80502014
 
-Unclassified/bdCookie.cpp:
+BDConnection/bdCookie.cpp:
 	extab       start:0x800088AC end:0x80008928
 	extabindex  start:0x80014A98 end:0x80014B04
 	.text       start:0x80502014 end:0x805026E0
 
-Unclassified/bdCookieAckChunk.cpp:
+BDConnection/bdCookieAckChunk.cpp:
 	extab       start:0x80008928 end:0x80008958
 	extabindex  start:0x80014B04 end:0x80014B4C
 	.text       start:0x805026E0 end:0x80502A34
 
-Unclassified/bdCookieEchoChunk.cpp:
+BDConnection/bdCookieEchoChunk.cpp:
 	extab       start:0x80008958 end:0x800089FC
 	extabindex  start:0x80014B4C end:0x80014BAC
 	.text       start:0x80502A34 end:0x805030F4
 
-Unclassified/bdDataChunk.cpp:
+BDConnection/bdDataChunk.cpp:
 	extab       start:0x800089FC end:0x80008AEC
 	extabindex  start:0x80014BAC end:0x80014C48
 	.text       start:0x805030F4 end:0x80503C24
 
-Unclassified/bdHeartbeatAckChunk.cpp:
+BDConnection/bdHeartbeatAckChunk.cpp:
 	extab       start:0x80008AEC end:0x80008B0C
 	extabindex  start:0x80014C48 end:0x80014C78
 	.text       start:0x80503C24 end:0x80503E88
 
-Unclassified/bdHeartbeatChunk.cpp:
+BDConnection/bdHeartbeatChunk.cpp:
 	extab       start:0x80008B0C end:0x80008B2C
 	extabindex  start:0x80014C78 end:0x80014CA8
 	.text       start:0x80503E88 end:0x805040EC
 
-Unclassified/bdInitAckChunk.cpp:
+BDConnection/bdInitAckChunk.cpp:
 	extab       start:0x80008B2C end:0x80008BC8
 	extabindex  start:0x80014CA8 end:0x80014CFC
 	.text       start:0x805040EC end:0x805046E0
 
-Unclassified/bdInitChunk.cpp:
+BDConnection/bdInitChunk.cpp:
 	extab       start:0x80008BC8 end:0x80008C2C
 	extabindex  start:0x80014CFC end:0x80014D38
 	.text       start:0x805046E0 end:0x80504A74
 
-Unclassified/bdPacket.cpp:
+BDConnection/bdPacket.cpp:
 	extab       start:0x80008C2C end:0x80008F10
 	extabindex  start:0x80014D38 end:0x80014E58
 	.text       start:0x80504A74 end:0x80505AB0
 
-Unclassified/bdSAckChunk.cpp:
+BDConnection/bdSAckChunk.cpp:
 	extab       start:0x80008F10 end:0x80008FB4
 	extabindex  start:0x80014E58 end:0x80014F18
 	.text       start:0x80505AB0 end:0x80506560
 
-Unclassified/bdShutdownAckChunk.cpp:
+BDConnection/bdShutdownAckChunk.cpp:
 	extab       start:0x80008FB4 end:0x80008FD4
 	extabindex  start:0x80014F18 end:0x80014F48
 	.text       start:0x80506560 end:0x805067C0
 
-Unclassified/bdShutdownChunk.cpp:
+BDConnection/bdShutdownChunk.cpp:
 	extab       start:0x80008FD4 end:0x80008FF4
 	extabindex  start:0x80014F48 end:0x80014F78
 	.text       start:0x805067C0 end:0x80506A20
 
-Unclassified/bdShutdownCompleteChunk.cpp:
+BDConnection/bdShutdownCompleteChunk.cpp:
 	extab       start:0x80008FF4 end:0x80009014
 	extabindex  start:0x80014F78 end:0x80014FA8
 	.text       start:0x80506A20 end:0x80506C80
 
-Unclassified/bdReliableReceiveWindow.cpp:
+BDConnection/bdReliableReceiveWindow.cpp:
 	extab       start:0x80009014 end:0x800090A8
 	extabindex  start:0x80014FA8 end:0x80015020
 	.text       start:0x80506C80 end:0x80507738
 
-Unclassified/bdReliableSendWindow.cpp:
+BDConnection/bdReliableSendWindow.cpp:
 	extab       start:0x800090A8 end:0x8000921C
 	extabindex  start:0x80015020 end:0x800150E0
 	.text       start:0x80507738 end:0x80508BAC
 
-Unclassified/bdUnreliableReceiveWindow.cpp:
+BDConnection/bdUnreliableReceiveWindow.cpp:
 	extab       start:0x8000921C end:0x8000934C
 	extabindex  start:0x800150E0 end:0x80015224
 	.text       start:0x80508BAC end:0x805094B0
 
-Unclassified/bdUnreliableSendWindow.cpp:
+BDConnection/bdUnreliableSendWindow.cpp:
 	extab       start:0x8000934C end:0x800093A4
 	extabindex  start:0x80015224 end:0x8001526C
 	.text       start:0x805094B0 end:0x805096D4
@@ -4374,15 +4374,15 @@ BDCore/bdTrulyRandom.cpp:
 	extabindex  start:0x800168B0 end:0x800168C8
 	.text       start:0x80518C34 end:0x80518CB4
 
-Unclassified/bdJSONArray.cpp:
+BDJSON/bdJSONArray.cpp:
 	.text       start:0x80518CB4 end:0x80518D08
 
-Unclassified/bdJSONDeserializer.cpp:
+BDJSON/bdJSONDeserializer.cpp:
 	extab       start:0x8000AC5C end:0x8000ADB4
 	extabindex  start:0x800168C8 end:0x800169F4
 	.text       start:0x80518D08 end:0x8051A200
 
-Unclassified/bdJSONUtility.cpp:
+BDJSON/bdJSONUtility.cpp:
 	extab       start:0x8000ADB4 end:0x8000AE0C
 	extabindex  start:0x800169F4 end:0x80016A78
 	.text       start:0x8051A200 end:0x8051B408
@@ -4808,117 +4808,117 @@ BDLobby/bdYouTubeRegistrationResult.cpp:
 	extabindex  start:0x80018B30 end:0x80018B60
 	.text       start:0x8053AB94 end:0x8053AD68
 
-Unclassified/bdNet.cpp:
+BDNet/bdNet.cpp:
 	extab       start:0x8000F1F4 end:0x8000F988
 	extabindex  start:0x80018B60 end:0x80018DC4
 	.text       start:0x8053AD68 end:0x8053DC7C
 
-Unclassified/bdNetStartParams.cpp:
+BDNet/bdNetStartParams.cpp:
 	extab       start:0x8000F988 end:0x8000FA98
 	extabindex  start:0x80018DC4 end:0x80018E0C
 	.text       start:0x8053DC7C end:0x8053E048
 
-Unclassified/bdGetHostByName-wii.cpp:
+BDNet/bdGetHostByName-wii.cpp:
 	extab       start:0x8000FA98 end:0x8000FAA8
 	extabindex  start:0x80018E0C end:0x80018E24
 	.text       start:0x8053E048 end:0x8053E170
 
-Unclassified/bdGetHostByName.cpp:
+BDNet/bdGetHostByName.cpp:
 	extab       start:0x8000FAA8 end:0x8000FB10
 	extabindex  start:0x80018E24 end:0x80018E6C
 	.text       start:0x8053E170 end:0x8053E57C
 
-Unclassified/bdGetHostByNameConfig.cpp:
+BDNet/bdGetHostByNameConfig.cpp:
 	extab       start:0x8000FB10 end:0x8000FB18
 	extabindex  start:0x80018E6C end:0x80018E78
 	.text       start:0x8053E57C end:0x8053E5F0
 
-Unclassified/bdGameInfo.cpp:
+BDNet/bdGameInfo.cpp:
 	extab       start:0x8000FB18 end:0x8000FBF4
 	extabindex  start:0x80018E78 end:0x80018F14
 	.text       start:0x8053E5F0 end:0x8053EC68
 
-Unclassified/bdGameInfoFactory.cpp:
+BDNet/bdGameInfoFactory.cpp:
 	extab       start:0x8000FBF4 end:0x8000FC14
 	extabindex  start:0x80018F14 end:0x80018F44
 	.text       start:0x8053EC68 end:0x8053EDC0
 
-Unclassified/bdLANDiscoveryClient.cpp:
+BDNet/bdLANDiscoveryClient.cpp:
 	extab       start:0x8000FC14 end:0x8000FC44
 	extabindex  start:0x80018F44 end:0x80018F8C
 	.text       start:0x8053EDC0 end:0x8053EF58
 
-Unclassified/bdLANDiscoveryServer.cpp:
+BDNet/bdLANDiscoveryServer.cpp:
 	extab       start:0x8000FC44 end:0x8000FD0C
 	extabindex  start:0x80018F8C end:0x80018FD4
 	.text       start:0x8053EF58 end:0x8053F244
 
-Unclassified/bdUPnP.cpp:
+BDNet/bdUPnP.cpp:
 	extab       start:0x8000FD0C end:0x8000FEE8
 	extabindex  start:0x80018FD4 end:0x80019094
 	.text       start:0x8053F244 end:0x805403C0
 
-Unclassified/bdUPnPConfig.cpp:
+BDNet/bdUPnPConfig.cpp:
 	extab       start:0x8000FEE8 end:0x8000FF00
 	extabindex  start:0x80019094 end:0x800190B8
 	.text       start:0x805403C0 end:0x80540658
 
-Unclassified/bdUPnPDevice.cpp:
+BDNet/bdUPnPDevice.cpp:
 	extab       start:0x8000FF00 end:0x8001011C
 	extabindex  start:0x800190B8 end:0x80019220
 	.text       start:0x80540658 end:0x805424C4
 
-Unclassified/bdPlatformLog.cpp:
+BDPlatform/bdPlatformLog.cpp:
 	extab       start:0x8001011C end:0x8001014C
 	extabindex  start:0x80019220 end:0x80019268
 	.text       start:0x805424C4 end:0x805427BC
 
-Unclassified/bdLinkable.cpp:
+BDPlatform/bdLinkable.cpp:
 	extab       start:0x8001014C end:0x80010154
 	extabindex  start:0x80019268 end:0x80019274
 	.text       start:0x805427BC end:0x805428B8
 
-Unclassified/bdPlatformTrulyRandom-ps2.cpp:
+BDPlatform/bdPlatformTrulyRandom-ps2.cpp:
 	extab       start:0x80010154 end:0x80010164
 	extabindex  start:0x80019274 end:0x8001928C
 	.text       start:0x805428B8 end:0x805429DC
 
-Unclassified/bdPlatformSocket-wii.cpp:
+BDPlatform/bdPlatformSocket-wii.cpp:
 	extab       start:0x80010164 end:0x80010194
 	extabindex  start:0x8001928C end:0x800192D4
 	.text       start:0x805429DC end:0x805432D8
 
-Unclassified/bdPlatformStreamSocket-wii.cpp:
+BDPlatform/bdPlatformStreamSocket-wii.cpp:
 	extab       start:0x80010194 end:0x800101CC
 	extabindex  start:0x800192D4 end:0x80019328
 	.text       start:0x805432D8 end:0x80543AB0
 
-Unclassified/bdSockAddr-wii.cpp:
+BDPlatform/bdSockAddr-wii.cpp:
 	extab       start:0x800101CC end:0x800101E4
 	extabindex  start:0x80019328 end:0x8001934C
 	.text       start:0x80543AB0 end:0x80543BFC
 
-Unclassified/bdPlatformAtomic-wii.cpp:
+BDPlatform/bdPlatformAtomic-wii.cpp:
 	extab       start:0x800101E4 end:0x80010214
 	extabindex  start:0x8001934C end:0x80019394
 	.text       start:0x80543BFC end:0x80543D84
 
-Unclassified/bdPlatformMutex-wii.cpp:
+BDPlatform/bdPlatformMutex-wii.cpp:
 	extab       start:0x80010214 end:0x8001022C
 	extabindex  start:0x80019394 end:0x800193B8
 	.text       start:0x80543D84 end:0x80543E44
 
-Unclassified/bdPlatformSignal-wii.cpp:
+BDPlatform/bdPlatformSignal-wii.cpp:
 	extab       start:0x8001022C end:0x8001024C
 	extabindex  start:0x800193B8 end:0x800193E8
 	.text       start:0x80543E44 end:0x80543F50
 
-Unclassified/bdPlatformThread-wii.cpp:
+BDPlatform/bdPlatformThread-wii.cpp:
 	extab       start:0x8001024C end:0x80010274
 	extabindex  start:0x800193E8 end:0x80019424
 	.text       start:0x80543F50 end:0x805440FC
 
-Unclassified/bdPlatformTiming-wii.cpp:
+BDPlatform/bdPlatformTiming-wii.cpp:
 	extab       start:0x80010274 end:0x8001029C
 	extabindex  start:0x80019424 end:0x80019460
 	.text       start:0x805440FC end:0x80544398
@@ -5623,13 +5623,13 @@ Unclassified/BULog.cpp:
 BDCore/bdSingleton.cpp:
 	.sbss       start:0x80899600 end:0x80899608
 
-Unclassified/bdPlatformError.cpp:
+BDPlatform/bdPlatformError.cpp:
 	.sbss       start:0x80899670 end:0x80899678
 
-Unclassified/bdPlatformSocket.cpp:
+BDPlatform/bdPlatformSocket.cpp:
 	.sbss       start:0x80899680 end:0x80899698
 
-Unclassified/bdPlatformStreamSocket.cpp:
+BDPlatform/bdPlatformStreamSocket.cpp:
 	.sbss       start:0x80899698 end:0x808996A8
 
 Unclassified/tfbPortalAlgorithms.c:
