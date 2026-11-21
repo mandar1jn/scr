@@ -15,6 +15,8 @@ symbols_known: true
 extract:
   - symbol: sgEmbeddedPakData
     header: Game/GE/sgEmbeddedPakData.inc
+  - symbol: XFontBitmap
+    header: Game/xfont/XFontBitmap.inc
 
 modules:
   - object: files/Data/gamelogic.rso

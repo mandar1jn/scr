@@ -1882,7 +1882,7 @@ config.libs = [
         "xfont",
         [
             Object(NonMatching, "Game/xfont/xfont.c"),
-            Object(NonMatching, "Game/xfont/xfontdata.c"),
+            Object(Matching, "Game/xfont/xfontdata.c"),
         ],
     ),
     Gamelogic(
