@@ -1599,94 +1599,94 @@ Runtime/Gecko_ExceptionPPC.cpp:
 	extabindex  start:0x800132C8 end:0x80013304
 	.text       start:0x80288C00 end:0x8028A11C
 
-MSL_C/alloc.c:
+Unclassified/alloc.c:
 	.text       start:0x8028A11C end:0x8028AF1C
 	.rodata     start:0x80590E98 end:0x80590EB0
 	.bss        start:0x806D6F50 end:0x806D6F88
 	.sbss       start:0x808988F0 end:0x808988F8
 
-MSL_C/errno.c:
+Unclassified/errno.c:
 	.sbss       start:0x808988F8 end:0x80898900
 
-MSL_C/ansi_files.c:
+Unclassified/ansi_files.c:
 	.text       start:0x8028AF1C end:0x8028B214
 	.data       start:0x805DB1C8 end:0x805DB308
 	.bss        start:0x806D6F88 end:0x806D7288
 
-MSL_C/ansi_fp.c:
+Unclassified/ansi_fp.c:
 	.text       start:0x8028B214 end:0x8028CA94
 	.rodata     start:0x80590EB0 end:0x80590F90
 	.data       start:0x805DB308 end:0x805DB470
 	.sdata2     start:0x8089B448 end:0x8089B480
 
-MSL_C/arith.c:
+Unclassified/arith.c:
 	.text       start:0x8028CA94 end:0x8028CAB4
 
-MSL_C/buffer_io.c:
+Unclassified/buffer_io.c:
 	.text       start:0x8028CAB4 end:0x8028CDC0
 
-MSL_C/char_io.c:
+Unclassified/char_io.c:
 	.text       start:0x8028CDC0 end:0x8028CEF0
 
-MSL_C/ctype.c:
+Unclassified/ctype.c:
 	.text       start:0x8028CEF0 end:0x8028CFA0
 	.rodata     start:0x80590F90 end:0x80591390
 
-MSL_C/direct_io.c:
+Unclassified/direct_io.c:
 	.text       start:0x8028CFA0 end:0x8028D5F0
 
-MSL_C/file_io.c:
+Unclassified/file_io.c:
 	.text       start:0x8028D5F0 end:0x8028DB98
 
-MSL_C/FILE_POS.C:
+Unclassified/FILE_POS.C:
 	.text       start:0x8028DB98 end:0x8028DE0C
 
-MSL_C/locale.c:
+Unclassified/locale.c:
 	.text       start:0x8028DE0C end:0x8028DEE8
 	.rodata     start:0x80591390 end:0x80591498
 	.data       start:0x805DB470 end:0x805DB668
 	.sdata2     start:0x8089B480 end:0x8089B498
 
-MSL_C/mbstring.c:
+Unclassified/mbstring.c:
 	.text       start:0x8028DEE8 end:0x8028E788
 	.sdata2     start:0x8089B498 end:0x8089B4A0
 
-MSL_C/mem.c:
+Unclassified/mem.c:
 	.text       start:0x8028E788 end:0x8028E8F8
 
-MSL_C/mem_funcs.c:
+Unclassified/mem_funcs.c:
 	.text       start:0x8028E8F8 end:0x8028EBC8
 
-MSL_C/math_api.c:
+Unclassified/math_api.c:
 	.text       start:0x8028EBC8 end:0x8028ECBC
 
-MSL_C/misc_io.c:
+Unclassified/misc_io.c:
 	.text       start:0x8028ECBC end:0x8028ECDC
 
-MSL_C/printf.c:
+Unclassified/printf.c:
 	.text       start:0x8028ECDC end:0x80291214
 	.rodata     start:0x80591498 end:0x805914C0
 	.data       start:0x805DB668 end:0x805DB898
 	.sdata      start:0x80896918 end:0x80896920
 	.sdata2     start:0x8089B4A0 end:0x8089B4A8
 
-MSL_C/qsort.c:
+Unclassified/qsort.c:
 	.text       start:0x80291214 end:0x80291384
 
-MSL_C/rand.c:
+Unclassified/rand.c:
 	.text       start:0x80291384 end:0x802913AC
 	.sdata      start:0x80896920 end:0x80896928
 
-MSL_C/scanf.c:
+Unclassified/scanf.c:
 	.text       start:0x802913AC end:0x80292890
 	.rodata     start:0x805914C0 end:0x805914E8
 	.data       start:0x805DB898 end:0x805DBB08
 
-MSL_C/signal.c:
+Unclassified/signal.c:
 	.text       start:0x80292890 end:0x80292938
 	.bss        start:0x806D7288 end:0x806D72A8
 
-MSL_C/string.c:
+Unclassified/string.c:
 	.text       start:0x80292938 end:0x80293968
 	.rodata     start:0x805914E8 end:0x80591858
 	.data       start:0x805DBB08 end:0x805DBC98
@@ -1694,7 +1694,7 @@ MSL_C/string.c:
 	.sdata      start:0x80896928 end:0x80896930
 	.sdata2     start:0x8089B4A8 end:0x8089B4B0
 
-MSL_C/float.c:
+Unclassified/float.c:
 	.sdata      start:0x80896930 end:0x80896940
 
 LibTom/Crypt/crypt_cipher_descriptor.c:
@@ -1709,24 +1709,24 @@ LibTom/Crypt/crypt_ltc_mp_descriptor.c:
 LibTom/Crypt/crypt_prng_descriptor.c:
 	.bss        start:0x8077CCE8 end:0x8077D1E8
 
-MSL_C/strtold.c:
+Unclassified/strtold.c:
 	.text       start:0x80293968 end:0x80294D70
 	.rodata     start:0x80591858 end:0x80591868
 	.sdata2     start:0x8089B4B0 end:0x8089B4D0
 
-MSL_C/wctype.c:
+Unclassified/wctype.c:
 	.rodata     start:0x80591868 end:0x80591E68
 
-MSL_C/strtoul.c:
+Unclassified/strtoul.c:
 	.text       start:0x80294D70 end:0x80295974
 
-MSL_C/time.c:
+Unclassified/time.c:
 	.text       start:0x80295974 end:0x802959AC
 
-MSL_C/wmem.c:
+Unclassified/wmem.c:
 	.text       start:0x802959AC end:0x802959DC
 
-MSL_C/wprintf.c:
+Unclassified/wprintf.c:
 	.text       start:0x802959DC end:0x80297BFC
 	.rodata     start:0x80591E68 end:0x80591E70
 	.data       start:0x805DBC98 end:0x805DBF38
@@ -1742,93 +1742,93 @@ RVL_SDK/ax/DSPCode.c:
 AudioKinetic/SoundEngine/AkDefault3DParams.cpp:
 	.data       start:0x806045C0 end:0x80604608
 
-MSL_C/wstring.c:
+Unclassified/wstring.c:
 	.text       start:0x80297BFC end:0x80297CD8
 
-MSL_C/wchar_io.c:
+Unclassified/wchar_io.c:
 	.text       start:0x80297CD8 end:0x80297D54
 
 RVL_SDK/os/time.dolphin.c:
 	.text       start:0x80297D54 end:0x80297D90
 
-MSL_C/uart_console_io_gcn.c:
+Unclassified/uart_console_io_gcn.c:
 	.text       start:0x80297D90 end:0x80297E60
 	.sbss       start:0x80898900 end:0x80898908
 
-MSL_C/abort_exit_ppc_eabi.c:
+Unclassified/abort_exit_ppc_eabi.c:
 	.text       start:0x80297E60 end:0x80297E94
 	.sbss       start:0x80898908 end:0x80898910
 
-MSL_C/secure_error.c:
+Unclassified/secure_error.c:
 	.text       start:0x80297E94 end:0x80297EAC
 	.sbss       start:0x80898910 end:0x80898918
 
-MSL_C/math_sun.c:
+Unclassified/math_sun.c:
 	.text       start:0x80297EAC end:0x80297EEC
 
-MSL_C/Math/Double_precision/e_acos.c:
+Unclassified/e_acos.c:
 	.text       start:0x80297EEC end:0x802981B8
 	.sdata2     start:0x8089B4D8 end:0x8089B560
 
-MSL_C/Math/Double_precision/e_asin.c:
+Unclassified/e_asin.c:
 	.text       start:0x802981B8 end:0x80298450
 	.sdata2     start:0x8089B560 end:0x8089B5E8
 
-MSL_C/Math/Double_precision/e_atan2.c:
+Unclassified/e_atan2.c:
 	.text       start:0x80298450 end:0x802986A8
 	.sdata2     start:0x8089B5E8 end:0x8089B640
 
-MSL_C/Math/Double_precision/e_exp.c:
+Unclassified/e_exp.c:
 	.text       start:0x802986A8 end:0x802988D8
 	.rodata     start:0x80591E70 end:0x80591EA0
 	.sdata2     start:0x8089B640 end:0x8089B6B8
 
-MSL_C/Math/Double_precision/e_fmod.c:
+Unclassified/e_fmod.c:
 	.text       start:0x802988D8 end:0x80298C58
 	.rodata     start:0x80591EA0 end:0x80591EB0
 
-MSL_C/Math/Double_precision/e_log.c:
+Unclassified/e_log.c:
 	.text       start:0x80298C58 end:0x80298F0C
 	.sbss       start:0x80898918 end:0x80898920
 	.sdata2     start:0x8089B6B8 end:0x8089B738
 
-MSL_C/Math/Double_precision/e_log10.c:
+Unclassified/e_log10.c:
 	.text       start:0x80298F0C end:0x80299020
 	.sbss       start:0x80898920 end:0x80898928
 	.sdata2     start:0x8089B738 end:0x8089B768
 
-MSL_C/Math/Double_precision/e_pow.c:
+Unclassified/e_pow.c:
 	.text       start:0x80299020 end:0x80299834
 	.rodata     start:0x80591EB0 end:0x80591EE0
 	.sdata2     start:0x8089B768 end:0x8089B878
 
-MSL_C/Math/Double_precision/e_rem_pio2.c:
+Unclassified/e_rem_pio2.c:
 	.text       start:0x80299834 end:0x80299BB8
 	.rodata     start:0x80591EE0 end:0x80592068
 	.sdata2     start:0x8089B878 end:0x8089B8D0
 
-MSL_C/Math/Double_precision/fminmaxdim.c:
+Unclassified/fminmaxdim.c:
 	.text       start:0x80299BB8 end:0x80299C24
 
-MSL_C/Math/Double_precision/k_cos.c:
+Unclassified/k_cos.c:
 	.text       start:0x80299C24 end:0x80299D34
 	.sdata2     start:0x8089B8D0 end:0x8089B918
 
-MSL_C/Math/Double_precision/k_rem_pio2.c:
+Unclassified/k_rem_pio2.c:
 	.text       start:0x80299D34 end:0x8029B3EC
 	.rodata     start:0x80592068 end:0x805920B8
 	.sdata2     start:0x8089B918 end:0x8089B958
 
-MSL_C/Math/Double_precision/k_sin.c:
+Unclassified/k_sin.c:
 	.text       start:0x8029B3EC end:0x8029B4AC
 	.sdata2     start:0x8089B958 end:0x8089B990
 
-MSL_C/Math/Double_precision/k_tan.c:
+Unclassified/k_tan.c:
 	.text       start:0x8029B4AC end:0x8029B6FC
 	.rodata     start:0x805920B8 end:0x80592120
 	.sdata2     start:0x8089B990 end:0x8089B9C8
 
-MSL_C/Math/Double_precision/s_atan.c:
+Unclassified/s_atan.c:
 	.text       start:0x8029B6FC end:0x8029B92C
 	.rodata     start:0x80592120 end:0x805921B8
 	.sdata2     start:0x8089B9C8 end:0x8089B9F0
@@ -1852,69 +1852,69 @@ BaseUtils/BULWii.cpp:
 	.rodata     start:0x8059ADB0 end:0x8059AF78
 	.data       start:0x8060EB40 end:0x8060EB78
 
-MSL_C/Math/Double_precision/s_ceil.c:
+Unclassified/s_ceil.c:
 	.text       start:0x8029B92C end:0x8029BA78
 	.sdata2     start:0x8089B9F0 end:0x8089BA00
 
-MSL_C/Math/Double_precision/s_copysign.c:
+Unclassified/s_copysign.c:
 	.text       start:0x8029BA78 end:0x8029BAA4
 
-MSL_C/Math/Double_precision/s_cos.c:
+Unclassified/s_cos.c:
 	.text       start:0x8029BAA4 end:0x8029BB6C
 	.sdata2     start:0x8089BA00 end:0x8089BA08
 
-MSL_C/Math/Double_precision/s_floor.c:
+Unclassified/s_floor.c:
 	.text       start:0x8029BB6C end:0x8029BCBC
 	.sdata2     start:0x8089BA08 end:0x8089BA18
 
-MSL_C/Math/Double_precision/s_frexp.c:
+Unclassified/s_frexp.c:
 	.text       start:0x8029BCBC end:0x8029BD44
 	.sdata2     start:0x8089BA18 end:0x8089BA20
 
-MSL_C/Math/Double_precision/s_ldexp.c:
+Unclassified/s_ldexp.c:
 	.text       start:0x8029BD44 end:0x8029BEB0
 	.sdata2     start:0x8089BA20 end:0x8089BA48
 
-MSL_C/Math/Double_precision/s_modf.c:
+Unclassified/s_modf.c:
 	.text       start:0x8029BEB0 end:0x8029BFAC
 
-MSL_C/Math/Double_precision/s_sin.c:
+Unclassified/s_sin.c:
 	.text       start:0x8029BFAC end:0x8029C078
 	.sdata2     start:0x8089BA48 end:0x8089BA50
 
-MSL_C/Math/Double_precision/s_tan.c:
+Unclassified/s_tan.c:
 	.text       start:0x8029C078 end:0x8029C0F0
 	.sdata2     start:0x8089BA50 end:0x8089BA58
 
-MSL_C/Math/Double_precision/w_acos.c:
+Unclassified/w_acos.c:
 	.text       start:0x8029C0F0 end:0x8029C0F4
 
-MSL_C/Math/Double_precision/w_asin.c:
+Unclassified/w_asin.c:
 	.text       start:0x8029C0F4 end:0x8029C0F8
 
-MSL_C/Math/Double_precision/w_atan2.c:
+Unclassified/w_atan2.c:
 	.text       start:0x8029C0F8 end:0x8029C0FC
 
-MSL_C/Math/Double_precision/w_exp.c:
+Unclassified/w_exp.c:
 	.text       start:0x8029C0FC end:0x8029C100
 
-MSL_C/Math/Double_precision/w_fmod.c:
+Unclassified/w_fmod.c:
 	.text       start:0x8029C100 end:0x8029C104
 
-MSL_C/Math/Double_precision/w_log.c:
+Unclassified/w_log.c:
 	.text       start:0x8029C104 end:0x8029C108
 
-MSL_C/Math/Double_precision/w_log10.c:
+Unclassified/w_log10.c:
 	.text       start:0x8029C108 end:0x8029C10C
 
-MSL_C/Math/Double_precision/w_pow.c:
+Unclassified/w_pow.c:
 	.text       start:0x8029C10C end:0x8029C110
 
-MSL_C/Math/Double_precision/e_sqrt.c:
+Unclassified/e_sqrt.c:
 	.text       start:0x8029C110 end:0x8029C358
 	.sdata2     start:0x8089BA58 end:0x8089BA60
 
-MSL_C/PPC_EABI/math_ppc.c:
+Unclassified/math_ppc.c:
 	.text       start:0x8029C358 end:0x8029C384
 	.sdata2     start:0x8089BA60 end:0x8089BA68
 
@@ -1952,10 +1952,10 @@ LibTom/Math/bn_mp_radix_smap.c:
 LibTom/Math/bn_prime_tab.c:
 	.rodata     start:0x805BD2B0 end:0x805BD6B0
 
-MSL_C/Math/Double_precision/w_sqrt.c:
+Unclassified/w_sqrt.c:
 	.text       start:0x8029C384 end:0x8029C388
 
-MSL_C/extras.c:
+Unclassified/extras.c:
 	.text       start:0x8029C388 end:0x8029C560
 
 RVL_SDK/euart/euart.c:
@@ -1973,10 +1973,10 @@ RVL_SDK/ipc/memory.c:
 RVL_SDK/ipc/ipcProfile.c:
 	.text       start:0x8029E960 end:0x8029ED6C
 
-Unclassified/DebuggerDriver.c:
+NdevExi2A/DebuggerDriver.c:
 	.text       start:0x8029ED6C end:0x8029F0A0
 
-Unclassified/exi2.c:
+NdevExi2A/exi2.c:
 	.text       start:0x8029F0A0 end:0x8029F830
 
 RVL_SDK/fs/fs.c:
