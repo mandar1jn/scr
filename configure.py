@@ -1396,7 +1396,7 @@ config.libs = [
     GameLib(
         "GE",
         [
-            Object(NonMatching, "Game/GE/GEEmbeddedPak_wii.cpp"),
+            Object(Matching, "Game/GE/GEEmbeddedPak_wii.cpp"),
             Object(NonMatching, "Game/GE/GEEngineMgr_wii.cpp"),
             Object(NonMatching, "Game/GE/GEEngineMgr.cpp"),
             Object(NonMatching, "Game/GE/GEErrorHandler_wii.cpp"),
