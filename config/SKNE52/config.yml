@@ -18,6 +18,11 @@ extract:
   - symbol: XFontBitmap
     header: Game/xfont/XFontBitmap.inc
 
+block_relocations:
+  # Block relocations for wii_embedded
+  - source: wii_embedded:0x80610F80
+    end: wii_embedded:0x806D1787
+
 modules:
   - object: files/Data/gamelogic.rso
     hash: ecea711e4b2a8c8d083c7b1f982b6cd86ba7f946
