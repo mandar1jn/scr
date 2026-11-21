@@ -2831,269 +2831,269 @@ RVL_SDK/rso/RSOLink.c:
 RVL_SDK/tpl/TPL.c:
 	.text       start:0x8035CB70 end:0x8035CCB0
 
-Unclassified/dwc_base64.c:
+DWC/Common/dwc_base64.c:
 	.text       start:0x8035CCB0 end:0x8035D020
 
-Unclassified/dwc_error.c:
+DWC/Common/dwc_error.c:
 	.text       start:0x8035D020 end:0x8035D040
 
-Unclassified/dwc_init.c:
+DWC/Common/dwc_init.c:
 	.text       start:0x8035D040 end:0x8035D0F0
 
-Unclassified/dwc_memfunc.c:
+DWC/Common/dwc_memfunc.c:
 	.text       start:0x8035D0F0 end:0x8035D240
 
-Unclassified/dwc_report.c:
+DWC/Common/dwc_report.c:
 	.text       start:0x8035D240 end:0x8035D590
 
-Unclassified/dwc_nonport.c:
+DWC/NonPort/dwc_nonport.c:
 	.text       start:0x8035D590 end:0x8035E0A0
 
-Unclassified/dwc_auth_interface.c:
+DWC/SecAuth/dwc_auth_interface.c:
 	.text       start:0x8035E0A0 end:0x803601A0
 
-Unclassified/dwc_naslogin.c:
+DWC/SecNas/dwc_naslogin.c:
 	.text       start:0x803601A0 end:0x80360290
 
-Unclassified/dwc_svl.c:
+DWC/SecSvl/dwc_svl.c:
 	.text       start:0x80360290 end:0x803603EC
 
-Unclassified/cri_base_version.c:
+LibCri/Base/CriBaseVersion/cri_base_version.c:
 	.text       start:0x803603EC end:0x803603FC
 
-Unclassified/cri_crw_wii.c:
+LibCri/Base/CriCrw/srcwii/cri_crw_wii.c:
 	.text       start:0x803603FC end:0x80360464
 
-Unclassified/cri_cs.c:
+LibCri/Base/CriCs/cri_cs.c:
 	.text       start:0x80360464 end:0x80360478
 
-Unclassified/cri_cs_wii.c:
+LibCri/Base/CriCs/srcwii/cri_cs_wii.c:
 	.text       start:0x80360478 end:0x80360500
 
-Unclassified/cri_error.c:
+LibCri/Base/CriError/cri_error.c:
 	.text       start:0x80360500 end:0x8036077C
 
-Unclassified/cri_atomic_wii.c:
+LibCri/Base/CriThread/srcwii/cri_atomic_wii.c:
 	.text       start:0x8036077C end:0x803607D4
 
-Unclassified/cri_utfcmn.c:
+LibCri/Base/CriUtf/cri_utfcmn.c:
 	.text       start:0x803607D4 end:0x80360940
 
-Unclassified/cri_utfrtv.c:
+LibCri/Base/CriUtf/cri_utfrtv.c:
 	.text       start:0x80360940 end:0x80361224
 
-Unclassified/cri_utfrtv_index.c:
+LibCri/Base/CriUtf/cri_utfrtv_index.c:
 	.text       start:0x80361224 end:0x803612CC
 
-Unclassified/cri_utfrtv_obj.c:
+LibCri/Base/CriUtf/cri_utfrtv_obj.c:
 	.text       start:0x803612CC end:0x803614F4
 
-Unclassified/cri_utfrtv_obj_heap.c:
+LibCri/Base/CriUtf/cri_utfrtv_obj_heap.c:
 	.text       start:0x803614F4 end:0x80361864
 
-Unclassified/cri_allocator.cpp:
+LibCri/Base/CriHeap/cri_allocator.cpp:
 	.text       start:0x80361864 end:0x803618F4
 
-Unclassified/cri_heap.c:
+LibCri/Base/CriHeap/cri_heap.c:
 	.text       start:0x803618F4 end:0x80362920
 
-Unclassified/cri_adxdec.c:
+LibCri/Base/CriAdxDec/cri_adxdec.c:
 	.text       start:0x80362920 end:0x803633CC
 
-Unclassified/cri_sj.c:
+LibCri/Base/CriSj/cri_sj.c:
 	.text       start:0x803633CC end:0x80363564
 
-Unclassified/cri_sjrbf.c:
+LibCri/Base/CriSj/cri_sjrbf.c:
 	.text       start:0x80363564 end:0x80363C08
 
-Unclassified/cri_sjuni.c:
+LibCri/Base/CriSj/cri_sjuni.c:
 	.text       start:0x80363C08 end:0x803642D0
 
-Unclassified/cri_usfcmn.c:
+LibCri/Base/CriUsf/cri_usfcmn.c:
 	.text       start:0x803642D0 end:0x803644EC
 
-Unclassified/cri_usfdmx.c:
+LibCri/Base/CriUsf/cri_usfdmx.c:
 	.text       start:0x803644EC end:0x80364F30
 
-Unclassified/cri_utfrtv_obj_criheap.c:
+LibCri/Base/CriUtf/cri_utfrtv_obj_criheap.c:
 	.text       start:0x80364F30 end:0x80365040
 
-Unclassified/cri_sjrbf_criheap.c:
+LibCri/Base/CriSj/cri_sjrbf_criheap.c:
 	.text       start:0x80365040 end:0x803651F0
 
-Unclassified/cri_sjuni_criheap.c:
+LibCri/Base/CriSj/cri_sjuni_criheap.c:
 	.text       start:0x803651F0 end:0x80365380
 
-Unclassified/cri_fixed_allocator.c:
+LibCri/Base/CriMemory/cri_fixed_allocator.c:
 	.text       start:0x80365380 end:0x803653B8
 
-Unclassified/crimv_common.cpp:
+LibCri/Movie/CriMvEasy/crimv_common.cpp:
 	extab       start:0x800067D0 end:0x800067D8
 	extabindex  start:0x80013304 end:0x80013310
 	.text       start:0x803653B8 end:0x80365478
 
-Unclassified/crimveasy_frame.cpp:
+LibCri/Movie/CriMvEasy/crimveasy_frame.cpp:
 	extab       start:0x800067D8 end:0x800067F8
 	extabindex  start:0x80013310 end:0x80013340
 	.text       start:0x80365478 end:0x80365D00
 
-Unclassified/crimveasy_memreader.cpp:
+LibCri/Movie/CriMvEasy/crimveasy_memreader.cpp:
 	extab       start:0x800067F8 end:0x80006820
 	extabindex  start:0x80013340 end:0x8001337C
 	.text       start:0x80365D00 end:0x803661BC
 
-Unclassified/crimveasy_player.cpp:
+LibCri/Movie/CriMvEasy/crimveasy_player.cpp:
 	extab       start:0x80006820 end:0x80006960
 	extabindex  start:0x8001337C end:0x8001355C
 	.text       start:0x803661BC end:0x8036AB1C
 
-Unclassified/crialphadec_lib.c:
+LibCri/Movie/CriMvPly/crialphadec_lib.c:
 	extab       start:0x80006960 end:0x800069B0
 	extabindex  start:0x8001355C end:0x800135D4
 	.text       start:0x8036AB1C end:0x8036AF3C
 
-Unclassified/crimvply_amng.c:
+LibCri/Movie/CriMvPly/crimvply_amng.c:
 	extab       start:0x800069B0 end:0x80006A48
 	extabindex  start:0x800135D4 end:0x800136B8
 	.text       start:0x8036AF3C end:0x8036C480
 
-Unclassified/crimvply_lib.c:
+LibCri/Movie/CriMvPly/crimvply_lib.c:
 	extab       start:0x80006A48 end:0x80006C18
 	extabindex  start:0x800136B8 end:0x80013970
 	.text       start:0x8036C480 end:0x80371378
 
-Unclassified/crivdec_vmpv.c:
+LibCri/Movie/CriVdec/crivdec_vmpv.c:
 	extab       start:0x80006C18 end:0x80006C20
 	extabindex  start:0x80013970 end:0x8001397C
 	.text       start:0x80371378 end:0x8037139C
 
-Unclassified/crivdec_lib.c:
+LibCri/Movie/CriVdec/crivdec_lib.c:
 	extab       start:0x80006C20 end:0x80006C68
 	extabindex  start:0x8001397C end:0x800139E8
 	.text       start:0x8037139C end:0x803717F8
 
-Unclassified/crivmpv_lib.c:
+LibCri/Movie/CriVmpv/crivmpv_lib.c:
 	extab       start:0x80006C68 end:0x80006D38
 	extabindex  start:0x800139E8 end:0x80013B20
 	.text       start:0x803717F8 end:0x80374980
 
-Unclassified/cri_adec.c:
+LibCri/Movie/CriAdec/cri_adec.c:
 	extab       start:0x80006D38 end:0x80006D68
 	extabindex  start:0x80013B20 end:0x80013B68
 	.text       start:0x80374980 end:0x803750D8
 
-Unclassified/crivmpv_initialize.c:
+LibCri/Movie/CriVmpv/crivmpv_initialize.c:
 	.text       start:0x803750D8 end:0x803750EC
 
-Unclassified/crimv_initialize.cpp:
+LibCri/Movie/CriMvEasy/crimv_initialize.cpp:
 	extab       start:0x80006D68 end:0x80006D70
 	extabindex  start:0x80013B68 end:0x80013B74
 	.text       start:0x803750EC end:0x8037515C
 
-Unclassified/crimvply_frame_ARGB8888.c:
+LibCri/Movie/CriMvPly/crimvply_frame_ARGB8888.c:
 	extab       start:0x80006D70 end:0x80006D88
 	extabindex  start:0x80013B74 end:0x80013B98
 	.text       start:0x8037515C end:0x8037551C
 
-Unclassified/crimveasy_frame_ARGB8888.cpp:
+LibCri/Movie/CriMvEasy/crimveasy_frame_ARGB8888.cpp:
 	extab       start:0x80006D88 end:0x80006D90
 	extabindex  start:0x80013B98 end:0x80013BA4
 	.text       start:0x8037551C end:0x80375594
 
-Unclassified/sj_crs.c:
+LibCri/Movie/adx/sj/sj_crs.c:
 	.text       start:0x80375594 end:0x8037563C
 
-Unclassified/sj_err.c:
+LibCri/Movie/adx/sj/sj_err.c:
 	.text       start:0x8037563C end:0x80375640
 
-Unclassified/sj_mem.c:
+LibCri/Movie/adx/sj/sj_mem.c:
 	.text       start:0x80375640 end:0x80376390
 
-Unclassified/sj_rbf.c:
+LibCri/Movie/adx/sj/sj_rbf.c:
 	.text       start:0x80376390 end:0x803773F8
 
-Unclassified/sj_utl.c:
+LibCri/Movie/adx/sj/sj_utl.c:
 	.text       start:0x803773F8 end:0x80377450
 
-Unclassified/svm.c:
+LibCri/Movie/adx/svm/svm.c:
 	.text       start:0x80377450 end:0x803774D0
 
-Unclassified/cri_crw_std.c:
+LibCri/Movie/adx/cricrw/srcstd/cri_crw_std.c:
 	.text       start:0x803774D0 end:0x803774EC
 
-Unclassified/memsetd.c:
+LibCri/Movie/sofdec/sfdcore/uty/memsetd.c:
 	.text       start:0x803774EC end:0x80377564
 
-Unclassified/memcpyd.c:
+LibCri/Movie/sofdec/sfdcore/uty/memcpyd.c:
 	.text       start:0x80377564 end:0x80377628
 
-Unclassified/mcp_not.c:
+LibCri/Movie/sofdec/sfdcore/memcpy/mcp_not.c:
 	.text       start:0x80377628 end:0x8037762C
 
-Unclassified/dct_isr.c:
+LibCri/Movie/sofdec/sfdcore/dct/dct_isr.c:
 	.text       start:0x8037762C end:0x80377FD4
 
-Unclassified/dct_ver.c:
+LibCri/Movie/sofdec/sfdcore/dct/dct_ver.c:
 	.text       start:0x80377FD4 end:0x80377FF0
 
-Unclassified/dct_ac.c:
+LibCri/Movie/sofdec/sfdcore/dct/dct_ac.c:
 	.text       start:0x80377FF0 end:0x80378304
 
-Unclassified/mpv_m2v.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_m2v.c:
 	.text       start:0x80378304 end:0x80378330
 
-Unclassified/mpv_mcy.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_mcy.c:
 	.text       start:0x80378330 end:0x803794BC
 
-Unclassified/mpv_umc.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_umc.c:
 	.text       start:0x803794BC end:0x8037AD98
 
-Unclassified/mpvabdec.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpvabdec.c:
 	.text       start:0x8037AD98 end:0x8038543C
 
-Unclassified/mpv_slice.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_slice.c:
 	.text       start:0x8038543C end:0x80385828
 
-Unclassified/mpv_vlc.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_vlc.c:
 	.text       start:0x80385828 end:0x8038856C
 
-Unclassified/mpv_bdec.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_bdec.c:
 	.text       start:0x8038856C end:0x80388924
 
-Unclassified/mpv_cdec.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_cdec.c:
 	.text       start:0x80388924 end:0x80388FB0
 
-Unclassified/mpv_cmc.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_cmc.c:
 	.text       start:0x80388FB0 end:0x803890A8
 
-Unclassified/mpv_dec.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_dec.c:
 	.text       start:0x803890A8 end:0x8038A27C
 
-Unclassified/mpv_deli.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_deli.c:
 	.text       start:0x8038A27C end:0x8038A400
 
-Unclassified/mpv_err.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_err.c:
 	.text       start:0x8038A400 end:0x8038A550
 
-Unclassified/mpv_frm.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_frm.c:
 	.text       start:0x8038A550 end:0x8038A7DC
 
-Unclassified/mpv_get.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_get.c:
 	.text       start:0x8038A7DC end:0x8038A858
 
-Unclassified/mpv_hdec.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_hdec.c:
 	.text       start:0x8038A858 end:0x8038C090
 
-Unclassified/mpv_lib.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_lib.c:
 	.text       start:0x8038C090 end:0x8038CACC
 
-Unclassified/mpv_mc.c:
+LibCri/Movie/sofdec/sfdcore/mpv/mpv_mc.c:
 	.text       start:0x8038CACC end:0x8038D7C0
 
-Unclassified/cftfx.c:
+LibCri/Movie/sofdec/cft/srcgc/cftfx.c:
 	.text       start:0x8038D7C0 end:0x8038DC04
 
-Unclassified/cftyp422_ppc.c:
+LibCri/Movie/sofdec/cft/srcgc/cftyp422_ppc.c:
 	.text       start:0x8038DC04 end:0x8038E6F0
 
 AudioKinetic/SoundEngine/AkAttenuationMgr.cpp:
