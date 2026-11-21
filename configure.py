@@ -775,7 +775,7 @@ config.libs = [
             Object(NonMatching, "BitDemon/Core/bdSocket.cpp"),
             Object(NonMatching, "BitDemon/Core/bdRandom.cpp"),
             Object(NonMatching, "BitDemon/Core/bdECCKey.cpp"),
-            Object(NonMatching, "BitDemon/Core/bdMallocMemory.cpp"),
+            Object(NonMatching, "BitDemon/Core/bdMallocMemory-wii.cpp"),
         ],
     ),
     BitDemonLib(
@@ -3353,10 +3353,6 @@ config.libs = [
             Object(NonMatching, "Unclassified/trees.c"),
             Object(NonMatching, "Unclassified/uncompr.c"),
             Object(NonMatching, "Unclassified/zutil.c"),
-            Object(NonMatching, "Unclassified/bdMallocMemory-wii.cpp"),
-            Object(NonMatching, "Unclassified/tfbSpyroTag.cpp"),
-            Object(NonMatching, "Unclassified/tfbSpyroTagCustomize.cpp"),
-            Object(NonMatching, "Unclassified/tfbPortalAlgorithms.c"),
         ],
     },
 ]

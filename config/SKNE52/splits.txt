@@ -4227,7 +4227,7 @@ BitDemon/Core/bdMallocMemory-heap.cpp:
 	.text       start:0x80511424 end:0x80511D14
 	.ctors      start:0x80585774 end:0x80585778
 
-Unclassified/bdMallocMemory-wii.cpp:
+BitDemon/Core/bdMallocMemory-wii.cpp:
 	extab       start:0x80009ED0 end:0x80009EF0
 	extabindex  start:0x80015D28 end:0x80015D58
 	.text       start:0x80511D14 end:0x80511E68
