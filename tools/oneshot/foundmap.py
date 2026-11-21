@@ -2,8 +2,8 @@ from pathlib import Path
 import re
 import shutil
 
-lib = "nhttp.a"
-srcpath = "RVL_SDK/nhttp/"
+lib = "LuaCoroutineLib_d.a"
+srcpath = "Lua/"
 
 base = Path("src") / srcpath
 
@@ -26,7 +26,7 @@ for line in mapdata:
     #     print(match.group("lib"))
     if match and match.group("lib") == lib:
         # matches.add(re.sub("-wii", "", match.group("obj"), count=1))
-        matches.add(match.group("obj"))
+        matches.add(match.group("obj").replace("Y:\\goliath\\SDK\\Lua\\src\\", ''))
 
 # print(matches)
 

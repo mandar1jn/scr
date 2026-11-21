@@ -1842,13 +1842,13 @@ RVL_SDK/bte/bta_hh_cfg.c:
 	.rodata     start:0x80592438 end:0x80592448
 	.sdata      start:0x80896B98 end:0x80896BA8
 
-Unclassified/lctype.c:
+Lua/lctype.c:
 	.rodata     start:0x8059A8B8 end:0x8059A9C0
 
-Unclassified/lopcodes.c:
+Lua/lopcodes.c:
 	.rodata     start:0x8059AB58 end:0x8059AB80
 
-Unclassified/BULWii.cpp:
+BaseUtils/BULWii.cpp:
 	.rodata     start:0x8059ADB0 end:0x8059AF78
 	.data       start:0x8060EB40 end:0x8060EB78
 
@@ -3804,128 +3804,128 @@ AudioKinetic/WiiReverbStd/AkWiiReverbStdParams.cpp:
 AudioKinetic/WiiReverbStd/AkWiiReverbStd.cpp:
 	.text       start:0x804C8600 end:0x804C88D8
 
-Unclassified/lcorolib.c:
+Lua/lcorolib.c:
 	.text       start:0x804C88D8 end:0x804C88D8
 
-Unclassified/lstate.c:
+Lua/lstate.c:
 	.text       start:0x804C88D8 end:0x804C9038
 
-Unclassified/lstring.c:
+Lua/lstring.c:
 	.text       start:0x804C9038 end:0x804C9478
 
-Unclassified/ltable.c:
+Lua/ltable.c:
 	.text       start:0x804C9478 end:0x804CAA00
 
-Unclassified/ltm.c:
+Lua/ltm.c:
 	.text       start:0x804CAA00 end:0x804CABE0
 
-Unclassified/lundump.c:
+Lua/lundump.c:
 	.text       start:0x804CABE0 end:0x804CB748
 
-Unclassified/lvm.c:
+Lua/lvm.c:
 	.text       start:0x804CB748 end:0x804CEE20
 
-Unclassified/lzio.c:
+Lua/lzio.c:
 	.text       start:0x804CEE20 end:0x804CF050
 
-Unclassified/lapi.c:
+Lua/lapi.c:
 	.text       start:0x804CF050 end:0x804D1540
 
-Unclassified/lcode.c:
+Lua/lcode.c:
 	.text       start:0x804D1540 end:0x804D3BF8
 
-Unclassified/ldebug.c:
+Lua/ldebug.c:
 	.text       start:0x804D3BF8 end:0x804D50A0
 
-Unclassified/ldo.c:
+Lua/ldo.c:
 	.text       start:0x804D50A0 end:0x804D633C
 
-Unclassified/ldump.c:
+Lua/ldump.c:
 	.text       start:0x804D633C end:0x804D698C
 
-Unclassified/lfunc.c:
+Lua/lfunc.c:
 	.text       start:0x804D698C end:0x804D7000
 
-Unclassified/lgc.c:
+Lua/lgc.c:
 	.text       start:0x804D7000 end:0x804D9504
 
-Unclassified/llex.c:
+Lua/llex.c:
 	.text       start:0x804D9504 end:0x804DB380
 
-Unclassified/lmem.c:
+Lua/lmem.c:
 	.text       start:0x804DB380 end:0x804DB58C
 
-Unclassified/lobject.c:
+Lua/lobject.c:
 	.text       start:0x804DB58C end:0x804DC188
 
-Unclassified/lparser.c:
+Lua/lparser.c:
 	.text       start:0x804DC188 end:0x804E01A4
 
-Unclassified/lbaselib.c:
+Lua/lbaselib.c:
 	.text       start:0x804E01A4 end:0x804E15F0
 
-Unclassified/lauxlib.c:
+Lua/lauxlib.c:
 	.text       start:0x804E15F0 end:0x804E2860
 
-Unclassified/BUCrc.cpp:
+BaseUtils/BUCrc.cpp:
 	.text       start:0x804E2860 end:0x804E2D90
 
-Unclassified/BULPacket.cpp:
+BaseUtils/BULPacket.cpp:
 	.text       start:0x804E2D90 end:0x804E3A94
 
-Unclassified/BULServer_wii.cpp:
+BaseUtils/BULServer_wii.cpp:
 	.text       start:0x804E3A94 end:0x804E5590
 
-Unclassified/BULServer.cpp:
+BaseUtils/BULServer.cpp:
 	.text       start:0x804E5590 end:0x804E5C6C
 
-Unclassified/BUCompress.cpp:
+BaseUtils/BUCompress.cpp:
 	.text       start:0x804E5C6C end:0x804E5DC8
 
-Unclassified/BUDecompress.cpp:
+BaseUtils/BUDecompress.cpp:
 	.text       start:0x804E5DC8 end:0x804E6264
 
-Unclassified/BUDynBoundingVolumeTree.cpp:
+BaseUtils/BUDynBoundingVolumeTree.cpp:
 	.text       start:0x804E6264 end:0x804E6830
 	.ctors      start:0x80585768 end:0x8058576C
 
-Unclassified/BUThread.cpp:
+BaseUtils/BUThread.cpp:
 	.text       start:0x804E6830 end:0x804E68F0
 
-Unclassified/BUHostFile_wii.cpp:
+BaseUtils/BUHostFile_wii.cpp:
 	.text       start:0x804E68F0 end:0x804E6D0C
 
-Unclassified/BUBezier.cpp:
+BaseUtils/BUBezier.cpp:
 	.text       start:0x804E6D0C end:0x804E70B0
 
-Unclassified/BUMatrix_wii.cpp:
+BaseUtils/BUMatrix_wii.cpp:
 	.text       start:0x804E70B0 end:0x804E717C
 
-Unclassified/BUQuaternion.cpp:
+BaseUtils/BUQuaternion.cpp:
 	.text       start:0x804E717C end:0x804E7358
 
-Unclassified/BUThreadDataMgr.cpp:
+BaseUtils/BUThreadDataMgr.cpp:
 	.text       start:0x804E7358 end:0x804E739C
 
-Unclassified/BUMath.cpp:
+BaseUtils/BUMath.cpp:
 	.text       start:0x804E739C end:0x804E73FC
 
-Unclassified/BUShapes.cpp:
+BaseUtils/BUShapes.cpp:
 	.text       start:0x804E73FC end:0x804E8834
 
-Unclassified/BUMatrix.cpp:
+BaseUtils/BUMatrix.cpp:
 	.text       start:0x804E8834 end:0x804EB1B0
 
-Unclassified/BUStream.cpp:
+BaseUtils/BUStream.cpp:
 	.text       start:0x804EB1B0 end:0x804EBF50
 
-Unclassified/BUFileStream_wii.cpp:
+BaseUtils/BUFileStream_wii.cpp:
 	.text       start:0x804EBF50 end:0x804ED0AC
 
-Unclassified/BUThread_wii.cpp:
+BaseUtils/BUThread_wii.cpp:
 	.text       start:0x804ED0AC end:0x804ED200
 
-Unclassified/BUPerlinNoise.cpp:
+BaseUtils/BUPerlinNoise.cpp:
 	.text       start:0x804ED200 end:0x804ED378
 
 Unclassified/inffast.c:
@@ -3934,7 +3934,7 @@ Unclassified/inffast.c:
 Unclassified/crc32.c:
 	.text       start:0x804EDC1C end:0x804EE718
 
-Unclassified/BUMemStream.cpp:
+BaseUtils/BUMemStream.cpp:
 	.text       start:0x804EE718 end:0x804EEC24
 
 Unclassified/inflate.c:
@@ -3949,7 +3949,7 @@ Unclassified/adler32.c:
 Unclassified/inftrees.c:
 	.text       start:0x804F4A78 end:0x804F5330
 
-Unclassified/BUTimer.cpp:
+BaseUtils/BUTimer.cpp:
 	.text       start:0x804F5330 end:0x804F53A4
 	.ctors      start:0x8058576C end:0x80585770
 
@@ -5617,7 +5617,7 @@ RVL_SDK/os/__start.c:
 RVL_SDK/vf/nand_drv.c:
 	.sbss       start:0x808990E8 end:0x808990F0
 
-Unclassified/BULog.cpp:
+BaseUtils/BULog.cpp:
 	.sbss       start:0x808995C8 end:0x808995D0
 
 BitDemon/Core/bdSingleton.cpp:
