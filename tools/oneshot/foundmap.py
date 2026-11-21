@@ -2,8 +2,8 @@ from pathlib import Path
 import re
 import shutil
 
-lib = "libtomcrypt.a"
-srcpath = "TomCrypt/"
+lib = "nhttp.a"
+srcpath = "RVL_SDK/nhttp/"
 
 base = Path("src") / srcpath
 
@@ -25,7 +25,8 @@ for line in mapdata:
     # if match:
     #     print(match.group("lib"))
     if match and match.group("lib") == lib:
-        matches.add(re.sub("-wii", "", match.group("obj"), count=1))
+        # matches.add(re.sub("-wii", "", match.group("obj"), count=1))
+        matches.add(match.group("obj"))
 
 # print(matches)
 

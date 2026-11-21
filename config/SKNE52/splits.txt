@@ -1732,10 +1732,10 @@ MSL_C/wprintf.c:
 	.data       start:0x805DBC98 end:0x805DBF38
 	.sdata2     start:0x8089B4D0 end:0x8089B4D8
 
-Unclassified/AXComp.c:
+RVL_SDK/ax/AXComp.c:
 	.data       start:0x805DE8E0 end:0x805DF8A0
 
-Unclassified/DSPCode.c:
+RVL_SDK/ax/DSPCode.c:
 	.data       start:0x805DF8A0 end:0x805E18A0
 	.sdata      start:0x80896A20 end:0x80896A28
 
@@ -1833,12 +1833,12 @@ MSL_C/Math/Double_precision/s_atan.c:
 	.rodata     start:0x80592120 end:0x805921B8
 	.sdata2     start:0x8089B9C8 end:0x8089B9F0
 
-Unclassified/bta_dm_cfg.c:
+RVL_SDK/bte/bta_dm_cfg.c:
 	.rodata     start:0x805923A8 end:0x80592438
 	.sdata      start:0x80896B80 end:0x80896B98
 	.sbss2      start:0x8089D490 end:0x8089D498
 
-Unclassified/bta_hh_cfg.c:
+RVL_SDK/bte/bta_hh_cfg.c:
 	.rodata     start:0x80592438 end:0x80592448
 	.sdata      start:0x80896B98 end:0x80896BA8
 
@@ -1918,7 +1918,7 @@ MSL_C/PPC_EABI/math_ppc.c:
 	.text       start:0x8029C358 end:0x8029C384
 	.sdata2     start:0x8089BA60 end:0x8089BA68
 
-Unclassified/bta_sys_cfg.c:
+RVL_SDK/bte/bta_sys_cfg.c:
 	.sdata      start:0x80896BA8 end:0x80896BB0
 	.sdata2     start:0x8089BEF8 end:0x8089BF00
 
@@ -1958,19 +1958,19 @@ MSL_C/Math/Double_precision/w_sqrt.c:
 MSL_C/extras.c:
 	.text       start:0x8029C388 end:0x8029C560
 
-Unclassified/euart.c:
+RVL_SDK/euart/euart.c:
 	.text       start:0x8029C560 end:0x8029C8E0
 
-Unclassified/ipcMain.c:
+RVL_SDK/ipc/ipcMain.c:
 	.text       start:0x8029C8E0 end:0x8029C9D0
 
-Unclassified/ipcclt.c:
+RVL_SDK/ipc/ipcclt.c:
 	.text       start:0x8029C9D0 end:0x8029E430
 
-Unclassified/memory.c:
+RVL_SDK/ipc/memory.c:
 	.text       start:0x8029E430 end:0x8029E960
 
-Unclassified/ipcProfile.c:
+RVL_SDK/ipc/ipcProfile.c:
 	.text       start:0x8029E960 end:0x8029ED6C
 
 Unclassified/DebuggerDriver.c:
@@ -1979,166 +1979,166 @@ Unclassified/DebuggerDriver.c:
 Unclassified/exi2.c:
 	.text       start:0x8029F0A0 end:0x8029F830
 
-Unclassified/fs.c:
+RVL_SDK/fs/fs.c:
 	.text       start:0x8029F830 end:0x802A0FD0
 
-Unclassified/hid_api.c:
+RVL_SDK/hid/hid_api.c:
 	.text       start:0x802A0FD0 end:0x802A1050
 
-Unclassified/hid_ios.c:
+RVL_SDK/hid/hid_ios.c:
 	.text       start:0x802A1050 end:0x802A1830
 
-Unclassified/hid_client.c:
+RVL_SDK/hid/hid_client.c:
 	.text       start:0x802A1830 end:0x802A1B60
 
-Unclassified/hid_device.c:
+RVL_SDK/hid/hid_device.c:
 	.text       start:0x802A1B60 end:0x802A2010
 
-Unclassified/hid_interface.c:
+RVL_SDK/hid/hid_interface.c:
 	.text       start:0x802A2010 end:0x802A2130
 
-Unclassified/hid_open_close.c:
+RVL_SDK/hid/hid_open_close.c:
 	.text       start:0x802A2130 end:0x802A2610
 
-Unclassified/hid_task.c:
+RVL_SDK/hid/hid_task.c:
 	.text       start:0x802A2610 end:0x802A2720
 
-Unclassified/hio2.c:
+RVL_SDK/hio2/hio2.c:
 	.text       start:0x802A2720 end:0x802A3250
 
-Unclassified/dvdfs.c:
+RVL_SDK/dvd/dvdfs.c:
 	.text       start:0x802A3250 end:0x802A3AA0
 
-Unclassified/dvd.c:
+RVL_SDK/dvd/dvd.c:
 	.text       start:0x802A3AA0 end:0x802A8680
 
-Unclassified/dvdqueue.c:
+RVL_SDK/dvd/dvdqueue.c:
 	.text       start:0x802A8680 end:0x802A8900
 
-Unclassified/dvderror.c:
+RVL_SDK/dvd/dvderror.c:
 	.text       start:0x802A8900 end:0x802A9320
 
-Unclassified/dvdidutils.c:
+RVL_SDK/dvd/dvdidutils.c:
 	.text       start:0x802A9320 end:0x802A9410
 
-Unclassified/dvdFatal.c:
+RVL_SDK/dvd/dvdFatal.c:
 	.text       start:0x802A9410 end:0x802A9580
 
-Unclassified/dvdDeviceError.c:
+RVL_SDK/dvd/dvdDeviceError.c:
 	.text       start:0x802A9580 end:0x802A9810
 
-Unclassified/dvd_broadway.c:
+RVL_SDK/dvd/dvd_broadway.c:
 	.text       start:0x802A9810 end:0x802ABEC0
 
-Unclassified/PPCArch.c:
+RVL_SDK/base/PPCArch.c:
 	.text       start:0x802ABEC0 end:0x802AC0E0
 
-Unclassified/GXInit.c:
+RVL_SDK/gx/GXInit.c:
 	.text       start:0x802AC0E0 end:0x802AD270
 
-Unclassified/GXFifo.c:
+RVL_SDK/gx/GXFifo.c:
 	.text       start:0x802AD270 end:0x802AE110
 
-Unclassified/GXAttr.c:
+RVL_SDK/gx/GXAttr.c:
 	.text       start:0x802AE110 end:0x802AEC60
 
-Unclassified/GXMisc.c:
+RVL_SDK/gx/GXMisc.c:
 	.text       start:0x802AEC60 end:0x802AF690
 
-Unclassified/GXGeometry.c:
+RVL_SDK/gx/GXGeometry.c:
 	.text       start:0x802AF690 end:0x802AFCA0
 
-Unclassified/GXFrameBuf.c:
+RVL_SDK/gx/GXFrameBuf.c:
 	.text       start:0x802AFCA0 end:0x802B0720
 
-Unclassified/GXLight.c:
+RVL_SDK/gx/GXLight.c:
 	.text       start:0x802B0720 end:0x802B0CF0
 
-Unclassified/GXTexture.c:
+RVL_SDK/gx/GXTexture.c:
 	.text       start:0x802B0CF0 end:0x802B1E10
 
-Unclassified/GXBump.c:
+RVL_SDK/gx/GXBump.c:
 	.text       start:0x802B1E10 end:0x802B2270
 
-Unclassified/GXTev.c:
+RVL_SDK/gx/GXTev.c:
 	.text       start:0x802B2270 end:0x802B2940
 
-Unclassified/GXPixel.c:
+RVL_SDK/gx/GXPixel.c:
 	.text       start:0x802B2940 end:0x802B2F60
 
-Unclassified/GXDisplayList.c:
+RVL_SDK/gx/GXDisplayList.c:
 	.text       start:0x802B2F60 end:0x802B2FE0
 
-Unclassified/GXTransform.c:
+RVL_SDK/gx/GXTransform.c:
 	.text       start:0x802B2FE0 end:0x802B34E0
 
-Unclassified/GXPerf.c:
+RVL_SDK/gx/GXPerf.c:
 	.text       start:0x802B34E0 end:0x802B4350
 
-Unclassified/mtx.c:
+RVL_SDK/mtx/mtx.c:
 	.text       start:0x802B4350 end:0x802B4780
 
-Unclassified/mtxvec.c:
+RVL_SDK/mtx/mtxvec.c:
 	.text       start:0x802B4780 end:0x802B47E0
 
-Unclassified/mtx44.c:
+RVL_SDK/mtx/mtx44.c:
 	.text       start:0x802B47E0 end:0x802B4E60
 
-Unclassified/mtx44vec.c:
+RVL_SDK/mtx/mtx44vec.c:
 	.text       start:0x802B4E60 end:0x802B4F40
 
-Unclassified/vec.c:
+RVL_SDK/mtx/vec.c:
 	.text       start:0x802B4F40 end:0x802B50E0
 
-Unclassified/AX.c:
+RVL_SDK/ax/AX.c:
 	.text       start:0x802B50E0 end:0x802B51A0
 
-Unclassified/AXAlloc.c:
+RVL_SDK/ax/AXAlloc.c:
 	.text       start:0x802B51A0 end:0x802B5740
 
-Unclassified/AXAux.c:
+RVL_SDK/ax/AXAux.c:
 	.text       start:0x802B5740 end:0x802B5FC0
 
-Unclassified/AXCL.c:
+RVL_SDK/ax/AXCL.c:
 	.text       start:0x802B5FC0 end:0x802B6AB0
 
-Unclassified/AXOut.c:
+RVL_SDK/ax/AXOut.c:
 	.text       start:0x802B6AB0 end:0x802B7330
 
-Unclassified/AXSPB.c:
+RVL_SDK/ax/AXSPB.c:
 	.text       start:0x802B7330 end:0x802B7770
 
-Unclassified/AXVPB.c:
+RVL_SDK/ax/AXVPB.c:
 	.text       start:0x802B7770 end:0x802B8D20
 
-Unclassified/AXProf.c:
+RVL_SDK/ax/AXProf.c:
 	.text       start:0x802B8D20 end:0x802B8D60
 
-Unclassified/AXFXReverbHi.c:
+RVL_SDK/axfx/AXFXReverbHi.c:
 	.text       start:0x802B8D60 end:0x802B8E10
 
-Unclassified/AXFXReverbHiDpl2.c:
+RVL_SDK/axfx/AXFXReverbHiDpl2.c:
 	.text       start:0x802B8E10 end:0x802B8F00
 
-Unclassified/AXFXReverbHiExp.c:
+RVL_SDK/axfx/AXFXReverbHiExp.c:
 	.text       start:0x802B8F00 end:0x802B9D30
 
-Unclassified/AXFXReverbHiExpDpl2.c:
+RVL_SDK/axfx/AXFXReverbHiExpDpl2.c:
 	.text       start:0x802B9D30 end:0x802BAC20
 
-Unclassified/AXFXReverbStd.c:
+RVL_SDK/axfx/AXFXReverbStd.c:
 	.text       start:0x802BAC20 end:0x802BACC0
 
-Unclassified/AXFXReverbStdDpl2.c:
+RVL_SDK/axfx/AXFXReverbStdDpl2.c:
 	.text       start:0x802BACC0 end:0x802BADA0
 
-Unclassified/AXFXReverbStdExp.c:
+RVL_SDK/axfx/AXFXReverbStdExp.c:
 	.text       start:0x802BADA0 end:0x802BB8E0
 
-Unclassified/AXFXReverbStdExpDpl2.c:
+RVL_SDK/axfx/AXFXReverbStdExpDpl2.c:
 	.text       start:0x802BB8E0 end:0x802BC460
 
-Unclassified/AXFXHooks.c:
+RVL_SDK/axfx/AXFXHooks.c:
 	.text       start:0x802BC460 end:0x802BC4B0
 
 RVL_SDK/os/OS.c:
@@ -2243,247 +2243,247 @@ RVL_SDK/os/OSLaunch.c:
 RVL_SDK/os/__ppc_eabi_init.cpp:
 	.text       start:0x802CABB0 end:0x802CAC70
 
-Unclassified/Pad.c:
+RVL_SDK/pad/Pad.c:
 	.text       start:0x802CAC70 end:0x802CAD90
 
-Unclassified/KPAD.c:
+RVL_SDK/kpad/KPAD.c:
 	.text       start:0x802CAD90 end:0x802CFF20
 
-Unclassified/KMPLS.c:
+RVL_SDK/kpad/KMPLS.c:
 	.text       start:0x802CFF20 end:0x802D29E0
 
-Unclassified/KZMplsTestSub.c:
+RVL_SDK/kpad/KZMplsTestSub.c:
 	.text       start:0x802D29E0 end:0x802D33E4
 
-Unclassified/wenc.c:
+RVL_SDK/wenc/wenc.c:
 	.text       start:0x802D33E4 end:0x802D36C0
 
-Unclassified/WPAD.c:
+RVL_SDK/wpad/WPAD.c:
 	.text       start:0x802D36C0 end:0x802DE5B0
 
-Unclassified/WPADHIDParser.c:
+RVL_SDK/wpad/WPADHIDParser.c:
 	.text       start:0x802DE5B0 end:0x802E3820
 
-Unclassified/WPADEncrypt.c:
+RVL_SDK/wpad/WPADEncrypt.c:
 	.text       start:0x802E3820 end:0x802E46E0
 
-Unclassified/WPADMem.c:
+RVL_SDK/wpad/WPADMem.c:
 	.text       start:0x802E46E0 end:0x802E47F0
 
-Unclassified/lint.c:
+RVL_SDK/wpad/lint.c:
 	.text       start:0x802E47F0 end:0x802E5060
 
-Unclassified/WUD.c:
+RVL_SDK/wpad/WUD.c:
 	.text       start:0x802E5060 end:0x802EA760
 
-Unclassified/WUDHidHost.c:
+RVL_SDK/wpad/WUDHidHost.c:
 	.text       start:0x802EA760 end:0x802EABD0
 
-Unclassified/gki_buffer.c:
+RVL_SDK/bte/gki_buffer.c:
 	.text       start:0x802EABD0 end:0x802EC070
 
-Unclassified/gki_time.c:
+RVL_SDK/bte/gki_time.c:
 	.text       start:0x802EC070 end:0x802EC600
 
-Unclassified/gki_ppc.c:
+RVL_SDK/bte/gki_ppc.c:
 	.text       start:0x802EC600 end:0x802EC910
 
-Unclassified/hcisu_h2.c:
+RVL_SDK/bte/hcisu_h2.c:
 	.text       start:0x802EC910 end:0x802ECFD0
 
-Unclassified/uusb_ppc.c:
+RVL_SDK/bte/uusb_ppc.c:
 	.text       start:0x802ECFD0 end:0x802EDC50
 
-Unclassified/bte_hcisu.c:
+RVL_SDK/bte/bte_hcisu.c:
 	.text       start:0x802EDC50 end:0x802EDD20
 
-Unclassified/bte_init.c:
+RVL_SDK/bte/bte_init.c:
 	.text       start:0x802EDD20 end:0x802EDD50
 
-Unclassified/bte_logmsg.c:
+RVL_SDK/bte/bte_logmsg.c:
 	.text       start:0x802EDD50 end:0x802EDEF0
 
-Unclassified/bte_main.c:
+RVL_SDK/bte/bte_main.c:
 	.text       start:0x802EDEF0 end:0x802EE060
 
-Unclassified/btu_task1.c:
+RVL_SDK/bte/btu_task1.c:
 	.text       start:0x802EE060 end:0x802EE4A4
 
-Unclassified/bd.c:
+RVL_SDK/bte/bd.c:
 	.text       start:0x802EE4A4 end:0x802EE578
 
-Unclassified/bta_sys_conn.c:
+RVL_SDK/bte/bta_sys_conn.c:
 	.text       start:0x802EE578 end:0x802EE7CC
 
-Unclassified/bta_sys_main.c:
+RVL_SDK/bte/bta_sys_main.c:
 	.text       start:0x802EE7CC end:0x802EEA10
 
-Unclassified/ptim.c:
+RVL_SDK/bte/ptim.c:
 	.text       start:0x802EEA10 end:0x802EEBF0
 
-Unclassified/utl.c:
+RVL_SDK/bte/utl.c:
 	.text       start:0x802EEBF0 end:0x802EEC34
 
-Unclassified/bta_dm_act.c:
+RVL_SDK/bte/bta_dm_act.c:
 	.text       start:0x802EEC34 end:0x802F0F70
 
-Unclassified/bta_dm_api.c:
+RVL_SDK/bte/bta_dm_api.c:
 	.text       start:0x802F0F70 end:0x802F13DC
 
-Unclassified/bta_dm_main.c:
+RVL_SDK/bte/bta_dm_main.c:
 	.text       start:0x802F13DC end:0x802F153C
 
-Unclassified/bta_dm_pm.c:
+RVL_SDK/bte/bta_dm_pm.c:
 	.text       start:0x802F153C end:0x802F1F58
 
-Unclassified/bta_hh_act.c:
+RVL_SDK/bte/bta_hh_act.c:
 	.text       start:0x802F1F58 end:0x802F36A0
 
-Unclassified/bta_hh_api.c:
+RVL_SDK/bte/bta_hh_api.c:
 	.text       start:0x802F36A0 end:0x802F3A70
 
-Unclassified/bta_hh_main.c:
+RVL_SDK/bte/bta_hh_main.c:
 	.text       start:0x802F3A70 end:0x802F3FC4
 
-Unclassified/bta_hh_utils.c:
+RVL_SDK/bte/bta_hh_utils.c:
 	.text       start:0x802F3FC4 end:0x802F4370
 
-Unclassified/btm_acl.c:
+RVL_SDK/bte/btm_acl.c:
 	.text       start:0x802F4370 end:0x802F60B4
 
-Unclassified/btm_dev.c:
+RVL_SDK/bte/btm_dev.c:
 	.text       start:0x802F60B4 end:0x802F6780
 
-Unclassified/btm_devctl.c:
+RVL_SDK/bte/btm_devctl.c:
 	.text       start:0x802F6780 end:0x802F8108
 
-Unclassified/btm_discovery.c:
+RVL_SDK/bte/btm_discovery.c:
 	.text       start:0x802F8108 end:0x802F823C
 
-Unclassified/btm_inq.c:
+RVL_SDK/bte/btm_inq.c:
 	.text       start:0x802F823C end:0x802F9CD4
 
-Unclassified/btm_main.c:
+RVL_SDK/bte/btm_main.c:
 	.text       start:0x802F9CD4 end:0x802F9D30
 
-Unclassified/btm_pm.c:
+RVL_SDK/bte/btm_pm.c:
 	.text       start:0x802F9D30 end:0x802FA9C4
 
-Unclassified/btm_sco.c:
+RVL_SDK/bte/btm_sco.c:
 	.text       start:0x802FA9C4 end:0x802FB7FC
 
-Unclassified/btm_sec.c:
+RVL_SDK/bte/btm_sec.c:
 	.text       start:0x802FB7FC end:0x802FE7C0
 
-Unclassified/btu_hcif.c:
+RVL_SDK/bte/btu_hcif.c:
 	.text       start:0x802FE7C0 end:0x802FFA1C
 
-Unclassified/btu_init.c:
+RVL_SDK/bte/btu_init.c:
 	.text       start:0x802FFA1C end:0x802FFA94
 
-Unclassified/wbt_ext.c:
+RVL_SDK/bte/wbt_ext.c:
 	.text       start:0x802FFA94 end:0x802FFB74
 
-Unclassified/gap_api.c:
+RVL_SDK/bte/gap_api.c:
 	.text       start:0x802FFB74 end:0x802FFBD4
 
-Unclassified/gap_conn.c:
+RVL_SDK/bte/gap_conn.c:
 	.text       start:0x802FFBD4 end:0x80300710
 
-Unclassified/gap_utils.c:
+RVL_SDK/bte/gap_utils.c:
 	.text       start:0x80300710 end:0x80300D2C
 
-Unclassified/hcicmds.c:
+RVL_SDK/bte/hcicmds.c:
 	.text       start:0x80300D2C end:0x80303448
 
-Unclassified/hidd_api.c:
+RVL_SDK/bte/hidd_api.c:
 	.text       start:0x80303448 end:0x803034B0
 
-Unclassified/hidd_conn.c:
+RVL_SDK/bte/hidd_conn.c:
 	.text       start:0x803034B0 end:0x80303570
 
-Unclassified/hidd_mgmt.c:
+RVL_SDK/bte/hidd_mgmt.c:
 	.text       start:0x80303570 end:0x80303638
 
-Unclassified/hidd_pm.c:
+RVL_SDK/bte/hidd_pm.c:
 	.text       start:0x80303638 end:0x803039B4
 
-Unclassified/hidh_api.c:
+RVL_SDK/bte/hidh_api.c:
 	.text       start:0x803039B4 end:0x80304734
 
-Unclassified/hidh_conn.c:
+RVL_SDK/bte/hidh_conn.c:
 	.text       start:0x80304734 end:0x80306774
 
-Unclassified/l2c_api.c:
+RVL_SDK/bte/l2c_api.c:
 	.text       start:0x80306774 end:0x80307340
 
-Unclassified/l2c_csm.c:
+RVL_SDK/bte/l2c_csm.c:
 	.text       start:0x80307340 end:0x8030881C
 
-Unclassified/l2c_link.c:
+RVL_SDK/bte/l2c_link.c:
 	.text       start:0x8030881C end:0x803099A8
 
-Unclassified/l2c_main.c:
+RVL_SDK/bte/l2c_main.c:
 	.text       start:0x803099A8 end:0x8030A9D8
 
-Unclassified/l2c_utils.c:
+RVL_SDK/bte/l2c_utils.c:
 	.text       start:0x8030A9D8 end:0x8030C89C
 
-Unclassified/port_api.c:
+RVL_SDK/bte/port_api.c:
 	.text       start:0x8030C89C end:0x8030C8EC
 
-Unclassified/port_rfc.c:
+RVL_SDK/bte/port_rfc.c:
 	.text       start:0x8030C8EC end:0x8030DCE8
 
-Unclassified/port_utils.c:
+RVL_SDK/bte/port_utils.c:
 	.text       start:0x8030DCE8 end:0x8030E2C0
 
-Unclassified/rfc_l2cap_if.c:
+RVL_SDK/bte/rfc_l2cap_if.c:
 	.text       start:0x8030E2C0 end:0x8030EBF4
 
-Unclassified/rfc_mx_fsm.c:
+RVL_SDK/bte/rfc_mx_fsm.c:
 	.text       start:0x8030EBF4 end:0x8030F838
 
-Unclassified/rfc_port_fsm.c:
+RVL_SDK/bte/rfc_port_fsm.c:
 	.text       start:0x8030F838 end:0x803109D8
 
-Unclassified/rfc_port_if.c:
+RVL_SDK/bte/rfc_port_if.c:
 	.text       start:0x803109D8 end:0x80310F04
 
-Unclassified/rfc_ts_frames.c:
+RVL_SDK/bte/rfc_ts_frames.c:
 	.text       start:0x80310F04 end:0x8031254C
 
-Unclassified/rfc_utils.c:
+RVL_SDK/bte/rfc_utils.c:
 	.text       start:0x8031254C end:0x80312D2C
 
-Unclassified/sdp_api.c:
+RVL_SDK/bte/sdp_api.c:
 	.text       start:0x80312D2C end:0x80313B94
 
-Unclassified/sdp_db.c:
+RVL_SDK/bte/sdp_db.c:
 	.text       start:0x80313B94 end:0x80314860
 
-Unclassified/sdp_discovery.c:
+RVL_SDK/bte/sdp_discovery.c:
 	.text       start:0x80314860 end:0x80315AD8
 
-Unclassified/sdp_main.c:
+RVL_SDK/bte/sdp_main.c:
 	.text       start:0x80315AD8 end:0x80316644
 
-Unclassified/sdp_server.c:
+RVL_SDK/bte/sdp_server.c:
 	.text       start:0x80316644 end:0x80317354
 
-Unclassified/sdp_utils.c:
+RVL_SDK/bte/sdp_utils.c:
 	.text       start:0x80317354 end:0x803183A0
 
-Unclassified/usb.c:
+RVL_SDK/usb/usb.c:
 	.text       start:0x803183A0 end:0x803198F0
 
-Unclassified/scsystem.c:
+RVL_SDK/sc/scsystem.c:
 	.text       start:0x803198F0 end:0x8031B280
 
-Unclassified/scapi.c:
+RVL_SDK/sc/scapi.c:
 	.text       start:0x8031B280 end:0x8031B790
 
-Unclassified/scapi_prdinfo.c:
+RVL_SDK/sc/scapi_prdinfo.c:
 	.text       start:0x8031B790 end:0x8031BAD0
 
 RVL_SDK/nand/nand.c:
@@ -2504,196 +2504,196 @@ RVL_SDK/nand/NANDLogging.c:
 RVL_SDK/nand/NANDErrorMessage.c:
 	.text       start:0x8031F540 end:0x8031F840
 
-Unclassified/esp.c:
+RVL_SDK/esp/esp.c:
 	.text       start:0x8031F840 end:0x8031FE60
 
-Unclassified/vi.c:
+RVL_SDK/vi/vi.c:
 	.text       start:0x8031FE60 end:0x80322800
 
-Unclassified/i2c.c:
+RVL_SDK/vi/i2c.c:
 	.text       start:0x80322800 end:0x80323120
 
-Unclassified/vi3in1.c:
+RVL_SDK/vi/vi3in1.c:
 	.text       start:0x80323120 end:0x80324890
 
-Unclassified/ai.c:
+RVL_SDK/ai/ai.c:
 	.text       start:0x80324890 end:0x80324E70
 
-Unclassified/dsp.c:
+RVL_SDK/dsp/dsp.c:
 	.text       start:0x80324E70 end:0x80325110
 
-Unclassified/dsp_debug.c:
+RVL_SDK/dsp/dsp_debug.c:
 	.text       start:0x80325110 end:0x80325170
 
-Unclassified/dsp_task.c:
+RVL_SDK/dsp/dsp_task.c:
 	.text       start:0x80325170 end:0x80325A10
 
-Unclassified/SIBios.c:
+RVL_SDK/si/SIBios.c:
 	.text       start:0x80325A10 end:0x80326A80
 
-Unclassified/SISamplingRate.c:
+RVL_SDK/si/SISamplingRate.c:
 	.text       start:0x80326A80 end:0x80326B70
 
-Unclassified/EXIBios.c:
+RVL_SDK/exi/EXIBios.c:
 	.text       start:0x80326B70 end:0x80328510
 
-Unclassified/EXIUart.c:
+RVL_SDK/exi/EXIUart.c:
 	.text       start:0x80328510 end:0x80328850
 
-Unclassified/EXICommon.c:
+RVL_SDK/exi/EXICommon.c:
 	.text       start:0x80328850 end:0x80328E10
 
-Unclassified/mem_heapCommon.c:
+RVL_SDK/mem/mem_heapCommon.c:
 	.text       start:0x80328E10 end:0x80329280
 
-Unclassified/mem_expHeap.c:
+RVL_SDK/mem/mem_expHeap.c:
 	.text       start:0x80329280 end:0x80329A30
 
-Unclassified/mem_allocator.c:
+RVL_SDK/mem/mem_allocator.c:
 	.text       start:0x80329A30 end:0x80329A90
 
-Unclassified/mem_list.c:
+RVL_SDK/mem/mem_list.c:
 	.text       start:0x80329A90 end:0x80329BB0
 
-Unclassified/pf_clib.c:
+RVL_SDK/vf/pf_clib.c:
 	.text       start:0x80329BB0 end:0x80329CB0
 
-Unclassified/pf_code.c:
+RVL_SDK/vf/pf_code.c:
 	.text       start:0x80329CB0 end:0x80329CD0
 
-Unclassified/pdm_dskmng.c:
+RVL_SDK/vf/pdm_dskmng.c:
 	.text       start:0x80329CD0 end:0x80329E00
 
-Unclassified/pf_fatfs.c:
+RVL_SDK/vf/pf_fatfs.c:
 	.text       start:0x80329E00 end:0x80329E10
 
-Unclassified/pf_volume.c:
+RVL_SDK/vf/pf_volume.c:
 	.text       start:0x80329E10 end:0x80329FA0
 
-Unclassified/pf_cp932.c:
+RVL_SDK/vf/pf_cp932.c:
 	.text       start:0x80329FA0 end:0x8032A4A0
 
-Unclassified/pf_api_util.c:
+RVL_SDK/vf/pf_api_util.c:
 	.text       start:0x8032A4A0 end:0x8032A4B0
 
-Unclassified/pf_init_prfile2.c:
+RVL_SDK/vf/pf_init_prfile2.c:
 	.text       start:0x8032A4B0 end:0x8032A4F0
 
-Unclassified/pf_filelock.c:
+RVL_SDK/vf/pf_filelock.c:
 	.text       start:0x8032A4F0 end:0x8032A500
 
-Unclassified/pf_system.c:
+RVL_SDK/vf/pf_system.c:
 	.text       start:0x8032A500 end:0x8032A510
 
-Unclassified/d_vf.c:
+RVL_SDK/vf/d_vf.c:
 	.text       start:0x8032A510 end:0x8032A670
 
-Unclassified/d_vf_sys.c:
+RVL_SDK/vf/d_vf_sys.c:
 	.text       start:0x8032A670 end:0x8032A9A0
 
-Unclassified/d_hash.c:
+RVL_SDK/vf/d_hash.c:
 	.text       start:0x8032A9A0 end:0x8032AAB0
 
-Unclassified/d_common.c:
+RVL_SDK/vf/d_common.c:
 	.text       start:0x8032AAB0 end:0x8032ABA0
 
-Unclassified/sd_drv.c:
+RVL_SDK/vf/sd_drv.c:
 	.text       start:0x8032ABA0 end:0x8032ABA4
 
-Unclassified/NHTTP_bgnend.c:
+RVL_SDK/nhttp/NHTTP_bgnend.c:
 	.text       start:0x8032ABA4 end:0x8032AF0C
 
-Unclassified/NHTTP_control.c:
+RVL_SDK/nhttp/NHTTP_control.c:
 	.text       start:0x8032AF0C end:0x8032B23C
 
-Unclassified/NHTTP_list.c:
+RVL_SDK/nhttp/NHTTP_list.c:
 	.text       start:0x8032B23C end:0x8032B48C
 
-Unclassified/NHTTP_os_RVL.c:
+RVL_SDK/nhttp/NHTTP_os_RVL.c:
 	.text       start:0x8032B48C end:0x8032B6B0
 
-Unclassified/NHTTP_recvbuf.c:
+RVL_SDK/nhttp/NHTTP_recvbuf.c:
 	.text       start:0x8032B6B0 end:0x8032BD4C
 
-Unclassified/NHTTP_request.c:
+RVL_SDK/nhttp/NHTTP_request.c:
 	.text       start:0x8032BD4C end:0x8032C788
 
-Unclassified/NHTTP_response.c:
+RVL_SDK/nhttp/NHTTP_response.c:
 	.text       start:0x8032C788 end:0x8032C988
 
-Unclassified/NHTTP_socket_RVL.c:
+RVL_SDK/nhttp/NHTTP_socket_RVL.c:
 	.text       start:0x8032C988 end:0x8032D284
 
-Unclassified/NHTTP_stdlib_RVL.c:
+RVL_SDK/nhttp/NHTTP_stdlib_RVL.c:
 	.text       start:0x8032D284 end:0x8032DBF8
 
-Unclassified/NHTTP_thread.c:
+RVL_SDK/nhttp/NHTTP_thread.c:
 	.text       start:0x8032DBF8 end:0x8033079C
 
-Unclassified/d_nhttp_private.c:
+RVL_SDK/nhttp/d_nhttp_private.c:
 	.text       start:0x8033079C end:0x80330ACC
 
-Unclassified/d_nhttp.c:
+RVL_SDK/nhttp/d_nhttp.c:
 	.text       start:0x80330ACC end:0x8033161C
 
-Unclassified/d_nhttp_common.c:
+RVL_SDK/nhttp/d_nhttp_common.c:
 	.text       start:0x8033161C end:0x80331DBC
 
-Unclassified/ssl_api.c:
+RVL_SDK/ssl/ssl_api.c:
 	.text       start:0x80331DBC end:0x80332B08
 
-Unclassified/ssl_mutex.c:
+RVL_SDK/ssl/ssl_mutex.c:
 	.text       start:0x80332B08 end:0x80332B20
 
-Unclassified/arc.c:
+RVL_SDK/arc/arc.c:
 	.text       start:0x80332B20 end:0x803334F8
 
-Unclassified/ncdsystem.c:
+RVL_SDK/ncd/ncdsystem.c:
 	.text       start:0x803334F8 end:0x80333BF8
 
-Unclassified/NETVersion.c:
+RVL_SDK/net/NETVersion.c:
 	.text       start:0x80333BF8 end:0x80333C00
 
-Unclassified/wireless_macaddr.c:
+RVL_SDK/net/wireless_macaddr.c:
 	.text       start:0x80333C00 end:0x80333C04
 
-Unclassified/netmemcpy.c:
+RVL_SDK/net/netmemcpy.c:
 	.text       start:0x80333C04 end:0x80333FC4
 
-Unclassified/netmemset.c:
+RVL_SDK/net/netmemset.c:
 	.text       start:0x80333FC4 end:0x803340C8
 
-Unclassified/NWC24Config.c:
+RVL_SDK/nwc24/NWC24Config.c:
 	.text       start:0x803340C8 end:0x80334230
 
-Unclassified/NWC24Manage.c:
+RVL_SDK/nwc24/NWC24Manage.c:
 	.text       start:0x80334230 end:0x80334344
 
-Unclassified/NWC24Schedule.c:
+RVL_SDK/nwc24/NWC24Schedule.c:
 	.text       start:0x80334344 end:0x80334A20
 
-Unclassified/NWC24UserId.c:
+RVL_SDK/nwc24/NWC24UserId.c:
 	.text       start:0x80334A20 end:0x80334D3C
 
-Unclassified/NWC24Time.c:
+RVL_SDK/nwc24/NWC24Time.c:
 	.text       start:0x80334D3C end:0x80334F18
 
-Unclassified/NWC24Ipc.c:
+RVL_SDK/nwc24/NWC24Ipc.c:
 	.text       start:0x80334F18 end:0x8033508C
 
-Unclassified/NWC24System.c:
+RVL_SDK/nwc24/NWC24System.c:
 	.text       start:0x8033508C end:0x8033521C
 
-Unclassified/SOCommon.c:
+RVL_SDK/so/SOCommon.c:
 	.text       start:0x8033521C end:0x80336274
 
-Unclassified/SOBasic.c:
+RVL_SDK/so/SOBasic.c:
 	.text       start:0x80336274 end:0x80337418
 
-Unclassified/SOInformation.c:
+RVL_SDK/so/SOInformation.c:
 	.text       start:0x80337418 end:0x803377D8
 
-Unclassified/SOOption.c:
+RVL_SDK/so/SOOption.c:
 	.text       start:0x803377D8 end:0x80337BC0
 
 HomeButton/HBMFrameController.cpp:
@@ -2825,7 +2825,7 @@ HomeButton/synvoice.cpp:
 HomeButton/seq.cpp:
 	.text       start:0x8035B240 end:0x8035BB70
 
-Unclassified/RSOLink.c:
+RVL_SDK/rso/RSOLink.c:
 	.text       start:0x8035BB70 end:0x8035CB70
 
 RVL_SDK/tpl/TPL.c:
@@ -5614,7 +5614,7 @@ RVL_SDK/os/__start.c:
 	.init       start:0x800062C0 end:0x80006620
 	.sbss       start:0x80898D58 end:0x80898D60
 
-Unclassified/nand_drv.c:
+RVL_SDK/vf/nand_drv.c:
 	.sbss       start:0x808990E8 end:0x808990F0
 
 Unclassified/BULog.cpp:
@@ -5634,3 +5634,4 @@ BitDemon/Platform/bdPlatformStreamSocket.cpp:
 
 SkylanderPortal/tfbPortalAlgorithms.c:
 	.init       start:0x80006684 end:0x80006684
+	.text       start:0x80583930 end:0x805854F4
