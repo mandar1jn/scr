@@ -17,142 +17,142 @@ Sections:
 Game/GE/GEEmbeddedPak_wii.cpp:
 	wii_embedded start:0x80610F80 end:0x806D1788
 
-Unclassified/PFProfileCounters.cpp:
+Game/PF/PFProfileCounters.cpp:
 	.data       start:0x805CD7F8 end:0x805D39A8
 	.sdata      start:0x80896758 end:0x80896788
 
-Unclassified/PFProfileTimers.cpp:
+Game/PF/PFProfileTimers.cpp:
 	.data       start:0x805D3E20 end:0x805D8C90
 	.sdata      start:0x808967C0 end:0x808967E0
 
-Unclassified/xfontdata.c:
+Game/xfont/xfontdata.c:
 	.data       start:0x805D9FA0 end:0x805DABA0
 
-Unclassified/APIBaseObject.cpp:
+Game/API/APIBaseObject.cpp:
 	.text       start:0x8001ADE0 end:0x8001B800
 
 Game/GE/GEEngineMgr.cpp:
 	.text       start:0x8001B800 end:0x80020850
 	.ctors      start:0x80585504 end:0x80585508
 
-Unclassified/ANMaterialAnim.cpp:
+Game/AN/ANMaterialAnim.cpp:
 	.text       start:0x80020850 end:0x800221D0
 	.ctors      start:0x80585508 end:0x8058550C
 
-Unclassified/ANAnimationKFAdd.cpp:
+Game/AN/ANAnimationKFAdd.cpp:
 	.text       start:0x800221D0 end:0x80022B40
 	.ctors      start:0x8058550C end:0x80585510
 
-Unclassified/ANAnimationTransition.cpp:
+Game/AN/ANAnimationTransition.cpp:
 	.text       start:0x80022B40 end:0x80024130
 	.ctors      start:0x80585510 end:0x80585514
 
-Unclassified/ANAnimationMgr.cpp:
+Game/AN/ANAnimationMgr.cpp:
 	.text       start:0x80024130 end:0x80026730
 	.ctors      start:0x80585514 end:0x80585518
 
-Unclassified/ANAnimationKF.cpp:
+Game/AN/ANAnimationKF.cpp:
 	.text       start:0x80026730 end:0x80028E20
 	.ctors      start:0x80585518 end:0x8058551C
 
-Unclassified/ANAnimationTree.cpp:
+Game/AN/ANAnimationTree.cpp:
 	.text       start:0x80028E20 end:0x80029AC0
 	.ctors      start:0x8058551C end:0x80585520
 
-Unclassified/ANAnimSlot.cpp:
+Game/AN/ANAnimSlot.cpp:
 	.text       start:0x80029AC0 end:0x80029EE0
 
-Unclassified/ANAnimStatic.cpp:
+Game/AN/ANAnimStatic.cpp:
 	.text       start:0x80029EE0 end:0x8002A190
 
-Unclassified/ANProcedural.cpp:
+Game/AN/ANProcedural.cpp:
 	.text       start:0x8002A190 end:0x8002BB70
 
-Unclassified/ANProceduralAutoAdd.cpp:
+Game/AN/ANProceduralAutoAdd.cpp:
 	.text       start:0x8002BB70 end:0x8002CAB0
 
-Unclassified/ANProceduralBanking.cpp:
+Game/AN/ANProceduralBanking.cpp:
 	.text       start:0x8002CAB0 end:0x8002D8B0
 
-Unclassified/ANCamera.cpp:
+Game/AN/ANCamera.cpp:
 	.text       start:0x8002D8B0 end:0x8002DF20
 	.ctors      start:0x80585520 end:0x80585524
 
-Unclassified/ANConstraint.cpp:
+Game/AN/ANConstraint.cpp:
 	.text       start:0x8002DF20 end:0x8002FFA0
 
-Unclassified/ANProceduralIK.cpp:
+Game/AN/ANProceduralIK.cpp:
 	.text       start:0x8002FFA0 end:0x800308B0
 
-Unclassified/ANProceduralAutoAddInertia.cpp:
+Game/AN/ANProceduralAutoAddInertia.cpp:
 	.text       start:0x800308B0 end:0x800313C0
 
-Unclassified/ANProceduralBoneTrack.cpp:
+Game/AN/ANProceduralBoneTrack.cpp:
 	.text       start:0x800313C0 end:0x80031A00
 
-Unclassified/ANProceduralTransitionAdd.cpp:
+Game/AN/ANProceduralTransitionAdd.cpp:
 	.text       start:0x80031A00 end:0x80032810
 	.ctors      start:0x80585524 end:0x80585528
 
-Unclassified/ANProceduralInertia.cpp:
+Game/AN/ANProceduralInertia.cpp:
 	.text       start:0x80032810 end:0x80033AF0
 
-Unclassified/ANProceduralMultiBoneTrack.cpp:
+Game/AN/ANProceduralMultiBoneTrack.cpp:
 	.text       start:0x80033AF0 end:0x80034260
 
-Unclassified/ANProceduralTransitionBone.cpp:
+Game/AN/ANProceduralTransitionBone.cpp:
 	.text       start:0x80034260 end:0x80034AE0
 
-Unclassified/ANProceduralRBToAnim.cpp:
+Game/AN/ANProceduralRBToAnim.cpp:
 	.text       start:0x80034AE0 end:0x80034B00
 
-Unclassified/ANCutScene.cpp:
+Game/AN/ANCutScene.cpp:
 	.text       start:0x80034B00 end:0x80036F20
 	.ctors      start:0x80585528 end:0x8058552C
 
-Unclassified/ANProceduralTransitionAuto.cpp:
+Game/AN/ANProceduralTransitionAuto.cpp:
 	.text       start:0x80036F20 end:0x80037FE0
 
-Unclassified/ANProceduralUser.cpp:
+Game/AN/ANProceduralUser.cpp:
 	.text       start:0x80037FE0 end:0x800390B0
 
-Unclassified/ANCutsceneMgr.cpp:
+Game/AN/ANCutsceneMgr.cpp:
 	.text       start:0x800390B0 end:0x8003A9F0
 	.ctors      start:0x8058552C end:0x80585530
 
-Unclassified/ANCutSceneObject.cpp:
+Game/AN/ANCutSceneObject.cpp:
 	.text       start:0x8003A9F0 end:0x8003CDD0
 	.ctors      start:0x80585530 end:0x80585534
 
-Unclassified/ANProceduralPhoneme.cpp:
+Game/AN/ANProceduralPhoneme.cpp:
 	.text       start:0x8003CDD0 end:0x8003D6E0
 
-Unclassified/ANProceduralTransition.cpp:
+Game/AN/ANProceduralTransition.cpp:
 	.text       start:0x8003D6E0 end:0x8003DC80
 
-Unclassified/ANDebugStack.cpp:
+Game/AN/ANDebugStack.cpp:
 	.text       start:0x8003DC80 end:0x8003DD40
 
-Unclassified/ANJobs.cpp:
+Game/AN/ANJobs.cpp:
 	.text       start:0x8003DD40 end:0x8003DEE0
 
-Unclassified/ANCutSceneSoundtrack2.cpp:
+Game/AN/ANCutSceneSoundtrack2.cpp:
 	.text       start:0x8003DEE0 end:0x8003F430
 
-Unclassified/ANJobsBlend.cpp:
+Game/AN/ANJobsBlend.cpp:
 	.text       start:0x8003F430 end:0x800412A0
 
-Unclassified/ANAPIStack.cpp:
+Game/AN/ANAPIStack.cpp:
 	.text       start:0x800412A0 end:0x80041690
 
-Unclassified/ANJobsKF.cpp:
+Game/AN/ANJobsKF.cpp:
 	.text       start:0x80041690 end:0x80043780
 	.ctors      start:0x80585534 end:0x80585538
 
-Unclassified/ANNode.cpp:
+Game/AN/ANNode.cpp:
 	.text       start:0x80043780 end:0x80043C10
 
-Unclassified/ANAnimationCue.cpp:
+Game/AN/ANAnimationCue.cpp:
 	.text       start:0x80043C10 end:0x80046BD0
 	.ctors      start:0x80585538 end:0x8058553C
 
@@ -160,17 +160,17 @@ Game/AD/ADAudio2Mgr.cpp:
 	.text       start:0x80046BD0 end:0x8004C120
 	.ctors      start:0x8058553C end:0x80585540
 
-Unclassified/ANContext.cpp:
+Game/AN/ANContext.cpp:
 	.text       start:0x8004C120 end:0x8004C570
 
-Unclassified/ANBlender.cpp:
+Game/AN/ANBlender.cpp:
 	.text       start:0x8004C570 end:0x8004E660
 	.ctors      start:0x80585540 end:0x80585544
 
-Unclassified/ANUtils.cpp:
+Game/AN/ANUtils.cpp:
 	.text       start:0x8004E660 end:0x8004F230
 
-Unclassified/ANTree.cpp:
+Game/AN/ANTree.cpp:
 	.text       start:0x8004F230 end:0x80050210
 	.ctors      start:0x80585544 end:0x80585548
 
@@ -181,10 +181,10 @@ Game/AD/ADAudioObject.cpp:
 Game/AD/ADAudioOcclusionMgr.cpp:
 	.text       start:0x80053C30 end:0x80055610
 
-Unclassified/ANValidation.cpp:
+Game/AN/ANValidation.cpp:
 	.text       start:0x80055610 end:0x800565F0
 
-Unclassified/ANBuffer.cpp:
+Game/AN/ANBuffer.cpp:
 	.text       start:0x800565F0 end:0x80057150
 
 Game/AD/ADWwiseFileReader.cpp:
@@ -215,7 +215,7 @@ Game/AD/ADAudioBankMgr.cpp:
 	.text       start:0x80062060 end:0x800672C0
 	.ctors      start:0x80585558 end:0x8058555C
 
-Unclassified/ANJobsMgr.cpp:
+Game/AN/ANJobsMgr.cpp:
 	.text       start:0x800672C0 end:0x800678D0
 
 Game/DB/DBToggles.cpp:
@@ -293,7 +293,7 @@ Game/GLAPI/GLAPIEmitter.cpp:
 Game/GLAPI/GLAPIAudio.cpp:
 	.text       start:0x80098180 end:0x80098D50
 
-Unclassified/ANAnimationHandler.cpp:
+Game/AN/ANAnimationHandler.cpp:
 	.text       start:0x80098D50 end:0x8009CB20
 	.ctors      start:0x80585568 end:0x8058556C
 
@@ -367,7 +367,7 @@ Game/GL/GLLogicInstance_common.cpp:
 Game/GLAPI/GLAPIWii.cpp:
 	.text       start:0x800B60E0 end:0x800B64D0
 
-Unclassified/GO3dObj.cpp:
+Game/GO/GO3dObj.cpp:
 	.text       start:0x800B64D0 end:0x800C3CA0
 	.ctors      start:0x8058557C end:0x80585580
 
@@ -380,7 +380,7 @@ Game/GLAPI/GLAPINetwork.cpp:
 Game/GLAPI/GLAPIWiiU.cpp:
 	.text       start:0x800C6D20 end:0x800C6F00
 
-Unclassified/GOGameObj.cpp:
+Game/GO/GOGameObj.cpp:
 	.text       start:0x800C6F00 end:0x800CE730
 	.ctors      start:0x80585580 end:0x80585584
 
@@ -388,14 +388,14 @@ Game/GL/GLLogicMgr_common.cpp:
 	.text       start:0x800CE730 end:0x800D0160
 	.ctors      start:0x80585584 end:0x80585588
 
-Unclassified/GO3dObjShadow.cpp:
+Game/GO/GO3dObjShadow.cpp:
 	.text       start:0x800D0160 end:0x800D0C10
 	.ctors      start:0x80585588 end:0x8058558C
 
 Game/GLAPI/GLAPIWindows.cpp:
 	.text       start:0x800D0C10 end:0x800D10C0
 
-Unclassified/GOGameObjMgr.cpp:
+Game/GO/GOGameObjMgr.cpp:
 	.text       start:0x800D10C0 end:0x800D9E60
 	.ctors      start:0x8058558C end:0x80585590
 
@@ -405,45 +405,45 @@ Game/GLAPI/GLAPISaveGame.cpp:
 Game/GLAPI/GLAPIXBOX360.cpp:
 	.text       start:0x800DA4E0 end:0x800DA7B0
 
-Unclassified/GOGraph.cpp:
+Game/GO/GOGraph.cpp:
 	.text       start:0x800DA7B0 end:0x800DB9B0
 	.ctors      start:0x80585590 end:0x80585594
 
-Unclassified/GO3dObjSourceInfo.cpp:
+Game/GO/GO3dObjSourceInfo.cpp:
 	.text       start:0x800DB9B0 end:0x800DC230
 	.ctors      start:0x80585594 end:0x80585598
 
-Unclassified/GOLight.cpp:
+Game/GO/GOLight.cpp:
 	.text       start:0x800DC230 end:0x800DE0D0
 	.ctors      start:0x80585598 end:0x8058559C
 
 Game/GLAPI/GLAPIZone.cpp:
 	.text       start:0x800DE0D0 end:0x800DEAE0
 
-Unclassified/GOProcMesh.cpp:
+Game/GO/GOProcMesh.cpp:
 	.text       start:0x800DEAE0 end:0x800E1820
 	.ctors      start:0x8058559C end:0x805855A0
 
 Game/GL/GLBaseAPI.cpp:
 	.text       start:0x800E1820 end:0x800E19A0
 
-Unclassified/GOAutoDeactivationMgr.cpp:
+Game/GO/GOAutoDeactivationMgr.cpp:
 	.text       start:0x800E19A0 end:0x800E2A10
 
 Game/GE/GEUpdateFrequencyData.cpp:
 	.text       start:0x800E2A10 end:0x800E2D30
 
-Unclassified/GOSpline.cpp:
+Game/GO/GOSpline.cpp:
 	.text       start:0x800E2D30 end:0x800E6320
 	.ctors      start:0x805855A0 end:0x805855A4
 
-Unclassified/GOGameObjMgr_ms.cpp:
+Game/GO/GOGameObjMgr_ms.cpp:
 	.text       start:0x800E6320 end:0x800E6C10
 
 Game/GLAPI/GLAPIScript.cpp:
 	.text       start:0x800E6C10 end:0x800E7B90
 
-Unclassified/GOTimer.cpp:
+Game/GO/GOTimer.cpp:
 	.text       start:0x800E7B90 end:0x800E81C0
 	.ctors      start:0x805855A4 end:0x805855A8
 
@@ -451,96 +451,96 @@ Game/GLAPI/GLAPIPackage.cpp:
 	.text       start:0x800E81C0 end:0x800E9200
 	.ctors      start:0x805855A8 end:0x805855AC
 
-Unclassified/GOZone.cpp:
+Game/GO/GOZone.cpp:
 	.text       start:0x800E9200 end:0x800EB700
 	.ctors      start:0x805855AC end:0x805855B0
 
 Game/GLAPI/GLAPISkylanderPortal.cpp:
 	.text       start:0x800EB700 end:0x800EBE50
 
-Unclassified/GO3dObjRLESkinning_wii.cpp:
+Game/GO/GO3dObjRLESkinning_wii.cpp:
 	.text       start:0x800EBE50 end:0x800EC350
 
-Unclassified/GRLightGrid.cpp:
+Game/GR/GRLightGrid.cpp:
 	.text       start:0x800EC350 end:0x800ECEE0
 
 Game/GLAPI/GLAPIPhysic.cpp:
 	.text       start:0x800ECEE0 end:0x800F7C30
 
-Unclassified/GO3dObj_wii.cpp:
+Game/GO/GO3dObj_wii.cpp:
 	.text       start:0x800F7C30 end:0x80103310
 
-Unclassified/GRDelayedDeletion.cpp:
+Game/GR/GRDelayedDeletion.cpp:
 	.text       start:0x80103310 end:0x801033E0
 
-Unclassified/GRLightGridsMgr.cpp:
+Game/GR/GRLightGridsMgr.cpp:
 	.text       start:0x801033E0 end:0x801036F0
 
-Unclassified/GOCamera_wii.cpp:
+Game/GO/GOCamera_wii.cpp:
 	.text       start:0x801036F0 end:0x80103D80
 
-Unclassified/GRLightsMgr.cpp:
+Game/GR/GRLightsMgr.cpp:
 	.text       start:0x80103D80 end:0x80105E00
 
-Unclassified/GOEmitter_wii.cpp:
+Game/GO/GOEmitter_wii.cpp:
 	.text       start:0x80105E00 end:0x80109C10
 
 Game/GLAPI/GLAPIProcMesh.cpp:
 	.text       start:0x80109C10 end:0x8010A330
 
-Unclassified/GRMaterialAnimation.cpp:
+Game/GR/GRMaterialAnimation.cpp:
 	.text       start:0x8010A330 end:0x8010ADE0
 	.ctors      start:0x805855B0 end:0x805855B4
 
-Unclassified/GRDynMesh.cpp:
+Game/GR/GRDynMesh.cpp:
 	.text       start:0x8010ADE0 end:0x8010B520
 	.ctors      start:0x805855B4 end:0x805855B8
 
-Unclassified/GOProcMesh_wii.cpp:
+Game/GO/GOProcMesh_wii.cpp:
 	.text       start:0x8010B520 end:0x8010C5E0
 
-Unclassified/GRMaterial.cpp:
+Game/GR/GRMaterial.cpp:
 	.text       start:0x8010C5E0 end:0x8010E550
 	.ctors      start:0x805855B8 end:0x805855BC
 
-Unclassified/GRTexture.cpp:
+Game/GR/GRTexture.cpp:
 	.text       start:0x8010E550 end:0x8010EA50
 	.ctors      start:0x805855BC end:0x805855C0
 
-Unclassified/GROctree.cpp:
+Game/GR/GROctree.cpp:
 	.text       start:0x8010EA50 end:0x80110FF0
 	.ctors      start:0x805855C0 end:0x805855C4
 
-Unclassified/GOEmitterBaseField.cpp:
+Game/GO/GOEmitterBaseField.cpp:
 	.text       start:0x80110FF0 end:0x80111550
 
-Unclassified/GOCamera.cpp:
+Game/GO/GOCamera.cpp:
 	.text       start:0x80111550 end:0x80111FD0
 	.ctors      start:0x805855C4 end:0x805855C8
 
-Unclassified/GOEmitterField_Drag.cpp:
+Game/GO/GOEmitterField_Drag.cpp:
 	.text       start:0x80111FD0 end:0x80112470
 
-Unclassified/GOComponent.cpp:
+Game/GO/GOComponent.cpp:
 	.text       start:0x80112470 end:0x80112740
 
-Unclassified/GOEmitterField_Fan.cpp:
+Game/GO/GOEmitterField_Fan.cpp:
 	.text       start:0x80112740 end:0x80112BE0
 
-Unclassified/GOCopier.cpp:
+Game/GO/GOCopier.cpp:
 	.text       start:0x80112BE0 end:0x80114410
 
-Unclassified/GOEmitterField_Gravity.cpp:
+Game/GO/GOEmitterField_Gravity.cpp:
 	.text       start:0x80114410 end:0x80114860
 
-Unclassified/GOEmitter.cpp:
+Game/GO/GOEmitter.cpp:
 	.text       start:0x80114860 end:0x8011C7E0
 	.ctors      start:0x805855C8 end:0x805855CC
 
-Unclassified/GOEmitterField_Radial.cpp:
+Game/GO/GOEmitterField_Radial.cpp:
 	.text       start:0x8011C7E0 end:0x8011CC30
 
-Unclassified/GOEmitterUpdate.cpp:
+Game/GO/GOEmitterUpdate.cpp:
 	.text       start:0x8011CC30 end:0x8011F560
 
 Game/GL/GLCriticalSection.cpp:
@@ -551,798 +551,798 @@ Game/GL/GLLogicInstance.cpp:
 	.text       start:0x8011FA00 end:0x80123080
 	.ctors      start:0x805855D0 end:0x805855D4
 
-Unclassified/GRCamera_wii.cpp:
+Game/GR/GRCamera_wii.cpp:
 	.text       start:0x80123080 end:0x80123280
 
-Unclassified/GRCamera.cpp:
+Game/GR/GRCamera.cpp:
 	.text       start:0x80123280 end:0x801245C0
 
 Game/GL/GLLogicMgr.cpp:
 	.text       start:0x801245C0 end:0x80127FE0
 	.ctors      start:0x805855D4 end:0x805855D8
 
-Unclassified/GRMainCamera_wii.cpp:
+Game/GR/GRMainCamera_wii.cpp:
 	.text       start:0x80127FE0 end:0x80128310
 
-Unclassified/GRCameraFactory.cpp:
+Game/GR/GRCameraFactory.cpp:
 	.text       start:0x80128310 end:0x80128390
 
 Game/GL/GLParamBlock.cpp:
 	.text       start:0x80128390 end:0x80129510
 	.ctors      start:0x805855D8 end:0x805855DC
 
-Unclassified/GRTextureCamera_wii.cpp:
+Game/GR/GRTextureCamera_wii.cpp:
 	.text       start:0x80129510 end:0x80129D70
 
-Unclassified/GRCameraMgr.cpp:
+Game/GR/GRCameraMgr.cpp:
 	.text       start:0x80129D70 end:0x8012B4B0
 
 Game/GL/GLParamBlockMgr.cpp:
 	.text       start:0x8012B4B0 end:0x8012BD20
 
-Unclassified/GRHudCamera.cpp:
+Game/GR/GRHudCamera.cpp:
 	.text       start:0x8012BD20 end:0x8012BDE0
 
 Game/GL/GLPostedMessage.cpp:
 	.text       start:0x8012BDE0 end:0x8012CDB0
 	.ctors      start:0x805855DC end:0x805855E0
 
-Unclassified/GRClipCam.cpp:
+Game/GR/GRClipCam.cpp:
 	.text       start:0x8012CDB0 end:0x8012EB20
 
-Unclassified/GRGraphicsMgr.cpp:
+Game/GR/GRGraphicsMgr.cpp:
 	.text       start:0x8012EB20 end:0x80132480
 	.ctors      start:0x805855E0 end:0x805855E4
 
-Unclassified/GRClippingMgr_gen.cpp:
+Game/GR/GRClippingMgr_gen.cpp:
 	.text       start:0x80132480 end:0x801327E0
 
-Unclassified/GRClipCamWorkData.cpp:
+Game/GR/GRClipCamWorkData.cpp:
 	.text       start:0x801327E0 end:0x80132BD0
 
-Unclassified/GRClipTree_gen.cpp:
+Game/GR/GRClipTree_gen.cpp:
 	.text       start:0x80132BD0 end:0x80134420
 
-Unclassified/GOEmitterField_Vortex.cpp:
+Game/GO/GOEmitterField_Vortex.cpp:
 	.text       start:0x80134420 end:0x801348B0
 
-Unclassified/GRClipEntry.cpp:
+Game/GR/GRClipEntry.cpp:
 	.text       start:0x801348B0 end:0x80135C00
 	.ctors      start:0x805855E4 end:0x805855E8
 
-Unclassified/GRClipOccluder.cpp:
+Game/GR/GRClipOccluder.cpp:
 	.text       start:0x80135C00 end:0x80136700
 	.ctors      start:0x805855E8 end:0x805855EC
 
-Unclassified/GRClippingMgr.cpp:
+Game/GR/GRClippingMgr.cpp:
 	.text       start:0x80136700 end:0x80139BE0
 
-Unclassified/GRClipTree.cpp:
+Game/GR/GRClipTree.cpp:
 	.text       start:0x80139BE0 end:0x8013C6A0
 	.ctors      start:0x805855EC end:0x805855F0
 
-Unclassified/GRClipTreeNode.cpp:
+Game/GR/GRClipTreeNode.cpp:
 	.text       start:0x8013C6A0 end:0x801439F0
 	.ctors      start:0x805855F0 end:0x805855F4
 
-Unclassified/GRDecalsMgr_wii.cpp:
+Game/GR/GRDecalsMgr_wii.cpp:
 	.text       start:0x801439F0 end:0x80144740
 
-Unclassified/GRDecal.cpp:
+Game/GR/GRDecal.cpp:
 	.text       start:0x80144740 end:0x801448C0
 
-Unclassified/GRReflectionMgr.cpp:
+Game/GR/GRReflectionMgr.cpp:
 	.text       start:0x801448C0 end:0x80144D10
 
-Unclassified/GRFoliageMgr_wii.cpp:
+Game/GR/GRFoliageMgr_wii.cpp:
 	.text       start:0x80144D10 end:0x80145390
 
-Unclassified/GRDecalsMgr.cpp:
+Game/GR/GRDecalsMgr.cpp:
 	.text       start:0x80145390 end:0x80145EC0
 
-Unclassified/GRFoliage_wii.cpp:
+Game/GR/GRFoliage_wii.cpp:
 	.text       start:0x80145EC0 end:0x801469D0
 
-Unclassified/GRMotionTrailMgr_wii.cpp:
+Game/GR/GRMotionTrailMgr_wii.cpp:
 	.text       start:0x801469D0 end:0x80146A90
 
-Unclassified/GRFoliage.cpp:
+Game/GR/GRFoliage.cpp:
 	.text       start:0x80146A90 end:0x80147120
 
-Unclassified/GRMotionTrail_wii.cpp:
+Game/GR/GRMotionTrail_wii.cpp:
 	.text       start:0x80147120 end:0x80149220
 
-Unclassified/GRWeb.cpp:
+Game/GR/GRWeb.cpp:
 	.text       start:0x80149220 end:0x8014A2A0
 
-Unclassified/GRReflectionMgr_wii.cpp:
+Game/GR/GRReflectionMgr_wii.cpp:
 	.text       start:0x8014A2A0 end:0x8014A570
 
-Unclassified/GRProbeSet.cpp:
+Game/GR/GRProbeSet.cpp:
 	.text       start:0x8014A570 end:0x8014AC70
 
-Unclassified/GRWebMgr.cpp:
+Game/GR/GRWebMgr.cpp:
 	.text       start:0x8014AC70 end:0x8014B230
 
-Unclassified/GRWebMgr_wii.cpp:
+Game/GR/GRWebMgr_wii.cpp:
 	.text       start:0x8014B230 end:0x8014B3C0
 
-Unclassified/GRImageCodecJpeg_wii.cpp:
+Game/GR/GRImageCodecJpeg_wii.cpp:
 	.text       start:0x8014B3C0 end:0x8014B3C0
 
-Unclassified/GRProbeSetMgr.cpp:
+Game/GR/GRProbeSetMgr.cpp:
 	.text       start:0x8014B3C0 end:0x8014B480
 
-Unclassified/GRFoliageMgr.cpp:
+Game/GR/GRFoliageMgr.cpp:
 	.text       start:0x8014B480 end:0x8014C770
 
-Unclassified/GRWeb_wii.cpp:
+Game/GR/GRWeb_wii.cpp:
 	.text       start:0x8014C770 end:0x8014D4E0
 
-Unclassified/GRProbeSetRequest.cpp:
+Game/GR/GRProbeSetRequest.cpp:
 	.text       start:0x8014D4E0 end:0x8014D7F0
 	.ctors      start:0x805855F4 end:0x805855F8
 
-Unclassified/GRWebUtils.cpp:
+Game/GR/GRWebUtils.cpp:
 	.text       start:0x8014D7F0 end:0x8014F0A0
 
-Unclassified/GRMotionTrail.cpp:
+Game/GR/GRMotionTrail.cpp:
 	.text       start:0x8014F0A0 end:0x801504F0
 
-Unclassified/GR3dObjCachedShadowsMgr.cpp:
+Game/GR/GR3dObjCachedShadowsMgr.cpp:
 	.text       start:0x801504F0 end:0x80150C50
 
-Unclassified/GRMotionTrailMgr.cpp:
+Game/GR/GRMotionTrailMgr.cpp:
 	.text       start:0x80150C50 end:0x80151CF0
 
-Unclassified/GR3dObjShadowCasterInfos.cpp:
+Game/GR/GR3dObjShadowCasterInfos.cpp:
 	.text       start:0x80151CF0 end:0x80152000
 	.ctors      start:0x805855F8 end:0x805855FC
 
-Unclassified/GRMotionTrailUpdate.cpp:
+Game/GR/GRMotionTrailUpdate.cpp:
 	.text       start:0x80152000 end:0x801546B0
 
-Unclassified/GR3dObjShadowsMgr.cpp:
+Game/GR/GR3dObjShadowsMgr.cpp:
 	.text       start:0x801546B0 end:0x80155B60
 
-Unclassified/GR3dObjShadowsMgr_wii.cpp:
+Game/GR/GR3dObjShadowsMgr_wii.cpp:
 	.text       start:0x80155B60 end:0x80156CF0
 
-Unclassified/GRProjectedDecal.cpp:
+Game/GR/GRProjectedDecal.cpp:
 	.text       start:0x80156CF0 end:0x80157270
 
-Unclassified/GRTexture_wii.cpp:
+Game/GR/GRTexture_wii.cpp:
 	.text       start:0x80157270 end:0x80157F60
 
-Unclassified/GRTransparencyList_wii.cpp:
+Game/GR/GRTransparencyList_wii.cpp:
 	.text       start:0x80157F60 end:0x80158830
 
-Unclassified/GRDynBufferMgr_wii.cpp:
+Game/GR/GRDynBufferMgr_wii.cpp:
 	.text       start:0x80158830 end:0x80158BD0
 
-Unclassified/GRLightShadowsMgr.cpp:
+Game/GR/GRLightShadowsMgr.cpp:
 	.text       start:0x80158BD0 end:0x80159210
 
-Unclassified/GRDynMesh_wii.cpp:
+Game/GR/GRDynMesh_wii.cpp:
 	.text       start:0x80159210 end:0x80159350
 
-Unclassified/GRProjCachedShadowsMgr.cpp:
+Game/GR/GRProjCachedShadowsMgr.cpp:
 	.text       start:0x80159350 end:0x80159D50
 
-Unclassified/GRGraphicsMgr_wii.cpp:
+Game/GR/GRGraphicsMgr_wii.cpp:
 	.text       start:0x80159D50 end:0x80161190
 
-Unclassified/GRLightGridsMgr_wii.cpp:
+Game/GR/GRLightGridsMgr_wii.cpp:
 	.text       start:0x80161190 end:0x80161C40
 
-Unclassified/GRProjShadowCache.cpp:
+Game/GR/GRProjShadowCache.cpp:
 	.text       start:0x80161C40 end:0x80161F40
 
-Unclassified/GRLightGrid_wii.cpp:
+Game/GR/GRLightGrid_wii.cpp:
 	.text       start:0x80161F40 end:0x80161FD0
 
-Unclassified/GRLightsMgr_wii.cpp:
+Game/GR/GRLightsMgr_wii.cpp:
 	.text       start:0x80161FD0 end:0x80163C80
 
-Unclassified/GRMaterial_wii.cpp:
+Game/GR/GRMaterial_wii.cpp:
 	.text       start:0x80163C80 end:0x8016DC50
 
-Unclassified/GROctree_wii.cpp:
+Game/GR/GROctree_wii.cpp:
 	.text       start:0x8016DC50 end:0x80173F80
 
-Unclassified/GRProjShadowsMgr.cpp:
+Game/GR/GRProjShadowsMgr.cpp:
 	.text       start:0x80173F80 end:0x80173FD0
 
-Unclassified/GRRenderStateMgr_wii.cpp:
+Game/GR/GRRenderStateMgr_wii.cpp:
 	.text       start:0x80173FD0 end:0x801759A0
 
-Unclassified/GRLightShadowsMgr_wii.cpp:
+Game/GR/GRLightShadowsMgr_wii.cpp:
 	.text       start:0x801759A0 end:0x801763F0
 
-Unclassified/GRRenderPostEffects_wii.cpp:
+Game/GR/GRRenderPostEffects_wii.cpp:
 	.text       start:0x801763F0 end:0x80177120
 
-Unclassified/HUD2DWindow.cpp:
+Game/HUD/HUD2DWindow.cpp:
 	.text       start:0x80177120 end:0x80178030
 
-Unclassified/GRPostEffectBloomDoF_wii.cpp:
+Game/GR/GRPostEffectBloomDoF_wii.cpp:
 	.text       start:0x80178030 end:0x80179890
 
-Unclassified/HUD3DObj.cpp:
+Game/HUD/HUD3DObj.cpp:
 	.text       start:0x80179890 end:0x8017A0E0
 
-Unclassified/GRProjShadowsMgr_wii.cpp:
+Game/GR/GRProjShadowsMgr_wii.cpp:
 	.text       start:0x8017A0E0 end:0x8017CD30
 
-Unclassified/INInputMgr.cpp:
+Game/IN/INInputMgr.cpp:
 	.text       start:0x8017CD30 end:0x8017D0E0
 
-Unclassified/GRPostEffectColorization_wii.cpp:
+Game/GR/GRPostEffectColorization_wii.cpp:
 	.text       start:0x8017D0E0 end:0x8017E160
 
-Unclassified/GRPostEffectDistortion_wii.cpp:
+Game/GR/GRPostEffectDistortion_wii.cpp:
 	.text       start:0x8017E160 end:0x8017E510
 
-Unclassified/HUD3DWindow.cpp:
+Game/HUD/HUD3DWindow.cpp:
 	.text       start:0x8017E510 end:0x8017F070
 
-Unclassified/GRPostEffectEdgeDetect_wii.cpp:
+Game/GR/GRPostEffectEdgeDetect_wii.cpp:
 	.text       start:0x8017F070 end:0x8017FFA0
 
-Unclassified/MMAllocDataDebug.cpp:
+Game/MM/MMAllocDataDebug.cpp:
 	.text       start:0x8017FFA0 end:0x80180770
 
-Unclassified/HUDMgr.cpp:
+Game/HUD/HUDMgr.cpp:
 	.text       start:0x80180770 end:0x80185100
 	.ctors      start:0x805855FC end:0x80585600
 
-Unclassified/MVMovieSoundOutput_wii.cpp:
+Game/MV/MVMovieSoundOutput_wii.cpp:
 	.text       start:0x80185100 end:0x801852C0
 
-Unclassified/GRPostEffectGrain_wii.cpp:
+Game/GR/GRPostEffectGrain_wii.cpp:
 	.text       start:0x801852C0 end:0x801860D0
 
-Unclassified/INInputMgr_wii.cpp:
+Game/IN/INInputMgr_wii.cpp:
 	.text       start:0x801860D0 end:0x801875C0
 
-Unclassified/MMCrashDump.cpp:
+Game/MM/MMCrashDump.cpp:
 	.text       start:0x801875C0 end:0x8018BD40
 	.ctors      start:0x80585600 end:0x80585604
 
-Unclassified/MVMovieSound_wii.cpp:
+Game/MV/MVMovieSound_wii.cpp:
 	.text       start:0x8018BD40 end:0x8018BE30
 
-Unclassified/HUD2DWindow_wii.cpp:
+Game/HUD/HUD2DWindow_wii.cpp:
 	.text       start:0x8018BE30 end:0x8018DB90
 
-Unclassified/GRPostEffectHalo_wii.cpp:
+Game/GR/GRPostEffectHalo_wii.cpp:
 	.text       start:0x8018DB90 end:0x8018EDC0
 
-Unclassified/HUDRootWindow.cpp:
+Game/HUD/HUDRootWindow.cpp:
 	.text       start:0x8018EDC0 end:0x8018F120
 
-Unclassified/MVMovie_wii.cpp:
+Game/MV/MVMovie_wii.cpp:
 	.text       start:0x8018F120 end:0x801902D0
 
-Unclassified/HUD3DObj_wii.cpp:
+Game/HUD/HUD3DObj_wii.cpp:
 	.text       start:0x801902D0 end:0x80190620
 
-Unclassified/GRPostEffectHeatHaze_wii.cpp:
+Game/GR/GRPostEffectHeatHaze_wii.cpp:
 	.text       start:0x80190620 end:0x80191040
 
-Unclassified/MTJobGameObjUpdate.cpp:
+Game/MT/MTJobGameObjUpdate.cpp:
 	.text       start:0x80191040 end:0x80191E70
 	.ctors      start:0x80585604 end:0x80585608
 
-Unclassified/HUDTextWindow.cpp:
+Game/HUD/HUDTextWindow.cpp:
 	.text       start:0x80191E70 end:0x80193A00
 
-Unclassified/HUD3DWindow_wii.cpp:
+Game/HUD/HUD3DWindow_wii.cpp:
 	.text       start:0x80193A00 end:0x80193FB0
 
-Unclassified/GRPostEffectMirror_wii.cpp:
+Game/GR/GRPostEffectMirror_wii.cpp:
 	.text       start:0x80193FB0 end:0x801942D0
 
-Unclassified/MTJob.cpp:
+Game/MT/MTJob.cpp:
 	.text       start:0x801942D0 end:0x80194390
 
-Unclassified/HUDMgr_wii.cpp:
+Game/HUD/HUDMgr_wii.cpp:
 	.text       start:0x80194390 end:0x801948E0
 
-Unclassified/GRPostEffectMotionBlur_wii.cpp:
+Game/GR/GRPostEffectMotionBlur_wii.cpp:
 	.text       start:0x801948E0 end:0x801954B0
 
-Unclassified/HudTxtMgr.cpp:
+Game/HUD/HudTxtMgr.cpp:
 	.text       start:0x801954B0 end:0x801991D0
 
-Unclassified/HUDRootWindow_wii.cpp:
+Game/HUD/HUDRootWindow_wii.cpp:
 	.text       start:0x801991D0 end:0x801993F0
 
-Unclassified/GRPostEffectRadialBlur_wii.cpp:
+Game/GR/GRPostEffectRadialBlur_wii.cpp:
 	.text       start:0x801993F0 end:0x8019A310
 
-Unclassified/MTJobCue.cpp:
+Game/MT/MTJobCue.cpp:
 	.text       start:0x8019A310 end:0x8019A6A0
 
-Unclassified/MMMemoryMgrDebug.cpp:
+Game/MM/MMMemoryMgrDebug.cpp:
 	.text       start:0x8019A6A0 end:0x8019B770
 
-Unclassified/HUDTextWindow_wii.cpp:
+Game/HUD/HUDTextWindow_wii.cpp:
 	.text       start:0x8019B770 end:0x8019E460
 
-Unclassified/HUDWindow.cpp:
+Game/HUD/HUDWindow.cpp:
 	.text       start:0x8019E460 end:0x801A1930
 
-Unclassified/LDChunk.cpp:
+Game/LD/LDChunk.cpp:
 	.text       start:0x801A1930 end:0x801A2100
 
-Unclassified/HudTxtMgr_wii.cpp:
+Game/HUD/HudTxtMgr_wii.cpp:
 	.text       start:0x801A2100 end:0x801A43F0
 
-Unclassified/MMNodeDebug.cpp:
+Game/MM/MMNodeDebug.cpp:
 	.text       start:0x801A43F0 end:0x801A6F10
 
-Unclassified/HUDWindow_wii.cpp:
+Game/HUD/HUDWindow_wii.cpp:
 	.text       start:0x801A6F10 end:0x801A77A0
 
-Unclassified/LDLoader.cpp:
+Game/LD/LDLoader.cpp:
 	.text       start:0x801A77A0 end:0x801A78E0
 
-Unclassified/MMAlloc.cpp:
+Game/MM/MMAlloc.cpp:
 	.text       start:0x801A78E0 end:0x801A7950
 
-Unclassified/PKPackage.cpp:
+Game/PK/PKPackage.cpp:
 	.text       start:0x801A7950 end:0x801AEEC0
 	.ctors      start:0x80585608 end:0x8058560C
 
-Unclassified/MMAllocType.cpp:
+Game/MM/MMAllocType.cpp:
 	.text       start:0x801AEEC0 end:0x801AEED0
 
-Unclassified/PSManifoldMgr.cpp:
+Game/PS/PSManifoldMgr.cpp:
 	.text       start:0x801AEED0 end:0x801B1C10
 	.ctors      start:0x8058560C end:0x80585610
 
-Unclassified/MMMemoryMgr_st.cpp:
+Game/MM/MMMemoryMgr_st.cpp:
 	.text       start:0x801B1C10 end:0x801B1DB0
 
-Unclassified/PKPackageMgr.cpp:
+Game/PK/PKPackageMgr.cpp:
 	.text       start:0x801B1DB0 end:0x801B3D60
 	.ctors      start:0x80585610 end:0x80585614
 
-Unclassified/MMAlloc_wii.cpp:
+Game/MM/MMAlloc_wii.cpp:
 	.text       start:0x801B3D60 end:0x801B3FF0
 
-Unclassified/PSNarrowPhaseMgr.cpp:
+Game/PS/PSNarrowPhaseMgr.cpp:
 	.text       start:0x801B3FF0 end:0x801B4FF0
 
-Unclassified/MMMemoryMgr_wii.cpp:
+Game/MM/MMMemoryMgr_wii.cpp:
 	.text       start:0x801B4FF0 end:0x801B8920
 
-Unclassified/MMBuffer.cpp:
+Game/MM/MMBuffer.cpp:
 	.text       start:0x801B8920 end:0x801B8E20
 
 BitDemon/Misc/bdDeliveryManager.cpp:
 	.text       start:0x801B8E20 end:0x801B9D50
 
-Unclassified/PFProfileMgr_wii.cpp:
+Game/PF/PFProfileMgr_wii.cpp:
 	.text       start:0x801B9D50 end:0x801B9EC0
 	.ctors      start:0x80585614 end:0x80585618
 
-Unclassified/PSCollidable.cpp:
+Game/PS/PSCollidable.cpp:
 	.text       start:0x801B9EC0 end:0x801BA750
 
-Unclassified/MMDefragHeap.cpp:
+Game/MM/MMDefragHeap.cpp:
 	.text       start:0x801BA750 end:0x801BCF50
 
-Unclassified/MTThreadMgr.cpp:
+Game/MT/MTThreadMgr.cpp:
 	.text       start:0x801BCF50 end:0x801BE2A0
 	.ctors      start:0x80585618 end:0x8058561C
 
-Unclassified/MVCriToWwise.cpp:
+Game/MV/MVCriToWwise.cpp:
 	.text       start:0x801BE2A0 end:0x801BF0D0
 	.ctors      start:0x8058561C end:0x80585620
 
-Unclassified/SBCloth.cpp:
+Game/SB/SBCloth.cpp:
 	.text       start:0x801BF0D0 end:0x801BFEE0
 
-Unclassified/PSCollisionWorld.cpp:
+Game/PS/PSCollisionWorld.cpp:
 	.text       start:0x801BFEE0 end:0x801C5920
 	.ctors      start:0x80585620 end:0x80585624
 
-Unclassified/MMDefragNode.cpp:
+Game/MM/MMDefragNode.cpp:
 	.text       start:0x801C5920 end:0x801C6000
 	.ctors      start:0x80585624 end:0x80585628
 
-Unclassified/PKPackage_st.cpp:
+Game/PK/PKPackage_st.cpp:
 	.text       start:0x801C6000 end:0x801C6150
 
-Unclassified/SBMesh.cpp:
+Game/SB/SBMesh.cpp:
 	.text       start:0x801C6150 end:0x801CA230
 
-Unclassified/NMNavMeshMap.cpp:
+Game/NM/NMNavMeshMap.cpp:
 	.text       start:0x801CA230 end:0x801CC620
 
-Unclassified/PSColModel.cpp:
+Game/PS/PSColModel.cpp:
 	.text       start:0x801CC620 end:0x801CEC80
 
-Unclassified/SBRope.cpp:
+Game/SB/SBRope.cpp:
 	.text       start:0x801CEC80 end:0x801CEF80
 
-Unclassified/PKPackageMgr_wii.cpp:
+Game/PK/PKPackageMgr_wii.cpp:
 	.text       start:0x801CEF80 end:0x801CF020
 
-Unclassified/NMNavMeshMgr.cpp:
+Game/NM/NMNavMeshMgr.cpp:
 	.text       start:0x801CF020 end:0x801CFB70
 
-Unclassified/MVMovieBuffers.cpp:
+Game/MV/MVMovieBuffers.cpp:
 	.text       start:0x801CFB70 end:0x801CFD60
 
-Unclassified/PSConstraintSolver.cpp:
+Game/PS/PSConstraintSolver.cpp:
 	.text       start:0x801CFD60 end:0x801D2CC0
 
-Unclassified/PKPackage_wii.cpp:
+Game/PK/PKPackage_wii.cpp:
 	.text       start:0x801D2CC0 end:0x801D2D50
 
-Unclassified/SBSoftBodyMgr.cpp:
+Game/SB/SBSoftBodyMgr.cpp:
 	.text       start:0x801D2D50 end:0x801D35E0
 	.ctors      start:0x80585628 end:0x8058562C
 
-Unclassified/RZAnimationCue.cpp:
+Game/RZ/RZAnimationCue.cpp:
 	.text       start:0x801D35E0 end:0x801D4220
 	.ctors      start:0x8058562C end:0x80585630
 
-Unclassified/MVMovieCri.cpp:
+Game/MV/MVMovieCri.cpp:
 	.text       start:0x801D4220 end:0x801D68F0
 
-Unclassified/PSIslandMgr.cpp:
+Game/PS/PSIslandMgr.cpp:
 	.text       start:0x801D68F0 end:0x801D8A10
 
-Unclassified/RZParamTree.cpp:
+Game/RZ/RZParamTree.cpp:
 	.text       start:0x801D8A10 end:0x801D9470
 	.ctors      start:0x80585630 end:0x80585634
 
-Unclassified/SBSpringConstraints.cpp:
+Game/SB/SBSpringConstraints.cpp:
 	.text       start:0x801D9470 end:0x801D9670
 	.ctors      start:0x80585634 end:0x80585638
 
-Unclassified/RZAnimationTree.cpp:
+Game/RZ/RZAnimationTree.cpp:
 	.text       start:0x801D9670 end:0x801DA7A0
 	.ctors      start:0x80585638 end:0x8058563C
 
-Unclassified/MVMovieCriInterfaces.cpp:
+Game/MV/MVMovieCriInterfaces.cpp:
 	.text       start:0x801DA7A0 end:0x801DB390
 
-Unclassified/NWCompressMgr.cpp:
+Game/NW/NWCompressMgr.cpp:
 	.text       start:0x801DB390 end:0x801DE3A0
 
-Unclassified/PSPhysicMgr.cpp:
+Game/PS/PSPhysicMgr.cpp:
 	.text       start:0x801DE3A0 end:0x801E1F20
 
-Unclassified/RZGeometry_wii.cpp:
+Game/RZ/RZGeometry_wii.cpp:
 	.text       start:0x801E1F20 end:0x801E3DE0
 	.ctors      start:0x8058563C end:0x80585640
 
-Unclassified/PSWindMgr.cpp:
+Game/PS/PSWindMgr.cpp:
 	.text       start:0x801E3DE0 end:0x801E4820
 
-Unclassified/RZLogicCode_wii.cpp:
+Game/RZ/RZLogicCode_wii.cpp:
 	.text       start:0x801E4820 end:0x801E4960
 
-Unclassified/RZAnimMap.cpp:
+Game/RZ/RZAnimMap.cpp:
 	.text       start:0x801E4960 end:0x801E4F50
 
-Unclassified/MVMovieMgr.cpp:
+Game/MV/MVMovieMgr.cpp:
 	.text       start:0x801E4F50 end:0x801E5730
 
-Unclassified/NWConnectionStateMachine.cpp:
+Game/NW/NWConnectionStateMachine.cpp:
 	.text       start:0x801E5730 end:0x801E7840
 
-Unclassified/PSPhysicResources.cpp:
+Game/PS/PSPhysicResources.cpp:
 	.text       start:0x801E7840 end:0x801E7920
 
-Unclassified/RZParticleType_wii.cpp:
+Game/RZ/RZParticleType_wii.cpp:
 	.text       start:0x801E7920 end:0x801E7C20
 
-Unclassified/PPPortalDriver.cpp:
+Game/PP/PPPortalDriver.cpp:
 	.text       start:0x801E7C20 end:0x801E9160
 	.ctors      start:0x80585640 end:0x80585644
 
-Unclassified/RZAnimProc.cpp:
+Game/RZ/RZAnimProc.cpp:
 	.text       start:0x801E9160 end:0x801E9610
 	.ctors      start:0x80585644 end:0x80585648
 
 BitDemon/Misc/bdPlayer.cpp:
 	.text       start:0x801E9610 end:0x801E9700
 
-Unclassified/MVMovieSound.cpp:
+Game/MV/MVMovieSound.cpp:
 	.text       start:0x801E9700 end:0x801EA370
 
-Unclassified/NWDiscoveryMgr.cpp:
+Game/NW/NWDiscoveryMgr.cpp:
 	.text       start:0x801EA370 end:0x801EA690
 
-Unclassified/PSPrimGroup.cpp:
+Game/PS/PSPrimGroup.cpp:
 	.text       start:0x801EA690 end:0x801EBB40
 
-Unclassified/RZResourceMgr_wii.cpp:
+Game/RZ/RZResourceMgr_wii.cpp:
 	.text       start:0x801EBB40 end:0x801EBBB0
 
-Unclassified/PPPortalTag.cpp:
+Game/PP/PPPortalTag.cpp:
 	.text       start:0x801EBBB0 end:0x801EC930
 
-Unclassified/RZAudioBank.cpp:
+Game/RZ/RZAudioBank.cpp:
 	.text       start:0x801EC930 end:0x801ECE80
 	.ctors      start:0x80585648 end:0x8058564C
 
 BitDemon/Misc/bdPlayerFactory.cpp:
 	.text       start:0x801ECE80 end:0x801ECF40
 
-Unclassified/NWGameInfo.cpp:
+Game/NW/NWGameInfo.cpp:
 	.text       start:0x801ECF40 end:0x801ED4E0
 
-Unclassified/MVMovieToWwise.cpp:
+Game/MV/MVMovieToWwise.cpp:
 	.text       start:0x801ED4E0 end:0x801ED880
 
-Unclassified/PSRaycastMgr.cpp:
+Game/PS/PSRaycastMgr.cpp:
 	.text       start:0x801ED880 end:0x801EEF90
 
-Unclassified/MMMemoryMgr.cpp:
+Game/MM/MMMemoryMgr.cpp:
 	.text       start:0x801EEF90 end:0x801F0120
 
-Unclassified/PPPortalDriver_wii.cpp:
+Game/PP/PPPortalDriver_wii.cpp:
 	.text       start:0x801F0120 end:0x801F0D00
 	.ctors      start:0x8058564C end:0x80585650
 
-Unclassified/RZAudioBankBase.cpp:
+Game/RZ/RZAudioBankBase.cpp:
 	.text       start:0x801F0D00 end:0x801F22A0
 	.ctors      start:0x80585650 end:0x80585654
 
 BitDemon/Misc/bdPlayerManager.cpp:
 	.text       start:0x801F22A0 end:0x801F2300
 
-Unclassified/PSRequestUtils.cpp:
+Game/PS/PSRequestUtils.cpp:
 	.text       start:0x801F2300 end:0x801F5360
 
-Unclassified/NWMatchMakingInfo.cpp:
+Game/NW/NWMatchMakingInfo.cpp:
 	.text       start:0x801F5360 end:0x801F5D50
 
-Unclassified/MMNode.cpp:
+Game/MM/MMNode.cpp:
 	.text       start:0x801F5D50 end:0x801F6260
 
-Unclassified/PSBody.cpp:
+Game/PS/PSBody.cpp:
 	.text       start:0x801F6260 end:0x801F63D0
 
-Unclassified/MMUser.cpp:
+Game/MM/MMUser.cpp:
 	.text       start:0x801F63D0 end:0x801F66D0
 
-Unclassified/RZParticleType.cpp:
+Game/RZ/RZParticleType.cpp:
 	.text       start:0x801F66D0 end:0x801F7D90
 	.ctors      start:0x80585654 end:0x80585658
 
-Unclassified/PSRigidBody.cpp:
+Game/PS/PSRigidBody.cpp:
 	.text       start:0x801F7D90 end:0x801FB290
 
 BitDemon/Misc/bdSession.cpp:
 	.text       start:0x801FB290 end:0x80201220
 
-Unclassified/SGSaveGameMgr.cpp:
+Game/SG/SGSaveGameMgr.cpp:
 	.text       start:0x80201220 end:0x80201660
 
-Unclassified/MMWorkBuffer.cpp:
+Game/MM/MMWorkBuffer.cpp:
 	.text       start:0x80201660 end:0x802017F0
 
-Unclassified/RZProjectedDecal.cpp:
+Game/RZ/RZProjectedDecal.cpp:
 	.text       start:0x802017F0 end:0x80202050
 	.ctors      start:0x80585658 end:0x8058565C
 
-Unclassified/PSRigidBodyGO.cpp:
+Game/PS/PSRigidBodyGO.cpp:
 	.text       start:0x80202050 end:0x80204000
 	.ctors      start:0x8058565C end:0x80585660
 
 BitDemon/Misc/bdSessionData.cpp:
 	.text       start:0x80204000 end:0x802043C0
 
-Unclassified/STIOTask.cpp:
+Game/ST/STIOTask.cpp:
 	.text       start:0x802043C0 end:0x80206230
 	.ctors      start:0x80585660 end:0x80585664
 
-Unclassified/RZResChunkHeader.cpp:
+Game/RZ/RZResChunkHeader.cpp:
 	.text       start:0x80206230 end:0x80206370
 
-Unclassified/PSRigidBodyPrim.cpp:
+Game/PS/PSRigidBodyPrim.cpp:
 	.text       start:0x80206370 end:0x802067F0
 	.ctors      start:0x80585664 end:0x80585668
 
 BitDemon/Misc/bdSessionDataFactory.cpp:
 	.text       start:0x802067F0 end:0x802068D0
 
-Unclassified/RZAudioBankCutscene.cpp:
+Game/RZ/RZAudioBankCutscene.cpp:
 	.text       start:0x802068D0 end:0x80206E20
 	.ctors      start:0x80585668 end:0x8058566C
 
-Unclassified/STStreamMgr.cpp:
+Game/ST/STStreamMgr.cpp:
 	.text       start:0x80206E20 end:0x80208720
 
-Unclassified/SGSaveGameMgr_wii.cpp:
+Game/SG/SGSaveGameMgr_wii.cpp:
 	.text       start:0x80208720 end:0x8020B220
 
-Unclassified/RZResource.cpp:
+Game/RZ/RZResource.cpp:
 	.text       start:0x8020B220 end:0x8020EC60
 	.ctors      start:0x8058566C end:0x80585670
 
-Unclassified/PSSoftBody.cpp:
+Game/PS/PSSoftBody.cpp:
 	.text       start:0x8020EC60 end:0x80214750
 	.ctors      start:0x80585670 end:0x80585674
 
 BitDemon/Misc/bdSessionHandler.cpp:
 	.text       start:0x80214750 end:0x802147B0
 
-Unclassified/PFProfileMgr.cpp:
+Game/PF/PFProfileMgr.cpp:
 	.text       start:0x802147B0 end:0x80218050
 	.ctors      start:0x80585674 end:0x80585678
 
-Unclassified/RZAudioEvent.cpp:
+Game/RZ/RZAudioEvent.cpp:
 	.text       start:0x80218050 end:0x80218BA0
 	.ctors      start:0x80585678 end:0x8058567C
 
-Unclassified/STStreamRingBuffer.cpp:
+Game/ST/STStreamRingBuffer.cpp:
 	.text       start:0x80218BA0 end:0x80219B40
 
-Unclassified/RZResourceDiscardable.cpp:
+Game/RZ/RZResourceDiscardable.cpp:
 	.text       start:0x80219B40 end:0x80219BF0
 
-Unclassified/PSBroadPhase.cpp:
+Game/PS/PSBroadPhase.cpp:
 	.text       start:0x80219BF0 end:0x80219CE0
 
-Unclassified/NWMatchMakingQuery.cpp:
+Game/NW/NWMatchMakingQuery.cpp:
 	.text       start:0x80219CE0 end:0x80219E30
 
 BitDemon/Misc/bdSessionInfo.cpp:
 	.text       start:0x80219E30 end:0x80219E40
 
-Unclassified/RZAudioSample.cpp:
+Game/RZ/RZAudioSample.cpp:
 	.text       start:0x80219E40 end:0x8021B350
 	.ctors      start:0x8058567C end:0x80585680
 
-Unclassified/RZResourceMgr.cpp:
+Game/RZ/RZResourceMgr.cpp:
 	.text       start:0x8021B350 end:0x80220690
 	.ctors      start:0x80585680 end:0x80585684
 
-Unclassified/PSBroadPhaseMgr.cpp:
+Game/PS/PSBroadPhaseMgr.cpp:
 	.text       start:0x80220690 end:0x80223560
 
-Unclassified/NWMatchMakingStateMachine.cpp:
+Game/NW/NWMatchMakingStateMachine.cpp:
 	.text       start:0x80223560 end:0x80229770
 
-Unclassified/STWorkerThread.cpp:
+Game/ST/STWorkerThread.cpp:
 	.text       start:0x80229770 end:0x8022A620
 
-Unclassified/PFStatsToFileMgr.cpp:
+Game/PF/PFStatsToFileMgr.cpp:
 	.text       start:0x8022A620 end:0x8022BC10
 
-Unclassified/RZBinaryData.cpp:
+Game/RZ/RZBinaryData.cpp:
 	.text       start:0x8022BC10 end:0x8022C390
 	.ctors      start:0x80585684 end:0x80585688
 
-Unclassified/RZResourcesList.cpp:
+Game/RZ/RZResourcesList.cpp:
 	.text       start:0x8022C390 end:0x8022C8E0
 	.ctors      start:0x80585688 end:0x8058568C
 
-Unclassified/SCLuaHooks.cpp:
+Game/SC/SCLuaHooks.cpp:
 	.text       start:0x8022C8E0 end:0x8022CA40
 
-Unclassified/PSOverlappingPairCache.cpp:
+Game/PS/PSOverlappingPairCache.cpp:
 	.text       start:0x8022CA40 end:0x8022D990
 
-Unclassified/NWNetworkMgr.cpp:
+Game/NW/NWNetworkMgr.cpp:
 	.text       start:0x8022D990 end:0x8022EC20
 
 BitDemon/Misc/bdSessionListener.cpp:
 	.text       start:0x8022EC20 end:0x8022ED00
 
-Unclassified/RZSequence.cpp:
+Game/RZ/RZSequence.cpp:
 	.text       start:0x8022ED00 end:0x8022F6C0
 	.ctors      start:0x8058568C end:0x80585690
 
-Unclassified/PSColBox.cpp:
+Game/PS/PSColBox.cpp:
 	.text       start:0x8022F6C0 end:0x80233E70
 	.ctors      start:0x80585690 end:0x80585694
 
-Unclassified/NWPeerToPeer.cpp:
+Game/NW/NWPeerToPeer.cpp:
 	.text       start:0x80233E70 end:0x80234380
 
-Unclassified/RZCurve.cpp:
+Game/RZ/RZCurve.cpp:
 	.text       start:0x80234380 end:0x80235010
 	.ctors      start:0x80585694 end:0x80585698
 
-Unclassified/NWComScoreEventSystem.cpp:
+Game/NW/NWComScoreEventSystem.cpp:
 	.text       start:0x80235010 end:0x80235540
 
-Unclassified/RZTextStyle.cpp:
+Game/RZ/RZTextStyle.cpp:
 	.text       start:0x80235540 end:0x80235DA0
 	.ctors      start:0x80585698 end:0x8058569C
 
-Unclassified/SCScriptMgr.cpp:
+Game/SC/SCScriptMgr.cpp:
 	.text       start:0x80235DA0 end:0x80237510
 
-Unclassified/PSColConvexHull.cpp:
+Game/PS/PSColConvexHull.cpp:
 	.text       start:0x80237510 end:0x80239610
 	.ctors      start:0x8058569C end:0x805856A0
 
-Unclassified/NWPlayer.cpp:
+Game/NW/NWPlayer.cpp:
 	.text       start:0x80239610 end:0x80239900
 
-Unclassified/RZCutScene.cpp:
+Game/RZ/RZCutScene.cpp:
 	.text       start:0x80239900 end:0x8023BD90
 	.ctors      start:0x805856A0 end:0x805856A4
 
-Unclassified/STCachedFile.cpp:
+Game/ST/STCachedFile.cpp:
 	.text       start:0x8023BD90 end:0x8023C170
 	.ctors      start:0x805856A4 end:0x805856A8
 
-Unclassified/STFile_wii.cpp:
+Game/ST/STFile_wii.cpp:
 	.text       start:0x8023C170 end:0x8023C6F0
 
-Unclassified/NWJSONSerializer.cpp:
+Game/NW/NWJSONSerializer.cpp:
 	.text       start:0x8023C6F0 end:0x8023E1C0
 
-Unclassified/RZTexture.cpp:
+Game/RZ/RZTexture.cpp:
 	.text       start:0x8023E1C0 end:0x8023EA20
 	.ctors      start:0x805856A8 end:0x805856AC
 
-Unclassified/STFile.cpp:
+Game/ST/STFile.cpp:
 	.text       start:0x8023EA20 end:0x802403A0
 	.ctors      start:0x805856AC end:0x805856B0
 
-Unclassified/PSCollisionMap.cpp:
+Game/PS/PSCollisionMap.cpp:
 	.text       start:0x802403A0 end:0x80245B80
 	.ctors      start:0x805856B0 end:0x805856B4
 
-Unclassified/STStreamMgr_wii.cpp:
+Game/ST/STStreamMgr_wii.cpp:
 	.text       start:0x80245B80 end:0x80245CC0
 
-Unclassified/NWSession.cpp:
+Game/NW/NWSession.cpp:
 	.text       start:0x80245CC0 end:0x8024D4B0
 
-Unclassified/RZDiscardableDataLoading.cpp:
+Game/RZ/RZDiscardableDataLoading.cpp:
 	.text       start:0x8024D4B0 end:0x80250730
 	.ctors      start:0x805856B4 end:0x805856B8
 
-Unclassified/PSCollisionSolver.cpp:
+Game/PS/PSCollisionSolver.cpp:
 	.text       start:0x80250730 end:0x80250B60
 
-Unclassified/STIOStream.cpp:
+Game/ST/STIOStream.cpp:
 	.text       start:0x80250B60 end:0x80253BE0
 
-Unclassified/PSColPlane.cpp:
+Game/PS/PSColPlane.cpp:
 	.text       start:0x80253BE0 end:0x802542F0
 	.ctors      start:0x805856B8 end:0x805856BC
 
-Unclassified/NWStorageFile.cpp:
+Game/NW/NWStorageFile.cpp:
 	.text       start:0x802542F0 end:0x802548B0
 
-Unclassified/NWReplica.cpp:
+Game/NW/NWReplica.cpp:
 	.text       start:0x802548B0 end:0x80254C70
 
-Unclassified/RZFont.cpp:
+Game/RZ/RZFont.cpp:
 	.text       start:0x80254C70 end:0x80255FA0
 	.ctors      start:0x805856BC end:0x805856C0
 
-Unclassified/PSColPrimCache.cpp:
+Game/PS/PSColPrimCache.cpp:
 	.text       start:0x80255FA0 end:0x80257560
 
-Unclassified/RZGeometry.cpp:
+Game/RZ/RZGeometry.cpp:
 	.text       start:0x80257560 end:0x80258FC0
 	.ctors      start:0x805856C0 end:0x805856C4
 
-Unclassified/NWReplicaClass.cpp:
+Game/NW/NWReplicaClass.cpp:
 	.text       start:0x80258FC0 end:0x80259350
 	.ctors      start:0x805856C4 end:0x805856C8
 
-Unclassified/PSColSphere.cpp:
+Game/PS/PSColSphere.cpp:
 	.text       start:0x80259350 end:0x8025B680
 	.ctors      start:0x805856C8 end:0x805856CC
 
-Unclassified/RZHAnim.cpp:
+Game/RZ/RZHAnim.cpp:
 	.text       start:0x8025B680 end:0x8025CCF0
 	.ctors      start:0x805856CC end:0x805856D0
 
@@ -1350,45 +1350,45 @@ Game/GE/GEEngineMgr_wii.cpp:
 	.text       start:0x8025CCF0 end:0x8025EEB0
 	.ctors      start:0x805856D0 end:0x805856D4
 
-Unclassified/PSColSweptSphere.cpp:
+Game/PS/PSColSweptSphere.cpp:
 	.text       start:0x8025EEB0 end:0x80261B60
 	.ctors      start:0x805856D4 end:0x805856D8
 
-Unclassified/RZHeightMap.cpp:
+Game/RZ/RZHeightMap.cpp:
 	.text       start:0x80261B60 end:0x802622F0
 	.ctors      start:0x805856D8 end:0x805856DC
 
 Game/GE/GEErrorHandler_wii.cpp:
 	.text       start:0x802622F0 end:0x80263C60
 
-Unclassified/NWReplicaCollection.cpp:
+Game/NW/NWReplicaCollection.cpp:
 	.text       start:0x80263C60 end:0x802650E0
 
-Unclassified/RZHierarchy.cpp:
+Game/RZ/RZHierarchy.cpp:
 	.text       start:0x802650E0 end:0x80266FF0
 	.ctors      start:0x805856DC end:0x805856E0
 
 Game/GE/GEHomeMenu_wii.cpp:
 	.text       start:0x80266FF0 end:0x802680C0
 
-Unclassified/RZLogicCode.cpp:
+Game/RZ/RZLogicCode.cpp:
 	.text       start:0x802680C0 end:0x80268C50
 	.ctors      start:0x805856E0 end:0x805856E4
 
-Unclassified/PSEnvColPrim.cpp:
+Game/PS/PSEnvColPrim.cpp:
 	.text       start:0x80268C50 end:0x80268CF0
 
 Game/GE/GELCMemcpy.cpp:
 	.text       start:0x80268CF0 end:0x80269070
 
-Unclassified/NWReplicaSerializer.cpp:
+Game/NW/NWReplicaSerializer.cpp:
 	.text       start:0x80269070 end:0x802695F0
 
-Unclassified/RZMotionTrail.cpp:
+Game/RZ/RZMotionTrail.cpp:
 	.text       start:0x802695F0 end:0x80269F30
 	.ctors      start:0x805856E4 end:0x805856E8
 
-Unclassified/PSEnvColTests.cpp:
+Game/PS/PSEnvColTests.cpp:
 	.text       start:0x80269F30 end:0x80272FE0
 
 Game/GE/GELockedCache_wii.cpp:
@@ -1397,90 +1397,90 @@ Game/GE/GELockedCache_wii.cpp:
 Game/GE/GEWriteGatherPipe_wii.cpp:
 	.text       start:0x802732E0 end:0x80273340
 
-Unclassified/NWNetworkMgr_wii.cpp:
+Game/NW/NWNetworkMgr_wii.cpp:
 	.text       start:0x80273340 end:0x802735C0
 
-Unclassified/PSGJK.cpp:
+Game/PS/PSGJK.cpp:
 	.text       start:0x802735C0 end:0x80276EA0
 
-Unclassified/RZParamBlock.cpp:
+Game/RZ/RZParamBlock.cpp:
 	.text       start:0x80276EA0 end:0x802774C0
 	.ctors      start:0x805856E8 end:0x805856EC
 
 Game/GE/GENANDFileMgr_wii.cpp:
 	.text       start:0x802774C0 end:0x80277C30
 
-Unclassified/NWPlatformInit_wii.cpp:
+Game/NW/NWPlatformInit_wii.cpp:
 	.text       start:0x80277C30 end:0x80277F80
 
-Unclassified/PSObjColPrim.cpp:
+Game/PS/PSObjColPrim.cpp:
 	.text       start:0x80277F80 end:0x80278C50
 	.ctors      start:0x805856EC end:0x805856F0
 
-Unclassified/RZParamGraph.cpp:
+Game/RZ/RZParamGraph.cpp:
 	.text       start:0x80278C50 end:0x80279890
 	.ctors      start:0x805856F0 end:0x805856F4
 
-Unclassified/xfont.c:
+Game/xfont/xfont.c:
 	.text       start:0x80279890 end:0x80279C20
 
-Unclassified/PSShape.cpp:
+Game/PS/PSShape.cpp:
 	.text       start:0x80279C20 end:0x8027B2A0
 
-Unclassified/PSSparseSDF.cpp:
+Game/PS/PSSparseSDF.cpp:
 	.text       start:0x8027B2A0 end:0x8027B4A0
 	.ctors      start:0x805856F4 end:0x805856F8
 
-Unclassified/PSVoronoiSimplexSolver.cpp:
+Game/PS/PSVoronoiSimplexSolver.cpp:
 	.text       start:0x8027B4A0 end:0x8027CAC0
 
-Unclassified/PSConstraint.cpp:
+Game/PS/PSConstraint.cpp:
 	.text       start:0x8027CAC0 end:0x8027CC90
 
-Unclassified/PSConstraintCone.cpp:
+Game/PS/PSConstraintCone.cpp:
 	.text       start:0x8027CC90 end:0x8027DC70
 
-Unclassified/PSConstraintHinge.cpp:
+Game/PS/PSConstraintHinge.cpp:
 	.text       start:0x8027DC70 end:0x8027E750
 
-Unclassified/PSConstraintPointToPoint.cpp:
+Game/PS/PSConstraintPointToPoint.cpp:
 	.text       start:0x8027E750 end:0x8027EBA0
 
-Unclassified/PSAirGrip.cpp:
+Game/PS/PSAirGrip.cpp:
 	.text       start:0x8027EBA0 end:0x8027EC40
 
-Unclassified/PSBSplineMove.cpp:
+Game/PS/PSBSplineMove.cpp:
 	.text       start:0x8027EC40 end:0x8027EEA0
 
-Unclassified/PSCamera.cpp:
+Game/PS/PSCamera.cpp:
 	.text       start:0x8027EEA0 end:0x8027EFD0
 
-Unclassified/PSCollisionDamper.cpp:
+Game/PS/PSCollisionDamper.cpp:
 	.text       start:0x8027EFD0 end:0x8027F550
 
-Unclassified/PSFollowPosition.cpp:
+Game/PS/PSFollowPosition.cpp:
 	.text       start:0x8027F550 end:0x8027F990
 
-Unclassified/PSGroundGrip.cpp:
+Game/PS/PSGroundGrip.cpp:
 	.text       start:0x8027F990 end:0x8027FD70
 
-Unclassified/PSModule.cpp:
+Game/PS/PSModule.cpp:
 	.text       start:0x8027FD70 end:0x8027FF30
 	.ctors      start:0x805856F8 end:0x805856FC
 
-Unclassified/PSMoveByAnimation.cpp:
+Game/PS/PSMoveByAnimation.cpp:
 	.text       start:0x8027FF30 end:0x80280850
 
-Unclassified/PSRagdollToBasePosition.cpp:
+Game/PS/PSRagdollToBasePosition.cpp:
 	.text       start:0x80280850 end:0x80280930
 
-Unclassified/PSRedirector.cpp:
+Game/PS/PSRedirector.cpp:
 	.text       start:0x80280930 end:0x80280DA0
 
-Unclassified/PSVehicleSuspension.cpp:
+Game/PS/PSVehicleSuspension.cpp:
 	.text       start:0x80280DA0 end:0x80281FD0
 
-Unclassified/PSWave.cpp:
+Game/PS/PSWave.cpp:
 	.text       start:0x80281FD0 end:0x802822C4
 
 MetroTRK/targsupp.s:
@@ -1638,7 +1638,7 @@ MSL_C/MSL_Common/direct_io.c:
 MSL_C/MSL_Common/file_io.c:
 	.text       start:0x8028D5F0 end:0x8028DB98
 
-Unclassified/FILE_POS.C:
+MSL_C/MSL_Common/FILE_POS.c:
 	.text       start:0x8028DB98 end:0x8028DE0C
 
 MSL_C/MSL_Common/locale.c:
