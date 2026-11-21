@@ -25,9 +25,6 @@ Game/PF/PFProfileTimers.cpp:
 	.data       start:0x805D3E20 end:0x805D8C90
 	.sdata      start:0x808967C0 end:0x808967E0
 
-Game/xfont/xfontdata.c:
-	.data       start:0x805D9FA0 end:0x805DABA0
-
 Game/API/APIBaseObject.cpp:
 	.text       start:0x8001ADE0 end:0x8001B800
 
@@ -1423,6 +1420,11 @@ Game/RZ/RZParamGraph.cpp:
 
 Game/xfont/xfont.c:
 	.text       start:0x80279890 end:0x80279C20
+	.data       start:0x805D9EC8 end:0x805D9F28
+	.sbss       start:0x80898888 end:0x80898898
+
+Game/xfont/xfontdata.c:
+	.data       start:0x805D9FA0 end:0x805DABA0
 
 Game/PS/PSShape.cpp:
 	.text       start:0x80279C20 end:0x8027B2A0

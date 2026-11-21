@@ -1881,7 +1881,7 @@ config.libs = [
     GameLib(
         "xfont",
         [
-            Object(NonMatching, "Game/xfont/xfont.c"),
+            Object(NonMatching, "Game/xfont/xfont.c", extra_cflags=["-lang c++"]),
             Object(Matching, "Game/xfont/xfontdata.c"),
         ],
     ),
