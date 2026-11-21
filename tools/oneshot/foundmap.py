@@ -50,7 +50,7 @@ for match in matches:
     target = target.with_suffix(f".{file.name.split(".")[-1]}")
     # print(target)
     if not target.parent.exists():
-        target.parent.mkdir()
+        target.parent.mkdir(parents=True)
 
     shutil.move(file, target)
     splits = splits.replace(f"Unclassified/{target.name}", f"{srcpath}{match}".replace(".o", f".{file.name.split(".")[-1]}"))

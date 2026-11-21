@@ -7,7 +7,7 @@ Sections:
 	.dtors      type:rodata align:32
 	.rodata     type:rodata align:64
 	.data       type:data align:32
-	wii_embedded type:rodata align:32
+	wii_embedded type:data align:32
 	.bss        type:bss align:64
 	.sdata      type:data align:32
 	.sbss       type:bss align:32
@@ -921,7 +921,7 @@ Unclassified/MMMemoryMgr_wii.cpp:
 Unclassified/MMBuffer.cpp:
 	.text       start:0x801B8920 end:0x801B8E20
 
-Unclassified/bdDeliveryManager.cpp:
+BitDemon/Misc/bdDeliveryManager.cpp:
 	.text       start:0x801B8E20 end:0x801B9D50
 
 Unclassified/PFProfileMgr_wii.cpp:
@@ -1051,7 +1051,7 @@ Unclassified/RZAnimProc.cpp:
 	.text       start:0x801E9160 end:0x801E9610
 	.ctors      start:0x80585644 end:0x80585648
 
-Unclassified/bdPlayer.cpp:
+BitDemon/Misc/bdPlayer.cpp:
 	.text       start:0x801E9610 end:0x801E9700
 
 Unclassified/MVMovieSound.cpp:
@@ -1073,7 +1073,7 @@ Unclassified/RZAudioBank.cpp:
 	.text       start:0x801EC930 end:0x801ECE80
 	.ctors      start:0x80585648 end:0x8058564C
 
-Unclassified/bdPlayerFactory.cpp:
+BitDemon/Misc/bdPlayerFactory.cpp:
 	.text       start:0x801ECE80 end:0x801ECF40
 
 Unclassified/NWGameInfo.cpp:
@@ -1096,7 +1096,7 @@ Unclassified/RZAudioBankBase.cpp:
 	.text       start:0x801F0D00 end:0x801F22A0
 	.ctors      start:0x80585650 end:0x80585654
 
-Unclassified/bdPlayerManager.cpp:
+BitDemon/Misc/bdPlayerManager.cpp:
 	.text       start:0x801F22A0 end:0x801F2300
 
 Unclassified/PSRequestUtils.cpp:
@@ -1121,7 +1121,7 @@ Unclassified/RZParticleType.cpp:
 Unclassified/PSRigidBody.cpp:
 	.text       start:0x801F7D90 end:0x801FB290
 
-Unclassified/bdSession.cpp:
+BitDemon/Misc/bdSession.cpp:
 	.text       start:0x801FB290 end:0x80201220
 
 Unclassified/SGSaveGameMgr.cpp:
@@ -1138,7 +1138,7 @@ Unclassified/PSRigidBodyGO.cpp:
 	.text       start:0x80202050 end:0x80204000
 	.ctors      start:0x8058565C end:0x80585660
 
-Unclassified/bdSessionData.cpp:
+BitDemon/Misc/bdSessionData.cpp:
 	.text       start:0x80204000 end:0x802043C0
 
 Unclassified/STIOTask.cpp:
@@ -1152,7 +1152,7 @@ Unclassified/PSRigidBodyPrim.cpp:
 	.text       start:0x80206370 end:0x802067F0
 	.ctors      start:0x80585664 end:0x80585668
 
-Unclassified/bdSessionDataFactory.cpp:
+BitDemon/Misc/bdSessionDataFactory.cpp:
 	.text       start:0x802067F0 end:0x802068D0
 
 Unclassified/RZAudioBankCutscene.cpp:
@@ -1173,7 +1173,7 @@ Unclassified/PSSoftBody.cpp:
 	.text       start:0x8020EC60 end:0x80214750
 	.ctors      start:0x80585670 end:0x80585674
 
-Unclassified/bdSessionHandler.cpp:
+BitDemon/Misc/bdSessionHandler.cpp:
 	.text       start:0x80214750 end:0x802147B0
 
 Unclassified/PFProfileMgr.cpp:
@@ -1196,7 +1196,7 @@ Unclassified/PSBroadPhase.cpp:
 Unclassified/NWMatchMakingQuery.cpp:
 	.text       start:0x80219CE0 end:0x80219E30
 
-Unclassified/bdSessionInfo.cpp:
+BitDemon/Misc/bdSessionInfo.cpp:
 	.text       start:0x80219E30 end:0x80219E40
 
 Unclassified/RZAudioSample.cpp:
@@ -1236,7 +1236,7 @@ Unclassified/PSOverlappingPairCache.cpp:
 Unclassified/NWNetworkMgr.cpp:
 	.text       start:0x8022D990 end:0x8022EC20
 
-Unclassified/bdSessionListener.cpp:
+BitDemon/Misc/bdSessionListener.cpp:
 	.text       start:0x8022EC20 end:0x8022ED00
 
 Unclassified/RZSequence.cpp:
@@ -1572,7 +1572,7 @@ Runtime/global_destructor_chain.c:
 	.text       start:0x80287700 end:0x80287760
 	.sbss       start:0x808988E8 end:0x808988F0
 
-Runtime/NMWException.cp:
+Runtime/NMWException.cpp:
 	extab       start:0x80006740 end:0x80006790
 	extabindex  start:0x80013280 end:0x800132C8
 	.text       start:0x80287760 end:0x80287E10
@@ -1599,94 +1599,94 @@ Runtime/Gecko_ExceptionPPC.cpp:
 	extabindex  start:0x800132C8 end:0x80013304
 	.text       start:0x80288C00 end:0x8028A11C
 
-Unclassified/alloc.c:
+MSL_C/MSL_Common/alloc.c:
 	.text       start:0x8028A11C end:0x8028AF1C
 	.rodata     start:0x80590E98 end:0x80590EB0
 	.bss        start:0x806D6F50 end:0x806D6F88
 	.sbss       start:0x808988F0 end:0x808988F8
 
-Unclassified/errno.c:
+MSL_C/MSL_Common/errno.c:
 	.sbss       start:0x808988F8 end:0x80898900
 
-Unclassified/ansi_files.c:
+MSL_C/MSL_Common/ansi_files.c:
 	.text       start:0x8028AF1C end:0x8028B214
 	.data       start:0x805DB1C8 end:0x805DB308
 	.bss        start:0x806D6F88 end:0x806D7288
 
-Unclassified/ansi_fp.c:
+MSL_C/MSL_Common_Embedded/ansi_fp.c:
 	.text       start:0x8028B214 end:0x8028CA94
 	.rodata     start:0x80590EB0 end:0x80590F90
 	.data       start:0x805DB308 end:0x805DB470
 	.sdata2     start:0x8089B448 end:0x8089B480
 
-Unclassified/arith.c:
+MSL_C/MSL_Common/arith.c:
 	.text       start:0x8028CA94 end:0x8028CAB4
 
-Unclassified/buffer_io.c:
+MSL_C/MSL_Common/buffer_io.c:
 	.text       start:0x8028CAB4 end:0x8028CDC0
 
-Unclassified/char_io.c:
+MSL_C/MSL_Common/char_io.c:
 	.text       start:0x8028CDC0 end:0x8028CEF0
 
-Unclassified/ctype.c:
+MSL_C/MSL_Common/ctype.c:
 	.text       start:0x8028CEF0 end:0x8028CFA0
 	.rodata     start:0x80590F90 end:0x80591390
 
-Unclassified/direct_io.c:
+MSL_C/MSL_Common/direct_io.c:
 	.text       start:0x8028CFA0 end:0x8028D5F0
 
-Unclassified/file_io.c:
+MSL_C/MSL_Common/file_io.c:
 	.text       start:0x8028D5F0 end:0x8028DB98
 
 Unclassified/FILE_POS.C:
 	.text       start:0x8028DB98 end:0x8028DE0C
 
-Unclassified/locale.c:
+MSL_C/MSL_Common/locale.c:
 	.text       start:0x8028DE0C end:0x8028DEE8
 	.rodata     start:0x80591390 end:0x80591498
 	.data       start:0x805DB470 end:0x805DB668
 	.sdata2     start:0x8089B480 end:0x8089B498
 
-Unclassified/mbstring.c:
+MSL_C/MSL_Common/mbstring.c:
 	.text       start:0x8028DEE8 end:0x8028E788
 	.sdata2     start:0x8089B498 end:0x8089B4A0
 
-Unclassified/mem.c:
+MSL_C/MSL_Common/mem.c:
 	.text       start:0x8028E788 end:0x8028E8F8
 
-Unclassified/mem_funcs.c:
+MSL_C/MSL_Common/mem_funcs.c:
 	.text       start:0x8028E8F8 end:0x8028EBC8
 
-Unclassified/math_api.c:
+MSL_C/MSL_Common/math_api.c:
 	.text       start:0x8028EBC8 end:0x8028ECBC
 
-Unclassified/misc_io.c:
+MSL_C/MSL_Common/misc_io.c:
 	.text       start:0x8028ECBC end:0x8028ECDC
 
-Unclassified/printf.c:
+MSL_C/MSL_Common/printf.c:
 	.text       start:0x8028ECDC end:0x80291214
 	.rodata     start:0x80591498 end:0x805914C0
 	.data       start:0x805DB668 end:0x805DB898
 	.sdata      start:0x80896918 end:0x80896920
 	.sdata2     start:0x8089B4A0 end:0x8089B4A8
 
-Unclassified/qsort.c:
+MSL_C/MSL_Common/qsort.c:
 	.text       start:0x80291214 end:0x80291384
 
-Unclassified/rand.c:
+MSL_C/MSL_Common/rand.c:
 	.text       start:0x80291384 end:0x802913AC
 	.sdata      start:0x80896920 end:0x80896928
 
-Unclassified/scanf.c:
+MSL_C/MSL_Common/scanf.c:
 	.text       start:0x802913AC end:0x80292890
 	.rodata     start:0x805914C0 end:0x805914E8
 	.data       start:0x805DB898 end:0x805DBB08
 
-Unclassified/signal.c:
+MSL_C/MSL_Common/signal.c:
 	.text       start:0x80292890 end:0x80292938
 	.bss        start:0x806D7288 end:0x806D72A8
 
-Unclassified/string.c:
+MSL_C/MSL_Common/string.c:
 	.text       start:0x80292938 end:0x80293968
 	.rodata     start:0x805914E8 end:0x80591858
 	.data       start:0x805DBB08 end:0x805DBC98
@@ -1694,7 +1694,7 @@ Unclassified/string.c:
 	.sdata      start:0x80896928 end:0x80896930
 	.sdata2     start:0x8089B4A8 end:0x8089B4B0
 
-Unclassified/float.c:
+MSL_C/MSL_Common/float.c:
 	.sdata      start:0x80896930 end:0x80896940
 
 LibTom/Crypt/crypt_cipher_descriptor.c:
@@ -1709,24 +1709,24 @@ LibTom/Crypt/crypt_ltc_mp_descriptor.c:
 LibTom/Crypt/crypt_prng_descriptor.c:
 	.bss        start:0x8077CCE8 end:0x8077D1E8
 
-Unclassified/strtold.c:
+MSL_C/MSL_Common/strtold.c:
 	.text       start:0x80293968 end:0x80294D70
 	.rodata     start:0x80591858 end:0x80591868
 	.sdata2     start:0x8089B4B0 end:0x8089B4D0
 
-Unclassified/wctype.c:
+MSL_C/MSL_Common/wctype.c:
 	.rodata     start:0x80591868 end:0x80591E68
 
-Unclassified/strtoul.c:
+MSL_C/MSL_Common/strtoul.c:
 	.text       start:0x80294D70 end:0x80295974
 
-Unclassified/time.c:
+MSL_C/MSL_Common/time.c:
 	.text       start:0x80295974 end:0x802959AC
 
-Unclassified/wmem.c:
+MSL_C/MSL_Common/wmem.c:
 	.text       start:0x802959AC end:0x802959DC
 
-Unclassified/wprintf.c:
+MSL_C/MSL_Common/wprintf.c:
 	.text       start:0x802959DC end:0x80297BFC
 	.rodata     start:0x80591E68 end:0x80591E70
 	.data       start:0x805DBC98 end:0x805DBF38
@@ -1742,93 +1742,93 @@ RVL_SDK/ax/DSPCode.c:
 AudioKinetic/SoundEngine/AkDefault3DParams.cpp:
 	.data       start:0x806045C0 end:0x80604608
 
-Unclassified/wstring.c:
+MSL_C/MSL_Common/wstring.c:
 	.text       start:0x80297BFC end:0x80297CD8
 
-Unclassified/wchar_io.c:
+MSL_C/MSL_Common/wchar_io.c:
 	.text       start:0x80297CD8 end:0x80297D54
 
 RVL_SDK/os/time.dolphin.c:
 	.text       start:0x80297D54 end:0x80297D90
 
-Unclassified/uart_console_io_gcn.c:
+MSL_C/PPC_EABI/uart_console_io_gcn.c:
 	.text       start:0x80297D90 end:0x80297E60
 	.sbss       start:0x80898900 end:0x80898908
 
-Unclassified/abort_exit_ppc_eabi.c:
+MSL_C/PPC_EABI/abort_exit_ppc_eabi.c:
 	.text       start:0x80297E60 end:0x80297E94
 	.sbss       start:0x80898908 end:0x80898910
 
-Unclassified/secure_error.c:
+MSL_C/MSL_Common/secure_error.c:
 	.text       start:0x80297E94 end:0x80297EAC
 	.sbss       start:0x80898910 end:0x80898918
 
-Unclassified/math_sun.c:
+MSL_C/MSL_Common_Embedded/math_sun.c:
 	.text       start:0x80297EAC end:0x80297EEC
 
-Unclassified/e_acos.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_acos.c:
 	.text       start:0x80297EEC end:0x802981B8
 	.sdata2     start:0x8089B4D8 end:0x8089B560
 
-Unclassified/e_asin.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_asin.c:
 	.text       start:0x802981B8 end:0x80298450
 	.sdata2     start:0x8089B560 end:0x8089B5E8
 
-Unclassified/e_atan2.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_atan2.c:
 	.text       start:0x80298450 end:0x802986A8
 	.sdata2     start:0x8089B5E8 end:0x8089B640
 
-Unclassified/e_exp.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_exp.c:
 	.text       start:0x802986A8 end:0x802988D8
 	.rodata     start:0x80591E70 end:0x80591EA0
 	.sdata2     start:0x8089B640 end:0x8089B6B8
 
-Unclassified/e_fmod.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_fmod.c:
 	.text       start:0x802988D8 end:0x80298C58
 	.rodata     start:0x80591EA0 end:0x80591EB0
 
-Unclassified/e_log.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_log.c:
 	.text       start:0x80298C58 end:0x80298F0C
 	.sbss       start:0x80898918 end:0x80898920
 	.sdata2     start:0x8089B6B8 end:0x8089B738
 
-Unclassified/e_log10.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_log10.c:
 	.text       start:0x80298F0C end:0x80299020
 	.sbss       start:0x80898920 end:0x80898928
 	.sdata2     start:0x8089B738 end:0x8089B768
 
-Unclassified/e_pow.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_pow.c:
 	.text       start:0x80299020 end:0x80299834
 	.rodata     start:0x80591EB0 end:0x80591EE0
 	.sdata2     start:0x8089B768 end:0x8089B878
 
-Unclassified/e_rem_pio2.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_rem_pio2.c:
 	.text       start:0x80299834 end:0x80299BB8
 	.rodata     start:0x80591EE0 end:0x80592068
 	.sdata2     start:0x8089B878 end:0x8089B8D0
 
-Unclassified/fminmaxdim.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/fminmaxdim.c:
 	.text       start:0x80299BB8 end:0x80299C24
 
-Unclassified/k_cos.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/k_cos.c:
 	.text       start:0x80299C24 end:0x80299D34
 	.sdata2     start:0x8089B8D0 end:0x8089B918
 
-Unclassified/k_rem_pio2.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/k_rem_pio2.c:
 	.text       start:0x80299D34 end:0x8029B3EC
 	.rodata     start:0x80592068 end:0x805920B8
 	.sdata2     start:0x8089B918 end:0x8089B958
 
-Unclassified/k_sin.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/k_sin.c:
 	.text       start:0x8029B3EC end:0x8029B4AC
 	.sdata2     start:0x8089B958 end:0x8089B990
 
-Unclassified/k_tan.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/k_tan.c:
 	.text       start:0x8029B4AC end:0x8029B6FC
 	.rodata     start:0x805920B8 end:0x80592120
 	.sdata2     start:0x8089B990 end:0x8089B9C8
 
-Unclassified/s_atan.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_atan.c:
 	.text       start:0x8029B6FC end:0x8029B92C
 	.rodata     start:0x80592120 end:0x805921B8
 	.sdata2     start:0x8089B9C8 end:0x8089B9F0
@@ -1852,69 +1852,69 @@ BaseUtils/BULWii.cpp:
 	.rodata     start:0x8059ADB0 end:0x8059AF78
 	.data       start:0x8060EB40 end:0x8060EB78
 
-Unclassified/s_ceil.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_ceil.c:
 	.text       start:0x8029B92C end:0x8029BA78
 	.sdata2     start:0x8089B9F0 end:0x8089BA00
 
-Unclassified/s_copysign.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_copysign.c:
 	.text       start:0x8029BA78 end:0x8029BAA4
 
-Unclassified/s_cos.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_cos.c:
 	.text       start:0x8029BAA4 end:0x8029BB6C
 	.sdata2     start:0x8089BA00 end:0x8089BA08
 
-Unclassified/s_floor.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_floor.c:
 	.text       start:0x8029BB6C end:0x8029BCBC
 	.sdata2     start:0x8089BA08 end:0x8089BA18
 
-Unclassified/s_frexp.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_frexp.c:
 	.text       start:0x8029BCBC end:0x8029BD44
 	.sdata2     start:0x8089BA18 end:0x8089BA20
 
-Unclassified/s_ldexp.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_ldexp.c:
 	.text       start:0x8029BD44 end:0x8029BEB0
 	.sdata2     start:0x8089BA20 end:0x8089BA48
 
-Unclassified/s_modf.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_modf.c:
 	.text       start:0x8029BEB0 end:0x8029BFAC
 
-Unclassified/s_sin.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_sin.c:
 	.text       start:0x8029BFAC end:0x8029C078
 	.sdata2     start:0x8089BA48 end:0x8089BA50
 
-Unclassified/s_tan.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/s_tan.c:
 	.text       start:0x8029C078 end:0x8029C0F0
 	.sdata2     start:0x8089BA50 end:0x8089BA58
 
-Unclassified/w_acos.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_acos.c:
 	.text       start:0x8029C0F0 end:0x8029C0F4
 
-Unclassified/w_asin.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_asin.c:
 	.text       start:0x8029C0F4 end:0x8029C0F8
 
-Unclassified/w_atan2.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_atan2.c:
 	.text       start:0x8029C0F8 end:0x8029C0FC
 
-Unclassified/w_exp.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_exp.c:
 	.text       start:0x8029C0FC end:0x8029C100
 
-Unclassified/w_fmod.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_fmod.c:
 	.text       start:0x8029C100 end:0x8029C104
 
-Unclassified/w_log.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_log.c:
 	.text       start:0x8029C104 end:0x8029C108
 
-Unclassified/w_log10.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_log10.c:
 	.text       start:0x8029C108 end:0x8029C10C
 
-Unclassified/w_pow.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_pow.c:
 	.text       start:0x8029C10C end:0x8029C110
 
-Unclassified/e_sqrt.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/e_sqrt.c:
 	.text       start:0x8029C110 end:0x8029C358
 	.sdata2     start:0x8089BA58 end:0x8089BA60
 
-Unclassified/math_ppc.c:
+MSL_C/PPC_EABI/math_ppc.c:
 	.text       start:0x8029C358 end:0x8029C384
 	.sdata2     start:0x8089BA60 end:0x8089BA68
 
@@ -1952,10 +1952,10 @@ LibTom/Math/bn_mp_radix_smap.c:
 LibTom/Math/bn_prime_tab.c:
 	.rodata     start:0x805BD2B0 end:0x805BD6B0
 
-Unclassified/w_sqrt.c:
+MSL_C/MSL_Common_Embedded/Math/Double_precision/w_sqrt.c:
 	.text       start:0x8029C384 end:0x8029C388
 
-Unclassified/extras.c:
+MSL_C/MSL_Common/extras.c:
 	.text       start:0x8029C388 end:0x8029C560
 
 RVL_SDK/euart/euart.c:
@@ -3748,45 +3748,45 @@ AudioKinetic/StreamMgr/AkStreamMgr.cpp:
 	.text       start:0x804C1C50 end:0x804C4750
 	.ctors      start:0x8058575C end:0x80585760
 
-Unclassified/ConsoleDiscoveryMessage.cpp:
+CommunicationCentral/ConsoleDiscoveryMessage.cpp:
 	.text       start:0x804C4750 end:0x804C4EE0
 
-Unclassified/Serializer.cpp:
+CommunicationCentral/Serializer.cpp:
 	.text       start:0x804C4EE0 end:0x804C5760
 
-Unclassified/NetworkCaptureWriter.cpp:
+CommunicationCentral/NetworkCaptureWriter.cpp:
 	.text       start:0x804C5760 end:0x804C5760
 
-Unclassified/IPConnectorPorts.cpp:
+CommunicationCentral/IPConnectorPorts.cpp:
 	.text       start:0x804C5760 end:0x804C5780
 	.ctors      start:0x80585760 end:0x80585764
 
-Unclassified/Communication.cpp:
+CommunicationCentral/Communication.cpp:
 	.text       start:0x804C5780 end:0x804C5AE0
 	.ctors      start:0x80585764 end:0x80585768
 
-Unclassified/CommandChannel.cpp:
+CommunicationCentral/CommandChannel.cpp:
 	.text       start:0x804C5AE0 end:0x804C5C90
 
-Unclassified/CommunicationCentral.cpp:
+CommunicationCentral/CommunicationCentral.cpp:
 	.text       start:0x804C5C90 end:0x804C61B0
 
-Unclassified/DiscoveryChannel.cpp:
+CommunicationCentral/DiscoveryChannel.cpp:
 	.text       start:0x804C61B0 end:0x804C67A0
 
-Unclassified/GameSocket.cpp:
+CommunicationCentral/GameSocket.cpp:
 	.text       start:0x804C67A0 end:0x804C6CA0
 
-Unclassified/GameSocketAddr.cpp:
+CommunicationCentral/GameSocketAddr.cpp:
 	.text       start:0x804C6CA0 end:0x804C6DC0
 
-Unclassified/IncomingChannel.cpp:
+CommunicationCentral/IncomingChannel.cpp:
 	.text       start:0x804C6DC0 end:0x804C7630
 
-Unclassified/Network.cpp:
+CommunicationCentral/Network.cpp:
 	.text       start:0x804C7630 end:0x804C77E0
 
-Unclassified/NotificationChannel.cpp:
+CommunicationCentral/NotificationChannel.cpp:
 	.text       start:0x804C77E0 end:0x804C7D60
 
 AudioKinetic/WiiChorus/AkWiiChorus.cpp:
@@ -3928,38 +3928,38 @@ BaseUtils/BUThread_wii.cpp:
 BaseUtils/BUPerlinNoise.cpp:
 	.text       start:0x804ED200 end:0x804ED378
 
-Unclassified/inffast.c:
+BaseUtils/inffast.c:
 	.text       start:0x804ED378 end:0x804EDC1C
 
-Unclassified/crc32.c:
+BaseUtils/crc32.c:
 	.text       start:0x804EDC1C end:0x804EE718
 
 BaseUtils/BUMemStream.cpp:
 	.text       start:0x804EE718 end:0x804EEC24
 
-Unclassified/inflate.c:
+BaseUtils/inflate.c:
 	.text       start:0x804EEC24 end:0x804F1278
 
-Unclassified/deflate.c:
+BaseUtils/deflate.c:
 	.text       start:0x804F1278 end:0x804F4728
 
-Unclassified/adler32.c:
+BaseUtils/adler32.c:
 	.text       start:0x804F4728 end:0x804F4A78
 
-Unclassified/inftrees.c:
+BaseUtils/inftrees.c:
 	.text       start:0x804F4A78 end:0x804F5330
 
 BaseUtils/BUTimer.cpp:
 	.text       start:0x804F5330 end:0x804F53A4
 	.ctors      start:0x8058576C end:0x80585770
 
-Unclassified/trees.c:
+BaseUtils/trees.c:
 	.text       start:0x804F53A4 end:0x804F7BB4
 
-Unclassified/uncompr.c:
+BaseUtils/uncompr.c:
 	.text       start:0x804F7BB4 end:0x804F7CDC
 
-Unclassified/zutil.c:
+BaseUtils/zutil.c:
 	.text       start:0x804F7CDC end:0x804F7D68
 
 BitDemon/Connection/bdConnection.cpp:
