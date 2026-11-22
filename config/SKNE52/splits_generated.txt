@@ -20,7 +20,7 @@ APIBaseObject.cpp:
 	.text       start:0x8001ADE0 end:0x8001B800
 	.rodata     start:0x805857C0 end:0x80585820
 	.data       start:0x805C0AA0 end:0x805C0AA0
-	.bss        start:0x8077D228 end:0x8077D228
+	.bss        start:0x8077D228 end:0x8077D390
 	.sbss       start:0x808983E0 end:0x808983E0
 	.sdata2     start:0x80899700 end:0x80899700
 

@@ -387,7 +387,7 @@ def BaseUtils(lib_name: str, objects: List[Object]) -> Dict[str, Any]:
     return {
         "lib": lib_name,
         "mw_version": "Wii/1.7",
-        "cflags": cflags_base,
+        "cflags": [*cflags_base, "-Iinclude/BaseUtils"],
         "progress_category": "baseutils",
         "objects": objects,
     }

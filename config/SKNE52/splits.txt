@@ -17,6 +17,11 @@ Sections:
 Game/GE/GEEmbeddedPak_wii.cpp:
 	wii_embedded start:0x80610F80 end:0x806D1788
 
+Game/API/APIBaseObject.cpp:
+	.text       start:0x8001ADE0 end:0x8001B800
+	.rodata     start:0x805857C0 end:0x80585820
+	.data       start:0x805C0AA0 end:0x805C0AD4
+
 Game/PF/PFProfileCounters.cpp:
 	.data       start:0x805CD7F8 end:0x805D39A8
 	.sdata      start:0x80896758 end:0x80896788
@@ -24,9 +29,6 @@ Game/PF/PFProfileCounters.cpp:
 Game/PF/PFProfileTimers.cpp:
 	.data       start:0x805D3E20 end:0x805D8C90
 	.sdata      start:0x808967C0 end:0x808967E0
-
-Game/API/APIBaseObject.cpp:
-	.text       start:0x8001ADE0 end:0x8001B800
 
 Game/GE/GEEngineMgr.cpp:
 	.text       start:0x8001B800 end:0x80020850
@@ -1698,18 +1700,6 @@ MSL_C/MSL_Common/string.c:
 
 MSL_C/MSL_Common/float.c:
 	.sdata      start:0x80896930 end:0x80896940
-
-LibTom/Crypt/crypt_cipher_descriptor.c:
-	.bss        start:0x8077B4B0 end:0x8077BF30
-
-LibTom/Crypt/crypt_hash_descriptor.c:
-	.bss        start:0x8077BF30 end:0x8077CC30
-
-LibTom/Crypt/crypt_ltc_mp_descriptor.c:
-	.bss        start:0x8077CC30 end:0x8077CCE8
-
-LibTom/Crypt/crypt_prng_descriptor.c:
-	.bss        start:0x8077CCE8 end:0x8077D1E8
 
 MSL_C/MSL_Common/strtold.c:
 	.text       start:0x80293968 end:0x80294D70
@@ -3871,6 +3861,19 @@ Lua/lauxlib.c:
 
 BaseUtils/BUCrc.cpp:
 	.text       start:0x804E2860 end:0x804E2D90
+	.bss        start:0x8077A868 end:0x8077B468
+
+LibTom/Crypt/crypt_cipher_descriptor.c:
+	.bss        start:0x8077B4B0 end:0x8077BF30
+
+LibTom/Crypt/crypt_hash_descriptor.c:
+	.bss        start:0x8077BF30 end:0x8077CC30
+
+LibTom/Crypt/crypt_ltc_mp_descriptor.c:
+	.bss        start:0x8077CC30 end:0x8077CCE8
+
+LibTom/Crypt/crypt_prng_descriptor.c:
+	.bss        start:0x8077CCE8 end:0x8077D1E8
 
 BaseUtils/BULPacket.cpp:
 	.text       start:0x804E2D90 end:0x804E3A94
